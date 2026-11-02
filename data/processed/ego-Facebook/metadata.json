@@ -1,0 +1,54 @@
+{
+  "artifacts": {
+    "edges.csv": {
+      "sha256": "4232d2ffe0a43821f90f1ff189d92d2099fa39ff556446e282c16ce8088cb080"
+    },
+    "nodes.csv": {
+      "sha256": "1a9d2f0db22cf9a1bae4005dd46a0f94451f7d74176b05f950fa0382e699957f"
+    }
+  },
+  "dataset": "ego-Facebook",
+  "directed": false,
+  "environment": {
+    "networkx": "3.7",
+    "python": "3.14.5"
+  },
+  "expected_raw_counts": {
+    "edge_count": 88234,
+    "node_count": 4039
+  },
+  "node_id_type": "integer",
+  "preprocessing": {
+    "remove_self_loops": false
+  },
+  "processed_statistics": {
+    "edge_count": 88234,
+    "isolated_node_count": 0,
+    "node_count": 4039,
+    "self_loop_count": 0
+  },
+  "raw_statistics": {
+    "blank_lines": 0,
+    "comment_lines": 0,
+    "duplicate_edges": 0,
+    "edge_count": 88234,
+    "edge_records": 88234,
+    "isolated_node_count": 0,
+    "node_count": 4039,
+    "self_loop_count": 0
+  },
+  "schema_version": 1,
+  "source": {
+    "path": "ego-Facebook/facebook_combined.txt.gz",
+    "raw_directory": "D:\\IT SGU\\SP\\misinformation-blocking-ga\\data\\raw",
+    "sha256": "125e84db872eeba443d270c70315c256b0af43a502fcfe51f50621166ad035d7"
+  },
+  "transformations": [
+    {
+      "enabled": false,
+      "operation": "remove_self_loops",
+      "removed_edges": 0,
+      "removed_nodes": 0
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "artifacts": {
+    "edges.csv": {
+      "sha256": "7a330b5159c459f4ed9bcad2b5905a8417ef1920700f9651217c313875d33d4b"
+    },
+    "nodes.csv": {
+      "sha256": "cbcef105ef9a2cb23ad87edb5c4e54d16182bb7f9df995560ee4b68c8250d22a"
+    }
+  },
+  "dataset": "Wiki-Vote",
+  "directed": true,
+  "environment": {
+    "networkx": "3.7",
+    "python": "3.14.5"
+  },
+  "expected_raw_counts": {
+    "edge_count": 103689,
+    "node_count": 7115
+  },
+  "node_id_type": "integer",
+  "preprocessing": {
+    "remove_self_loops": false
+  },
+  "processed_statistics": {
+    "edge_count": 103689,
+    "isolated_node_count": 0,
+    "node_count": 7115,
+    "self_loop_count": 0
+  },
+  "raw_statistics": {
+    "blank_lines": 0,
+    "comment_lines": 4,
+    "duplicate_edges": 0,
+    "edge_count": 103689,
+    "edge_records": 103689,
+    "isolated_node_count": 0,
+    "node_count": 7115,
+    "self_loop_count": 0
+  },
+  "schema_version": 1,
+  "source": {
+    "path": "wiki-Vote/wiki-Vote.txt.gz",
+    "raw_directory": "D:\\IT SGU\\SP\\misinformation-blocking-ga\\data\\raw",
+    "sha256": "7d3e53626e14b8b09fb3b396bece9d481ad606bd64ceab066349ff57d4ada7fc"
+  },
+  "transformations": [
+    {
+      "enabled": false,
+      "operation": "remove_self_loops",
+      "removed_edges": 0,
+      "removed_nodes": 0
+    }
+  ]
+}

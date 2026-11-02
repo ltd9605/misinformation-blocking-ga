@@ -1,0 +1,54 @@
+{
+  "artifacts": {
+    "edges.csv": {
+      "sha256": "3aaab5e31ffaafde2e16017d182f068bfcd85b9ab6fb7221d6d4b1d36964b81f"
+    },
+    "nodes.csv": {
+      "sha256": "6a1335a9107c474b003d751562d7de1efb7514009d546aaacecbb117b8eb525d"
+    }
+  },
+  "dataset": "email-Eu-core",
+  "directed": true,
+  "environment": {
+    "networkx": "3.7",
+    "python": "3.14.5"
+  },
+  "expected_raw_counts": {
+    "edge_count": 25571,
+    "node_count": 1005
+  },
+  "node_id_type": "integer",
+  "preprocessing": {
+    "remove_self_loops": true
+  },
+  "processed_statistics": {
+    "edge_count": 24929,
+    "isolated_node_count": 19,
+    "node_count": 1005,
+    "self_loop_count": 0
+  },
+  "raw_statistics": {
+    "blank_lines": 0,
+    "comment_lines": 0,
+    "duplicate_edges": 0,
+    "edge_count": 25571,
+    "edge_records": 25571,
+    "isolated_node_count": 0,
+    "node_count": 1005,
+    "self_loop_count": 642
+  },
+  "schema_version": 1,
+  "source": {
+    "path": "email-Eu-core/email-Eu-core.txt.gz",
+    "raw_directory": "D:\\IT SGU\\SP\\misinformation-blocking-ga\\data\\raw",
+    "sha256": "4b47acdb80197b085fe63c819c357ae488131ee904ed93d1b219a68b0f9e245f"
+  },
+  "transformations": [
+    {
+      "enabled": true,
+      "operation": "remove_self_loops",
+      "removed_edges": 642,
+      "removed_nodes": 0
+    }
+  ]
+}
