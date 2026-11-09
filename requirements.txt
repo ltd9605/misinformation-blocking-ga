@@ -11,3 +11,4 @@ pillow==13.0.0
 pyparsing==3.3.3
 python-dateutil==4.0.0
 tzdata==2026.6
+scipy==1.18.1

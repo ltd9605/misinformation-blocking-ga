@@ -1,0 +1,11 @@
+{
+  "dataset": "email-Eu-core",
+  "rumor_seeds": [0],
+  "protector_budget": 2,
+  "propagation_probability": 0.05,
+  "number_of_simulations": 20,
+  "base_random_seed": 100000,
+  "tie_breaking": "protector-priority",
+  "candidate_pool_policy": "top-unweighted-out-degree",
+  "candidate_pool_size": 10
+}

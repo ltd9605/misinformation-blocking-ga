@@ -1,0 +1,18 @@
+{
+  "dataset": "email-Eu-core",
+  "rumor_seeds": [0],
+  "k": 2,
+  "propagation_probability": 0.05,
+  "number_of_simulations": 20,
+  "population_size": 8,
+  "max_generations": 5,
+  "crossover_rate": 0.8,
+  "mutation_rate": 0.3,
+  "tournament_size": 3,
+  "elitism_count": 1,
+  "random_seed": 2026,
+  "fitness_base_random_seed": 100000,
+  "tie_breaking": "protector-priority",
+  "cache_fitness": true,
+  "independent_evaluation_simulations": 100
+}

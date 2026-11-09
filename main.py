@@ -1,4 +1,4 @@
-"""Command-line entry point for Milestone 1."""
+"""Dataset pipeline and configured experiment command-line entry point."""
 
 import argparse
 from pathlib import Path
@@ -7,9 +7,11 @@ from src.data import DATASETS, DatasetValidationError, PreprocessConfig, prepare
 
 
 def main(argv: list[str] | None = None) -> int:
-    """Prepare a registered dataset and print validated before/after counts."""
+    """Dispatch dataset preparation or a configured experiment."""
     parser = argparse.ArgumentParser(description="Misinformation blocking research tools")
     commands = parser.add_subparsers(dest="command", required=True)
+    experiment = commands.add_parser("experiment", help="Run a configured independent experiment")
+    experiment.add_argument("--config", type=Path, required=True)
     dataset = commands.add_parser("dataset", help="Validate and preprocess a SNAP dataset")
     dataset.add_argument("--name", required=True, choices=DATASETS)
     dataset.add_argument("--raw-dir", type=Path, help="Raw dataset root (default: data/raw)")
@@ -19,6 +21,9 @@ def main(argv: list[str] | None = None) -> int:
     loops.add_argument("--keep-self-loops", dest="remove_self_loops", action="store_false")
     dataset.set_defaults(remove_self_loops=None)
     args = parser.parse_args(argv)
+    if args.command == "experiment":
+        from experiments.run_experiment import main as experiment_main
+        return experiment_main(["--config", str(args.config)])
     config = None if args.remove_self_loops is None else PreprocessConfig(args.remove_self_loops)
     try:
         result = prepare_dataset(

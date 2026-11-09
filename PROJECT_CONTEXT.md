@@ -76,6 +76,22 @@ Fitness của một cá thể được xác định dựa trên số lượng tr
 
 Fitness càng nhỏ thì lời giải càng tốt.
 
+### Monte Carlo evaluator trước baseline và GA
+
+- Mỗi evaluation gọi lại nguyên vẹn `simulate_cic()` đúng S lần với cùng graph,
+  R, P, p và tie rule. S là số nguyên dương; base random seed là số nguyên không âm.
+- Simulation có chỉ số i từ 0 đến S-1 dùng seed `base_random_seed + i`.
+  Cùng cấu hình và base seed phải tái lập được từng quan sát và các thống kê.
+- Báo cáo mean rumor/protector/inactive, min/max rumor và độ lệch chuẩn tổng thể
+  của S rumor counts (mẫu số S, `ddof=0`; S=1 có std=0). Đây không phải sai số
+  chuẩn của mean. Runtime đo riêng và không thuộc phần kết quả cần tái lập.
+- Raw results giữ index, seed, các counts và steps của từng simulation, cho phép
+  chạy lại bằng CIC mà không cần giữ toàn bộ tập node của S lần trong bộ nhớ.
+- Khi so sánh protector sets, dùng cùng S/base seed để có cùng lịch seed. Lịch
+  seed chung không bảo đảm cùng random outcome trên từng cạnh vì các activation
+  hợp lệ và thứ tự tiêu thụ RNG có thể khác giữa các cấu hình.
+- Pilot chỉ kiểm tra triển khai/hiệu năng, không phải kết quả chính thức.
+
 ## 5. Genetic Algorithm
 
 Mỗi cá thể là một tập gồm k node ID khác nhau.
@@ -97,6 +113,46 @@ Mọi toán tử phải bảo đảm:
 - protector seed không thuộc rumor seed;
 - tất cả node ID phải tồn tại trong đồ thị.
 
+### Chính sách Milestone 5 đã xác nhận
+
+- Cá thể là frozenset k node trong V ngoài R. Khởi tạo ngẫu nhiên đều mỗi cá thể;
+  các vị trí quần thể được phép có genotype giống nhau, kể cả khi k=0 hoặc k=m.
+- Tournament lấy các vị trí không hoàn lại, chọn mean rumor nhỏ nhất. Tie-break
+  theo genotype chuẩn hóa rồi slot index. Set Crossover giữ giao cha mẹ và chọn
+  ngẫu nhiên đủ node từ hiệu đối xứng; mutation thay một node bằng node ngoài cá
+  thể, no-op khi k=0 hoặc hết node thay. Repair loại gene sai/trùng, cắt/bù đủ k.
+- Sau initialization, từng toán tử và từng generation đều kiểm tra invariants.
+  Elitism giữ nguyên top E vị trí cùng genotype/fitness; không crossover/mutation
+  lên elite. E có thể từ 0 đến N, không yêu cầu các elite là genotype khác nhau.
+- Thế hệ 0 là initial population. max_generations=G nghĩa là đúng G transitions,
+  ghi G+1 history records; không early stop. G=0 vẫn đánh giá quần thể ban đầu.
+- Người dùng đã chọn fitness seed cố định và cache cục bộ trong một optimization.
+  Mỗi cache miss gọi evaluate_cic nguyên vẹn; mọi genotype dùng cùng p/R/S_opt/
+  tie rule/base seed. Cache key là frozenset, chỉ hợp lệ vì toàn bộ context trên
+  cùng graph giữ cố định trong lần gọi; không chia sẻ cache giữa các lần gọi.
+- cache_fitness=False đánh giá lại non-elite requests bằng cùng seed schedule,
+  không đổi sang sample mới. Elite vẫn giữ fitness. Cache hits/elite carries
+  không được đếm thành evaluator calls hay CIC simulations mới.
+- Đây là fitness có nhiễu ước lượng nhưng được cố định; có thể overfit sample.
+  Tăng generations/cache hits không làm tăng độ chính xác fitness đã lưu.
+- RNG toán tử dùng seed 64-bit từ SHA-256 của
+  `misinformation-ga-v1:operators:{random_seed}`. Base fitness mặc định suy ra
+  tương tự với domain `fitness`, hoặc được truyền rõ ràng. RNG đều là local.
+  Fitness simulation i dùng base+i. Seed đánh giá độc lập bắt đầu base+S_opt,
+  không trùng khoảng seed tối ưu; evaluate riêng sau khi đã chốt P, không feedback.
+- Lưu generation-best và best-so-far, mean/worst fitness, population snapshots,
+  diversity, actual evaluator calls, cache hits, elite reuses và runtime.
+  Với E>=1, generation-best không tăng dưới objective cố định; E=0 vẫn giữ
+  best-ever để trả về, dù quần thể cuối có thể kém hơn.
+- Không cache: tối đa N+G*(N-E) evaluator calls. Có cache: tối đa min(cận trên đó,
+  C(m,k)) calls; mỗi call dùng S_opt CIC simulations. k=0 vẫn cần fitness P rỗng:
+  với cache chỉ gọi evaluator một lần, không tạo score giả.
+- Pilot email: N=8, G=5, k=2, S_opt=20, S_eval=100, rates 0.8/0.3, tournament=3,
+  E=1, random_seed=2026, fitness_base=100000, protector-priority, cache=True.
+  Các mức này chỉ kiểm tra thực thi, không phải thiết lập thực nghiệm chính thức.
+- Chỉ pilot graph tổng hợp nhỏ và email, không benchmark Facebook/Wiki-Vote,
+  không so sánh chất lượng GA/baseline hoặc triển khai experiment runner.
+
 ## 6. Baseline algorithms
 
 Các thuật toán đối chứng:
@@ -107,6 +163,60 @@ Các thuật toán đối chứng:
 - Greedy/Monte-Carlo.
 
 Tất cả phương pháp phải được đánh giá bằng cùng một simulator CIC và cùng điều kiện thực nghiệm.
+
+### Milestone 4A: ba baseline và kiểm tra ổn định Monte Carlo
+
+- `select_random`, `select_degree`, `select_pagerank` trả frozenset đúng k node
+  phân biệt ngoài R; k có thể bằng 0 và không vượt số node hợp lệ. Không đổi graph.
+- Random lấy mẫu đều không hoàn lại từ candidate list theo thứ tự label chuẩn
+  của CIC; RNG riêng hỗ trợ random seed. Seed input có thể là iterable/generator.
+- Degree xếp giảm dần theo out-degree không trọng số trên DiGraph, degree trên
+  Graph. Khi bằng điểm, ưu tiên node label tăng dần (integer ID theo số).
+- PageRank tính trên toàn bộ graph, bao gồm rumor nodes, rồi lọc R khi chọn P.
+  Dùng NetworkX/SciPy, alpha=0.85, tol=1e-12, max_iter=1000, weight=None,
+  teleportation/dangling mass đều. Graph copy chuẩn hóa thứ tự nodes/edges;
+  điểm số bằng nhau chính xác dùng label tăng dần. Không ẩn lỗi không hội tụ.
+- Tất cả P dùng `evaluate_cic()` hiện có; IC/CIC/Monte Carlo giữ nguyên semantics.
+- Pilot email-Eu-core cố định R=[0], k=5, p=0.05, protector-priority, một P rỗng
+  và một P cố định cho mỗi baseline. Random Selection dùng seed 2026.
+- S=50,100,250,500,1000; 10 batch với seed(batch,i)=100000+1000*batch+i.
+  Các batch có khoảng seed không chồng lấp; các S trong cùng batch dùng prefix
+  lồng nhau; mọi P dùng cùng lịch seed, không bảo đảm common edge outcomes.
+- Ghi riêng thời gian chọn P một lần và thời gian Monte Carlo từng evaluation.
+  Giữ population std của evaluator; tính sample std và SE=population_std/sqrt(S-1)
+  bên ngoài evaluator. Báo cáo thêm SD của batch means và pooled SE của 10*S
+  quan sát, không dùng pooled SE để đề xuất S cho một evaluation tương lai.
+- Ngưỡng kỹ thuật khai báo trước pilot: SE tối đa qua các P/batch <=1% số nodes
+  cho S_opt, <=0.5% cho S_eval. Nếu không mức S nào đạt, báo rõ chưa đạt và chỉ
+  dùng mức lớn nhất đã thử làm lựa chọn tạm; ước lượng S cần thêm chưa phải đo.
+- Kết quả chỉ là pilot điều kiện trên R/P/p/k này, chưa kết luận xếp hạng thuật
+  toán tổng quát. Chưa triển khai Greedy/Monte-Carlo hoặc GA trong 4A.
+
+### Milestone 4B: Full Greedy và Candidate-Restricted Greedy
+
+- Full Greedy bắt đầu P rỗng. Mỗi bước đánh giá mọi node v ngoài R/P bằng
+  `evaluate_cic(graph, R, P union {v}, ...)`, chọn mean rumor nhỏ nhất, lặp đúng k.
+- Mean bằng nhau chính xác thì chọn label chuẩn hóa tăng dần. Không dừng sớm,
+  không cắt candidate theo degree, không CELF/lazy hoặc giả định submodularity.
+- Tất cả trials/steps dùng cùng S, base random seed và tie rule. Seed của
+  simulation i vẫn là base+i theo evaluator hiện có. IC/CIC/MC không bị sửa.
+- `Full` chỉ nghĩa là xét toàn bộ candidate mỗi bước, không phải tối ưu toàn cục
+  trên tất cả tổ hợp k node. Các score đã dùng để chọn P không phải đánh giá hold-out.
+- Candidate-Restricted Greedy có API/tên kết quả riêng, nhận pool cố định rõ ràng,
+  không xóa node/cạnh khỏi graph; từ chối pool chứa R hoặc node không tồn tại.
+- Với m candidates, k<=m, số evaluator calls chính xác E=k*m-k*(k-1)/2; số CIC
+  simulations E*S. Full có m=|V|-|R|; restricted có m=|pool|. Công thức không
+  phải runtime đo được. k=0 không gọi evaluator, không gán score giả cho P rỗng.
+- Lưu P cuối, thứ tự chọn, P/score mỗi bước, score mọi ứng viên, số calls,
+  runtime toàn bộ search và tổng runtime evaluator tách riêng. Không giữ toàn
+  bộ node sets/raw simulations của mọi trial trong bộ nhớ.
+- Pilot: Full Greedy chỉ trên graph nhỏ tính tay; email-Eu-core dùng Candidate-
+  Restricted Greedy với top-10 out-degree ngoài R làm pool, R=[0], k=2, p=0.05,
+  S=20, base seed=100000, protector-priority. Preflight 19 calls/380 simulations
+  mỗi search; replay là một search riêng và được đếm riêng. Full email ở cùng
+  k/S cần 2007 calls/40140 simulations, không được thực thi trong pilot.
+- S=20 chỉ kiểm tra chạy được, không thay thế khuyến nghị độ chính xác của 4A.
+  Không benchmark Facebook/Wiki-Vote và chưa triển khai GA ở milestone này.
 
 ## 7. Datasets
 
@@ -177,6 +287,7 @@ pillow==13.0.0
 pyparsing==3.3.3
 python-dateutil==4.0.0
 tzdata==2026.6
+scipy==1.18.1
 All final runtime measurements used in the thesis must be produced
 on the same experimental machine and software environment.
 
@@ -199,6 +310,39 @@ Mỗi experiment phải lưu tối thiểu:
 - timestamp nếu cần.
 
 Kết quả nên được lưu dưới CSV hoặc JSON để có thể phân tích lại mà không cần chạy lại thuật toán.
+
+### Experiment Runner – Milestone 6
+
+- API `load_experiment_config(path)` và `run_experiment(config)` trong
+  `src/experiments/`; JSON strict, không thêm dependency. Nạp processed graph
+  đã kiểm chứng, không chạy preprocessing hay sửa raw/processed/core APIs.
+- Một config chứa một thuật toán hoặc danh sách để so sánh. Luôn có mốc
+  No Intervention; cùng R/k/p/tie/S_eval cho các phương pháp trong run.
+  R explicit hoặc random policy fixed/per_run; resolve đúng một lần trước selection.
+- S_opt, S_eval, GA parameters, PageRank parameters và giới hạn tối ưu phải
+  khai báo rõ. Mọi P được chốt trước khi chạy independent final evaluation.
+  Fitness cố định/cache/elite của Milestone 5 giữ nguyên, không dùng hold-out
+  để chọn protector seeds. No Intervention là ngoại lệ P rỗng khi k>0.
+- Seed plan versioned: Cantor-pair (master, independent index) thành block
+  width chẵn; nửa đầu optimization, nửa sau final. Mỗi S không vượt nửa width.
+  Giữ width cố định trong study; các run có block tách biệt. SHA-256 domain
+  riêng cho R sampling, Random và GA operators input. Final block của runner
+  thay base hold-out gợi ý bởi GA API; raw final observations có thể bật để replay.
+- Full Greedy chỉ chạy khi chi phí exact calls/simulations không vượt các
+  limit khai báo. Candidate-Restricted là tên phương pháp riêng/pool rõ ràng.
+  Preflight mọi optimizer trước bất kỳ selection/evaluation; không mặc định
+  Full Greedy trên graph lớn, không tự chuyển phương pháp khi vượt giới hạn.
+- Lưu config/results/summary/metadata/preflight/selection_details, convergence
+  CSV cho GA và raw final CSV tùy chọn. Lưu đầy đủ R/P, seeds, source checksums,
+  Python/libraries/OS/hardware/Git commit + dirty status; không ghi đè run cũ.
+- Rumor std gốc ddof=0; bổ sung sample std/SE (null khi S_eval=1). Relative
+  reduction undefined/null khi control_mean=0. Control đánh giá một lần;
+  k=0 tham chiếu cùng control, không đếm thêm final calls/time.
+- Timing tách loading/selection/final/write/overhead; total từ API entry đến
+  xong primary artifacts, không gồm config parsing và final manifests/rename.
+- `experiments/configs/runner_smoke_email.json` chỉ là smoke pilot nhẹ. Chưa
+  chốt S/GA parameters cho nghiên cứu, chưa chạy main experiments hoặc chuyển
+  sang Milestone 7. Hướng dẫn seed formula/schema đầy đủ trong README.
 
 ## 10. Mục tiêu Chương 3
 

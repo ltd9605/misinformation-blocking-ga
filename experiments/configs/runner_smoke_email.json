@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "purpose": "smoke_pilot_only_not_thesis_results",
+  "dataset": "email-Eu-core",
+  "rumor_seeds": [0],
+  "k": 2,
+  "p": 0.05,
+  "tie_breaking": "protector-priority",
+  "S_opt": 3,
+  "S_eval": 20,
+  "algorithms": [
+    "no_intervention",
+    "random",
+    "degree",
+    "pagerank",
+    "candidate_restricted_greedy",
+    "genetic_algorithm"
+  ],
+  "ga_parameters": {
+    "population_size": 4,
+    "max_generations": 2,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.3,
+    "tournament_size": 2,
+    "elitism_count": 1,
+    "cache_fitness": true
+  },
+  "pagerank_parameters": {"alpha": 0.85, "tol": 1e-12, "max_iter": 1000},
+  "candidate_restriction": {"method": "degree", "size": 5},
+  "limits": {
+    "max_optimization_evaluations": 50,
+    "max_optimization_cic_simulations": 500,
+    "max_full_greedy_evaluations": 0,
+    "max_full_greedy_cic_simulations": 0
+  },
+  "random_seed": 2026,
+  "independent_run_index": 0,
+  "seed_block_size": 1000000,
+  "output_directory": "../../results/experiment_runner_smoke",
+  "save_raw_observations": true
+}
