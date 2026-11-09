@@ -1,8 +1,9 @@
-# Misinformation blocking — Milestones 1–2
+# Misinformation blocking — Milestones 1–3
 
 Dataset pipeline cho đồ án nghiên cứu ngăn chặn lan truyền thông tin sai lệch.
 Phạm vi hiện tại: load, validate, preprocess, lưu/đọc graph và mô phỏng
-Independent Cascade (IC). CIC và các thuật toán chọn nút chưa được triển khai.
+Independent Cascade (IC), Competitive Independent Cascade (CIC). Các thuật toán
+chọn nút chưa được triển khai.
 
 ## Môi trường
 
@@ -176,6 +177,67 @@ các lớp lan truyền và runtime chẩn đoán được lưu trong
 `results/pilots/ic_email_eu_core.json` (được Git bỏ qua theo `results/`).
 **Pilot chỉ kiểm tra triển khai, không phải kết quả chính thức của đồ án.**
 
+## Competitive Independent Cascade (Milestone 3)
+
+```python
+from src.diffusion import TieBreakingRule, simulate_cic
+
+result = simulate_cic(
+    graph, rumor_seeds=[0], protector_seeds=[1], propagation_probability=0.05,
+    tie_breaking=TieBreakingRule.PROTECTOR_PRIORITY, random_seed=42,
+)
+print(result.rumor_nodes, result.rumor_count)
+print(result.protector_nodes, result.protector_count)
+print(result.inactive_nodes, result.inactive_count)
+print(result.steps)
+for layer in result.activation_layers:
+    print(layer.rumor_nodes, layer.protector_nodes)
+```
+
+CIC nhận simple Graph/DiGraph trực tiếp từ `load_processed_graph()`, dùng một
+`p` hữu hạn trong `[0, 1]` chung cho hai cascade. Bỏ qua thuộc tính cạnh và từ
+chối MultiGraph giống IC. R/P phải tồn tại trong graph và không giao nhau;
+seed trùng trong cùng cascade được gộp. Kết quả là dataclass frozen chứa các
+frozenset; ba tập cuối cùng tạo thành một partition của toàn bộ nodes.
+
+Quy tắc đã chốt trong mục 3 của `PROJECT_CONTEXT.md`:
+
+- Seeds R/P active tại lớp 0. Chỉ nodes ở lớp trước thử truyền ở timestep kế tiếp,
+  một lần trên mỗi neighbor chưa active; DiGraph chỉ lan theo successor.
+- Thu thập riêng các thành công của RUMOR và PROTECTOR trong toàn bộ timestep.
+  Đích đã có thành công từ cùng cascade có thể bỏ qua lần thử dư thừa; cascade
+  đối thủ vẫn được thử tới đích đó trong timestep hiện tại.
+- Sau khi thu thập xong mới giải quyết cạnh tranh và cập nhật trạng thái.
+  Chỉ một cascade thành công thì cascade đó thắng. Nếu cả hai thành công,
+  `protector-priority` ưu tiên PROTECTOR, `rumor-priority` ưu tiên RUMOR.
+  `tie_breaking` là keyword bắt buộc (enum hoặc chuỗi), không có default ngầm.
+- Node đã active giữ nguyên cascade vĩnh viễn. Dừng khi không có node mới.
+  `steps` có cùng cách đếm với IC; cả hai tập seeds rỗng trả không có lớp.
+
+CIC dùng RNG riêng và chuẩn hóa thứ tự nguồn/neighbor theo loại rồi giá trị
+label, không dựa vào thứ tự chèn nodes/edges, thứ tự seeds hay Python hash.
+Hỗ trợ chính xác các kiểu built-in `int`, `bool`, `str`, `bytes`, `float` hữu hạn
+và tuple/frozenset tổ hợp những kiểu đó. Label object tùy biến bị từ chối bằng
+`TypeError`, không dùng `repr` hoặc địa chỉ bộ nhớ để sắp xếp. Cùng cấu hình,
+graph và integer random seed cho cùng partition và activation layers, kể cả
+khi đảo thứ tự chèn graph hoặc đổi `PYTHONHASHSEED`. `None` không bảo đảm tái lập.
+IC giữ nguyên API, code và quy ước duyệt của Milestone 2; CIC có quy ước duyệt
+chuẩn hóa riêng. Với graph integer có thứ tự node chuẩn như processed datasets,
+CIC chỉ có một cascade cho cùng kết quả như IC khi dùng cùng cấu hình/seed.
+
+Chạy các ví dụ tính tay và pilot kiểm tra CIC trên email-Eu-core:
+
+```sh
+python -B -m experiments.pilot_cic
+```
+
+Pilot cố định R=`[0]`, P=`[1]`, `p=0.05`, random seed `42`, tie rule
+`protector-priority`. Cấu hình, partition cuối cùng, activation layers, môi trường,
+runtime chẩn đoán, 10 ví dụ tính tay và SHA-256 toàn bộ dữ liệu được lưu tại
+`results/pilots/cic_email_eu_core.json`. Script kiểm tra tái lập, đảo thứ tự chèn
+graph và toàn bộ raw/processed không đổi. File kết quả nằm trong `results/`
+được Git bỏ qua. **Pilot không phải kết quả chính thức của đồ án.**
+
 ## Tests
 
 ```sh
@@ -193,6 +255,13 @@ xác suất không hợp lệ, tái lập, RNG riêng, không sửa graph, khôn
 thất bại và không kích hoạt lặp. Integration tests chạy trực tiếp trên cả ba
 processed datasets; tại `p=1`, đối chiếu tập active với reachability của NetworkX.
 
+Tests CIC kiểm tra hai cascade riêng/đồng thời, thời điểm đến, hai tie rules,
+trạng thái vĩnh viễn, `p=0/1`, hướng cạnh, seeds/xác suất không hợp lệ, không thử
+lại cạnh thất bại và conservation của partition/layers. Tái lập được kiểm tra
+khi đảo thứ tự graph/seeds và bằng hai tiến trình có `PYTHONHASHSEED` khác nhau.
+Integration tests chạy cả ba processed datasets; tại `p=1`, đối chiếu với
+khoảng cách đường đi ngắn nhất, và kiểm tra cascade đơn khớp IC trên email data.
+
 ## Cấu trúc mã nguồn
 
 - `src/data/specs.py`: dataset registry và preprocessing config.
@@ -206,3 +275,6 @@ processed datasets; tại `p=1`, đối chiếu tập active với reachability 
 - `src/diffusion/ic.py`: IC simulator và kết quả có activation layers.
 - `tests/test_ic.py`: unit tests IC và tích hợp với processed datasets.
 - `experiments/pilot_ic.py`: ví dụ tính tay và pilot kiểm tra triển khai IC.
+- `src/diffusion/cic.py`: CIC simulator, explicit tie rules và activation layers.
+- `tests/test_cic.py`: unit tests CIC và tích hợp với processed datasets.
+- `experiments/pilot_cic.py`: ví dụ tính tay và pilot kiểm tra triển khai CIC.

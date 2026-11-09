@@ -38,6 +38,34 @@ Các quy tắc xử lý trường hợp rumor và corrective information cùng t
 
 Không tự ý lựa chọn một biến thể CIC khác nếu chưa được xác nhận.
 
+### Quy tắc CIC đã chốt cho Milestone 3
+
+- RUMOR và PROTECTOR dùng cùng một xác suất cạnh `p` trong `[0, 1]`.
+- Rumor seeds R và protector seeds P phải tồn tại trong graph và không giao nhau;
+  cả hai tập active tại lớp 0. Nút chưa thuộc cascade nào là inactive.
+- Lan truyền đồng bộ: mỗi nút mới active chỉ thử truyền ở timestep tiếp theo,
+  một lần trên mỗi cạnh tới neighbor chưa active. Cạnh directed chỉ đi theo
+  hướng cạnh; cạnh undirected truyền được theo cả hai chiều. Mỗi lần thử hợp lệ
+  là một phép thử Bernoulli độc lập với xác suất `p`.
+- Trong mỗi timestep, thu thập riêng các đích kích hoạt thành công của từng
+  cascade trước khi cập nhật trạng thái. Thành công của một cascade không được
+  ngăn cascade còn lại thử tới cùng đích trong timestep đó. Trong cùng cascade,
+  đích đã có một lần thành công không cần thử tiếp.
+- Nếu chỉ một cascade thành công, đích nhận trạng thái của cascade đó. Nếu cả
+  hai cùng thành công, áp dụng tie rule được truyền rõ ràng. Cấu hình chính là
+  `protector-priority`; tùy chọn `rumor-priority` phục vụ kiểm tra độ ưu tiên.
+  Không ngầm lấy cascade được duyệt trước làm bên thắng.
+- Trạng thái đã active là vĩnh viễn; một node không thể bị đổi cascade hay active
+  lại. Dừng khi timestep không tạo ra node active mới.
+- `steps` đếm số lớp có node active mới sau lớp seeds, giống IC; không tính vòng
+  thử cuối không thành công. Cả hai tập seeds rỗng thì không có lớp, `steps=0`.
+- CIC chuẩn hóa thứ tự nguồn/đích theo loại và giá trị node label trước khi lấy
+  mẫu bằng RNG riêng. Kết quả có random seed cố định không phụ thuộc thứ tự chèn
+  nodes/edges, thứ tự seeds hoặc `PYTHONHASHSEED`. Hỗ trợ các label built-in
+  `int`, `bool`, `str`, `bytes`, `float` hữu hạn và tuple/frozenset tổ hợp các kiểu
+  này; label object tùy biến bị từ chối để tránh thứ tự không ổn định.
+- API và hành vi IC của Milestone 2 giữ nguyên, bao gồm quy ước duyệt của IC.
+
 ## 4. Hàm mục tiêu
 
 Mục tiêu là lựa chọn tập protector seeds P gồm k nút sao cho số nút kỳ vọng bị misinformation ảnh hưởng là nhỏ nhất.

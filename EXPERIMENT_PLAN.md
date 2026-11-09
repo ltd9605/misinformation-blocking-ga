@@ -85,6 +85,23 @@ Cần thực hiện:
 
 Không tự chọn tie-breaking rule nếu PROJECT_CONTEXT.md chưa định nghĩa rõ.
 
+Quy tắc Milestone 3 đã được chốt trong mục 3 của PROJECT_CONTEXT.md: lan truyền
+đồng bộ, thu thập thành công của cả hai cascade trước khi giải quyết xung đột,
+trạng thái không đổi sau activation. Tie rule phải được truyền rõ ràng;
+`protector-priority` là cấu hình chính, có thêm `rumor-priority` để kiểm tra.
+Thứ tự lấy mẫu CIC phải được chuẩn hóa độc lập với thứ tự chèn graph/seeds.
+
+Kiểm thử bổ sung:
+
+- Chỉ có một cascade, hai cascade tách biệt và cả hai tập seeds rỗng.
+- Đến trước, đến đồng thời, hai tie rules và trạng thái không bị đổi về sau.
+- Directed/undirected, isolated seeds, seeds không hợp lệ, `p=0/1`.
+- Tái lập khi đổi thứ tự chèn nodes/edges, seed input và `PYTHONHASHSEED`.
+- Giữ nguyên toàn bộ tests IC và dataset pipeline.
+- Sau unit tests, chạy pilot email-Eu-core với cấu hình/kết quả lưu riêng,
+  đánh dấu chỉ kiểm tra triển khai, không phải kết quả chính thức.
+- So sánh SHA-256 toàn bộ raw/processed trước và sau kiểm tra.
+
 Điều kiện hoàn thành:
 
 Có unit tests cho các graph nhỏ mà kết quả lan truyền có thể kiểm tra bằng tay.
