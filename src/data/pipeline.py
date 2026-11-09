@@ -46,13 +46,18 @@ def prepare_dataset(
     before = graph_statistics(loaded.graph)
     processed = preprocess_graph(loaded.graph, config)
     after = graph_statistics(processed)
+    resolved_raw_directory = raw_directory.resolve()
+    try:
+        source_directory = resolved_raw_directory.relative_to(PROJECT_ROOT).as_posix()
+    except ValueError:
+        source_directory = str(resolved_raw_directory)
     metadata = {
         "schema_version": 1,
         "dataset": name,
         "directed": spec.directed,
         "node_id_type": "integer",
         "source": {
-            "raw_directory": str(raw_directory.resolve()),
+            "raw_directory": source_directory,
             "path": spec.relative_path.as_posix(),
             "sha256": loaded.source_sha256,
         },

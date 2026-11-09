@@ -11,7 +11,7 @@
   "directed": false,
   "environment": {
     "networkx": "3.7",
-    "python": "3.14.5"
+    "python": "3.15.2"
   },
   "expected_raw_counts": {
     "edge_count": 88234,
@@ -40,7 +40,7 @@
   "schema_version": 1,
   "source": {
     "path": "ego-Facebook/facebook_combined.txt.gz",
-    "raw_directory": "D:\\IT SGU\\SP\\misinformation-blocking-ga\\data\\raw",
+    "raw_directory": "data/raw",
     "sha256": "125e84db872eeba443d270c70315c256b0af43a502fcfe51f50621166ad035d7"
   },
   "transformations": [

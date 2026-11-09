@@ -128,15 +128,29 @@ Các thư viện dự kiến:
 - Pandas
 - Matplotlib
 
-Máy thực nghiệm:
+Máy thực nghiệm chính:
+- MacBook Pro 16-inch
+- Apple M1 Pro
+- Apple Silicon / ARM64
+- Unified Memory: [16 GB]
+- macOS [15.3.1]
 
-- ASUS TUF Gaming F17 FX706HC.
-- Intel Core i5-11400H.
-- 16 GB RAM.
-- NVIDIA GeForce RTX 3050 Laptop GPU.
-- Windows 11 64-bit.
-
-Phiên bản Python và thư viện phải được ghi nhận khi môi trường chính thức được thiết lập.
+Phiên bản python được sử dụng trong môi trường là phiên bản 3.15.2 cùng các thư viện khác có phiên bản như sau:
+contourpy==1.4.0
+cycler==0.12.1
+fonttools==4.68.0
+kiwisolver==1.5.1
+matplotlib==3.11.2
+networkx==3.7
+numpy==2.5.4
+packaging==26.3
+pandas==3.1.0
+pillow==13.0.0
+pyparsing==3.3.3
+python-dateutil==4.0.0
+tzdata==2026.6
+All final runtime measurements used in the thesis must be produced
+on the same experimental machine and software environment.
 
 ## 9. Yêu cầu tái lập thực nghiệm
 

@@ -11,7 +11,7 @@
   "directed": true,
   "environment": {
     "networkx": "3.7",
-    "python": "3.14.5"
+    "python": "3.15.2"
   },
   "expected_raw_counts": {
     "edge_count": 103689,
@@ -40,7 +40,7 @@
   "schema_version": 1,
   "source": {
     "path": "wiki-Vote/wiki-Vote.txt.gz",
-    "raw_directory": "D:\\IT SGU\\SP\\misinformation-blocking-ga\\data\\raw",
+    "raw_directory": "data/raw",
     "sha256": "7d3e53626e14b8b09fb3b396bece9d481ad606bd64ceab066349ff57d4ada7fc"
   },
   "transformations": [

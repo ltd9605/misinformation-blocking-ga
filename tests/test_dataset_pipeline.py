@@ -7,7 +7,7 @@ from unittest.mock import patch
 
 import networkx as nx
 
-from src.data import DatasetValidationError, PreprocessConfig, prepare_dataset
+from src.data import DatasetValidationError, PreprocessConfig, load_processed_graph, prepare_dataset
 from src.data.loader import sha256_file
 from src.data.specs import DATASETS, PROJECT_ROOT, DatasetSpec
 from src.data.validation import validate_same_graph
@@ -40,6 +40,7 @@ class PipelineTests(TemporaryFilesTest):
         self.assertEqual(first.metadata, second.metadata)
         self.assertEqual(artifact_bytes, {path.name: path.read_bytes() for path in second.output_directory.iterdir()})
         self.assertEqual(first.metadata["source"]["sha256"], before_hash)
+        self.assertEqual(first.metadata["source"]["raw_directory"], str(self.raw.resolve()))
         self.assertEqual(sha256_file(self.raw / "fixture.txt.gz"), before_hash)
         self.assertEqual(first.metadata["raw_statistics"]["edge_records"], 2)
         self.assertEqual(first.metadata["transformations"][0]["removed_edges"], 1)
@@ -77,6 +78,15 @@ class RealDatasetTests(TemporaryFilesTest):
         for name, (nodes, raw_edges, processed_edges, loops, isolates, directed) in expectations.items():
             with self.subTest(dataset=name):
                 result = prepare_dataset(name, output_directory=self.root / name)
+                validate_same_graph(
+                    load_processed_graph(PROJECT_ROOT / "data/processed" / name), result.graph,
+                )
+                self.assertEqual(result.metadata["source"]["raw_directory"], "data/raw")
+                for artifact in ("nodes.csv", "edges.csv"):
+                    self.assertEqual(
+                        (result.output_directory / artifact).read_bytes(),
+                        (PROJECT_ROOT / "data/processed" / name / artifact).read_bytes(),
+                    )
                 self.assertEqual(result.graph.number_of_nodes(), nodes)
                 self.assertEqual(result.graph.number_of_edges(), processed_edges)
                 self.assertEqual(result.graph.is_directed(), directed)
@@ -103,15 +113,16 @@ class RealDatasetTests(TemporaryFilesTest):
     def test_cli_runs_each_dataset_from_another_working_directory(self):
         for name in ("email-Eu-core", "ego-Facebook", "Wiki-Vote"):
             with self.subTest(dataset=name):
+                output = self.root / "processed graphs – kiểm tra" / name
                 completed = subprocess.run(
                     [sys.executable, "-B", str(PROJECT_ROOT / "main.py"), "dataset",
-                     "--name", name, "--output-dir", str(self.root / name)],
+                     "--name", name, "--output-dir", str(output)],
                     cwd=self.root, capture_output=True, text=True, check=False,
                 )
                 self.assertEqual(completed.returncode, 0, completed.stderr)
                 self.assertIn(f"Dataset: {name}", completed.stdout)
                 self.assertIn("exact topology round-trip", completed.stdout)
-                self.assertTrue((self.root / name / "metadata.json").is_file())
+                self.assertTrue((output / "metadata.json").is_file())
 
     def test_cli_reports_missing_source_without_traceback(self):
         completed = subprocess.run(
