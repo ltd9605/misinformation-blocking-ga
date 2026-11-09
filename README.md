@@ -1,8 +1,8 @@
-# Misinformation blocking — Milestone 1
+# Misinformation blocking — Milestones 1–2
 
 Dataset pipeline cho đồ án nghiên cứu ngăn chặn lan truyền thông tin sai lệch.
-Phạm vi hiện tại: load, validate, preprocess và lưu/đọc graph. IC, CIC và các
-thuật toán chọn nút chưa được triển khai.
+Phạm vi hiện tại: load, validate, preprocess, lưu/đọc graph và mô phỏng
+Independent Cascade (IC). CIC và các thuật toán chọn nút chưa được triển khai.
 
 ## Môi trường
 
@@ -127,6 +127,55 @@ repository (mặc định `data/raw`), dùng dấu `/` trên mọi hệ điều 
 ngoài repository giữ đường dẫn tuyệt đối của máy chạy để truy vết. Trường này
 chỉ ghi provenance; đọc processed graph không cần truy cập raw directory.
 
+## Independent Cascade (Milestone 2)
+
+```python
+from src.data import load_processed_graph
+from src.data.specs import PROJECT_ROOT
+from src.diffusion import simulate_ic
+
+graph = load_processed_graph(PROJECT_ROOT / "data/processed/email-Eu-core")
+result = simulate_ic(graph, seed_nodes=[0], propagation_probability=0.05, random_seed=42)
+print(result.active_nodes)       # frozenset các nút active cuối cùng, gồm seeds
+print(result.active_count)       # số nút active khác nhau
+print(result.steps)              # số bước lan truyền có nút mới, không tính t=0
+print(result.activation_layers)  # tuple các frozenset, lớp đầu là seeds tại t=0
+```
+
+Simulator nhận simple NetworkX `Graph`/`DiGraph`, một iterable seed nodes và một
+xác suất thực hữu hạn `p` trong `[0, 1]` áp dụng chung cho mọi cạnh. Thuộc tính
+edge như `weight` không tham gia tính xác suất. MultiGraph/MultiDiGraph bị từ
+chối để tránh ngầm chọn quy tắc cho cạnh song song. Node labels có thể là bất kỳ
+giá trị hashable nào; không cần ID liên tục hoặc các labels so sánh được với nhau.
+
+- Seeds active tại `t=0`; seed trùng được gộp, seed không tồn tại gây `ValueError`.
+- Mỗi nút vừa active chỉ thử một lần trên mỗi neighbor chưa active. Cạnh directed
+  chỉ cho phép lan tới successor; cạnh undirected cho phép lan theo cả hai chiều.
+- Nút kích hoạt thành công được đưa vào lớp kế tiếp, chỉ lan tiếp ở bước sau.
+  Một nút chỉ xuất hiện trong một lớp; self-loops và chu trình không tái kích hoạt.
+  Khi một nút đã được xếp vào lớp kế tiếp, các lần thử tiếp theo tới nó được bỏ qua.
+- Dừng khi không có nút mới. `steps` không tính vòng thử cuối không kích hoạt
+  được nút nào. Seeds rỗng trả tập rỗng, không có lớp, `steps=0`; nếu chỉ có seeds
+  active thì có một lớp và `steps=0`.
+- Không sửa graph, thuộc tính hay seed input. Kết quả dùng các tập bất biến.
+- `random_seed` nhận integer hoặc `None`; RNG riêng không thay đổi RNG toàn cục.
+  Cùng graph với cùng thứ tự nodes, seed set, `p` và random seed cho cùng kết quả.
+  Thứ tự seed input/edge insertion không ảnh hưởng nếu thứ tự nodes không đổi.
+  Graph đọc từ processed CSV có thứ tự nodes ổn định. `None` không bảo đảm tái lập.
+
+Chạy các ví dụ tính tay và một pilot nhỏ trên email-Eu-core:
+
+```sh
+python -B -m experiments.pilot_ic
+```
+
+Script kiểm tra directed/undirected chain, isolated seed và `p=0`, sau đó chạy
+email-Eu-core với seeds `[0]`, `p=0.05`, random seed `42`, kiểm tra chạy lại cho
+cùng kết quả và SHA-256 của artifacts không đổi. Cấu hình, môi trường, tập active,
+các lớp lan truyền và runtime chẩn đoán được lưu trong
+`results/pilots/ic_email_eu_core.json` (được Git bỏ qua theo `results/`).
+**Pilot chỉ kiểm tra triển khai, không phải kết quả chính thức của đồ án.**
+
 ## Tests
 
 ```sh
@@ -139,6 +188,11 @@ với processed datasets trong repository, kiểm tra CLI với đường dẫn 
 trắng/Unicode từ working directory khác, và so sánh SHA-256 của
 toàn bộ tệp trong `data/raw/` trước/sau pipeline. Cần có raw datasets để chạy đủ tests.
 
+Tests IC kiểm tra `p=0/1`, hướng cạnh, từng bước đồng bộ, isolated nodes, seeds và
+xác suất không hợp lệ, tái lập, RNG riêng, không sửa graph, không thử lại cạnh
+thất bại và không kích hoạt lặp. Integration tests chạy trực tiếp trên cả ba
+processed datasets; tại `p=1`, đối chiếu tập active với reachability của NetworkX.
+
 ## Cấu trúc mã nguồn
 
 - `src/data/specs.py`: dataset registry và preprocessing config.
@@ -149,3 +203,6 @@ toàn bộ tệp trong `data/raw/` trước/sau pipeline. Cần có raw datasets
 - `src/data/pipeline.py`: điều phối và kiểm chứng round-trip.
 - `main.py`: command line.
 - `tests/test_dataset_*.py`: unit và integration tests.
+- `src/diffusion/ic.py`: IC simulator và kết quả có activation layers.
+- `tests/test_ic.py`: unit tests IC và tích hợp với processed datasets.
+- `experiments/pilot_ic.py`: ví dụ tính tay và pilot kiểm tra triển khai IC.
