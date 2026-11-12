@@ -1,0 +1,71 @@
+[
+  {
+    "S_eval_per_batch": 6000,
+    "S_opt": 100,
+    "cache_fitness": true,
+    "crossover_rate": 0.8,
+    "dataset": "email-Eu-core",
+    "elitism_count": 1,
+    "independent_final_batches": 2,
+    "k": 5,
+    "max_generations": 10,
+    "mutation_rate": 0.1,
+    "p": 0.03,
+    "population_size": 10,
+    "reachability": 965,
+    "reachability_group": "high",
+    "reference_R": [
+      926
+    ],
+    "reference_evidence": "S_opt100 measured but not proven stable; email S_eval6000 extrapolated before this pilot",
+    "tie_breaking": "protector-priority",
+    "total_final_simulations_per_P": 12000,
+    "tournament_size": 3
+  },
+  {
+    "S_eval_per_batch": 2500,
+    "S_opt": 100,
+    "cache_fitness": true,
+    "crossover_rate": 0.8,
+    "dataset": "ego-Facebook",
+    "elitism_count": 1,
+    "independent_final_batches": 2,
+    "k": 5,
+    "max_generations": 10,
+    "mutation_rate": 0.1,
+    "p": 0.03,
+    "population_size": 10,
+    "reachability": 4039,
+    "reachability_group": "constant",
+    "reference_R": [
+      1180
+    ],
+    "reference_evidence": "Pilot2 S_opt100/S_eval2500 measured on reference R only",
+    "tie_breaking": "protector-priority",
+    "total_final_simulations_per_P": 5000,
+    "tournament_size": 3
+  },
+  {
+    "S_eval_per_batch": 2500,
+    "S_opt": 100,
+    "cache_fitness": true,
+    "crossover_rate": 0.8,
+    "dataset": "Wiki-Vote",
+    "elitism_count": 1,
+    "independent_final_batches": 2,
+    "k": 5,
+    "max_generations": 10,
+    "mutation_rate": 0.1,
+    "p": 0.03,
+    "population_size": 10,
+    "reachability": 2317,
+    "reachability_group": "high",
+    "reference_R": [
+      1210
+    ],
+    "reference_evidence": "Pilot2 S_opt100/S_eval2500 measured on reference R only",
+    "tie_breaking": "protector-priority",
+    "total_final_simulations_per_P": 5000,
+    "tournament_size": 3
+  }
+]

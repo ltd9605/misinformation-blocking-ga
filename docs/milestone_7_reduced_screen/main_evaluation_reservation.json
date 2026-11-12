@@ -1,0 +1,66 @@
+{
+  "main_authorized": false,
+  "main_observations_generated": 0,
+  "prior_pilot_results_reused_as_screen_runs": false,
+  "reserved_main_master_seed": 2026111109,
+  "reserved_validation_scenarios": [
+    {
+      "dataset": "email-Eu-core",
+      "draw_index": 0,
+      "reachable_count": 966,
+      "reachable_excluding_seed": 965,
+      "reachable_fraction_of_graph": 0.9611940298507463,
+      "reachable_fraction_of_maximum": 1.0,
+      "role": "primary_candidate",
+      "rumor_seeds": [
+        858
+      ],
+      "sampling_seed": 623486053121203770,
+      "scenario_id": "email-Eu-core_high_0",
+      "scenario_index": 2,
+      "selection_policy": "uniform_without_replacement_within_topology_stratum",
+      "stratum": "high"
+    },
+    {
+      "dataset": "ego-Facebook",
+      "draw_index": 1,
+      "reachable_count": 4039,
+      "reachable_excluding_seed": 4038,
+      "reachable_fraction_of_graph": 1.0,
+      "reachable_fraction_of_maximum": 1.0,
+      "role": "primary_candidate",
+      "rumor_seeds": [
+        1555
+      ],
+      "sampling_seed": 8896979120340374933,
+      "scenario_id": "ego-Facebook_constant_1",
+      "scenario_index": 5,
+      "selection_policy": "uniform_without_replacement_within_topology_stratum",
+      "stratum": "constant"
+    },
+    {
+      "dataset": "Wiki-Vote",
+      "draw_index": 0,
+      "reachable_count": 2317,
+      "reachable_excluding_seed": 2316,
+      "reachable_fraction_of_graph": 0.32565003513703444,
+      "reachable_fraction_of_maximum": 0.9987068965517242,
+      "role": "primary_candidate",
+      "rumor_seeds": [
+        2110
+      ],
+      "sampling_seed": 1968672421774739127,
+      "scenario_id": "Wiki-Vote_high_0",
+      "scenario_index": 8,
+      "selection_policy": "uniform_without_replacement_within_topology_stratum",
+      "stratum": "high"
+    }
+  ],
+  "screen_master_seed": 2026111108,
+  "screen_results_are_official_main_evidence": false,
+  "validation_scenario_ids": [
+    "email-Eu-core_high_0",
+    "ego-Facebook_constant_1",
+    "Wiki-Vote_high_0"
+  ]
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "dataset": "email-Eu-core",
+    "diffusion_observations_generated": 0,
+    "excluded_old_R_ids": [
+      761,
+      767,
+      858,
+      926
+    ],
+    "node_count": 1005,
+    "reachable_count": 965,
+    "role": "proposed_official_holdout_unobserved",
+    "rumor_seeds": [
+      485
+    ],
+    "sampling_seed": 16152107999921512756,
+    "scenario_id": "main_reserved_email-Eu-core_high_0",
+    "scenario_index": 11,
+    "selection_rule": "uniform_actual_IDs_in_same_Pilot2_stratum_excluding_all_previous_R",
+    "stratum": "high"
+  },
+  {
+    "dataset": "email-Eu-core",
+    "diffusion_observations_generated": 0,
+    "excluded_old_R_ids": [
+      761,
+      767,
+      858,
+      926
+    ],
+    "node_count": 1005,
+    "reachable_count": 965,
+    "role": "proposed_official_holdout_unobserved",
+    "rumor_seeds": [
+      374
+    ],
+    "sampling_seed": 16152107999921512756,
+    "scenario_id": "main_reserved_email-Eu-core_high_1",
+    "scenario_index": 12,
+    "selection_rule": "uniform_actual_IDs_in_same_Pilot2_stratum_excluding_all_previous_R",
+    "stratum": "high"
+  },
+  {
+    "dataset": "ego-Facebook",
+    "diffusion_observations_generated": 0,
+    "excluded_old_R_ids": [
+      1180,
+      1555
+    ],
+    "node_count": 4039,
+    "reachable_count": 4039,
+    "role": "proposed_official_holdout_unobserved",
+    "rumor_seeds": [
+      714
+    ],
+    "sampling_seed": 4690500747993351643,
+    "scenario_id": "main_reserved_ego-Facebook_constant_0",
+    "scenario_index": 13,
+    "selection_rule": "uniform_actual_IDs_in_same_Pilot2_stratum_excluding_all_previous_R",
+    "stratum": "constant"
+  },
+  {
+    "dataset": "ego-Facebook",
+    "diffusion_observations_generated": 0,
+    "excluded_old_R_ids": [
+      1180,
+      1555
+    ],
+    "node_count": 4039,
+    "reachable_count": 4039,
+    "role": "proposed_official_holdout_unobserved",
+    "rumor_seeds": [
+      2733
+    ],
+    "sampling_seed": 4690500747993351643,
+    "scenario_id": "main_reserved_ego-Facebook_constant_1",
+    "scenario_index": 14,
+    "selection_rule": "uniform_actual_IDs_in_same_Pilot2_stratum_excluding_all_previous_R",
+    "stratum": "constant"
+  },
+  {
+    "dataset": "Wiki-Vote",
+    "diffusion_observations_generated": 0,
+    "excluded_old_R_ids": [
+      1210,
+      2110,
+      4341,
+      5288,
+      6009
+    ],
+    "node_count": 7115,
+    "reachable_count": 2316,
+    "role": "proposed_official_holdout_unobserved",
+    "rumor_seeds": [
+      1961
+    ],
+    "sampling_seed": 2588087911114568307,
+    "scenario_id": "main_reserved_Wiki-Vote_high_0",
+    "scenario_index": 15,
+    "selection_rule": "uniform_actual_IDs_in_same_Pilot2_stratum_excluding_all_previous_R",
+    "stratum": "high"
+  },
+  {
+    "dataset": "Wiki-Vote",
+    "diffusion_observations_generated": 0,
+    "excluded_old_R_ids": [
+      1210,
+      2110,
+      4341,
+      5288,
+      6009
+    ],
+    "node_count": 7115,
+    "reachable_count": 2317,
+    "role": "proposed_official_holdout_unobserved",
+    "rumor_seeds": [
+      1795
+    ],
+    "sampling_seed": 2588087911114568307,
+    "scenario_id": "main_reserved_Wiki-Vote_high_1",
+    "scenario_index": 16,
+    "selection_rule": "uniform_actual_IDs_in_same_Pilot2_stratum_excluding_all_previous_R",
+    "stratum": "high"
+  }
+]

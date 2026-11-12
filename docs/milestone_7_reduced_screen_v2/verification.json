@@ -1,0 +1,50 @@
+{
+  "all_protected_hashes_unchanged": true,
+  "data_file_set_unchanged": true,
+  "data_files_checked": 14,
+  "implementation_sha256": {
+    "experiments/analyze_reduced_screen_v2.py": "89e6d589889f712c232a079b3b8992d82fe68f100f0bb3817043cc79bb6a5713",
+    "experiments/configs/milestone_7_reduced_screen_v2.json": "1d00d53f2b68cf08eb6315eb6ee4bcfd6c4048aa854879e64369540203874fbb",
+    "experiments/reduced_screen_v2.py": "7de2bcbf4fe122fa9a2891d251f447140fac17d4659764f3b10e31a0dd80460e",
+    "tests/test_reduced_screen_v2.py": "95d2a01bae1684e04f364a9a61948aeb1d62226af7d5c5172c6cb3d0938c697e",
+    "tests/test_reduced_screen_v2_analysis.py": "6dac6bd165b830bc391926cb69f9fc07c621e1ffb902c1ef374496e6e1f5c8c0"
+  },
+  "prior_artifacts": [
+    {
+      "directory": "docs/experiment_protocol_v1",
+      "files": 53,
+      "unchanged": true
+    },
+    {
+      "directory": "docs/pilot_2_calibration",
+      "files": 55,
+      "unchanged": true
+    },
+    {
+      "directory": "docs/milestone_7_reduced_screen",
+      "files": 104,
+      "unchanged": true
+    }
+  ],
+  "protected_files_checked": 44,
+  "test_runtime_seconds": 8.669,
+  "tests_passed": 415,
+  "tests_run": 415,
+  "topology": {
+    "Wiki-Vote": {
+      "directed": true,
+      "edges": 103689,
+      "nodes": 7115
+    },
+    "ego-Facebook": {
+      "directed": false,
+      "edges": 88234,
+      "nodes": 4039
+    },
+    "email-Eu-core": {
+      "directed": true,
+      "edges": 24929,
+      "nodes": 1005
+    }
+  }
+}

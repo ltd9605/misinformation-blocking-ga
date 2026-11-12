@@ -1,0 +1,74 @@
+{
+  "S_eval": 200,
+  "S_opt": 20,
+  "candidate_pool_size": 10,
+  "datasets": [
+    "email-Eu-core",
+    "ego-Facebook",
+    "Wiki-Vote"
+  ],
+  "diagnostics": {
+    "low_spread_fraction": 0.01,
+    "precision_prefixes": [
+      20,
+      50,
+      100,
+      200
+    ],
+    "saturation_fraction": 0.9,
+    "target_eval_se_fraction": 0.005,
+    "target_opt_se_fraction": 0.01
+  },
+  "ga_parameters": {
+    "cache_fitness": true,
+    "crossover_rate": 0.8,
+    "elitism_count": 1,
+    "max_generations": 10,
+    "mutation_rate": 0.1,
+    "population_size": 10,
+    "tournament_size": 3
+  },
+  "independent_runs": 3,
+  "k": 5,
+  "limits": {
+    "max_full_greedy_cic_simulations": 2000,
+    "max_full_greedy_evaluations": 100,
+    "max_optimization_cic_simulations": 2000,
+    "max_optimization_evaluations": 100
+  },
+  "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_protocol_validation",
+  "pagerank_parameters": {
+    "alpha": 0.85,
+    "max_iter": 1000,
+    "tol": 1e-12
+  },
+  "propagation_probabilities": [
+    0.01,
+    0.05
+  ],
+  "purpose": "pilot_protocol_validation_only",
+  "random_seed": 2026,
+  "resources": {
+    "max_comparison_wall_seconds": 300,
+    "max_total_wall_seconds": 1200,
+    "runtime_safety_factor": 2.0
+  },
+  "rumor_seed_count": 1,
+  "save_raw_observations": true,
+  "seed_block_size": 1000000,
+  "smoke": {
+    "S_eval": 5,
+    "S_opt": 2,
+    "ga_parameters": {
+      "cache_fitness": true,
+      "crossover_rate": 0.8,
+      "elitism_count": 1,
+      "max_generations": 1,
+      "mutation_rate": 0.1,
+      "population_size": 4,
+      "tournament_size": 2
+    },
+    "p": 0.05
+  },
+  "tie_breaking": "protector-priority"
+}

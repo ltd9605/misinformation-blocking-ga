@@ -1,0 +1,98 @@
+[
+  {
+    "actual_fitness_CIC": 2700,
+    "dataset": "email-Eu-core",
+    "independent_run_index": 0,
+    "profile_id": "reference",
+    "reason": null,
+    "run_id": "email-Eu-core_high_1_r0_reference",
+    "scenario_id": "email-Eu-core_high_1",
+    "selection_subprocess_wall_seconds": 3.743323499991675,
+    "selection_wall_seconds": 3.117204291993403,
+    "status": "selected"
+  },
+  {
+    "actual_fitness_CIC": 10800,
+    "dataset": "email-Eu-core",
+    "independent_run_index": 0,
+    "profile_id": "population_size_20",
+    "reason": null,
+    "run_id": "email-Eu-core_high_1_r0_population_size_20",
+    "scenario_id": "email-Eu-core_high_1",
+    "selection_subprocess_wall_seconds": 13.446874458008097,
+    "selection_wall_seconds": 12.827885040998808,
+    "status": "selected"
+  },
+  {
+    "actual_fitness_CIC": 10200,
+    "dataset": "email-Eu-core",
+    "independent_run_index": 1,
+    "profile_id": "population_size_20",
+    "reason": null,
+    "run_id": "email-Eu-core_high_1_r1_population_size_20",
+    "scenario_id": "email-Eu-core_high_1",
+    "selection_subprocess_wall_seconds": 12.542785124998773,
+    "selection_wall_seconds": 11.914477832993725,
+    "status": "selected"
+  },
+  {
+    "actual_fitness_CIC": 3900,
+    "dataset": "email-Eu-core",
+    "independent_run_index": 1,
+    "profile_id": "reference",
+    "reason": null,
+    "run_id": "email-Eu-core_high_1_r1_reference",
+    "scenario_id": "email-Eu-core_high_1",
+    "selection_subprocess_wall_seconds": 5.07445374999952,
+    "selection_wall_seconds": 4.4621239170082845,
+    "status": "selected"
+  },
+  {
+    "actual_fitness_CIC": 3900,
+    "dataset": "Wiki-Vote",
+    "independent_run_index": 0,
+    "profile_id": "reference",
+    "reason": null,
+    "run_id": "Wiki-Vote_high_1_r0_reference",
+    "scenario_id": "Wiki-Vote_high_1",
+    "selection_subprocess_wall_seconds": 12.81735420798941,
+    "selection_wall_seconds": 11.976361416003783,
+    "status": "selected"
+  },
+  {
+    "actual_fitness_CIC": 10000,
+    "dataset": "Wiki-Vote",
+    "independent_run_index": 0,
+    "profile_id": "population_size_20",
+    "reason": null,
+    "run_id": "Wiki-Vote_high_1_r0_population_size_20",
+    "scenario_id": "Wiki-Vote_high_1",
+    "selection_subprocess_wall_seconds": 32.25758695800323,
+    "selection_wall_seconds": 31.412760624996736,
+    "status": "selected"
+  },
+  {
+    "actual_fitness_CIC": 7800,
+    "dataset": "Wiki-Vote",
+    "independent_run_index": 1,
+    "profile_id": "population_size_20",
+    "reason": null,
+    "run_id": "Wiki-Vote_high_1_r1_population_size_20",
+    "scenario_id": "Wiki-Vote_high_1",
+    "selection_subprocess_wall_seconds": 25.659698375005974,
+    "selection_wall_seconds": 24.81667474999267,
+    "status": "selected"
+  },
+  {
+    "actual_fitness_CIC": 2900,
+    "dataset": "Wiki-Vote",
+    "independent_run_index": 1,
+    "profile_id": "reference",
+    "reason": null,
+    "run_id": "Wiki-Vote_high_1_r1_reference",
+    "scenario_id": "Wiki-Vote_high_1",
+    "selection_subprocess_wall_seconds": 9.632556208001915,
+    "selection_wall_seconds": 8.796794207999483,
+    "status": "selected"
+  }
+]

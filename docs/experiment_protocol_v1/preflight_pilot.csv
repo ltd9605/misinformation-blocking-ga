@@ -1,0 +1,5 @@
+scenario_id,dataset,rumor_seeds,profile_id,independent_runs,optimization_evaluator_calls_upper,optimization_cic_upper,final_evaluator_calls,final_cic,control_cic_shared_per_scenario,projected_seconds_excluding_shared_control,rate_evidence_scope,projection_is_measurement
+email-Eu-core_high_1,email-Eu-core,[926],reference,2,200,20000,4,24000,24000,54.905638432318426,email-Eu-core_high_1,False
+email-Eu-core_high_1,email-Eu-core,[926],population_size_20,2,420,42000,4,24000,24000,81.1562777063751,email-Eu-core_high_1,False
+Wiki-Vote_high_1,Wiki-Vote,[1210],reference,2,200,20000,4,10000,10000,97.61115016103577,Wiki-Vote_high_1,False
+Wiki-Vote_high_1,Wiki-Vote,[1210],population_size_20,2,420,42000,4,10000,10000,166.74663983254504,Wiki-Vote_high_1,False

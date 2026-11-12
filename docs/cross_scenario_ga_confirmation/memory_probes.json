@@ -1,0 +1,29 @@
+[
+  {
+    "copy_nodes": 1005,
+    "dataset": "email-Eu-core",
+    "diffusion_calls": 0,
+    "directed": true,
+    "edges": 24929,
+    "graph_and_copy_peak_RSS_bytes": 124420096,
+    "nodes": 1005
+  },
+  {
+    "copy_nodes": 4039,
+    "dataset": "ego-Facebook",
+    "diffusion_calls": 0,
+    "directed": false,
+    "edges": 88234,
+    "graph_and_copy_peak_RSS_bytes": 163299328,
+    "nodes": 4039
+  },
+  {
+    "copy_nodes": 7115,
+    "dataset": "Wiki-Vote",
+    "diffusion_calls": 0,
+    "directed": true,
+    "edges": 103689,
+    "graph_and_copy_peak_RSS_bytes": 169263104,
+    "nodes": 7115
+  }
+]

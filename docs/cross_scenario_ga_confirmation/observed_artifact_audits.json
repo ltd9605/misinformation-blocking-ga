@@ -1,0 +1,32 @@
+[
+  {
+    "completed_GA_runs_audited": 9,
+    "convergence_rows": 99,
+    "elite_carries_checked": 90,
+    "passed": true,
+    "population_individuals_checked": 2310,
+    "raw_final_and_control_observations_recomputed": 144000,
+    "scenario_id": "email-Eu-core_high_0",
+    "scope": "actual stored records; optimizer fitness raw CIC outcomes were not retained"
+  },
+  {
+    "completed_GA_runs_audited": 9,
+    "convergence_rows": 99,
+    "elite_carries_checked": 90,
+    "passed": true,
+    "population_individuals_checked": 2310,
+    "raw_final_and_control_observations_recomputed": 60000,
+    "scenario_id": "ego-Facebook_constant_1",
+    "scope": "actual stored records; optimizer fitness raw CIC outcomes were not retained"
+  },
+  {
+    "completed_GA_runs_audited": 9,
+    "convergence_rows": 99,
+    "elite_carries_checked": 90,
+    "passed": true,
+    "population_individuals_checked": 2310,
+    "raw_final_and_control_observations_recomputed": 60000,
+    "scenario_id": "Wiki-Vote_high_0",
+    "scope": "actual stored records; optimizer fitness raw CIC outcomes were not retained"
+  }
+]

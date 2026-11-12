@@ -1,0 +1,38 @@
+{
+  "Wiki-Vote": {
+    "GA_final_seconds_per_cic": 0.0034714993172034157,
+    "GA_non_MC_seconds": 0.2514150819624774,
+    "control_seconds_per_cic": 0.00278188375000027,
+    "evidence": "Pilot2 p=.03, two GA runs and two independent fixed-P accuracy batches; new profiles not measured",
+    "fitness_seconds_per_cic": 0.0031196663412538326,
+    "p": 0.03,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1"
+  },
+  "ego-Facebook": {
+    "GA_final_seconds_per_cic": 0.010812016533204587,
+    "GA_non_MC_seconds": 0.1304460859973915,
+    "control_seconds_per_cic": 0.00661740083360346,
+    "evidence": "Pilot2 p=.03, two GA runs and two independent fixed-P accuracy batches; new profiles not measured",
+    "fitness_seconds_per_cic": 0.009636719593785332,
+    "p": 0.03,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0"
+  },
+  "email-Eu-core": {
+    "GA_final_seconds_per_cic": 0.0012931152831937652,
+    "GA_non_MC_seconds": 0.03659762589086313,
+    "control_seconds_per_cic": 0.000323938716808334,
+    "evidence": "Pilot2 p=.03, two GA runs and two independent fixed-P accuracy batches; new profiles not measured",
+    "fitness_seconds_per_cic": 0.0011898838191943166,
+    "p": 0.03,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1"
+  }
+}

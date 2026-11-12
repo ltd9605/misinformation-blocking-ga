@@ -1,0 +1,24 @@
+[
+  {
+    "max_conditional_batch_CI_halfwidth_fraction": 0.10080239305404413,
+    "optimality_or_all_context_precision_confirmed": false,
+    "scope": "R926/p=.03; N10/N20/G10; four selected P, two batches each",
+    "setting": "email_S_eval6000_per_batch",
+    "status_after_pilot": "executed_limited_scope",
+    "status_before_pilot": "extrapolated_from_Pilot2"
+  },
+  {
+    "optimality_or_all_context_precision_confirmed": false,
+    "scope": "R926/R1210, two independent GA runs each; run-effect CIs contain zero",
+    "setting": "N20",
+    "status_after_pilot": "executed_limited_scope",
+    "status_before_pilot": "proposed_sensitivity_level"
+  },
+  {
+    "optimality_or_all_context_precision_confirmed": false,
+    "scope": "design only; no full/reduced sweep",
+    "setting": "G20/G40/crossover_levels/mutation_levels",
+    "status_after_pilot": "not_executed",
+    "status_before_pilot": "proposed_levels"
+  }
+]

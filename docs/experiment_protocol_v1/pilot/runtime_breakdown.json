@@ -1,0 +1,9 @@
+{
+  "GA_final_MC_seconds": 128.96505325198814,
+  "fitness_MC_nested_in_selection_seconds": 107.59051430303953,
+  "other_loading_import_logging_export_seconds": 7.074927332025254,
+  "selection_seconds": 109.3242820819869,
+  "shared_control_MC_seconds": 35.336818542011315,
+  "total_wall_seconds": 280.7010812080116,
+  "warning": "Do not add nested fitness MC a second time; no per-method benchmark inference"
+}

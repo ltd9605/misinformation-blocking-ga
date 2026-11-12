@@ -1,0 +1,16 @@
+{
+  "accuracy_cic_upper_bound": 90000,
+  "classification": "preflight_upper_bound_not_measured_runtime",
+  "comparison_final_cic": 54000,
+  "control_scenarios": 11,
+  "control_simulations": 8800,
+  "full_greedy": "skipped_by_explicit_limits; never replaced under Full name",
+  "optimization_cic_upper_bound": 263200,
+  "optimization_comparisons": 18,
+  "optimization_evaluator_upper_bound": 2520,
+  "partial_matrix": "all S_opt levels on email/Facebook; Wiki reference S_opt=100 only",
+  "runtime_prediction_seconds": null,
+  "seed_design": "controls indices>=1000; smoke 500+d; optimization 10*d+repeat (paired across S); accuracy 2000+10*d+batch",
+  "smoke_cic_upper_bound": 372,
+  "total_cic_upper_bound": 416372
+}

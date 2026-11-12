@@ -1,0 +1,12 @@
+scenario_id,dataset,evaluator_calls,CIC_simulations,status,reason
+email-Eu-core_low_0,email-Eu-core,5010,501000,skipped,explicit_Full_Greedy_calls_or_CIC_limit
+email-Eu-core_low_1,email-Eu-core,5010,501000,skipped,explicit_Full_Greedy_calls_or_CIC_limit
+email-Eu-core_high_0,email-Eu-core,5010,501000,skipped,explicit_Full_Greedy_calls_or_CIC_limit
+email-Eu-core_high_1,email-Eu-core,5010,501000,skipped,explicit_Full_Greedy_calls_or_CIC_limit
+ego-Facebook_constant_0,ego-Facebook,20180,2018000,skipped,explicit_Full_Greedy_calls_or_CIC_limit
+ego-Facebook_constant_1,ego-Facebook,20180,2018000,skipped,explicit_Full_Greedy_calls_or_CIC_limit
+Wiki-Vote_low_0,Wiki-Vote,35560,3556000,skipped,explicit_Full_Greedy_calls_or_CIC_limit
+Wiki-Vote_low_1,Wiki-Vote,35560,3556000,skipped,explicit_Full_Greedy_calls_or_CIC_limit
+Wiki-Vote_high_0,Wiki-Vote,35560,3556000,skipped,explicit_Full_Greedy_calls_or_CIC_limit
+Wiki-Vote_high_1,Wiki-Vote,35560,3556000,skipped,explicit_Full_Greedy_calls_or_CIC_limit
+Wiki-Vote_legacy_4341,Wiki-Vote,35560,3556000,skipped,explicit_Full_Greedy_calls_or_CIC_limit

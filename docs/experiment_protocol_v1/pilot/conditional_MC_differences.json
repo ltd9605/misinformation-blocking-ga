@@ -1,0 +1,82 @@
+[
+  {
+    "SE_difference": 5.045513893092968,
+    "batch": 0,
+    "ci95_high": 43.8674174420011,
+    "ci95_low": 24.0797825579989,
+    "independent_run_index": 0,
+    "mean_difference": 33.9736,
+    "scenario_id": "Wiki-Vote_high_1",
+    "unresolved_at_pointwise_95": false
+  },
+  {
+    "SE_difference": 4.954992585733492,
+    "batch": 1,
+    "ci95_high": 46.18911296800649,
+    "ci95_low": 26.756487031993508,
+    "independent_run_index": 0,
+    "mean_difference": 36.4728,
+    "scenario_id": "Wiki-Vote_high_1",
+    "unresolved_at_pointwise_95": false
+  },
+  {
+    "SE_difference": 3.938628163472663,
+    "batch": 0,
+    "ci95_high": 53.74491002292308,
+    "ci95_low": 38.29828997707692,
+    "independent_run_index": 1,
+    "mean_difference": 46.0216,
+    "scenario_id": "Wiki-Vote_high_1",
+    "unresolved_at_pointwise_95": false
+  },
+  {
+    "SE_difference": 3.9011542429279626,
+    "batch": 1,
+    "ci95_high": 48.689026897802194,
+    "ci95_low": 33.38937310219781,
+    "independent_run_index": 1,
+    "mean_difference": 41.0392,
+    "scenario_id": "Wiki-Vote_high_1",
+    "unresolved_at_pointwise_95": false
+  },
+  {
+    "SE_difference": 0.48825006288264833,
+    "batch": 0,
+    "ci95_high": -0.6756876805597157,
+    "ci95_low": -2.589978986106951,
+    "independent_run_index": 0,
+    "mean_difference": -1.6328333333333334,
+    "scenario_id": "email-Eu-core_high_1",
+    "unresolved_at_pointwise_95": false
+  },
+  {
+    "SE_difference": 0.4993196830774623,
+    "batch": 1,
+    "ci95_high": -0.853987245367211,
+    "ci95_low": -2.8116794212994556,
+    "independent_run_index": 0,
+    "mean_difference": -1.8328333333333333,
+    "scenario_id": "email-Eu-core_high_1",
+    "unresolved_at_pointwise_95": false
+  },
+  {
+    "SE_difference": 0.4322817395598319,
+    "batch": 0,
+    "ci95_high": 3.7955942846996775,
+    "ci95_low": 2.100739048633656,
+    "independent_run_index": 1,
+    "mean_difference": 2.948166666666667,
+    "scenario_id": "email-Eu-core_high_1",
+    "unresolved_at_pointwise_95": false
+  },
+  {
+    "SE_difference": 0.43442689791896494,
+    "batch": 1,
+    "ci95_high": 3.7131328996172726,
+    "ci95_low": 2.0098671003827273,
+    "independent_run_index": 1,
+    "mean_difference": 2.8615,
+    "scenario_id": "email-Eu-core_high_1",
+    "unresolved_at_pointwise_95": false
+  }
+]

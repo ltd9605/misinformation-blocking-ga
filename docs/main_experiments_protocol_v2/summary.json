@@ -1,0 +1,33 @@
+{
+  "Full_Greedy_rows_skipped": 24,
+  "design_confirmed": true,
+  "execution_authorized": true,
+  "independent_runs": 4,
+  "preflight": {
+    "GA_runs": 24,
+    "admission_reasons": [],
+    "conditional_Full_Greedy_rows_skipped": 24,
+    "final_CIC": 1056000,
+    "final_evaluator_calls": 288,
+    "nearest_topology_nominal_proxy_seconds": 5484.389957959145,
+    "optimization_CIC_upper": 336000,
+    "optimization_evaluator_calls_upper": 3360,
+    "planned_primary_method_runs": 144,
+    "primary_methods": 6,
+    "projected_seconds_including_safety_and_overhead": 8889.53713221839,
+    "proposed_repeats": 4,
+    "runtime_headroom_seconds": 1910.4628677816108,
+    "runtime_is_measured_on_main_R": false,
+    "runtime_projection_is_hard_bound": false,
+    "runtime_proxy_max_seconds_before_safety": 5726.358088145593,
+    "runtime_proxy_min_seconds_before_safety": 4591.413116764879,
+    "scenarios": 6,
+    "scope": "all six method selections and two final batches per P including shared NI; no duplicated control per comparator; no official CIC executed",
+    "total_CIC_upper": 1392000,
+    "total_evaluator_calls_upper": 3648,
+    "within_declared_budget": true
+  },
+  "previous_five_run_protocol_preserved": true,
+  "primary_result_rows": 144,
+  "status": "admitted"
+}

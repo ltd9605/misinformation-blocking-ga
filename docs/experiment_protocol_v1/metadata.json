@@ -1,0 +1,83 @@
+{
+  "Pilot2_evidence_unchanged": 55,
+  "core_data_existing_files_unchanged": 42,
+  "data_file_count": 14,
+  "evidence_after_pilot": [
+    {
+      "max_conditional_batch_CI_halfwidth_fraction": 0.10080239305404413,
+      "optimality_or_all_context_precision_confirmed": false,
+      "scope": "R926/p=.03; N10/N20/G10; four selected P, two batches each",
+      "setting": "email_S_eval6000_per_batch",
+      "status_after_pilot": "executed_limited_scope",
+      "status_before_pilot": "extrapolated_from_Pilot2"
+    },
+    {
+      "optimality_or_all_context_precision_confirmed": false,
+      "scope": "R926/R1210, two independent GA runs each; run-effect CIs contain zero",
+      "setting": "N20",
+      "status_after_pilot": "executed_limited_scope",
+      "status_before_pilot": "proposed_sensitivity_level"
+    },
+    {
+      "optimality_or_all_context_precision_confirmed": false,
+      "scope": "design only; no full/reduced sweep",
+      "setting": "G20/G40/crossover_levels/mutation_levels",
+      "status_after_pilot": "not_executed",
+      "status_before_pilot": "proposed_levels"
+    }
+  ],
+  "full_sweep_executed": false,
+  "implementation_sha256": {
+    "experiments/configs/experiment_protocol_v1.json": "c844eebf3f6e66ebd5212d9e58ae9cb41cbe2821f3a687e367996c9ab79ef8a9",
+    "experiments/design_protocol_v1.py": "98dad782d41588fe6981e76c2d60e042048769f1ec0d0b274d990ab0bea19bf8",
+    "experiments/pilot_milestone_7.py": "83c9286ec2fe1b22e0ba110783564dd4e50be7af507cbb5302b794c3cfb53fca",
+    "src/experiments/sensitivity.py": "feac95197645169889173a9a8a073bcbbb0c661144ac3ed984bcf0b01babda17",
+    "tests/test_sensitivity_design.py": "e395809edec7d4631edbe91c04b0741d642720102b118d442da7c86b9353ca0c",
+    "tests/test_sensitivity_pilot.py": "0f3cc79389c96daccc1beff1499b2654a12f0beba5ec715398b322174d5af8f2"
+  },
+  "main_experiments_executed": false,
+  "pilot_summary": {
+    "all_selections_before_final": true,
+    "budget": {
+      "charged_CIC": 154200,
+      "control_evaluator_calls": 8,
+      "final_evaluator_calls": 16,
+      "fitness_evaluator_calls": 522,
+      "measured_CIC": 154200,
+      "unknown_partial_work": false
+    },
+    "completed_GA_runs": 8,
+    "full_sweep_executed": false,
+    "inference_unit": "GA run for parameter effects; MC observations conditional on a fixed P for MC CIs",
+    "integrity": {
+      "files_compared": 32,
+      "unchanged": true
+    },
+    "main_experiments_executed": false,
+    "planned_GA_runs": 8,
+    "purpose": "bounded_milestone7_system_and_timing_pilot_only",
+    "scope_limitations": "only N10/N20, two development R, two GA runs each; does not establish sensitivity curves or winner",
+    "timing_scope": "parent wall includes workers/imports/loading/control/final/logging/exports through primary artifacts; last summary write excluded",
+    "wall_seconds_through_exports": 280.7010812080116
+  },
+  "preflights_preserved_from_before_execution": true,
+  "purpose": "reference_protocol_and_bounded_pilot_only",
+  "reduced_screen_executed": false,
+  "statistical_scope": "MC conditional P intervals and separate independent GA run variation; two pilot GA runs per scenario/profile; no winner",
+  "validation": {
+    "GA_runs_verified": 8,
+    "Pilot2_evidence_files_unchanged": 55,
+    "all_metrics_recomputed": true,
+    "control_observations_verified": 34000,
+    "convergence_rows_verified": 88,
+    "data_files_unchanged": 14,
+    "existing_file_checksums_unchanged": 42,
+    "final_observations_verified": 68000,
+    "population_individuals_verified": 1320,
+    "tests": {
+      "command": ".venv/bin/python -B -m unittest discover -s tests",
+      "passed": 379,
+      "runtime_seconds": 8.579
+    }
+  }
+}

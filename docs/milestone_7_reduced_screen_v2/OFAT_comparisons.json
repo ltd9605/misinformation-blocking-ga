@@ -1,0 +1,242 @@
+[
+  {
+    "alternative_run_id": "population_size_20_r0",
+    "factor": "population_size",
+    "reference_run_id": "reference_r0",
+    "repetition_index": 0
+  },
+  {
+    "alternative_run_id": "population_size_40_r0",
+    "factor": "population_size",
+    "reference_run_id": "reference_r0",
+    "repetition_index": 0
+  },
+  {
+    "alternative_run_id": "max_generations_20_r0",
+    "factor": "max_generations",
+    "reference_run_id": "reference_r0",
+    "repetition_index": 0
+  },
+  {
+    "alternative_run_id": "max_generations_40_r0",
+    "factor": "max_generations",
+    "reference_run_id": "reference_r0",
+    "repetition_index": 0
+  },
+  {
+    "alternative_run_id": "crossover_rate_0p6_r0",
+    "factor": "crossover_rate",
+    "reference_run_id": "reference_r0",
+    "repetition_index": 0
+  },
+  {
+    "alternative_run_id": "crossover_rate_1_r0",
+    "factor": "crossover_rate",
+    "reference_run_id": "reference_r0",
+    "repetition_index": 0
+  },
+  {
+    "alternative_run_id": "mutation_rate_0p05_r0",
+    "factor": "mutation_rate",
+    "reference_run_id": "reference_r0",
+    "repetition_index": 0
+  },
+  {
+    "alternative_run_id": "mutation_rate_0p2_r0",
+    "factor": "mutation_rate",
+    "reference_run_id": "reference_r0",
+    "repetition_index": 0
+  },
+  {
+    "alternative_run_id": "population_size_20_r1",
+    "factor": "population_size",
+    "reference_run_id": "reference_r1",
+    "repetition_index": 1
+  },
+  {
+    "alternative_run_id": "population_size_40_r1",
+    "factor": "population_size",
+    "reference_run_id": "reference_r1",
+    "repetition_index": 1
+  },
+  {
+    "alternative_run_id": "max_generations_20_r1",
+    "factor": "max_generations",
+    "reference_run_id": "reference_r1",
+    "repetition_index": 1
+  },
+  {
+    "alternative_run_id": "max_generations_40_r1",
+    "factor": "max_generations",
+    "reference_run_id": "reference_r1",
+    "repetition_index": 1
+  },
+  {
+    "alternative_run_id": "crossover_rate_0p6_r1",
+    "factor": "crossover_rate",
+    "reference_run_id": "reference_r1",
+    "repetition_index": 1
+  },
+  {
+    "alternative_run_id": "crossover_rate_1_r1",
+    "factor": "crossover_rate",
+    "reference_run_id": "reference_r1",
+    "repetition_index": 1
+  },
+  {
+    "alternative_run_id": "mutation_rate_0p05_r1",
+    "factor": "mutation_rate",
+    "reference_run_id": "reference_r1",
+    "repetition_index": 1
+  },
+  {
+    "alternative_run_id": "mutation_rate_0p2_r1",
+    "factor": "mutation_rate",
+    "reference_run_id": "reference_r1",
+    "repetition_index": 1
+  },
+  {
+    "alternative_run_id": "population_size_20_r2",
+    "factor": "population_size",
+    "reference_run_id": "reference_r2",
+    "repetition_index": 2
+  },
+  {
+    "alternative_run_id": "population_size_40_r2",
+    "factor": "population_size",
+    "reference_run_id": "reference_r2",
+    "repetition_index": 2
+  },
+  {
+    "alternative_run_id": "max_generations_20_r2",
+    "factor": "max_generations",
+    "reference_run_id": "reference_r2",
+    "repetition_index": 2
+  },
+  {
+    "alternative_run_id": "max_generations_40_r2",
+    "factor": "max_generations",
+    "reference_run_id": "reference_r2",
+    "repetition_index": 2
+  },
+  {
+    "alternative_run_id": "crossover_rate_0p6_r2",
+    "factor": "crossover_rate",
+    "reference_run_id": "reference_r2",
+    "repetition_index": 2
+  },
+  {
+    "alternative_run_id": "crossover_rate_1_r2",
+    "factor": "crossover_rate",
+    "reference_run_id": "reference_r2",
+    "repetition_index": 2
+  },
+  {
+    "alternative_run_id": "mutation_rate_0p05_r2",
+    "factor": "mutation_rate",
+    "reference_run_id": "reference_r2",
+    "repetition_index": 2
+  },
+  {
+    "alternative_run_id": "mutation_rate_0p2_r2",
+    "factor": "mutation_rate",
+    "reference_run_id": "reference_r2",
+    "repetition_index": 2
+  },
+  {
+    "alternative_run_id": "population_size_20_r3",
+    "factor": "population_size",
+    "reference_run_id": "reference_r3",
+    "repetition_index": 3
+  },
+  {
+    "alternative_run_id": "population_size_40_r3",
+    "factor": "population_size",
+    "reference_run_id": "reference_r3",
+    "repetition_index": 3
+  },
+  {
+    "alternative_run_id": "max_generations_20_r3",
+    "factor": "max_generations",
+    "reference_run_id": "reference_r3",
+    "repetition_index": 3
+  },
+  {
+    "alternative_run_id": "max_generations_40_r3",
+    "factor": "max_generations",
+    "reference_run_id": "reference_r3",
+    "repetition_index": 3
+  },
+  {
+    "alternative_run_id": "crossover_rate_0p6_r3",
+    "factor": "crossover_rate",
+    "reference_run_id": "reference_r3",
+    "repetition_index": 3
+  },
+  {
+    "alternative_run_id": "crossover_rate_1_r3",
+    "factor": "crossover_rate",
+    "reference_run_id": "reference_r3",
+    "repetition_index": 3
+  },
+  {
+    "alternative_run_id": "mutation_rate_0p05_r3",
+    "factor": "mutation_rate",
+    "reference_run_id": "reference_r3",
+    "repetition_index": 3
+  },
+  {
+    "alternative_run_id": "mutation_rate_0p2_r3",
+    "factor": "mutation_rate",
+    "reference_run_id": "reference_r3",
+    "repetition_index": 3
+  },
+  {
+    "alternative_run_id": "population_size_20_r4",
+    "factor": "population_size",
+    "reference_run_id": "reference_r4",
+    "repetition_index": 4
+  },
+  {
+    "alternative_run_id": "population_size_40_r4",
+    "factor": "population_size",
+    "reference_run_id": "reference_r4",
+    "repetition_index": 4
+  },
+  {
+    "alternative_run_id": "max_generations_20_r4",
+    "factor": "max_generations",
+    "reference_run_id": "reference_r4",
+    "repetition_index": 4
+  },
+  {
+    "alternative_run_id": "max_generations_40_r4",
+    "factor": "max_generations",
+    "reference_run_id": "reference_r4",
+    "repetition_index": 4
+  },
+  {
+    "alternative_run_id": "crossover_rate_0p6_r4",
+    "factor": "crossover_rate",
+    "reference_run_id": "reference_r4",
+    "repetition_index": 4
+  },
+  {
+    "alternative_run_id": "crossover_rate_1_r4",
+    "factor": "crossover_rate",
+    "reference_run_id": "reference_r4",
+    "repetition_index": 4
+  },
+  {
+    "alternative_run_id": "mutation_rate_0p05_r4",
+    "factor": "mutation_rate",
+    "reference_run_id": "reference_r4",
+    "repetition_index": 4
+  },
+  {
+    "alternative_run_id": "mutation_rate_0p2_r4",
+    "factor": "mutation_rate",
+    "reference_run_id": "reference_r4",
+    "repetition_index": 4
+  }
+]

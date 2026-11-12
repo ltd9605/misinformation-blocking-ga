@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "purpose": "manual_learning_synthetic_graph_not_thesis_results",
+  "dataset": "manual-nine-node",
+  "processed_directory": "../../results/manual_demo_input",
+  "rumor_seeds": [10],
+  "k": 1,
+  "p": 0.5,
+  "tie_breaking": "protector-priority",
+  "S_opt": 20,
+  "S_eval": 200,
+  "algorithms": [
+    "no_intervention",
+    "random",
+    "degree",
+    "pagerank",
+    "full_greedy",
+    "candidate_restricted_greedy",
+    "genetic_algorithm"
+  ],
+  "ga_parameters": {
+    "population_size": 6,
+    "max_generations": 4,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.1,
+    "tournament_size": 3,
+    "elitism_count": 1,
+    "cache_fitness": true
+  },
+  "pagerank_parameters": {
+    "alpha": 0.85,
+    "tol": 1e-12,
+    "max_iter": 1000
+  },
+  "candidate_restriction": {
+    "method": "degree",
+    "size": 4
+  },
+  "limits": {
+    "max_optimization_evaluations": 30,
+    "max_optimization_cic_simulations": 600,
+    "max_full_greedy_evaluations": 10,
+    "max_full_greedy_cic_simulations": 200
+  },
+  "random_seed": 2026111201,
+  "independent_run_index": 0,
+  "seed_block_size": 1000000,
+  "output_directory": "../../results/manual_small_scenario",
+  "save_raw_observations": true
+}

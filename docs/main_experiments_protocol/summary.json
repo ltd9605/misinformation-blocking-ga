@@ -1,0 +1,39 @@
+{
+  "GA_locked_by_user": true,
+  "automatic_repeat_change": false,
+  "design_confirmed": false,
+  "execution_authorized": false,
+  "full_greedy_rows_skipped": 30,
+  "matrix_rows": 210,
+  "official_main_CIC_simulations": 0,
+  "official_main_evaluator_calls": 0,
+  "preflight": {
+    "GA_runs": 30,
+    "admission_reasons": [
+      "runtime_proxy_envelope_with_safety_and_overhead_exceeds_budget"
+    ],
+    "conditional_Full_Greedy_rows_skipped": 30,
+    "final_CIC": 1320000,
+    "final_evaluator_calls": 360,
+    "nearest_topology_nominal_proxy_seconds": 6855.487447448932,
+    "optimization_CIC_upper": 420000,
+    "optimization_evaluator_calls_upper": 4200,
+    "planned_primary_method_runs": 180,
+    "primary_methods": 6,
+    "projected_seconds_including_safety_and_overhead": 11036.921415272987,
+    "proposed_repeats": 5,
+    "runtime_headroom_seconds": -236.92141527298736,
+    "runtime_is_measured_on_main_R": false,
+    "runtime_projection_is_hard_bound": false,
+    "runtime_proxy_max_seconds_before_safety": 7157.947610181991,
+    "runtime_proxy_min_seconds_before_safety": 5739.266395956099,
+    "scenarios": 6,
+    "scope": "all six method selections and two final batches per P including shared NI; no duplicated control per comparator; no official CIC executed",
+    "total_CIC_upper": 1740000,
+    "total_evaluator_calls_upper": 4560,
+    "within_declared_budget": false
+  },
+  "primary_method_rows": 180,
+  "proposed_repeats": 5,
+  "status": "stopped_at_preflight"
+}

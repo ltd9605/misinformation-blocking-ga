@@ -1,0 +1,16 @@
+{
+  "GA_runs_verified": 8,
+  "Pilot2_evidence_files_unchanged": 55,
+  "all_metrics_recomputed": true,
+  "control_observations_verified": 34000,
+  "convergence_rows_verified": 88,
+  "data_files_unchanged": 14,
+  "existing_file_checksums_unchanged": 42,
+  "final_observations_verified": 68000,
+  "population_individuals_verified": 1320,
+  "tests": {
+    "command": ".venv/bin/python -B -m unittest discover -s tests",
+    "passed": 379,
+    "runtime_seconds": 8.579
+  }
+}

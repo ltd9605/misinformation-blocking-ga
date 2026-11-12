@@ -1,0 +1,12 @@
+dataset,scenario_id,stratum,rumor_seeds,reachable_count,reachable_excluding_seed,reachable_fraction_of_graph,reachable_fraction_of_maximum,sampling_seed,draw_index,role,selection_policy
+email-Eu-core,email-Eu-core_low_0,low,[761],1,0,0.0009950248756218905,0.0010351966873706005,4457537432526573887,0,supplementary_low_reach,uniform_without_replacement_within_topology_stratum
+email-Eu-core,email-Eu-core_low_1,low,[767],1,0,0.0009950248756218905,0.0010351966873706005,4457537432526573887,1,supplementary_low_reach,uniform_without_replacement_within_topology_stratum
+email-Eu-core,email-Eu-core_high_0,high,[858],966,965,0.9611940298507463,1.0,623486053121203770,0,primary_candidate,uniform_without_replacement_within_topology_stratum
+email-Eu-core,email-Eu-core_high_1,high,[926],965,964,0.9601990049751243,0.9989648033126294,623486053121203770,1,primary_candidate,uniform_without_replacement_within_topology_stratum
+ego-Facebook,ego-Facebook_constant_0,constant,[1180],4039,4038,1.0,1.0,8896979120340374933,0,primary_candidate,uniform_without_replacement_within_topology_stratum
+ego-Facebook,ego-Facebook_constant_1,constant,[1555],4039,4038,1.0,1.0,8896979120340374933,1,primary_candidate,uniform_without_replacement_within_topology_stratum
+Wiki-Vote,Wiki-Vote_low_0,low,[5288],1,0,0.000140548137737175,0.0004310344827586207,10904362679883315821,0,supplementary_low_reach,uniform_without_replacement_within_topology_stratum
+Wiki-Vote,Wiki-Vote_low_1,low,[6009],1,0,0.000140548137737175,0.0004310344827586207,10904362679883315821,1,supplementary_low_reach,uniform_without_replacement_within_topology_stratum
+Wiki-Vote,Wiki-Vote_high_0,high,[2110],2317,2316,0.32565003513703444,0.9987068965517242,1968672421774739127,0,primary_candidate,uniform_without_replacement_within_topology_stratum
+Wiki-Vote,Wiki-Vote_high_1,high,[1210],2317,2316,0.32565003513703444,0.9987068965517242,1968672421774739127,1,primary_candidate,uniform_without_replacement_within_topology_stratum
+Wiki-Vote,Wiki-Vote_legacy_4341,legacy_low,[4341],2,1,0.00028109627547435,0.0008620689655172414,,,supplementary_legacy,retained_from_prior_pilot_without_resampling

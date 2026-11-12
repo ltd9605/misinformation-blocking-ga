@@ -1,0 +1,4 @@
+dataset,draw_index,reachable_count,reachable_excluding_seed,reachable_fraction_of_graph,reachable_fraction_of_maximum,role,rumor_seeds,sampling_seed,scenario_id,scenario_index,selection_policy,stratum
+email-Eu-core,0,966,965,0.9611940298507463,1.0,primary_candidate,[858],623486053121203770,email-Eu-core_high_0,2,uniform_without_replacement_within_topology_stratum,high
+ego-Facebook,1,4039,4038,1.0,1.0,primary_candidate,[1555],8896979120340374933,ego-Facebook_constant_1,5,uniform_without_replacement_within_topology_stratum,constant
+Wiki-Vote,0,2317,2316,0.32565003513703444,0.9987068965517242,primary_candidate,[2110],1968672421774739127,Wiki-Vote_high_0,8,uniform_without_replacement_within_topology_stratum,high

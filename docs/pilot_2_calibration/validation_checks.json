@@ -1,0 +1,17 @@
+{
+  "control_observations": 8800,
+  "comparison_final_observations": 48090,
+  "accuracy_observations": 90000,
+  "graph_BFS_oracle_checks": 192,
+  "artifact_hashes_checked": 133,
+  "original_file_checksums_unchanged": 39,
+  "data_files_unchanged": 14,
+  "paired_baseline_replay_equal": true,
+  "paired_GA_initial_population_and_operator_seed_equal": true,
+  "all_metrics_recomputed": true,
+  "tests": {
+    "passed": 361,
+    "runtime_seconds": 8.494,
+    "command": ".venv/bin/python -B -m unittest discover -s tests"
+  }
+}

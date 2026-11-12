@@ -1,0 +1,4 @@
+dataset,rumor_seeds,optimization_evaluator_calls_upper,optimization_CIC_upper,final_evaluator_calls,final_CIC,proxy_min_seconds_before_safety,proxy_max_seconds_before_safety,nearest_topology_nominal_proxy_seconds,planning_ceiling_seconds_with_safety_excluding_shared_overhead,actual_main_runtime_seconds,runtime_identity_between_R_assumed
+Wiki-Vote,,1120,112000,96,240000,968.2751966215226,1261.9718602364592,1198.6438970502495,1892.9577903546888,,False
+ego-Facebook,,1120,112000,96,240000,2981.9151755761122,3624.17210975116,3445.531942750922,5436.25816462674,,False
+email-Eu-core,,1120,112000,96,576000,641.2227445672443,840.2141181579739,840.2141181579739,1260.321177236961,,False

@@ -1,0 +1,11 @@
+{
+  "historical_CIC_intervals_checked": 676,
+  "main_comparison_blocks": 24,
+  "main_master": 2026111109,
+  "no_calibration_screen_confirmation_overlap": true,
+  "optimization_final_disjoint": true,
+  "passed": true,
+  "recorded_selection_RNGs_checked": 148,
+  "same_final_schedule_within_comparison": true,
+  "scope": "recorded evaluator intervals plus disjoint Cantor/master namespace; legacy SHA fitness seeds occupy64-bit space whereas main blocks exceed64-bit"
+}

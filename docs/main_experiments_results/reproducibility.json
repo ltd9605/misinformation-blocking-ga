@@ -1,0 +1,51 @@
+{
+  "all_selections_before_any_final": true,
+  "all_stored_R_and_P_are_existing_node_IDs": true,
+  "attempts": 432,
+  "bit_identical_numeric_exports": {
+    "Full_Greedy_skipped.csv": "bd636c723a501fd7d298536708b6df66df144bea3a5526546f4565f8292ba538",
+    "Full_Greedy_skipped.json": "ecd8629c58d9f6b427671041f0e04eb12a2e9f416133ce27dd8835f8211e3575",
+    "GA_convergence.csv": "d317b9453a5d9ced9c44a17f6b2ca08db0abb2bd0b8bea139e3e143a85ee26a6",
+    "GA_convergence.json": "78bbd449960fba2919a476de33d0a1ce9b68321769e44d172acce824d667ec63",
+    "final_batches.csv": "77064ef24a82e7be6810c029a8568e745ede8d73b340d0624a60896105238a6f",
+    "final_batches.json": "2b443d0f8bfbaee5bef2f25e6c791baa75ba704169a4560ce1f3a8f496681ff4",
+    "method_comparisons.csv": "cab057c82d41bf24b79d49306b3ceccd40fb2196d121885211aa13ced106202e",
+    "method_comparisons.json": "8ecf5118fef2ffcdb168b8dffaccd0c3b29784a95f363a52386107fb6848d81c",
+    "method_status.csv": "ae5a064e71b1e93f2e1716a6440ec7d83831f8fbecfb648f84c7785ac5861114",
+    "method_status.json": "d400674c0ecddc3997f3a80c88237287e1178d22f29249f93d0fc97957ab2875",
+    "results.csv": "324bfb3962f85e1dd4d7314d99ec7625d2683eedd02226bb0e2283103e9e50d1",
+    "results.json": "be876a1eca5135185207c27ba789f4185fc403f0c3f7cc646bee035808192fc0",
+    "runtime_summary.csv": "5bd3f88a615a83c5069fd11970146e2a49b2df0a217594e36617a43d18ae4287",
+    "runtime_summary.json": "e342fe448443dcff790f1fa37bf92fba8c0811ebcdb24f6ee0c1e1a43d9f74e9",
+    "summary_by_dataset.csv": "cf056d2b37743514cd54a224be31a906cc73c03518732ec218090b7ece99587e",
+    "summary_by_dataset.json": "4d9c0c9cf56334dcbbf66864620a8de4cf19cab025359873e8cb4ce5bfe151cb",
+    "summary_by_scenario.csv": "eb4c112731fadb97c0a39b16a386356655e0c755d2109b35a8e43bb03edb0a84",
+    "summary_by_scenario.json": "862c313c8aa38e4c38e099a250bcfc4570001e70541a5f95885d4a87e3cbeba7"
+  },
+  "completed_units": 432,
+  "observed_row_counts": {
+    "Full_Greedy_skipped": 24,
+    "GA_convergence": 264,
+    "final_batches": 288,
+    "method_comparisons": 45,
+    "method_status": 168,
+    "results": 144,
+    "runtime_summary": 18,
+    "summary_by_dataset": 18,
+    "summary_by_scenario": 36
+  },
+  "official_resimulations_for_reproducibility": 0,
+  "passed": true,
+  "resume_verification": {
+    "active_runtime_including_no_work_resume_seconds": 4436.3118659999745,
+    "additional_CIC_simulations": 0,
+    "completed_units_after": 432,
+    "completed_units_before": 432,
+    "new_worker_attempts": 0,
+    "original_active_runtime_seconds": 4436.311501583987,
+    "passed": true,
+    "result_hashes_identical": true
+  },
+  "same_final_context_within_all_24_comparisons": true,
+  "scope": "deterministic tests, seed/hash audit, repeated numeric reaggregation; no full main rerun"
+}

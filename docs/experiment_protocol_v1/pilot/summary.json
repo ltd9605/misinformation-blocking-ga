@@ -1,0 +1,24 @@
+{
+  "all_selections_before_final": true,
+  "budget": {
+    "charged_CIC": 154200,
+    "control_evaluator_calls": 8,
+    "final_evaluator_calls": 16,
+    "fitness_evaluator_calls": 522,
+    "measured_CIC": 154200,
+    "unknown_partial_work": false
+  },
+  "completed_GA_runs": 8,
+  "full_sweep_executed": false,
+  "inference_unit": "GA run for parameter effects; MC observations conditional on a fixed P for MC CIs",
+  "integrity": {
+    "files_compared": 32,
+    "unchanged": true
+  },
+  "main_experiments_executed": false,
+  "planned_GA_runs": 8,
+  "purpose": "bounded_milestone7_system_and_timing_pilot_only",
+  "scope_limitations": "only N10/N20, two development R, two GA runs each; does not establish sensitivity curves or winner",
+  "timing_scope": "parent wall includes workers/imports/loading/control/final/logging/exports through primary artifacts; last summary write excluded",
+  "wall_seconds_through_exports": 280.7010812080116
+}

@@ -1,0 +1,12 @@
+{
+  "GA_final_evaluation_seconds": 662.8779681649321,
+  "fitness_MC_seconds_subset_of_selection": 1389.677611971143,
+  "graph_loading_seconds": 3.8214715030335356,
+  "parent_overhead_seconds": 0.12903424903925043,
+  "process_startup_guard_and_output_seconds": 28.943975793983554,
+  "scope": "active execution incl resource guard/imports/loading/exports; analysis/tests separate; paused idle time excluded",
+  "selection_optimization_seconds": 1399.1969467500458,
+  "shared_control_evaluation_seconds": 63.19825620902702,
+  "total_active_experiment_seconds": 2163.027456875003,
+  "worker_other_seconds": 4.859804204941611
+}

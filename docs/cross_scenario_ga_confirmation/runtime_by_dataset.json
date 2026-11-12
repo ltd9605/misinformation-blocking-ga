@@ -1,0 +1,35 @@
+[
+  {
+    "CIC_simulations": 258600,
+    "cache_hits": 1074,
+    "completed_GA_runs": 9,
+    "dataset": "email-Eu-core",
+    "evaluator_calls": 1170,
+    "final_evaluation_seconds": 116.40705974899174,
+    "fitness_MC_seconds": 126.59067288787628,
+    "selection_seconds": 127.52736154101149,
+    "worker_peak_RSS_bytes": 130203648
+  },
+  {
+    "CIC_simulations": 174800,
+    "cache_hits": 1072,
+    "completed_GA_runs": 9,
+    "dataset": "ego-Facebook",
+    "evaluator_calls": 1172,
+    "final_evaluation_seconds": 443.7925005829602,
+    "fitness_MC_seconds": 1051.0406492921902,
+    "selection_seconds": 1054.0589161669923,
+    "worker_peak_RSS_bytes": 168083456
+  },
+  {
+    "CIC_simulations": 159600,
+    "cache_hits": 1224,
+    "completed_GA_runs": 9,
+    "dataset": "Wiki-Vote",
+    "evaluator_calls": 1020,
+    "final_evaluation_seconds": 102.67840783298016,
+    "fitness_MC_seconds": 212.04628979107656,
+    "selection_seconds": 217.610669042042,
+    "worker_peak_RSS_bytes": 186433536
+  }
+]

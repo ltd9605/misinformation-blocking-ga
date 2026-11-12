@@ -1,0 +1,13 @@
+{
+  "charged_cic_simulations": 250216,
+  "measured_cic_simulations": 250216,
+  "phase_wall_seconds": {
+    "accuracy": 450.8030896669952,
+    "controls": 20.26079000000027,
+    "optimize": 405.6933856250107,
+    "prepare": 0.11437695901258849,
+    "revisit_admission": 207.11164520900638,
+    "summarize": 0.13753766599984374
+  },
+  "unknown_partial_work": false
+}

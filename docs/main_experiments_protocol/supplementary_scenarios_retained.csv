@@ -1,0 +1,6 @@
+dataset,draw_index,reachable_count,reachable_excluding_seed,reachable_fraction_of_graph,reachable_fraction_of_maximum,role,rumor_seeds,sampling_seed,scenario_id,selection_policy,stratum
+email-Eu-core,0,1,0,0.0009950248756218905,0.0010351966873706005,supplementary_low_reach,[761],4457537432526573887,email-Eu-core_low_0,uniform_without_replacement_within_topology_stratum,low
+email-Eu-core,1,1,0,0.0009950248756218905,0.0010351966873706005,supplementary_low_reach,[767],4457537432526573887,email-Eu-core_low_1,uniform_without_replacement_within_topology_stratum,low
+Wiki-Vote,0,1,0,0.000140548137737175,0.0004310344827586207,supplementary_low_reach,[5288],10904362679883315821,Wiki-Vote_low_0,uniform_without_replacement_within_topology_stratum,low
+Wiki-Vote,1,1,0,0.000140548137737175,0.0004310344827586207,supplementary_low_reach,[6009],10904362679883315821,Wiki-Vote_low_1,uniform_without_replacement_within_topology_stratum,low
+Wiki-Vote,,2,1,0.00028109627547435,0.0008620689655172414,supplementary_legacy,[4341],,Wiki-Vote_legacy_4341,retained_from_prior_pilot_without_resampling,legacy_low

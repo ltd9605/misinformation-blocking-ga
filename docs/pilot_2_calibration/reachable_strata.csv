@@ -1,0 +1,13 @@
+dataset,stratum,candidate_count,sampling_seed,sample_count,status
+email-Eu-core,low,183,4457537432526573887,2,sampled
+email-Eu-core,medium,0,11844905158685849376,0,empty_topological_stratum
+email-Eu-core,high,822,623486053121203770,2,sampled
+email-Eu-core,constant,0,10719801521377152432,0,empty_topological_stratum
+ego-Facebook,low,0,667083636550651447,0,empty_topological_stratum
+ego-Facebook,medium,0,2665444923941394998,0,empty_topological_stratum
+ego-Facebook,high,0,17411687012165341232,0,empty_topological_stratum
+ego-Facebook,constant,4039,8896979120340374933,2,sampled
+Wiki-Vote,low,1957,10904362679883315821,2,sampled
+Wiki-Vote,medium,0,9341670404077523549,0,empty_topological_stratum
+Wiki-Vote,high,5158,1968672421774739127,2,sampled
+Wiki-Vote,constant,0,9689534203941395707,0,empty_topological_stratum

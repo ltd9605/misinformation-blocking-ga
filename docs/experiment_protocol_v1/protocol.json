@@ -1,0 +1,130 @@
+{
+  "S_eval_per_batch": {
+    "Wiki-Vote": 2500,
+    "ego-Facebook": 2500,
+    "email-Eu-core": 6000
+  },
+  "S_opt": 100,
+  "analysis_policy": {
+    "automatic_winner_selection": false,
+    "confidence_level": 0.95,
+    "mean_CI": "pointwise_Student_t_approximation",
+    "multiplicity_policy": "must_be_confirmed_before_inferential_main_comparisons",
+    "practical_equivalence_margin": null,
+    "select_using_training_fitness": false,
+    "selection_unit": "independent_GA_run_not_MC_observation",
+    "shared_control": "once_per_scenario_run_batch"
+  },
+  "datasets": [
+    "email-Eu-core",
+    "ego-Facebook",
+    "Wiki-Vote"
+  ],
+  "design_budget": {
+    "max_cic_simulations": 3000000,
+    "max_ga_runs": 120,
+    "max_projected_seconds": 10800,
+    "runtime_safety_factor": 1.5
+  },
+  "development_scenario_ids": [
+    "email-Eu-core_high_1",
+    "ego-Facebook_constant_0",
+    "Wiki-Vote_high_1"
+  ],
+  "execution_authorization": {
+    "bounded_pilot": true,
+    "full_parameter_sweep": false,
+    "main_experiments": false,
+    "reduced_screen": false
+  },
+  "factor_levels": {
+    "crossover_rate": [
+      0.6,
+      0.8,
+      1.0
+    ],
+    "max_generations": [
+      10,
+      20,
+      40
+    ],
+    "mutation_rate": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "population_size": [
+      10,
+      20,
+      40
+    ]
+  },
+  "final_batches": 2,
+  "full_greedy_limits": {
+    "max_cic_simulations": 2000,
+    "max_evaluator_calls": 100
+  },
+  "independent_runs": {
+    "full_design": 10,
+    "pilot": 2,
+    "reduced_screen": 3
+  },
+  "k": 5,
+  "output_directory": "results/milestone_7_pilot_v1",
+  "p": 0.03,
+  "pilot": {
+    "max_cic_simulations": 300000,
+    "max_ga_runs": 8,
+    "max_selection_seconds_per_run": 150,
+    "max_wall_seconds": 900,
+    "profile_ids": [
+      "reference",
+      "population_size_20"
+    ],
+    "scenario_ids": [
+      "email-Eu-core_high_1",
+      "Wiki-Vote_high_1"
+    ]
+  },
+  "protocol_version": "1.0",
+  "random_seed_policy": {
+    "algorithm_seed_shared_across_profiles_within_scenario_run": true,
+    "block_width": 1000000,
+    "final_seed_shared_across_profiles_within_scenario_run_batch": true,
+    "master_seed": 2026111107,
+    "scenario_run_stride": 100
+  },
+  "reduced_profiles": [
+    "reference",
+    "population_size_20",
+    "max_generations_20",
+    "crossover_rate_0p6",
+    "mutation_rate_0p2"
+  ],
+  "reference_ga": {
+    "cache_fitness": true,
+    "crossover_rate": 0.8,
+    "elitism_count": 1,
+    "max_generations": 10,
+    "mutation_rate": 0.1,
+    "population_size": 10,
+    "tournament_size": 3
+  },
+  "restricted_greedy": {
+    "pool_size": 10,
+    "ranking": "out_degree_if_directed_else_degree",
+    "tie_breaking": "ascending_actual_integer_node_id"
+  },
+  "scenario_manifest": "docs/pilot_2_calibration/rumor_scenarios.json",
+  "status": "reference_specification_not_optimal_parameters",
+  "supplementary_roles": [
+    "supplementary_low_reach",
+    "supplementary_legacy"
+  ],
+  "tie_breaking": "protector-priority",
+  "validation_scenario_ids": [
+    "email-Eu-core_high_0",
+    "ego-Facebook_constant_1",
+    "Wiki-Vote_high_0"
+  ]
+}

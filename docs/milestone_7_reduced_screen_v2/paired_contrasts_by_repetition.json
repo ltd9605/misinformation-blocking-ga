@@ -1,0 +1,562 @@
+[
+  {
+    "conditional_MC_SE_of_difference": 0.17640985164162581,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.17640985164162581,
+      "ci95_high": 0.43462516976865123,
+      "ci95_low": -0.2569585031019846,
+      "mean_difference": 0.08883333333333333,
+      "unresolved_at_pointwise_95": true
+    },
+    "difference": 0.08883333333333354,
+    "factor": "population_size",
+    "profile_id": "population_size_20",
+    "repetition_index": 0
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.3381401791112861,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.3381401791112861,
+      "ci95_high": -2.2390239016639915,
+      "ci95_low": -3.564642765002675,
+      "mean_difference": -2.9018333333333333,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -2.901833333333334,
+    "factor": "population_size",
+    "profile_id": "population_size_20",
+    "repetition_index": 1
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.24393871649593998,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.24393871649593998,
+      "ci95_high": 1.7349093316350916,
+      "ci95_low": 0.7785906683649084,
+      "mean_difference": 1.25675,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": 1.2567500000000003,
+    "factor": "population_size",
+    "profile_id": "population_size_20",
+    "repetition_index": 2
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.3524416514758054,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.3524416514758054,
+      "ci95_high": -2.137490703140008,
+      "ci95_low": -3.519175963526658,
+      "mean_difference": -2.828333333333333,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -2.828333333333334,
+    "factor": "population_size",
+    "profile_id": "population_size_20",
+    "repetition_index": 3
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.1875113212436526,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.1875113212436526,
+      "ci95_high": -1.5006141545939464,
+      "ci95_low": -2.2357191787393873,
+      "mean_difference": -1.8681666666666668,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -1.8681666666666663,
+    "factor": "population_size",
+    "profile_id": "population_size_20",
+    "repetition_index": 4
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.1713596260908237,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.1713596260908237,
+      "ci95_high": -0.33752408898234,
+      "ci95_low": -1.0093092443509932,
+      "mean_difference": -0.6734166666666667,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -0.6734166666666668,
+    "factor": "population_size",
+    "profile_id": "population_size_40",
+    "repetition_index": 0
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.3267690510345533,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.3267690510345533,
+      "ci95_high": -3.485146484851593,
+      "ci95_low": -4.76618684848174,
+      "mean_difference": -4.125666666666667,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -4.1256666666666675,
+    "factor": "population_size",
+    "profile_id": "population_size_40",
+    "repetition_index": 1
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.1822249968762005,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.1822249968762005,
+      "ci95_high": -0.4104762052050853,
+      "ci95_low": -1.124857128128248,
+      "mean_difference": -0.7676666666666667,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -0.767666666666666,
+    "factor": "population_size",
+    "profile_id": "population_size_40",
+    "repetition_index": 2
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.31084668500821216,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.31084668500821216,
+      "ci95_high": -4.775856897067283,
+      "ci95_low": -5.9944764362660505,
+      "mean_difference": -5.385166666666667,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -5.385166666666667,
+    "factor": "population_size",
+    "profile_id": "population_size_40",
+    "repetition_index": 3
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.19754274137165806,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.19754274137165806,
+      "ci95_high": -1.4101176156298751,
+      "ci95_low": -2.1845490510367913,
+      "mean_difference": -1.7973333333333332,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -1.797333333333333,
+    "factor": "population_size",
+    "profile_id": "population_size_40",
+    "repetition_index": 4
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.17064150513432827,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.17064150513432827,
+      "ci95_high": -0.4607650555176654,
+      "ci95_low": -1.1297349444823346,
+      "mean_difference": -0.79525,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -0.7952500000000002,
+    "factor": "max_generations",
+    "profile_id": "max_generations_20",
+    "repetition_index": 0
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.3414320546613808,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.3414320546613808,
+      "ci95_high": -2.030071293256972,
+      "ci95_low": -3.3685953734096943,
+      "mean_difference": -2.699333333333333,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -2.6993333333333336,
+    "factor": "max_generations",
+    "profile_id": "max_generations_20",
+    "repetition_index": 1
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.32272839924007457,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.32272839924007457,
+      "ci95_high": 4.621016517551204,
+      "ci95_low": 3.3558168157821293,
+      "mean_difference": 3.9884166666666667,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": 3.9884166666666667,
+    "factor": "max_generations",
+    "profile_id": "max_generations_20",
+    "repetition_index": 2
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.5691465759213319,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.5691465759213319,
+      "ci95_high": 8.028369325436085,
+      "ci95_low": 5.797130674563915,
+      "mean_difference": 6.91275,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": 6.912749999999999,
+    "factor": "max_generations",
+    "profile_id": "max_generations_20",
+    "repetition_index": 3
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.24742776525837137,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.24742776525837137,
+      "ci95_high": 0.32149843142314916,
+      "ci95_low": -0.6484984314231492,
+      "mean_difference": -0.1635,
+      "unresolved_at_pointwise_95": true
+    },
+    "difference": -0.16349999999999998,
+    "factor": "max_generations",
+    "profile_id": "max_generations_20",
+    "repetition_index": 4
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.18690170085847846,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.18690170085847846,
+      "ci95_high": 0.13527422420280014,
+      "ci95_low": -0.5974408908694668,
+      "mean_difference": -0.23108333333333334,
+      "unresolved_at_pointwise_95": true
+    },
+    "difference": -0.2310833333333333,
+    "factor": "max_generations",
+    "profile_id": "max_generations_40",
+    "repetition_index": 0
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.5229767857624701,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.5229767857624701,
+      "ci95_high": 6.175285737279687,
+      "ci95_low": 4.125047596053646,
+      "mean_difference": 5.150166666666666,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": 5.1501666666666654,
+    "factor": "max_generations",
+    "profile_id": "max_generations_40",
+    "repetition_index": 1
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.23561791956497424,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.23561791956497424,
+      "ci95_high": 1.247099224095241,
+      "ci95_low": 0.323400775904759,
+      "mean_difference": 0.78525,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": 0.7852500000000004,
+    "factor": "max_generations",
+    "profile_id": "max_generations_40",
+    "repetition_index": 2
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.337938658042689,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.337938658042689,
+      "ci95_high": -3.017668915546391,
+      "ci95_low": -4.342497751120275,
+      "mean_difference": -3.680083333333333,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -3.680083333333334,
+    "factor": "max_generations",
+    "profile_id": "max_generations_40",
+    "repetition_index": 3
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.35583932327271545,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.35583932327271545,
+      "ci95_high": 4.930169283019069,
+      "ci95_low": 3.535164050314265,
+      "mean_difference": 4.232666666666667,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": 4.232666666666667,
+    "factor": "max_generations",
+    "profile_id": "max_generations_40",
+    "repetition_index": 4
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.2970369726709149,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.2970369726709149,
+      "ci95_high": 3.9024071669178824,
+      "ci95_low": 2.737926166415451,
+      "mean_difference": 3.3201666666666667,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": 3.3201666666666663,
+    "factor": "crossover_rate",
+    "profile_id": "crossover_rate_0p6",
+    "repetition_index": 0
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.42271939934548963,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.42271939934548963,
+      "ci95_high": 1.6347650472914612,
+      "ci95_low": -0.022431713958127708,
+      "mean_difference": 0.8061666666666667,
+      "unresolved_at_pointwise_95": true
+    },
+    "difference": 0.806166666666666,
+    "factor": "crossover_rate",
+    "profile_id": "crossover_rate_0p6",
+    "repetition_index": 1
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.21010570651082672,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.21010570651082672,
+      "ci95_high": -0.019242172401392088,
+      "ci95_low": -0.8429244942652745,
+      "mean_difference": -0.4310833333333333,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -0.4310833333333335,
+    "factor": "crossover_rate",
+    "profile_id": "crossover_rate_0p6",
+    "repetition_index": 2
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.33466439500602774,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.33466439500602774,
+      "ci95_high": -1.7070870005789636,
+      "ci95_low": -3.0190796660877033,
+      "mean_difference": -2.3630833333333334,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -2.363083333333334,
+    "factor": "crossover_rate",
+    "profile_id": "crossover_rate_0p6",
+    "repetition_index": 3
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.28258372983223257,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.28258372983223257,
+      "ci95_high": 1.9594931403884202,
+      "ci95_low": 0.8516735262782467,
+      "mean_difference": 1.4055833333333334,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": 1.4055833333333334,
+    "factor": "crossover_rate",
+    "profile_id": "crossover_rate_0p6",
+    "repetition_index": 4
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.20588080482500148,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.20588080482500148,
+      "ci95_high": 0.33272633708600297,
+      "ci95_low": -0.4743930037526696,
+      "mean_difference": -0.07083333333333333,
+      "unresolved_at_pointwise_95": true
+    },
+    "difference": -0.07083333333333375,
+    "factor": "crossover_rate",
+    "profile_id": "crossover_rate_1",
+    "repetition_index": 0
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.4360734922372305,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.4360734922372305,
+      "ci95_high": 2.4398578955148347,
+      "ci95_low": 0.7303087711518322,
+      "mean_difference": 1.5850833333333334,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": 1.5850833333333334,
+    "factor": "crossover_rate",
+    "profile_id": "crossover_rate_1",
+    "repetition_index": 1
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.35915701215784107,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.35915701215784107,
+      "ci95_high": 5.565089156403686,
+      "ci95_low": 4.1570775102629804,
+      "mean_difference": 4.861083333333333,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": 4.861083333333334,
+    "factor": "crossover_rate",
+    "profile_id": "crossover_rate_1",
+    "repetition_index": 2
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.3836161058832876,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.3836161058832876,
+      "ci95_high": -0.517050397950412,
+      "ci95_low": -2.020949602049588,
+      "mean_difference": -1.269,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -1.2690000000000001,
+    "factor": "crossover_rate",
+    "profile_id": "crossover_rate_1",
+    "repetition_index": 3
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.2938044372232478,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.2938044372232478,
+      "ci95_high": 2.577654208040836,
+      "ci95_low": 1.4258457919591638,
+      "mean_difference": 2.00175,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": 2.0017500000000004,
+    "factor": "crossover_rate",
+    "profile_id": "crossover_rate_1",
+    "repetition_index": 4
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.17973957753946623,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.17973957753946623,
+      "ci95_high": -0.24859802902197237,
+      "ci95_low": -0.9532353043113609,
+      "mean_difference": -0.6009166666666667,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -0.600916666666667,
+    "factor": "mutation_rate",
+    "profile_id": "mutation_rate_0p05",
+    "repetition_index": 0
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.3139369990459033,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.3139369990459033,
+      "ci95_high": -3.8566327151523985,
+      "ci95_low": -5.087367284847602,
+      "mean_difference": -4.472,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -4.472000000000001,
+    "factor": "mutation_rate",
+    "profile_id": "mutation_rate_0p05",
+    "repetition_index": 1
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.2384670318171453,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.2384670318171453,
+      "ci95_high": 1.5242672781724589,
+      "ci95_low": 0.5893993884942077,
+      "mean_difference": 1.0568333333333333,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": 1.0568333333333335,
+    "factor": "mutation_rate",
+    "profile_id": "mutation_rate_0p05",
+    "repetition_index": 2
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.3597983150475956,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.3597983150475956,
+      "ci95_high": -0.5725704528940416,
+      "ci95_low": -1.9830962137726251,
+      "mean_difference": -1.2778333333333334,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -1.2778333333333336,
+    "factor": "mutation_rate",
+    "profile_id": "mutation_rate_0p05",
+    "repetition_index": 3
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.2292986304595469,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.2292986304595469,
+      "ci95_high": 0.21729572889038964,
+      "ci95_low": -0.681629062223723,
+      "mean_difference": -0.23216666666666666,
+      "unresolved_at_pointwise_95": true
+    },
+    "difference": -0.2321666666666662,
+    "factor": "mutation_rate",
+    "profile_id": "mutation_rate_0p05",
+    "repetition_index": 4
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.24666117961967254,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.24666117961967254,
+      "ci95_high": 2.0056624662734865,
+      "ci95_low": 1.0386708670598466,
+      "mean_difference": 1.5221666666666667,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": 1.5221666666666662,
+    "factor": "mutation_rate",
+    "profile_id": "mutation_rate_0p2",
+    "repetition_index": 0
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.32550811043786615,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.32550811043786615,
+      "ci95_high": -3.047951465660999,
+      "ci95_low": -4.324048534339001,
+      "mean_difference": -3.686,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -3.686000000000001,
+    "factor": "mutation_rate",
+    "profile_id": "mutation_rate_0p2",
+    "repetition_index": 1
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.16476626657011054,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.16476626657011054,
+      "ci95_high": -1.197281473187715,
+      "ci95_low": -1.8432185268122852,
+      "mean_difference": -1.52025,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -1.5202499999999999,
+    "factor": "mutation_rate",
+    "profile_id": "mutation_rate_0p2",
+    "repetition_index": 2
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.3762351739492171,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.3762351739492171,
+      "ci95_high": -1.2869348847775492,
+      "ci95_low": -2.761898448555784,
+      "mean_difference": -2.0244166666666668,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -2.024416666666667,
+    "factor": "mutation_rate",
+    "profile_id": "mutation_rate_0p2",
+    "repetition_index": 3
+  },
+  {
+    "conditional_MC_SE_of_difference": 0.2174757976091697,
+    "conditional_paired_MC_diagnostics": {
+      "SE_difference": 0.2174757976091697,
+      "ci95_high": -0.09079560203201786,
+      "ci95_low": -0.9433710646346488,
+      "mean_difference": -0.5170833333333333,
+      "unresolved_at_pointwise_95": false
+    },
+    "difference": -0.5170833333333329,
+    "factor": "mutation_rate",
+    "profile_id": "mutation_rate_0p2",
+    "repetition_index": 4
+  }
+]

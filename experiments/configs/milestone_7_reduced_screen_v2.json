@@ -1,0 +1,25 @@
+{
+  "purpose": "single_scenario_OFAT_reduced_screen_not_main",
+  "protocol_path": "experiments/configs/experiment_protocol_v1.json",
+  "exported_protocol_design": "docs/experiment_protocol_v1",
+  "scenario_id": "email-Eu-core_high_1",
+  "requested_independent_runs": 5,
+  "screen_master_seed": 2026111110,
+  "reserved_main_master_seed": 2026111109,
+  "optimization_seed_policy": "distinct_per_profile_and_repetition",
+  "final_seed_policy": "shared_across_profiles_within_repetition_independent_of_optimization",
+  "runtime_overhead_allowance_seconds": 300,
+  "worker_timeout_seconds": 600,
+  "main_experiments_authorized": false,
+  "full_design_authorized": false,
+  "output_directory": "results/milestone_7_reduced_screen_v2",
+  "export_directory": "docs/milestone_7_reduced_screen_v2",
+  "analysis": {
+    "confidence": 0.95,
+    "primary_unit": "independent_GA_run",
+    "contrasts": "eight_alternatives_vs_shared_reference_paired_by_repetition",
+    "multiplicity": "Bonferroni_simultaneous_CI_across_eight_contrasts",
+    "practical_difference_threshold": null,
+    "automatic_winner_selection": false
+  }
+}

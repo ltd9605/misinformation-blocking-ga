@@ -1,0 +1,8 @@
+{
+  "charged_CIC": 154200,
+  "control_evaluator_calls": 8,
+  "final_evaluator_calls": 16,
+  "fitness_evaluator_calls": 522,
+  "measured_CIC": 154200,
+  "unknown_partial_work": false
+}

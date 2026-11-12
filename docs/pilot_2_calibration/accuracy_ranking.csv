@@ -1,0 +1,19 @@
+dataset,batch,S_eval,order,method_count
+email-Eu-core,0,500,"[""pagerank"", ""degree"", ""candidate_restricted_greedy"", ""genetic_algorithm"", ""random"", ""no_intervention""]",6
+email-Eu-core,0,1000,"[""degree"", ""pagerank"", ""candidate_restricted_greedy"", ""genetic_algorithm"", ""random"", ""no_intervention""]",6
+email-Eu-core,0,2500,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""genetic_algorithm"", ""random"", ""no_intervention""]",6
+email-Eu-core,1,500,"[""candidate_restricted_greedy"", ""pagerank"", ""degree"", ""genetic_algorithm"", ""random"", ""no_intervention""]",6
+email-Eu-core,1,1000,"[""candidate_restricted_greedy"", ""pagerank"", ""degree"", ""genetic_algorithm"", ""random"", ""no_intervention""]",6
+email-Eu-core,1,2500,"[""pagerank"", ""degree"", ""candidate_restricted_greedy"", ""genetic_algorithm"", ""random"", ""no_intervention""]",6
+ego-Facebook,0,500,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""genetic_algorithm"", ""random"", ""no_intervention""]",6
+ego-Facebook,0,1000,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""genetic_algorithm"", ""random"", ""no_intervention""]",6
+ego-Facebook,0,2500,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""genetic_algorithm"", ""random"", ""no_intervention""]",6
+ego-Facebook,1,500,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""genetic_algorithm"", ""random"", ""no_intervention""]",6
+ego-Facebook,1,1000,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""genetic_algorithm"", ""random"", ""no_intervention""]",6
+ego-Facebook,1,2500,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""genetic_algorithm"", ""random"", ""no_intervention""]",6
+Wiki-Vote,0,500,"[""degree"", ""candidate_restricted_greedy"", ""genetic_algorithm"", ""pagerank"", ""random"", ""no_intervention""]",6
+Wiki-Vote,0,1000,"[""degree"", ""candidate_restricted_greedy"", ""genetic_algorithm"", ""pagerank"", ""random"", ""no_intervention""]",6
+Wiki-Vote,0,2500,"[""candidate_restricted_greedy"", ""degree"", ""genetic_algorithm"", ""pagerank"", ""random"", ""no_intervention""]",6
+Wiki-Vote,1,500,"[""candidate_restricted_greedy"", ""degree"", ""genetic_algorithm"", ""pagerank"", ""no_intervention"", ""random""]",6
+Wiki-Vote,1,1000,"[""candidate_restricted_greedy"", ""degree"", ""genetic_algorithm"", ""pagerank"", ""random"", ""no_intervention""]",6
+Wiki-Vote,1,2500,"[""candidate_restricted_greedy"", ""degree"", ""genetic_algorithm"", ""pagerank"", ""no_intervention"", ""random""]",6

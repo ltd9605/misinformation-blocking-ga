@@ -1,0 +1,42 @@
+[
+  {
+    "condition": "MC_fitness_accuracy",
+    "detail": "S_opt100 has residual selection/validation gaps, particularly Wiki; no optimum claim"
+  },
+  {
+    "condition": "email_final_accuracy",
+    "detail": "S_eval6000 was a Pilot2 extrapolation; bounded pilot only validates limited P/R contexts"
+  },
+  {
+    "condition": "rumor_scenario_coverage",
+    "detail": "Validation R858/1555/2110 have control scans but no GA quality tuning; supplementary low cases retained"
+  },
+  {
+    "condition": "replication_power",
+    "detail": "10 full/3 reduced runs are design choices, not a completed statistical-power analysis; pilot has 2"
+  },
+  {
+    "condition": "parameter_levels",
+    "detail": "Proposed levels support OFAT screening; no global optimum or interactions established"
+  },
+  {
+    "condition": "practical_effect",
+    "detail": "Equivalence margin is unset; uncertain pairs cannot be called equal or strictly ranked"
+  },
+  {
+    "condition": "multiplicity",
+    "detail": "Confirm comparison family/multiplicity policy before inferential full study"
+  },
+  {
+    "condition": "runtime_transfer",
+    "detail": "Rates measured on one R per dataset; new P/N/G/R can change work; forecasts are not measured upper bounds"
+  },
+  {
+    "condition": "secondary_probability",
+    "detail": "p=.05/.10 not authorized in this sensitivity plan; require separate protocol/calibration"
+  },
+  {
+    "condition": "main_authorization",
+    "detail": "Full sweep, reduced screen and main experiments remain disabled until explicitly authorized"
+  }
+]

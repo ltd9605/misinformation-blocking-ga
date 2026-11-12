@@ -1,11 +1,19 @@
-# Misinformation blocking — Milestones 1–6
+# Misinformation blocking — Milestones 1–9
 
 Dataset pipeline cho đồ án nghiên cứu ngăn chặn lan truyền thông tin sai lệch.
 Phạm vi hiện tại: load, validate, preprocess, lưu/đọc graph và mô phỏng
 Independent Cascade (IC), Competitive Independent Cascade (CIC), Monte Carlo
 evaluator, ba baseline Random/Degree/PageRank, Greedy/Monte-Carlo (Full và
 Candidate-Restricted), Genetic Algorithm và Experiment Runner cấu hình bằng JSON.
-Chỉ chạy kiểm thử/pilot nhẹ; chưa chạy thực nghiệm chính thức.
+Main Experiments đã hoàn thành theo Protocol V2; kết quả và biểu đồ ở
+[MAIN_EXPERIMENTS_RESULTS.md](MAIN_EXPERIMENTS_RESULTS.md).
+
+Bản chốt dùng cho phụ lục báo cáo:
+[THESIS_VERSION.md](THESIS_VERSION.md), tag `thesis-chapter3-v1.0`.
+
+Để tự cấu hình và chạy một ví dụ nhỏ, xem
+[Hướng dẫn chạy thủ công](HUONG_DAN_CHAY_THU_CONG.md): đồ thị tổng hợp 9 nút,
+JSON có sẵn, preflight, lệnh Terminal, đọc CSV/convergence và kiểm tra bằng tay.
 
 ## Môi trường
 
@@ -651,6 +659,210 @@ Trước main experiments còn phải chốt R/policy, k, p, S_opt/S_eval, GA pa
 candidate pools/limits, số independent runs và study seed schedule. Chưa chạy
 parameter study hoặc thực nghiệm chính thức trên ba bộ dữ liệu.
 
+## Pilot Protocol Validation
+
+Đã kiểm chứng nhẹ cả ba datasets, k=5, rumor count=1, p=0.01/0.05,
+S_opt=20/S_eval=200, GA N=10/G=10, 3 independent runs mỗi dataset–p. R được
+lưu trước mô phỏng, không resample theo outcomes. 3 smokes và 18 pilots thành
+công; Full Greedy skipped rõ lý do cost limits, sáu phương pháp còn lại chạy
+cùng protocol. Chưa main experiments hoặc parameter study.
+
+Runner thêm `skipped_algorithms: {"full_greedy": "reason"}` cho method không
+được chọn; không được khai báo skipped cho method đang chọn. `method_status.csv`
+và JSON có đủ 7 statuses; `results.csv` chỉ có số đo đã thực thi. Orchestration
+runtime có breakdown riêng trong metadata, là phần con của tổng overhead.
+
+```sh
+python -B -m experiments.pilot_protocol_validation --output-dir results/pilot_protocol_validation_repeat
+```
+
+Config/resource caps nằm trong `experiments/configs/pilot_protocol_validation.json`.
+Chương trình preflight trước, smoke tất cả datasets trước pilot, chạy tuần tự,
+có hard timeout và ghi skipped/failed/timed_out khác nhau; partial work không
+được báo giả là zero. Independent run index ánh xạ riêng mỗi matrix cell;
+replicate index vẫn 0–2. Dữ liệu/semantics thuật toán giữ nguyên.
+
+Xem [PILOT_PROTOCOL_VALIDATION.md](PILOT_PROTOCOL_VALIDATION.md) và compact
+CSV/JSON trong `docs/pilot_protocol_validation/`. Raw observations/per-case
+artifacts nằm trong results. S=20/200 khả thi về compute, chưa được chốt cho
+main experiments: p=0.05 còn variance lớn; Wiki R đã chọn chỉ reachable 2 nodes.
+
+## Pilot 2 – Calibration
+
+[PILOT_2_CALIBRATION.md](PILOT_2_CALIBRATION.md) ghi kết quả đo, ngoại suy và
+bảng protocol Chương 3 dạng draft. Compact CSV/JSON/figures ở
+`docs/pilot_2_calibration/`; raw/traces/logs ở `results/pilot_2_calibration/`.
+
+Đã tính reachable cho mọi node, giữ empty strata và low/legacy scenarios;
+scan No Intervention với 11 R × 4 p × 2 batches, sau đó hiệu chỉnh MC trên
+các reference R/p được chọn chỉ từ control. Đã chạy 16 optimization comparisons
+và 3 smokes, 2 independent accuracy batches tới S_eval=2500 trên mỗi dataset.
+Facebook S_opt250 skipped do projected runtime; Wiki chỉ có reference S_opt100.
+250.216 CIC simulations, 361 tests pass; core/runner/data/dependencies giữ nguyên.
+
+```sh
+python -B -m experiments.pilot_2_calibration --output-dir results/pilot_2_repeat
+python -B -m experiments.analyze_pilot_2 --root results/pilot_2_repeat
+```
+
+Có phase CLI riêng để không tự rerun một đợt đã thực thi. Config pilot/resource
+limits nằm trong `experiments/configs/pilot_2_calibration.json`. Main proposal
+JSON là tài liệu dự kiến, không phải config thực thi đã xác nhận. Chưa chạy
+main experiments/Milestone 7. Không kết luận thuật toán thắng từ calibration.
+
+## Experimental Protocol v1 và Milestone 7 pilot
+
+[EXPERIMENT_PROTOCOL_V1.md](EXPERIMENT_PROTOCOL_V1.md) cố định reference setup
+và xuất các bảng để đối chiếu mục 3.3/3.5. Specification JSON nằm trong
+`experiments/configs/experiment_protocol_v1.json`; tables/preflight ở
+`docs/experiment_protocol_v1/`. Đây là reference, không phải tham số tối ưu.
+
+OFAT population/generations/crossover/mutation có 12 panel rows, 9 unique
+profiles, shared physical baseline. Full design 270 GA runs/7,3 triệu CIC vượt
+budget; reduced screen 45 runs/1,026 triệu CIC fit dự tính nhưng chưa chạy.
+Chỉ bounded pilot N10/N20 trên R926/R1210 đã chạy: 8/8 runs, 154.200 CIC,
+280,701 s. Không full sweep hoặc main experiments. 379 tests pass, old core/
+runner/data/dependencies không đổi. Không chọn winner từ hai pilot repeats.
+
+```sh
+python -B -m experiments.design_protocol_v1 --output-dir docs/protocol_v1_design_repeat
+python -B -m experiments.pilot_milestone_7 --output-dir results/milestone_7_pilot_v1_repeat
+```
+
+Pilot CLI kiểm tra protocol/manifest/schedule/evidence đã export và chỉ dùng
+frozen pilot schedule. Nó chốt mọi P trước final/control, lưu hai independent
+final batches mỗi P và pooled statistics có sample size rõ ràng. Conditional
+MC uncertainty và variance giữa independent GA runs được báo riêng. Không có
+dispatcher tự chạy full/reduced design khi thấy fit budget.
+
+## Milestone 7 – Reduced Screen preflight
+
+[MILESTONE_7_REDUCED_SCREEN.md](MILESTONE_7_REDUCED_SCREEN.md) giải thích rõ
+45 runs v1 là tổng 5 profiles × 3 scenarios × 3 repeats. Yêu cầu 5 repeats
+mới thành 75 runs, 25 mỗi dataset/scenario. Ma trận đầy đủ và seeds ở
+`docs/milestone_7_reduced_screen/`; không sửa frozen Protocol-v1 JSON.
+
+Preflight dự tính 10.985,164 s vượt cap10.800 s; đã dừng trước execution theo
+yêu cầu người dùng. 75 planned runs explicit skipped, quality/CI/runtime=null,
+không tạo experimental plots hoặc chọn winner từ dữ liệu không tồn tại.
+Không tăng budget/giảm repeats tự động, không chạy full design/main. 389 tests
+pass; data và các lõi giữ nguyên checksum.
+
+```sh
+python -B -m experiments.preflight_reduced_screen --output-dir docs/reduced_screen_preflight_repeat
+```
+
+Đây là preflight-only CLI. Screen seed namespace tách pilot/main; reserved
+validation scenarios được giữ nguyên. Các phương án tiếp tục trong báo cáo
+chỉ là đề xuất, chưa được thực thi.
+
+## Milestone 7 – Reduced Screen V2
+
+[MILESTONE_7_REDUCED_SCREEN_V2.md](MILESTONE_7_REDUCED_SCREEN_V2.md) ghi thiết kế
+được user điều chỉnh: 9 profiles × email R926 ×5 repeats =45/45 GA runs thành
+công. Bốn panel OFAT có đủ ba mức, reference dùng chung, giữ k5/p.03/S_opt100/
+S_eval6000 mỗi batch/B2. Không so sánh khác dataset để suy ra hiệu ứng tham số.
+
+Preflight gồm safety/overhead=2.898,246 s <10.800 s; thực đo khoảng1.116,95 s,
+3.243 calls/914.300 CIC. Checkpoint lưu từng run, resume không lặp lại run đã
+hoàn tất hoặc reset budget. CSV/JSON, convergence và plots ở
+`docs/milestone_7_reduced_screen_v2/`; raw ở `results/milestone_7_reduced_screen_v2/`.
+415 tests pass, 44 protected file hashes/14 data files không đổi. CI hiệu chỉnh
+cả 8 contrasts còn chứa0; không chốt GA tối ưu hoặc chạy Full Design/main.
+
+```sh
+python -B -m experiments.reduced_screen_v2 --phase preflight
+python -B -u -m experiments.reduced_screen_v2 --phase run
+python -B -m experiments.analyze_reduced_screen_v2
+```
+
+Code mới: `experiments/reduced_screen_v2.py`,
+`experiments/analyze_reduced_screen_v2.py`, request JSON V2 và hai test modules
+`tests/test_reduced_screen_v2*.py`. Các semantics core và Protocol-v1 JSON giữ nguyên.
+
+## Cross-Scenario GA Configuration Confirmation
+
+[CROSS_SCENARIO_GA_CONFIRMATION.md](CROSS_SCENARIO_GA_CONFIRMATION.md):
+27/27 GA runs trên email R858,Facebook R1555,Wiki R2110; N10/N20/N40,3 repeats,
+các điều kiện còn lại v1 giữ nguyên. Preflight gồm safety/overhead6.359,888s
+<10.800s. Thực đo3.362 calls/593.000CIC,active2.163,03s,peakRSS177,8MiB <2GiB.
+443 tests pass,44 protected file hashes/14 data files không đổi.
+
+Các contrasts được phân tích riêng dataset; cả6 family CIs chứa0. Giữ reference
+như practical candidate, không chứng minh equivalence hoặc optimality. Các R
+confirmation không còn blind main holdouts; topology-only main reservations
+và seed slots riêng ở docs/cross_scenario_ga_confirmation. Chưa chốt/chạy main.
+
+```sh
+python -B -m experiments.cross_scenario_ga_confirmation --phase preflight
+python -B -u -m experiments.cross_scenario_ga_confirmation --phase run
+python -B -m experiments.analyze_cross_scenario_confirmation
+```
+
+Runner checkpoint/resume theo fingerprint, giám sát RSS bằng resource/heartbeat
+và timeout, gọi lại V2 GA/evaluator bridge. Raw ở results/cross_scenario_ga_confirmation
+(gitignored); compact CSV/JSON/per-run histories và figures ở docs cùng tên.
+New code: `experiments/cross_scenario_ga_confirmation.py`,
+`experiments/analyze_cross_scenario_confirmation.py`, config JSON và
+`tests/test_cross_scenario_confirmation.py`, `tests/test_cross_scenario_analysis.py`.
+
+## Main Experiments — Design Freeze & Preflight
+
+[MAIN_EXPERIMENTS_PROTOCOL.md](MAIN_EXPERIMENTS_PROTOCOL.md) khóa GA reference
+theo user; giữ6 main R topology-only đã reserve. Proposal5 repeats ×6R ×6methods
+=180 primary rows +30 Full Greedy skipped. Upper4.560 evaluator calls/1.740.000
+CIC, runtime proxy có safety/overhead11.036,921s >10.800s: **stopped_at_preflight**.
+Không tự hạ repeats hoặc chạy main. Các phương án3/4/10 chỉ là arithmetic
+proposals cần xác nhận. Exact source rates/topology/matrix/seed schedules và
+unconfirmed conditions ở `docs/main_experiments_protocol/`.
+
+461 tests pass;64 existing protected files, gồm14 data files, checksum giữ
+nguyên. Statistics prespecify paired comparisons/family45/equal-weight scenarios
+trong từng dataset; không pool quality giữa graph hoặc suy equivalence từ CI0.
+Chỉ có planning CLI, chưa main all-methods two-batch execution adapter:
+
+```sh
+python -B -m experiments.design_main_experiments --output-dir docs/main_design_repeat
+```
+
+New files: `experiments/design_main_experiments.py`,
+`experiments/configs/main_experiments_protocol.json`,
+`tests/test_main_experiments_design.py`. Config này là design specification,
+không là executable one-batch runner config; main execution/design flags=false.
+
+## Main Experiments V2: 4 independent runs
+
+[Protocol V2](MAIN_EXPERIMENTS_PROTOCOL_V2.md) ghi nhận lựa chọn 4 runs/scenario
+của người dùng, giữ nguyên protocol 5 runs và toàn bộ thiết lập khoa học.
+Ma trận gồm 6 scenarios × 4 runs × 6 methods = 144 primary result rows;
+24 Full Greedy rows được ghi skipped riêng vì vượt giới hạn chi phí.
+Preflight: tối đa 3.648 evaluator calls/1.392.000 CIC, runtime projection
+8.889,537 s trong ngân sách 10.800 s. Đã hoàn thành 144/144 primary rows,
+0 failed; actual 2.058 evaluator calls/1.233.000 CIC trong 4.436,312 s.
+493/493 tests pass; checksum 67 protected files/14 data files và topology giữ
+nguyên. [MAIN_EXPERIMENTS_RESULTS.md](MAIN_EXPERIMENTS_RESULTS.md) báo cáo
+9/45 effects phân biệt được và 36 chưa đủ bằng chứng, không suy global winner.
+Resume không tạo thêm worker/CIC; tái tổng hợp raw counts cho numeric outputs
+identical, không chạy lại toàn bộ main. Giữ nguyên 19 reduction âm.
+
+Runner gọi các implementation đã kiểm chứng, khóa 144 tập P trước khi bắt đầu
+288 final batches. Mỗi selection/batch có atomic checkpoint, raw counts và
+checksum. Resume kiểm tra code/config/data/seed/P rồi bỏ qua unit đã hoàn tất;
+chỉ chạy một tiến trình điều phối trên cùng output directory.
+
+```sh
+python -B -m experiments.main_experiments --phase run
+python -B -m experiments.analyze_main_experiments
+```
+
+Lệnh đầu chỉ thực thi hoặc resume ma trận V2 đã được xác nhận. Lệnh phân tích
+chỉ đọc các observations đã lưu, không chạy thêm Monte Carlo. CSV/JSON, 15
+biểu đồ (PNG/SVG), uncertainty, runtime và audit xuất riêng ở
+`docs/main_experiments_results/`; checkpoint/raw ở `results/main_experiments_v2/`
+(gitignored). Protocol V2 và seed audit ở `docs/main_experiments_protocol_v2/`.
+Không dùng training fitness làm final quality, không clip reduction âm,
+không tuning tiếp hoặc thêm thí nghiệm ngoài ma trận.
+
 ## Tests
 
 ```sh
@@ -698,6 +910,9 @@ Tests Runner kiểm tra cấu hình/giới hạn, tất cả bảy phương phá
 fixtures, fairness R/k/p/tie/final seeds, preflight trước bất kỳ selection nào,
 selection hoàn tất trước final, replay/order independence, k=0, null metrics,
 bytes/topology/attributes, atomic output, CSV/JSON/convergence và CLI Unicode.
+Tests Protocol bổ sung explicit skipped/empty-P status, runtime accounting,
+rumor policy trên sparse IDs, reachability, budget planning, timeout bookkeeping,
+descriptive spread/precision metrics và không tạo kết quả giả khi skipped.
 
 ## Cấu trúc mã nguồn
 

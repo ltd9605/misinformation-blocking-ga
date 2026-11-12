@@ -1,0 +1,10 @@
+profile_id,cache_fitness,crossover_rate,elitism_count,max_generations,mutation_rate,population_size,tournament_size
+reference,True,0.8,1,10,0.1,10,3
+population_size_20,True,0.8,1,10,0.1,20,3
+population_size_40,True,0.8,1,10,0.1,40,3
+max_generations_20,True,0.8,1,20,0.1,10,3
+max_generations_40,True,0.8,1,40,0.1,10,3
+crossover_rate_0p6,True,0.6,1,10,0.1,10,3
+crossover_rate_1,True,1.0,1,10,0.1,10,3
+mutation_rate_0p05,True,0.8,1,10,0.05,10,3
+mutation_rate_0p2,True,0.8,1,10,0.2,10,3

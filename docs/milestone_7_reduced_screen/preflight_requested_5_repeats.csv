@@ -1,0 +1,16 @@
+scenario_id,dataset,rumor_seeds,profile_id,independent_runs,optimization_evaluator_calls_upper,optimization_cic_upper,final_evaluator_calls,final_cic,control_cic_shared_per_scenario,projected_seconds_excluding_shared_control,rate_evidence_scope,projection_is_measurement
+email-Eu-core_high_1,email-Eu-core,[926],reference,5,500,50000,10,60000,60000,137.26409608079607,email-Eu-core_high_1,False
+email-Eu-core_high_1,email-Eu-core,[926],population_size_20,5,1050,105000,10,60000,60000,202.89069426593778,email-Eu-core_high_1,False
+email-Eu-core_high_1,email-Eu-core,[926],max_generations_20,5,950,95000,10,60000,60000,190.9752207894988,email-Eu-core_high_1,False
+email-Eu-core_high_1,email-Eu-core,[926],crossover_rate_0p6,5,500,50000,10,60000,60000,137.26409608079607,email-Eu-core_high_1,False
+email-Eu-core_high_1,email-Eu-core,[926],mutation_rate_0p2,5,500,50000,10,60000,60000,137.26409608079607,email-Eu-core_high_1,False
+ego-Facebook_constant_0,ego-Facebook,[1180],reference,5,500,50000,10,25000,25000,752.7886234493683,ego-Facebook_constant_0,False
+ego-Facebook_constant_0,ego-Facebook,[1180],population_size_20,5,1050,105000,10,25000,25000,1283.4604315375484,ego-Facebook_constant_0,False
+ego-Facebook_constant_0,ego-Facebook,[1180],max_generations_20,5,950,95000,10,25000,25000,1187.0339419242418,ego-Facebook_constant_0,False
+ego-Facebook_constant_0,ego-Facebook,[1180],crossover_rate_0p6,5,500,50000,10,25000,25000,752.7886234493683,ego-Facebook_constant_0,False
+ego-Facebook_constant_0,ego-Facebook,[1180],mutation_rate_0p2,5,500,50000,10,25000,25000,752.7886234493683,ego-Facebook_constant_0,False
+Wiki-Vote_high_1,Wiki-Vote,[1210],reference,5,500,50000,10,25000,25000,244.02787540258942,Wiki-Vote_high_1,False
+Wiki-Vote_high_1,Wiki-Vote,[1210],population_size_20,5,1050,105000,10,25000,25000,416.8665995813626,Wiki-Vote_high_1,False
+Wiki-Vote_high_1,Wiki-Vote,[1210],max_generations_20,5,950,95000,10,25000,25000,385.5556565861141,Wiki-Vote_high_1,False
+Wiki-Vote_high_1,Wiki-Vote,[1210],crossover_rate_0p6,5,500,50000,10,25000,25000,244.02787540258942,Wiki-Vote_high_1,False
+Wiki-Vote_high_1,Wiki-Vote,[1210],mutation_rate_0p2,5,500,50000,10,25000,25000,244.02787540258942,Wiki-Vote_high_1,False

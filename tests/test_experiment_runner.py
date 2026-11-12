@@ -275,7 +275,7 @@ class ExperimentRunnerTests(TemporaryFilesTest):
         result = self.run_case(save_raw_observations=True)
         names = {p.name for p in result.output_directory.iterdir()}
         self.assertEqual(names, {"results.csv", "config.json", "metadata.json", "summary.json", "preflight.json",
-                                 "selection_details.json", "convergence.csv", "raw_observations.csv"})
+                                 "selection_details.json", "convergence.csv", "raw_observations.csv", "method_status.csv"})
         for name in ("config", "metadata", "summary", "preflight", "selection_details"):
             json.loads((result.output_directory / f"{name}.json").read_text())
         with (result.output_directory / "results.csv").open(newline="") as stream:
@@ -314,6 +314,25 @@ class ExperimentRunnerTests(TemporaryFilesTest):
             ("graph_loading_seconds", "selection_optimization_seconds", "final_evaluation_seconds",
              "primary_artifact_write_seconds", "orchestration_other_seconds")))
         self.assertEqual(timings["preprocessing_seconds"], 0)
+        self.assertAlmostEqual(sum(metadata["orchestration_runtime_breakdown"].values()),
+                               timings["orchestration_other_seconds"])
+
+    def test_skipped_method_statuses_have_reasons_and_no_calls(self):
+        result = self.run_case(algorithms=["random"], skipped_algorithms={"full_greedy": "pilot computational budget"})
+        statuses = {row["algorithm"]: row for row in result.metadata["method_statuses"]}
+        self.assertEqual(len(statuses), 7)
+        self.assertEqual(statuses["random"]["status"], "completed")
+        self.assertEqual(statuses["full_greedy"]["status"], "skipped")
+        self.assertEqual(statuses["full_greedy"]["reason"], "pilot computational budget")
+        self.assertEqual(statuses["degree"]["reason"], "not_selected_in_configuration")
+        self.assertEqual(sum(s["final_evaluation_count"] for s in statuses.values()), 2)
+        self.assertEqual(statuses["full_greedy"]["cic_simulations"], 0)
+
+    def test_control_reuse_is_completed_rather_than_skipped(self):
+        result = self.run_case(k=0)
+        self.assertTrue(all(s["status"] == "completed" for s in result.summary["method_statuses"]))
+        statuses = {s["algorithm"]: s for s in result.summary["method_statuses"]}
+        self.assertEqual(statuses["random"]["reason"], "reused_empty_protector_control")
 
     def test_cli_runs_from_another_directory_with_unicode_paths(self):
         values = {**self.values, "algorithms": ["random"], "output_directory": "kết quả mới"}

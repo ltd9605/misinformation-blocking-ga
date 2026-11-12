@@ -1,0 +1,1277 @@
+{
+  "CIC_simulations": 8100,
+  "GA_operators_seed": 1455547273548353971,
+  "GA_random_seed": 3208020615239790456,
+  "S_eval": 2500,
+  "S_opt": 100,
+  "cache_fitness": true,
+  "cache_hits": 69,
+  "control_mean": 3.3812,
+  "convergence": [
+    {
+      "best_fitness": 1.05,
+      "best_protector_nodes": [
+        658,
+        1612,
+        3412,
+        3905,
+        7337
+      ],
+      "best_so_far_fitness": 1.05,
+      "cache_hits_this_generation": 0,
+      "cumulative_cache_hits": 0,
+      "cumulative_evaluations": 10,
+      "elapsed_optimization_seconds": 1.9875679169927025,
+      "elite_count_carried": 0,
+      "evaluations_this_generation": 10,
+      "fitness_values": [
+        1.09,
+        1.11,
+        1.08,
+        1.19,
+        4.95,
+        1.05,
+        1.19,
+        6.75,
+        10.29,
+        1.32
+      ],
+      "generation": 0,
+      "mean_fitness": 3.002,
+      "population": [
+        [
+          1018,
+          1512,
+          3613,
+          4229,
+          8282
+        ],
+        [
+          16,
+          937,
+          3317,
+          4791,
+          6327
+        ],
+        [
+          2895,
+          3389,
+          4631,
+          7429,
+          7742
+        ],
+        [
+          157,
+          1202,
+          6094,
+          7049,
+          8262
+        ],
+        [
+          2860,
+          5827,
+          6203,
+          6287,
+          7355
+        ],
+        [
+          658,
+          1612,
+          3412,
+          3905,
+          7337
+        ],
+        [
+          2975,
+          3186,
+          4378,
+          4577,
+          4792
+        ],
+        [
+          539,
+          1028,
+          2994,
+          4867,
+          7616
+        ],
+        [
+          931,
+          2690,
+          3587,
+          4251,
+          7687
+        ],
+        [
+          744,
+          1599,
+          4617,
+          6706,
+          8015
+        ]
+      ],
+      "unique_individuals": 10,
+      "worst_fitness": 10.29
+    },
+    {
+      "best_fitness": 1.04,
+      "best_protector_nodes": [
+        658,
+        1612,
+        3412,
+        4577,
+        4792
+      ],
+      "best_so_far_fitness": 1.04,
+      "cache_hits_this_generation": 1,
+      "cumulative_cache_hits": 1,
+      "cumulative_evaluations": 18,
+      "elapsed_optimization_seconds": 3.5582649589923676,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 8,
+      "fitness_values": [
+        1.05,
+        1.04,
+        5.54,
+        1.12,
+        1.1,
+        1.06,
+        1.08,
+        1.08,
+        1.07,
+        1.08
+      ],
+      "generation": 1,
+      "mean_fitness": 1.522,
+      "population": [
+        [
+          658,
+          1612,
+          3412,
+          3905,
+          7337
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          2895,
+          3317,
+          4631,
+          6327,
+          7742
+        ],
+        [
+          2895,
+          3389,
+          3905,
+          4631,
+          7429
+        ],
+        [
+          16,
+          937,
+          1250,
+          4791,
+          6327
+        ],
+        [
+          1512,
+          2895,
+          4631,
+          7429,
+          7742
+        ],
+        [
+          3905,
+          4631,
+          6813,
+          7337,
+          7742
+        ],
+        [
+          2895,
+          3389,
+          4631,
+          7429,
+          7742
+        ],
+        [
+          1512,
+          3389,
+          4229,
+          4631,
+          8282
+        ],
+        [
+          2895,
+          4229,
+          4631,
+          7429,
+          7742
+        ]
+      ],
+      "unique_individuals": 10,
+      "worst_fitness": 5.54
+    },
+    {
+      "best_fitness": 1.04,
+      "best_protector_nodes": [
+        658,
+        1612,
+        3412,
+        4577,
+        4792
+      ],
+      "best_so_far_fitness": 1.04,
+      "cache_hits_this_generation": 3,
+      "cumulative_cache_hits": 4,
+      "cumulative_evaluations": 24,
+      "elapsed_optimization_seconds": 4.889733708987478,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 6,
+      "fitness_values": [
+        1.04,
+        1.06,
+        1.04,
+        1.08,
+        1.04,
+        1.24,
+        1.05,
+        1.05,
+        1.08,
+        1.04
+      ],
+      "generation": 2,
+      "mean_fitness": 1.072,
+      "population": [
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          1612,
+          3389,
+          4229,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          4577,
+          4631,
+          4792
+        ],
+        [
+          1512,
+          3412,
+          4577,
+          4792,
+          7429
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1512,
+          2895,
+          4631,
+          7429
+        ],
+        [
+          658,
+          1612,
+          3905,
+          3914,
+          4577
+        ],
+        [
+          658,
+          1612,
+          3412,
+          3905,
+          7337
+        ],
+        [
+          3389,
+          3412,
+          3905,
+          4631,
+          7742
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ]
+      ],
+      "unique_individuals": 8,
+      "worst_fitness": 1.24
+    },
+    {
+      "best_fitness": 1.04,
+      "best_protector_nodes": [
+        658,
+        1612,
+        3412,
+        4577,
+        4792
+      ],
+      "best_so_far_fitness": 1.04,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 12,
+      "cumulative_evaluations": 25,
+      "elapsed_optimization_seconds": 5.144882583990693,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.05,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04
+      ],
+      "generation": 3,
+      "mean_fitness": 1.041,
+      "population": [
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3905,
+          3914,
+          4577
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3905,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ]
+      ],
+      "unique_individuals": 3,
+      "worst_fitness": 1.05
+    },
+    {
+      "best_fitness": 1.04,
+      "best_protector_nodes": [
+        658,
+        1612,
+        3412,
+        4577,
+        4792
+      ],
+      "best_so_far_fitness": 1.04,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 21,
+      "cumulative_evaluations": 25,
+      "elapsed_optimization_seconds": 5.167296666986658,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04
+      ],
+      "generation": 4,
+      "mean_fitness": 1.04,
+      "population": [
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ]
+      ],
+      "unique_individuals": 1,
+      "worst_fitness": 1.04
+    },
+    {
+      "best_fitness": 1.04,
+      "best_protector_nodes": [
+        658,
+        1612,
+        3412,
+        4577,
+        4792
+      ],
+      "best_so_far_fitness": 1.04,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 29,
+      "cumulative_evaluations": 26,
+      "elapsed_optimization_seconds": 5.413469041988719,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        6.09,
+        1.04,
+        1.04,
+        1.04,
+        1.04
+      ],
+      "generation": 5,
+      "mean_fitness": 1.545,
+      "population": [
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          3412,
+          4577,
+          4792,
+          7544
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 6.09
+    },
+    {
+      "best_fitness": 1.04,
+      "best_protector_nodes": [
+        658,
+        1612,
+        3412,
+        4577,
+        4792
+      ],
+      "best_so_far_fitness": 1.04,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 38,
+      "cumulative_evaluations": 26,
+      "elapsed_optimization_seconds": 5.436549083999125,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04
+      ],
+      "generation": 6,
+      "mean_fitness": 1.04,
+      "population": [
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ]
+      ],
+      "unique_individuals": 1,
+      "worst_fitness": 1.04
+    },
+    {
+      "best_fitness": 1.04,
+      "best_protector_nodes": [
+        658,
+        1612,
+        3412,
+        4577,
+        4792
+      ],
+      "best_so_far_fitness": 1.04,
+      "cache_hits_this_generation": 7,
+      "cumulative_cache_hits": 45,
+      "cumulative_evaluations": 28,
+      "elapsed_optimization_seconds": 5.888621458987473,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 2,
+      "fitness_values": [
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.05,
+        1.05,
+        1.04,
+        1.04,
+        1.04
+      ],
+      "generation": 7,
+      "mean_fitness": 1.042,
+      "population": [
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          6315
+        ],
+        [
+          658,
+          1612,
+          2329,
+          3412,
+          4577
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ]
+      ],
+      "unique_individuals": 3,
+      "worst_fitness": 1.05
+    },
+    {
+      "best_fitness": 1.04,
+      "best_protector_nodes": [
+        658,
+        1612,
+        3412,
+        4577,
+        4792
+      ],
+      "best_so_far_fitness": 1.04,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 53,
+      "cumulative_evaluations": 29,
+      "elapsed_optimization_seconds": 6.148960541991983,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.08,
+        1.04,
+        1.04,
+        1.04
+      ],
+      "generation": 8,
+      "mean_fitness": 1.044,
+      "population": [
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          1612,
+          1674,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 1.08
+    },
+    {
+      "best_fitness": 1.04,
+      "best_protector_nodes": [
+        658,
+        1612,
+        3412,
+        4269,
+        4792
+      ],
+      "best_so_far_fitness": 1.04,
+      "cache_hits_this_generation": 7,
+      "cumulative_cache_hits": 60,
+      "cumulative_evaluations": 31,
+      "elapsed_optimization_seconds": 6.639099958993029,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 2,
+      "fitness_values": [
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        6.09,
+        1.04,
+        1.04,
+        1.04
+      ],
+      "generation": 9,
+      "mean_fitness": 1.545,
+      "population": [
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          886,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4269,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ]
+      ],
+      "unique_individuals": 3,
+      "worst_fitness": 6.09
+    },
+    {
+      "best_fitness": 1.04,
+      "best_protector_nodes": [
+        658,
+        1612,
+        3412,
+        4269,
+        4792
+      ],
+      "best_so_far_fitness": 1.04,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 69,
+      "cumulative_evaluations": 31,
+      "elapsed_optimization_seconds": 6.660619124988443,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04,
+        1.04
+      ],
+      "generation": 10,
+      "mean_fitness": 1.04,
+      "population": [
+        [
+          658,
+          1612,
+          3412,
+          4269,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4269,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ],
+        [
+          658,
+          1612,
+          3412,
+          4577,
+          4792
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 1.04
+    }
+  ],
+  "crossover_rate": 0.8,
+  "dataset": "Wiki-Vote",
+  "elite_fitness_reuse_count": 10,
+  "elitism_count": 1,
+  "evaluator_calls": 33,
+  "final_batch_seeds": [
+    2052564743013316543500000,
+    2052564743013316543502500
+  ],
+  "final_batches": [
+    {
+      "base_seed": 2052564743013316543500000,
+      "batch": 0,
+      "runtime_seconds": 5.787984124996001,
+      "statistics": {
+        "S": 2500,
+        "ci95_half_width": 0.9991979732792137,
+        "ci95_high": 3.719997973279214,
+        "ci95_low": 1.7216020267207863,
+        "max_rumor_count": 507,
+        "min_rumor_count": 1,
+        "no_spread_fraction": 0.9084,
+        "no_spread_wilson95_high": 0.9190895473553099,
+        "no_spread_wilson95_low": 0.8964572967974261,
+        "reachable_fraction_activated": null,
+        "rumor_SE": 0.5095573357487517,
+        "rumor_fraction": 0.0003824033731553057,
+        "rumor_mean": 2.7208,
+        "rumor_std_population": 25.472770704420828,
+        "rumor_std_sample": 25.477866787437588,
+        "zero_variance_not_structurally_certain": false
+      }
+    },
+    {
+      "base_seed": 2052564743013316543502500,
+      "batch": 1,
+      "runtime_seconds": 5.68028454198793,
+      "statistics": {
+        "S": 2500,
+        "ci95_half_width": 1.119046372047039,
+        "ci95_high": 4.360646372047039,
+        "ci95_low": 2.122553627952961,
+        "max_rumor_count": 554,
+        "min_rumor_count": 1,
+        "no_spread_fraction": 0.906,
+        "no_spread_wilson95_high": 0.9168247602008077,
+        "no_spread_wilson95_low": 0.893929448237025,
+        "reachable_fraction_activated": null,
+        "rumor_SE": 0.5706759853087242,
+        "rumor_fraction": 0.0004556008432888264,
+        "rumor_mean": 3.2416,
+        "rumor_std_population": 28.528091934792975,
+        "rumor_std_sample": 28.533799265436212,
+        "zero_variance_not_structurally_certain": false
+      }
+    }
+  ],
+  "final_evaluation_runtime_seconds": 11.468268666983931,
+  "final_evaluator_calls": 2,
+  "final_run_index": 802,
+  "final_seed_stop_exclusive": 2052564743013316543505000,
+  "final_simulations": 5000,
+  "fitness_MC_runtime_seconds": 6.411072956980206,
+  "fitness_request_count": 100,
+  "generations_run": 10,
+  "graph_loading_seconds": 0.1333311250054976,
+  "graph_unchanged": true,
+  "independent_MC_CI95_high": 3.731088237666257,
+  "independent_MC_CI95_low": 2.2313117623337426,
+  "independent_MC_SE": 0.3825104340517153,
+  "independent_mean": 2.9812,
+  "independent_minus_training": 1.9411999999999998,
+  "independent_std_population": 27.04486728678845,
+  "independent_std_sample": 27.04757217925776,
+  "k": 5,
+  "master_seed": 2026111111,
+  "max_generations": 10,
+  "mutation_rate": 0.1,
+  "optimization_CIC_simulations": 3100,
+  "optimization_base_random_seed": 2052745476174409943000000,
+  "optimization_evaluator_calls": 31,
+  "optimization_run_index": 90002,
+  "optimization_seed_stop_exclusive": 2052745476174409943000100,
+  "p": 0.03,
+  "population_size": 10,
+  "profile_id": "reference",
+  "protector_seeds": [
+    658,
+    1612,
+    3412,
+    4269,
+    4792
+  ],
+  "reason": null,
+  "repetition_index": 2,
+  "rumor_seeds": [
+    2110
+  ],
+  "run_id": "Wiki-Vote_high_0_reference_r2",
+  "scenario_id": "Wiki-Vote_high_0",
+  "scenario_index": 8,
+  "selection_non_MC_seconds": 0.249607793011819,
+  "selection_runtime_seconds": 6.660680749992025,
+  "spread_reduction_fraction": 0.11830119484206802,
+  "status": "completed",
+  "tie_breaking": "protector-priority",
+  "tournament_size": 3,
+  "training_fitness": 1.04,
+  "worker_peak_RSS_bytes": 184762368,
+  "worker_runtime_seconds": 18.398814083004254
+}

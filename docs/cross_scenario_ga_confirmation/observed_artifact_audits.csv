@@ -1,0 +1,4 @@
+scenario_id,passed,completed_GA_runs_audited,convergence_rows,population_individuals_checked,elite_carries_checked,raw_final_and_control_observations_recomputed,scope
+email-Eu-core_high_0,True,9,99,2310,90,144000,actual stored records; optimizer fitness raw CIC outcomes were not retained
+ego-Facebook_constant_1,True,9,99,2310,90,60000,actual stored records; optimizer fitness raw CIC outcomes were not retained
+Wiki-Vote_high_0,True,9,99,2310,90,60000,actual stored records; optimizer fitness raw CIC outcomes were not retained

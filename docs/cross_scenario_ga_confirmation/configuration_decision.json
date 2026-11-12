@@ -1,0 +1,13 @@
+{
+  "automatic_change_to_reference": false,
+  "configurations_proven_equivalent": false,
+  "confirmation_complete": true,
+  "contrasts_favoring_alternatives_requiring_review": 0,
+  "cross_dataset_effects_pooled": false,
+  "decision": "retain_reference_as_practical_candidate",
+  "family_CI_resolved_contrasts": 0,
+  "globally_optimal_GA_configuration_identified": false,
+  "main_experiments_authorized": false,
+  "reason": "n=3 per configuration/scenario cannot establish generality or equivalence; retain the predeclared reference unless evidence warrants a separately reviewed revision",
+  "status": "proposal_not_a_main_protocol_lock"
+}

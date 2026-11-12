@@ -1,0 +1,8 @@
+{
+  "automatic_winner_selection": false,
+  "confidence": 0.95,
+  "contrasts": "eight_alternatives_vs_shared_reference_paired_by_repetition",
+  "multiplicity": "Bonferroni_simultaneous_CI_across_eight_contrasts",
+  "practical_difference_threshold": null,
+  "primary_unit": "independent_GA_run"
+}

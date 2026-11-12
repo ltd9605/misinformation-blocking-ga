@@ -1,0 +1,52 @@
+{
+  "additional_experiments_outside_main_matrix": 0,
+  "core_and_data_unchanged": true,
+  "files": {
+    "analysis_policy.json": "399f2c762af0b993991811b16b6bf841bf9a24eda16c584b6195bb5211d95fbe",
+    "config.json": "b3015240bc6e3176332111bda2129dd02cd21b3990a1ce4469656d26d5272d31",
+    "design_fingerprint.json": "9d5a0e531549a9c7212396b817f808801fc856db54843abc66d20b9e2b103bc2",
+    "frozen_main_plan.json": "d641f755791e4abaf2eb1cac332e1ae19fa206ec284c5b0f5f843fdd07cb841e",
+    "graph_topology.csv": "968f85948edce7462c027dbbc7127ab0968a83662ab3265afd6171048cdbd061",
+    "graph_topology.json": "a17e89b47967f615ef1cf307baf22ca293c27502cbc1fa0cec33ea392021e304",
+    "matrix.csv": "7018c8c4b9005afe7b8cf2b0aa46b20cde01794b1c5a8e106f9a548fe0942b5a",
+    "matrix.json": "fe5d862133ce6754215447877214a6e1be34c7ec63458c310927a075388dc2a4",
+    "memory_plan.json": "1403bdff2009ac83f35a11cf1b047fbc6eb265f57250df0140eb57768a03fb39",
+    "preflight.json": "724c28513626c05925d6a48456097e1e920c0fabc815f60f953c497a58dc7e18",
+    "preflight_by_dataset.csv": "80d18705b143e5b55994f983170c1174d352099b7534519b3b4e50f1738d005a",
+    "preflight_by_dataset.json": "7e4632417310f3a1e6f99a7e193b42664d47806b8d783a6a6db6ca1e1d8fb11b",
+    "preflight_by_method_scenario.csv": "84d1a3474a6a1d00c365684bec0ecbe8c189e9f73673f3ff508472e855bbbb10",
+    "preflight_by_method_scenario.json": "0030396a018913a194798f05a9f1f2f8bb18be252078cd74e19206c0d0c199b6",
+    "preflight_by_scenario.csv": "8f1af4e81bf8a03401769cb150670f77edf2009ae1b6b686040a3f3f35446653",
+    "preflight_by_scenario.json": "0aec0d160c8642e75588bf14c294eb3686710bf12693b35e44b0a89a3529f4a5",
+    "repeat_alternatives_not_selected.csv": "abe795dea29c2f7abfdd278d30a38df0e24a933031dada902c0ec0308a54d311",
+    "repeat_alternatives_not_selected.json": "72c36216c993a2ea5013a30af02f91079e39213893b9c2d9fb41e208e30ab513",
+    "runtime_hardware_reference.json": "15cce1dae7dbb0f23f086eeeaa83a357c89d28a3b652b874a713ffd2301c0f2a",
+    "runtime_rate_provenance.csv": "25a65bc6ee1aacc4a8b0b896b5368e1a9dddc1755af3db837b85d8301c056238",
+    "runtime_rate_provenance.json": "d040b680af0815b98adaeb9f093dae3aaeb03067edda3b256a2a728330807f65",
+    "runtime_source_hashes.json": "5ad807fdf27058dabec2212182679b0b0e08ae4a4ef1289f6ef846ea1a4d5ea2",
+    "scenarios.csv": "0bdf0dae09a663154b1b2dd5fccbcc9c2c24eaace8a9c86203b873b2d733b39f",
+    "scenarios.json": "8c998ebeebc8e2db854cab86803142804d173162159eef801aa5baf33eaf8b72",
+    "seed_separation_audit.json": "3c3c404b695bb6d5b1f6d87c5ab277424020b36ca325996eb25d868787afcc96",
+    "summary.json": "c5395563603c05d21ab85e6c7366e0d8a6a00cf4db827b4b0fee5964c7d67eb6",
+    "supplementary_scenarios_retained.csv": "57656b47706a5f740ca01492a72293a19e4b1ae7a25ab02262e8035ec954049e",
+    "supplementary_scenarios_retained.json": "1f71d14b686c0109eabea8a7040519a1939119eed43ffd0b92014a3828ea1be7",
+    "unconfirmed_conditions.csv": "fe97891b76bb21bd32052e68ecbeb591ec424ca2d5157c156e501fe185a296d8",
+    "unconfirmed_conditions.json": "b2f46a2a38b49aedf97b890456f67968a8a1d4b10416b5d7705cd7a3b1816b59"
+  },
+  "implementation_sha256": {
+    "experiments/analyze_main_experiments.py": "e406535488f6b01a44cc1c237ed2e2f9e1ece6f34328d53ca20c89b3d084e7ac",
+    "experiments/configs/main_experiments_protocol_v2.json": "3c1d378c38308804090729535bd6977d64d174592c7fd46d906c3f46a018ab11",
+    "experiments/main_experiments.py": "1fc0131741942176f507a9eca4c9a862025b3b0c3e34a301469480f1a76040f5",
+    "experiments/main_statistics.py": "820773ce033c973cb2e46bc8a2601c377fc7acd4146cd317329380497af3eb8c",
+    "experiments/verify_main_experiments.py": "ee2de260d5cf3e908839234b98de1303a5482bed44fbecfded7eb257bd8f678a",
+    "tests/test_main_analysis.py": "592a7e2cae96b069023b3f49fbb291ee0e8997531e3b000c9a0fee4e4670c1e9",
+    "tests/test_main_execution.py": "ea970a027aecec3ce07a0a6e9df25fcd54fe00f9b8d0c2176309a653ae42db9e",
+    "tests/test_main_statistics.py": "955d1efd62628118692fe8861f7748241903cb9ec8e25d4e153f65337dd2f181"
+  },
+  "independent_runs_confirmed_by_user": 4,
+  "previous_five_run_protocol_preserved": true,
+  "report": {
+    "path": "MAIN_EXPERIMENTS_PROTOCOL_V2.md",
+    "sha256": "b06d0b24a0ef64f5d1617405ece4fcbcf0d68b89239eff99155122155527782f"
+  }
+}

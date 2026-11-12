@@ -1,0 +1,19 @@
+{
+  "OFAT_pairs_verified": 60,
+  "data_files_unchanged": 14,
+  "earlier_evidence_files_unchanged": {
+    "docs/experiment_protocol_v1": 53,
+    "docs/pilot_2_calibration": 55
+  },
+  "existing_checksums_unchanged": 44,
+  "per_run_JSONs_verified": 75,
+  "planned_rows_verified": 75,
+  "screen_actual_CIC_simulations": 0,
+  "screen_actual_GA_runs": 0,
+  "status": "preflight_stopped_no_screen_execution",
+  "tests": {
+    "command": ".venv/bin/python -B -m unittest discover -s tests",
+    "passed": 389,
+    "runtime_seconds": 8.845
+  }
+}

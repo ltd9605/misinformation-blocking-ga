@@ -1,0 +1,12 @@
+{
+  "GA_final_evaluation_seconds": 680.5908508369903,
+  "definition": "active subprocess wall + parent orchestration; idle paused time excluded; test/analysis runtimes separate",
+  "fitness_MC_seconds_subset_of_selection": 376.5030883961881,
+  "graph_loading_seconds": 1.3760492899164092,
+  "parent_overhead_seconds": 0.18902283601346426,
+  "process_startup_and_output_seconds": 33.660071910955594,
+  "selection_optimization_seconds": 379.84095474905916,
+  "shared_control_evaluation_seconds": 19.24286216800101,
+  "total_active_experiment_seconds": 1116.9532399169839,
+  "worker_other_seconds": 2.0534281260479474
+}

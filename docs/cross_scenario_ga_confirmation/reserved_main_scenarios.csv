@@ -1,0 +1,7 @@
+scenario_id,scenario_index,dataset,rumor_seeds,stratum,reachable_count,node_count,sampling_seed,excluded_old_R_ids,role,diffusion_observations_generated,selection_rule
+main_reserved_email-Eu-core_high_0,11,email-Eu-core,[485],high,965,1005,16152107999921512756,"[761, 767, 858, 926]",proposed_official_holdout_unobserved,0,uniform_actual_IDs_in_same_Pilot2_stratum_excluding_all_previous_R
+main_reserved_email-Eu-core_high_1,12,email-Eu-core,[374],high,965,1005,16152107999921512756,"[761, 767, 858, 926]",proposed_official_holdout_unobserved,0,uniform_actual_IDs_in_same_Pilot2_stratum_excluding_all_previous_R
+main_reserved_ego-Facebook_constant_0,13,ego-Facebook,[714],constant,4039,4039,4690500747993351643,"[1180, 1555]",proposed_official_holdout_unobserved,0,uniform_actual_IDs_in_same_Pilot2_stratum_excluding_all_previous_R
+main_reserved_ego-Facebook_constant_1,14,ego-Facebook,[2733],constant,4039,4039,4690500747993351643,"[1180, 1555]",proposed_official_holdout_unobserved,0,uniform_actual_IDs_in_same_Pilot2_stratum_excluding_all_previous_R
+main_reserved_Wiki-Vote_high_0,15,Wiki-Vote,[1961],high,2316,7115,2588087911114568307,"[1210, 2110, 4341, 5288, 6009]",proposed_official_holdout_unobserved,0,uniform_actual_IDs_in_same_Pilot2_stratum_excluding_all_previous_R
+main_reserved_Wiki-Vote_high_1,16,Wiki-Vote,[1795],high,2317,7115,2588087911114568307,"[1210, 2110, 4341, 5288, 6009]",proposed_official_holdout_unobserved,0,uniform_actual_IDs_in_same_Pilot2_stratum_excluding_all_previous_R

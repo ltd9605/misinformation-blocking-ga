@@ -1,0 +1,11 @@
+id,status,requirement
+main_design_confirmation,pending,user confirms this concrete design before any execution
+admission,blocked,"[""runtime_proxy_envelope_with_safety_and_overhead_exceeds_budget""]"
+repeats,proposed_not_confirmed,five independent runs proposed; do not auto-reduce on budget failure
+main_budget,conservative_proposal,v1 budget was sensitivity-specific; confirm dedicated main allocation rather than assume its availability
+new_R_timing,unmeasured,proxy envelopes and nearest-topology heuristic are not a calibrated new-R runtime model; no official observations generated
+coverage,limited,"two fixed high/constant R per graph, no medium/low holdout; keep existing low/legacy appendix and all low-spread main outcomes"
+main_adapter,not_implemented_not_authorized_here,"validate all-method selection barrier, two batches per locked P, paired raw export and checkpoint ledger; old one-batch runner cannot be invoked twice and called one run"
+equivalence_margin,unconfirmed,no equivalence/practical-effect claims without a prespecified margin
+power,not_established,five proposed runs do not guarantee power; no adaptive stopping based on significance
+new_R_spread,unobserved_by_design,"do not reroll R, retune GA or filter official low/no-spread outcomes"

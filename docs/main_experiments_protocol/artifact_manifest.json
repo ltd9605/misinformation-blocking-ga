@@ -1,0 +1,48 @@
+{
+  "GA_locked_by_user": true,
+  "files": {
+    "analysis_policy.json": "399f2c762af0b993991811b16b6bf841bf9a24eda16c584b6195bb5211d95fbe",
+    "config.json": "ed4366c3f73052864910fc96517bc6b5574c0d45457da81606340efc48a166c1",
+    "design_fingerprint.json": "610b89c1a9bcd92e11eb972603230efd49ce1e6bf2fa6866f34bdc817ce4f627",
+    "existing_checksums_after.json": "b551a4fc6028689aef2b32dc8850ffc1f96df8c04ef32d0f381055e855f21001",
+    "existing_checksums_before.json": "b551a4fc6028689aef2b32dc8850ffc1f96df8c04ef32d0f381055e855f21001",
+    "graph_topology.csv": "968f85948edce7462c027dbbc7127ab0968a83662ab3265afd6171048cdbd061",
+    "graph_topology.json": "a17e89b47967f615ef1cf307baf22ca293c27502cbc1fa0cec33ea392021e304",
+    "matrix.csv": "8fd4265a270c74f26793dba0495106e68e72fd5879262f640d7118f2ffc83c17",
+    "matrix.json": "70a701134fa6b4ba962334c98240abe1a124997b81f93bc8c0b46babaacb34b4",
+    "memory_plan.json": "1403bdff2009ac83f35a11cf1b047fbc6eb265f57250df0140eb57768a03fb39",
+    "preflight.json": "5c52a6e21a66c8d0bfac979ecff3356486f39bbec67c748a2e7fc1dbeda528f5",
+    "preflight_by_dataset.csv": "78d0c08e99ee1b4448fee034b4942fc95ad6ab735164c3eca674e688634a1de8",
+    "preflight_by_dataset.json": "f1b1ae0ad223637eb84171aab75c6596092bdcc92f8c7d9f829b00e403706714",
+    "preflight_by_method_scenario.csv": "8184196be1f7ed31195cb3fba290980e9b0b6559d7bd61f2e1fe8e89c1150ab9",
+    "preflight_by_method_scenario.json": "ce2688550f5bf0b3fdc536c00f444c857930a093666f629f22d728913a38be6c",
+    "preflight_by_scenario.csv": "ca62391ee36bf797cf8b69bc152175dc98b3e33c7c1c013799eb8237c0989d5c",
+    "preflight_by_scenario.json": "f09ef714fc92fac5324ffeca6c2910c0dc291a2e8f1caaab115e1ffc4eaec5fa",
+    "repeat_alternatives_not_selected.csv": "abe795dea29c2f7abfdd278d30a38df0e24a933031dada902c0ec0308a54d311",
+    "repeat_alternatives_not_selected.json": "72c36216c993a2ea5013a30af02f91079e39213893b9c2d9fb41e208e30ab513",
+    "runtime_hardware_reference.json": "15cce1dae7dbb0f23f086eeeaa83a357c89d28a3b652b874a713ffd2301c0f2a",
+    "runtime_rate_provenance.csv": "25a65bc6ee1aacc4a8b0b896b5368e1a9dddc1755af3db837b85d8301c056238",
+    "runtime_rate_provenance.json": "d040b680af0815b98adaeb9f093dae3aaeb03067edda3b256a2a728330807f65",
+    "runtime_source_hashes.json": "5ad807fdf27058dabec2212182679b0b0e08ae4a4ef1289f6ef846ea1a4d5ea2",
+    "scenarios.csv": "0bdf0dae09a663154b1b2dd5fccbcc9c2c24eaace8a9c86203b873b2d733b39f",
+    "scenarios.json": "8c998ebeebc8e2db854cab86803142804d173162159eef801aa5baf33eaf8b72",
+    "summary.json": "ad439a7ff0182b8240a413ddac73d663362f4b64702878bff6c304cb882a2b08",
+    "supplementary_scenarios_retained.csv": "57656b47706a5f740ca01492a72293a19e4b1ae7a25ab02262e8035ec954049e",
+    "supplementary_scenarios_retained.json": "1f71d14b686c0109eabea8a7040519a1939119eed43ffd0b92014a3828ea1be7",
+    "tests.log": "086e572ef41e1ca9c128f3557924ce554a183803667ef9392ffb22c2fd033d97",
+    "unconfirmed_conditions.csv": "09b80e3a9a666c256d594ce9a1ee4c5c5a85f3e517d21a06840fd06624b7d1bd",
+    "unconfirmed_conditions.json": "fbe1b0bbccb2c6f73083f91f260c912f42c1fa8554d8a2f28293f45e5e77d07d",
+    "verification.json": "31308f6c363ba7fb11eece4133c9adf0f8f090c4cdb574e8fb9fda87c99caff9"
+  },
+  "implementation_sha256": {
+    "experiments/configs/main_experiments_protocol.json": "38bf3043c465a027ee0f29a2b75bb4ef01e94418521e68c0c7da8cf9cab72205",
+    "experiments/design_main_experiments.py": "1fceb0ad09c886775a0589339e0a2d07bb559230833a6a10fdcfb96e9613cad8",
+    "tests/test_main_experiments_design.py": "c66e99f614d0fc60215310a87198e6947d225f4ddd0c1fde532a4a63cc8cd6ec"
+  },
+  "main_experiments_executed": false,
+  "report": {
+    "path": "MAIN_EXPERIMENTS_PROTOCOL.md",
+    "sha256": "64f894146d9c28e1159123e6d620f45fdea6c0a44ef8afc9936ecda6e95bda51"
+  },
+  "status": "stopped_at_preflight"
+}

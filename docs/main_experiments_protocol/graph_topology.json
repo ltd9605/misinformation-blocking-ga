@@ -1,0 +1,23 @@
+[
+  {
+    "dataset": "email-Eu-core",
+    "directed": true,
+    "edges": 24929,
+    "maximum_reachable": 966,
+    "nodes": 1005
+  },
+  {
+    "dataset": "ego-Facebook",
+    "directed": false,
+    "edges": 88234,
+    "maximum_reachable": 4039,
+    "nodes": 4039
+  },
+  {
+    "dataset": "Wiki-Vote",
+    "directed": true,
+    "edges": 103689,
+    "maximum_reachable": 2320,
+    "nodes": 7115
+  }
+]

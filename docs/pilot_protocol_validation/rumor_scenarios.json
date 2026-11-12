@@ -1,0 +1,44 @@
+{
+  "Wiki-Vote": {
+    "dataset": "Wiki-Vote",
+    "node_count": 7115,
+    "reachable_node_count": 2,
+    "rumor_seeds": [
+      4341
+    ],
+    "sampling_policy": "uniform_without_replacement_from_sorted_actual_node_ids",
+    "sampling_seed": 4111783169675930736,
+    "scope": "fixed_across_p_methods_and_independent_algorithm_runs",
+    "seed_degrees": {
+      "4341": 1
+    }
+  },
+  "ego-Facebook": {
+    "dataset": "ego-Facebook",
+    "node_count": 4039,
+    "reachable_node_count": 4039,
+    "rumor_seeds": [
+      2162
+    ],
+    "sampling_policy": "uniform_without_replacement_from_sorted_actual_node_ids",
+    "sampling_seed": 11389267221022948117,
+    "scope": "fixed_across_p_methods_and_independent_algorithm_runs",
+    "seed_degrees": {
+      "2162": 15
+    }
+  },
+  "email-Eu-core": {
+    "dataset": "email-Eu-core",
+    "node_count": 1005,
+    "reachable_node_count": 965,
+    "rumor_seeds": [
+      577
+    ],
+    "sampling_policy": "uniform_without_replacement_from_sorted_actual_node_ids",
+    "sampling_seed": 648922761795409240,
+    "scope": "fixed_across_p_methods_and_independent_algorithm_runs",
+    "seed_degrees": {
+      "577": 13
+    }
+  }
+}

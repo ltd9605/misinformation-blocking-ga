@@ -1,0 +1,13 @@
+{
+  "case_id": "pilot_email-Eu-core_p0.05_r0",
+  "replay_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_protocol_validation/replay/email-Eu-core/run_0003_f7d9c36bac3b",
+  "same_non_timing_summary": true,
+  "raw_final_byte_identical": true,
+  "convergence_scientific_fields_equal": true,
+  "additional_optimization_evaluations": 65,
+  "additional_final_evaluations": 6,
+  "additional_cic_simulations": 2500,
+  "replay_runner_seconds": 4.45184770799824,
+  "primary_protocol_cic_simulations": 47864,
+  "combined_primary_and_replay_cic_simulations": 50364
+}

@@ -1,0 +1,4 @@
+dataset,reference_R,reachability,reachability_group,k,p,tie_breaking,S_opt,S_eval_per_batch,independent_final_batches,total_final_simulations_per_P,reference_evidence,population_size,max_generations,crossover_rate,mutation_rate,tournament_size,elitism_count,cache_fitness
+email-Eu-core,[926],965,high,5,0.03,protector-priority,100,6000,2,12000,S_opt100 measured but not proven stable; email S_eval6000 extrapolated before this pilot,10,10,0.8,0.1,3,1,True
+ego-Facebook,[1180],4039,constant,5,0.03,protector-priority,100,2500,2,5000,Pilot2 S_opt100/S_eval2500 measured on reference R only,10,10,0.8,0.1,3,1,True
+Wiki-Vote,[1210],2317,high,5,0.03,protector-priority,100,2500,2,5000,Pilot2 S_opt100/S_eval2500 measured on reference R only,10,10,0.8,0.1,3,1,True

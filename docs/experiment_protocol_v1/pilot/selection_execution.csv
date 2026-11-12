@@ -1,0 +1,9 @@
+run_id,scenario_id,dataset,profile_id,independent_run_index,status,reason,actual_fitness_CIC,selection_wall_seconds,selection_subprocess_wall_seconds
+email-Eu-core_high_1_r0_reference,email-Eu-core_high_1,email-Eu-core,reference,0,selected,,2700,3.117204291993403,3.743323499991675
+email-Eu-core_high_1_r0_population_size_20,email-Eu-core_high_1,email-Eu-core,population_size_20,0,selected,,10800,12.827885040998808,13.446874458008097
+email-Eu-core_high_1_r1_population_size_20,email-Eu-core_high_1,email-Eu-core,population_size_20,1,selected,,10200,11.914477832993725,12.542785124998773
+email-Eu-core_high_1_r1_reference,email-Eu-core_high_1,email-Eu-core,reference,1,selected,,3900,4.4621239170082845,5.07445374999952
+Wiki-Vote_high_1_r0_reference,Wiki-Vote_high_1,Wiki-Vote,reference,0,selected,,3900,11.976361416003783,12.81735420798941
+Wiki-Vote_high_1_r0_population_size_20,Wiki-Vote_high_1,Wiki-Vote,population_size_20,0,selected,,10000,31.412760624996736,32.25758695800323
+Wiki-Vote_high_1_r1_population_size_20,Wiki-Vote_high_1,Wiki-Vote,population_size_20,1,selected,,7800,24.81667474999267,25.659698375005974
+Wiki-Vote_high_1_r1_reference,Wiki-Vote_high_1,Wiki-Vote,reference,1,selected,,2900,8.796794207999483,9.632556208001915

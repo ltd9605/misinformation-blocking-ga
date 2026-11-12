@@ -1,0 +1,1445 @@
+{
+  "all_P_sealed_before_any_final": true,
+  "selections": {
+    "main_reserved_Wiki-Vote_high_0_r0_candidate_restricted_greedy": {
+      "protector_seeds": [
+        11,
+        766,
+        1374,
+        1549,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r0_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "d10a50a5b2a00c4d6ab5e10342cea2312bf03bf9d17b723d05d7098695e09d60"
+    },
+    "main_reserved_Wiki-Vote_high_0_r0_degree": {
+      "protector_seeds": [
+        11,
+        457,
+        766,
+        2565,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r0_degree_attempt0.json",
+      "selection_sha256": "1dbec14755bd7b15f61ae8054cfa1a60c50f3850fe3707bb965af1a00cbf5365"
+    },
+    "main_reserved_Wiki-Vote_high_0_r0_genetic_algorithm": {
+      "protector_seeds": [
+        2326,
+        3611,
+        6311,
+        7008,
+        7629
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r0_genetic_algorithm_attempt0.json",
+      "selection_sha256": "3888141065c4fba3c8ad4406700182c1ea640ef745d53c26098e21d436d3b1da"
+    },
+    "main_reserved_Wiki-Vote_high_0_r0_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r0_no_intervention_attempt0.json",
+      "selection_sha256": "395c50f5ac6fc915ccb655e29ff490157ce059a56ffe8802082bf55c4f4dc2f2"
+    },
+    "main_reserved_Wiki-Vote_high_0_r0_pagerank": {
+      "protector_seeds": [
+        15,
+        2398,
+        2625,
+        4037,
+        6634
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r0_pagerank_attempt0.json",
+      "selection_sha256": "07811b22d3f79ad1f686cbe60ce3fb9a957af948c542b2f0d032baceb23c6f09"
+    },
+    "main_reserved_Wiki-Vote_high_0_r0_random": {
+      "protector_seeds": [
+        766,
+        2380,
+        4198,
+        4557,
+        7799
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r0_random_attempt0.json",
+      "selection_sha256": "cee4e20f365ffb61d28a338473b804456ffe35003cb2b55df51af57d34d5a2b8"
+    },
+    "main_reserved_Wiki-Vote_high_0_r1_candidate_restricted_greedy": {
+      "protector_seeds": [
+        766,
+        1151,
+        1374,
+        1549,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r1_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "18e55e5a47464a2df4deee7babbd4edfa2e8744d1740babd37a666f34b0fdb58"
+    },
+    "main_reserved_Wiki-Vote_high_0_r1_degree": {
+      "protector_seeds": [
+        11,
+        457,
+        766,
+        2565,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r1_degree_attempt0.json",
+      "selection_sha256": "dd69a27163a7b50beafae7c7b171139e2029dad0d529703d58609ff793c5635d"
+    },
+    "main_reserved_Wiki-Vote_high_0_r1_genetic_algorithm": {
+      "protector_seeds": [
+        3936,
+        4779,
+        6108,
+        6203,
+        6869
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r1_genetic_algorithm_attempt0.json",
+      "selection_sha256": "cc1565863860b80aaf4f884ee73bc47a64f106675af01b3af4c6006f71e3aaca"
+    },
+    "main_reserved_Wiki-Vote_high_0_r1_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r1_no_intervention_attempt0.json",
+      "selection_sha256": "d9b8e6d2a93049c19eeb757d9d9891910217c45b4be89454d26c2f4de6bfc8c8"
+    },
+    "main_reserved_Wiki-Vote_high_0_r1_pagerank": {
+      "protector_seeds": [
+        15,
+        2398,
+        2625,
+        4037,
+        6634
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r1_pagerank_attempt0.json",
+      "selection_sha256": "d836531691a2de2f8a406afa8a6d03d40d00b7fe6d1d8487000d4916d77719c5"
+    },
+    "main_reserved_Wiki-Vote_high_0_r1_random": {
+      "protector_seeds": [
+        388,
+        5473,
+        5589,
+        6282,
+        6913
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r1_random_attempt0.json",
+      "selection_sha256": "bb4e350aec187cce7ba8c657aa158c073eda22d3f0b9708a55b439bfe739e9da"
+    },
+    "main_reserved_Wiki-Vote_high_0_r2_candidate_restricted_greedy": {
+      "protector_seeds": [
+        766,
+        1133,
+        1166,
+        1549,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r2_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "0c88e9c2537c85ffe57341a3ed6528e2e5fbc86d32098e4b73ec483da53e607a"
+    },
+    "main_reserved_Wiki-Vote_high_0_r2_degree": {
+      "protector_seeds": [
+        11,
+        457,
+        766,
+        2565,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r2_degree_attempt0.json",
+      "selection_sha256": "c7e195436753a2632afdbe556e89b697ec7f7e240f826756a81385a616b703e5"
+    },
+    "main_reserved_Wiki-Vote_high_0_r2_genetic_algorithm": {
+      "protector_seeds": [
+        3751,
+        4282,
+        6645,
+        8074,
+        8284
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r2_genetic_algorithm_attempt0.json",
+      "selection_sha256": "220425d6ea086b2a9cb510b13b7c9830b565a3bec80f17e2aeca55ed208a21f9"
+    },
+    "main_reserved_Wiki-Vote_high_0_r2_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r2_no_intervention_attempt0.json",
+      "selection_sha256": "b656fc4494145790309b1ea8430252c89cbe12fdd6db983909e86c1ebd1c9a43"
+    },
+    "main_reserved_Wiki-Vote_high_0_r2_pagerank": {
+      "protector_seeds": [
+        15,
+        2398,
+        2625,
+        4037,
+        6634
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r2_pagerank_attempt0.json",
+      "selection_sha256": "4c7c4a69ec50662e8201314b8c3c8cec9d390a94055fc52307c64d8492222016"
+    },
+    "main_reserved_Wiki-Vote_high_0_r2_random": {
+      "protector_seeds": [
+        1268,
+        2270,
+        2390,
+        2570,
+        3020
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r2_random_attempt0.json",
+      "selection_sha256": "04346f9f2680df0f88a624c52641b3c45d5c1ebd860a3737f5d6fa91ca9a26af"
+    },
+    "main_reserved_Wiki-Vote_high_0_r3_candidate_restricted_greedy": {
+      "protector_seeds": [
+        11,
+        766,
+        1151,
+        1166,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r3_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "7af3dbce3760a99c7beea56fa357794cd878a63b7fe8f1ecb7cbf811d75afbfc"
+    },
+    "main_reserved_Wiki-Vote_high_0_r3_degree": {
+      "protector_seeds": [
+        11,
+        457,
+        766,
+        2565,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r3_degree_attempt0.json",
+      "selection_sha256": "8b38448dbd581417b315fd3e9a8c93c53659c8a97da62201cc1f1b04b2aac80c"
+    },
+    "main_reserved_Wiki-Vote_high_0_r3_genetic_algorithm": {
+      "protector_seeds": [
+        1110,
+        1687,
+        4708,
+        5410,
+        7875
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r3_genetic_algorithm_attempt0.json",
+      "selection_sha256": "d829039f476eb3163d37676286dc34dc8ab17c2dda86c9af981b893001a2f4e4"
+    },
+    "main_reserved_Wiki-Vote_high_0_r3_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r3_no_intervention_attempt0.json",
+      "selection_sha256": "e45161abc5a617467770ec08259dfd91cc0d39d06df3ffcd5edd761cafb02658"
+    },
+    "main_reserved_Wiki-Vote_high_0_r3_pagerank": {
+      "protector_seeds": [
+        15,
+        2398,
+        2625,
+        4037,
+        6634
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r3_pagerank_attempt0.json",
+      "selection_sha256": "b39fe5399aad80e37add3a953970b741b4f5abe47940bb31289a2a4ddb1a3ca6"
+    },
+    "main_reserved_Wiki-Vote_high_0_r3_random": {
+      "protector_seeds": [
+        950,
+        2036,
+        2295,
+        3886,
+        6111
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_0_r3_random_attempt0.json",
+      "selection_sha256": "295d7f2c013de6367185689781396930183fc51cecae38d09fad395c3386de06"
+    },
+    "main_reserved_Wiki-Vote_high_1_r0_candidate_restricted_greedy": {
+      "protector_seeds": [
+        766,
+        1166,
+        1374,
+        1549,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r0_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "044c608370a2cbdce9e667943e62cf4d2a8f2ed1b75b0ddb3f182bb81f1ea645"
+    },
+    "main_reserved_Wiki-Vote_high_1_r0_degree": {
+      "protector_seeds": [
+        11,
+        457,
+        766,
+        2565,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r0_degree_attempt0.json",
+      "selection_sha256": "996d59b4ee8376b4071460e414bb11ded8d71f822f9a8e676f90a659da93a9fc"
+    },
+    "main_reserved_Wiki-Vote_high_1_r0_genetic_algorithm": {
+      "protector_seeds": [
+        304,
+        903,
+        1922,
+        4451,
+        7122
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r0_genetic_algorithm_attempt0.json",
+      "selection_sha256": "3002502b34ef68fbce6c3fd8176ec9257753bc35c7ab3892801aacb59fcc4a8a"
+    },
+    "main_reserved_Wiki-Vote_high_1_r0_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r0_no_intervention_attempt0.json",
+      "selection_sha256": "486f4e18f756f762929ffa01ef5fea08569f871b4f8f26e032e06ff2ee211e4d"
+    },
+    "main_reserved_Wiki-Vote_high_1_r0_pagerank": {
+      "protector_seeds": [
+        15,
+        2398,
+        2625,
+        4037,
+        6634
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r0_pagerank_attempt0.json",
+      "selection_sha256": "24fe7bc0af705d5923e11f451b13fbe5689a020d5923d6299260f6f6263a42ae"
+    },
+    "main_reserved_Wiki-Vote_high_1_r0_random": {
+      "protector_seeds": [
+        874,
+        1113,
+        1855,
+        2767,
+        3386
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r0_random_attempt0.json",
+      "selection_sha256": "4062ff5db7ff54b09c3b52af325cfb1513e37546e055c1e2637d15420a42cb12"
+    },
+    "main_reserved_Wiki-Vote_high_1_r1_candidate_restricted_greedy": {
+      "protector_seeds": [
+        766,
+        1133,
+        1166,
+        1549,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r1_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "43bfa05b746d1d31d73c9ac70f561d88ecb15657bd2e5cc222fa52c402fdbe7d"
+    },
+    "main_reserved_Wiki-Vote_high_1_r1_degree": {
+      "protector_seeds": [
+        11,
+        457,
+        766,
+        2565,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r1_degree_attempt0.json",
+      "selection_sha256": "846e8944c8751ad50bae022fadf42977b9a6f3e77cbb944cb12645ee33c61be4"
+    },
+    "main_reserved_Wiki-Vote_high_1_r1_genetic_algorithm": {
+      "protector_seeds": [
+        1436,
+        4967,
+        5154,
+        6116,
+        7232
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r1_genetic_algorithm_attempt0.json",
+      "selection_sha256": "70ad8d9fb919a543c55e2ab7d643919f1b104a43fa1e00dc6472ebce78b19165"
+    },
+    "main_reserved_Wiki-Vote_high_1_r1_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r1_no_intervention_attempt0.json",
+      "selection_sha256": "ac8c5bd7894ed46f5e759a058d166e5d19bd76e828e2371c0a45f2e8e6184921"
+    },
+    "main_reserved_Wiki-Vote_high_1_r1_pagerank": {
+      "protector_seeds": [
+        15,
+        2398,
+        2625,
+        4037,
+        6634
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r1_pagerank_attempt0.json",
+      "selection_sha256": "360f21088717ce7be02ebf17ce143b4a48d2f8e26a9b4ff4f6d4da3cfd4d0043"
+    },
+    "main_reserved_Wiki-Vote_high_1_r1_random": {
+      "protector_seeds": [
+        1625,
+        2573,
+        3744,
+        5884,
+        7860
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r1_random_attempt0.json",
+      "selection_sha256": "3b654905c32e1229f704903c340b47818edb502a4e13b1eb0341b203ef7ed66c"
+    },
+    "main_reserved_Wiki-Vote_high_1_r2_candidate_restricted_greedy": {
+      "protector_seeds": [
+        11,
+        1133,
+        1166,
+        1549,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r2_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "495e45ab0a100f28851b9abb4928625fdd637dc0997ea35a857abb3ac203c839"
+    },
+    "main_reserved_Wiki-Vote_high_1_r2_degree": {
+      "protector_seeds": [
+        11,
+        457,
+        766,
+        2565,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r2_degree_attempt0.json",
+      "selection_sha256": "86d360c0143331f2a7b9126f679d6e3b73553258192f2621aea5fba6df8647cd"
+    },
+    "main_reserved_Wiki-Vote_high_1_r2_genetic_algorithm": {
+      "protector_seeds": [
+        75,
+        110,
+        1221,
+        1396,
+        5923
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r2_genetic_algorithm_attempt0.json",
+      "selection_sha256": "568bad7b22bc3dd858931269a4a17efaa75cc8851d3ff5fe1862608f9b42ca45"
+    },
+    "main_reserved_Wiki-Vote_high_1_r2_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r2_no_intervention_attempt0.json",
+      "selection_sha256": "ed6d1076334e9e28dd8caa22332e25fc4c66e2340ae394e95653c0448d405887"
+    },
+    "main_reserved_Wiki-Vote_high_1_r2_pagerank": {
+      "protector_seeds": [
+        15,
+        2398,
+        2625,
+        4037,
+        6634
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r2_pagerank_attempt0.json",
+      "selection_sha256": "39a88b39f7d150c94db8e7e2a011208257fb000f831d51417bb3c8a658c65b4d"
+    },
+    "main_reserved_Wiki-Vote_high_1_r2_random": {
+      "protector_seeds": [
+        159,
+        2616,
+        2651,
+        4414,
+        6061
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r2_random_attempt0.json",
+      "selection_sha256": "239cdc4709c3ed23dfa6ebe5b1a89cec3806766a5a1c62d2c48fa11767ff1164"
+    },
+    "main_reserved_Wiki-Vote_high_1_r3_candidate_restricted_greedy": {
+      "protector_seeds": [
+        457,
+        766,
+        1166,
+        1374,
+        1549
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r3_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "81086521d4a6ec0e28ec64ae2619f526fafaaa55d6d7faa9281ce162caeb455d"
+    },
+    "main_reserved_Wiki-Vote_high_1_r3_degree": {
+      "protector_seeds": [
+        11,
+        457,
+        766,
+        2565,
+        2688
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r3_degree_attempt0.json",
+      "selection_sha256": "7ef1543658a46a4dfda3cb17df13a3346119087d40deec9bb2e0f0bc9e5dde58"
+    },
+    "main_reserved_Wiki-Vote_high_1_r3_genetic_algorithm": {
+      "protector_seeds": [
+        2517,
+        2658,
+        3024,
+        7623,
+        7941
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r3_genetic_algorithm_attempt0.json",
+      "selection_sha256": "01e2aa12731f984398c642b98767d32f916aef0fee0584e3f2a721b002bd62bb"
+    },
+    "main_reserved_Wiki-Vote_high_1_r3_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r3_no_intervention_attempt0.json",
+      "selection_sha256": "854f90ce530d8a2f97c1cfb3b27ec9e139701d2ab304c92df85211009dfd0e6f"
+    },
+    "main_reserved_Wiki-Vote_high_1_r3_pagerank": {
+      "protector_seeds": [
+        15,
+        2398,
+        2625,
+        4037,
+        6634
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r3_pagerank_attempt0.json",
+      "selection_sha256": "7496174391b3878efc7dc829625cc3c2ed2003547c8802cbe6ac77a6c9cc95c6"
+    },
+    "main_reserved_Wiki-Vote_high_1_r3_random": {
+      "protector_seeds": [
+        626,
+        1596,
+        7056,
+        7915,
+        8264
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_Wiki-Vote_high_1_r3_random_attempt0.json",
+      "selection_sha256": "ae63b7ce80bcd8f0e0f5e2ddf5179aa82459f3b1fb6babc0a0590978a24c7666"
+    },
+    "main_reserved_ego-Facebook_constant_0_r0_candidate_restricted_greedy": {
+      "protector_seeds": [
+        1663,
+        1888,
+        1912,
+        2347,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r0_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "8a4a9aafeb744db15782e8f41c12da5112374ef381b5d50f30be7ac41c5927f3"
+    },
+    "main_reserved_ego-Facebook_constant_0_r0_degree": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r0_degree_attempt0.json",
+      "selection_sha256": "99215061f79575b51740d5f1815dd08cfa3ba5c4b7ab338fbf359643fc3577d9"
+    },
+    "main_reserved_ego-Facebook_constant_0_r0_genetic_algorithm": {
+      "protector_seeds": [
+        1029,
+        1206,
+        1324,
+        2356,
+        3352
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r0_genetic_algorithm_attempt0.json",
+      "selection_sha256": "6a3e42f413baf7888e74d4a14d7f4576d90f853b68da80c2f586886d2577c75b"
+    },
+    "main_reserved_ego-Facebook_constant_0_r0_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r0_no_intervention_attempt0.json",
+      "selection_sha256": "2c69309a0727cdd838b2028bc143f242e42c7ac147e70a2258923a100dabb92d"
+    },
+    "main_reserved_ego-Facebook_constant_0_r0_pagerank": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r0_pagerank_attempt0.json",
+      "selection_sha256": "7b5cbd4af2c03f47b9d31dc429a675b4daaf11b7ed313c8917ced08d019b973f"
+    },
+    "main_reserved_ego-Facebook_constant_0_r0_random": {
+      "protector_seeds": [
+        1134,
+        1476,
+        1523,
+        1622,
+        2860
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r0_random_attempt0.json",
+      "selection_sha256": "f532c31f0fd3bca80f80ef7533795e350fdee2e6bfe94a8952e6a40d458405fb"
+    },
+    "main_reserved_ego-Facebook_constant_0_r1_candidate_restricted_greedy": {
+      "protector_seeds": [
+        107,
+        1684,
+        1800,
+        2347,
+        2543
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r1_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "97b93be753aadfe4dbaebbd53db1f8d90ded3adf488ce7ff1921550529b6927a"
+    },
+    "main_reserved_ego-Facebook_constant_0_r1_degree": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r1_degree_attempt0.json",
+      "selection_sha256": "9b812eeaf83aa60056014b82a4d6b2c59a291048ee0990f8889c6560bf5338ab"
+    },
+    "main_reserved_ego-Facebook_constant_0_r1_genetic_algorithm": {
+      "protector_seeds": [
+        147,
+        729,
+        832,
+        2484,
+        3747
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r1_genetic_algorithm_attempt0.json",
+      "selection_sha256": "1d9c8938e0b53bd3abf43e9266dbf0071122555163c53ad5d2f2f2a16606315e"
+    },
+    "main_reserved_ego-Facebook_constant_0_r1_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r1_no_intervention_attempt0.json",
+      "selection_sha256": "50b6c085e7ac43b1781ba2f754cd209113bc48978b1abae3c31ea66cc8580c53"
+    },
+    "main_reserved_ego-Facebook_constant_0_r1_pagerank": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r1_pagerank_attempt0.json",
+      "selection_sha256": "27b652df1fd4b0f7f1c4328cd01a488277547092e5a5d01237fe0542f9b85f7b"
+    },
+    "main_reserved_ego-Facebook_constant_0_r1_random": {
+      "protector_seeds": [
+        591,
+        1982,
+        2177,
+        3080,
+        3399
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r1_random_attempt0.json",
+      "selection_sha256": "414c46824201135c869fb8607902c1a54058f187338bded217c08fbce827a38c"
+    },
+    "main_reserved_ego-Facebook_constant_0_r2_candidate_restricted_greedy": {
+      "protector_seeds": [
+        1663,
+        1684,
+        1800,
+        2543,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r2_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "2980735e23cb096803440599b921cbf4cce416bbc614d44ba738512d1cbe3693"
+    },
+    "main_reserved_ego-Facebook_constant_0_r2_degree": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r2_degree_attempt0.json",
+      "selection_sha256": "0127a90f505d155dd29b6297bc458d3d54a53a6a0791762d4e35c8129c016181"
+    },
+    "main_reserved_ego-Facebook_constant_0_r2_genetic_algorithm": {
+      "protector_seeds": [
+        208,
+        641,
+        1921,
+        2603,
+        3992
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r2_genetic_algorithm_attempt0.json",
+      "selection_sha256": "21d80f3d3d289e609c9d7b44135e38f732b2507acdfadf580a75e557fb69213e"
+    },
+    "main_reserved_ego-Facebook_constant_0_r2_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r2_no_intervention_attempt0.json",
+      "selection_sha256": "1379067c851e64f23a97f20283d67804eac68cd25aa3e508897cdfa1f0931cd9"
+    },
+    "main_reserved_ego-Facebook_constant_0_r2_pagerank": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r2_pagerank_attempt0.json",
+      "selection_sha256": "997b574b0cf05b47e09858595d81eb90b76e36b449ff55d1b34f7534ca2967ce"
+    },
+    "main_reserved_ego-Facebook_constant_0_r2_random": {
+      "protector_seeds": [
+        95,
+        1721,
+        2154,
+        2371,
+        2915
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r2_random_attempt0.json",
+      "selection_sha256": "195ec4934136ab3b33b53f2f43d9785b5e2db97d956f7afb324d3f25ffeae1c9"
+    },
+    "main_reserved_ego-Facebook_constant_0_r3_candidate_restricted_greedy": {
+      "protector_seeds": [
+        0,
+        107,
+        1912,
+        2347,
+        2543
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r3_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "decfedd4bd3f136ae7213cfa5eb9541c686b4e4ca34b5d284057824f2915c65a"
+    },
+    "main_reserved_ego-Facebook_constant_0_r3_degree": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r3_degree_attempt0.json",
+      "selection_sha256": "1ec21056b80a6172027efdcb8fea17a939833b1dbe63a42d6da396e9955b36a9"
+    },
+    "main_reserved_ego-Facebook_constant_0_r3_genetic_algorithm": {
+      "protector_seeds": [
+        20,
+        1135,
+        1715,
+        3677,
+        3914
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r3_genetic_algorithm_attempt0.json",
+      "selection_sha256": "70edb9a0520402c3c8e333310322372b2bebdff300bc656643e72adf20f7d7ed"
+    },
+    "main_reserved_ego-Facebook_constant_0_r3_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r3_no_intervention_attempt0.json",
+      "selection_sha256": "f8310de5c8505d63449869fafc3187487e422c37bdc39bdc42978b294a4c7449"
+    },
+    "main_reserved_ego-Facebook_constant_0_r3_pagerank": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r3_pagerank_attempt0.json",
+      "selection_sha256": "f71b07e77dc391975caa1dc50487e838606bd5fb77de4737e3444fc99ccee7d4"
+    },
+    "main_reserved_ego-Facebook_constant_0_r3_random": {
+      "protector_seeds": [
+        53,
+        568,
+        2433,
+        2659,
+        4034
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_0_r3_random_attempt0.json",
+      "selection_sha256": "da6d8ddd7d17d093550025f003503ea695d03489191d51c17c29264cdda0a285"
+    },
+    "main_reserved_ego-Facebook_constant_1_r0_candidate_restricted_greedy": {
+      "protector_seeds": [
+        1684,
+        1912,
+        2347,
+        2543,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r0_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "e83a318e6509229392fc85557a7222b82b7867b4c5bdd0af33f2229233c57e83"
+    },
+    "main_reserved_ego-Facebook_constant_1_r0_degree": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r0_degree_attempt0.json",
+      "selection_sha256": "f53ca4b77b0eeeb9e817bb280ae47883b60f69f52c62118051026aea213b36f6"
+    },
+    "main_reserved_ego-Facebook_constant_1_r0_genetic_algorithm": {
+      "protector_seeds": [
+        477,
+        1303,
+        1575,
+        3168,
+        3240
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r0_genetic_algorithm_attempt0.json",
+      "selection_sha256": "64dd4d7bd153323786aea01949b34007334e886a8a18990c761ac1ea55067bbb"
+    },
+    "main_reserved_ego-Facebook_constant_1_r0_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r0_no_intervention_attempt0.json",
+      "selection_sha256": "56bb8600986d6aff48bb790b4bae076b90715852eabe7262a9fffb63745f9f39"
+    },
+    "main_reserved_ego-Facebook_constant_1_r0_pagerank": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r0_pagerank_attempt0.json",
+      "selection_sha256": "ddb85d975689a27b3385077cf460b46b89157dd0db13cedf4e727ed79450d35e"
+    },
+    "main_reserved_ego-Facebook_constant_1_r0_random": {
+      "protector_seeds": [
+        61,
+        990,
+        1174,
+        2463,
+        3082
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r0_random_attempt0.json",
+      "selection_sha256": "8c4b1dea2a56aac591322656e110d58ea0b0f10f5af329d173813f605167bf1b"
+    },
+    "main_reserved_ego-Facebook_constant_1_r1_candidate_restricted_greedy": {
+      "protector_seeds": [
+        1684,
+        1912,
+        2347,
+        2543,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r1_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "61871fb0fe3706f6d586980dc87ad31b9fa49fd322dbd3072e7a97f160cac84b"
+    },
+    "main_reserved_ego-Facebook_constant_1_r1_degree": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r1_degree_attempt0.json",
+      "selection_sha256": "86f72f375b06112d9ba54fbc6a1da19a05bfb043b47461acd7ce5e2cd29a9c2d"
+    },
+    "main_reserved_ego-Facebook_constant_1_r1_genetic_algorithm": {
+      "protector_seeds": [
+        1389,
+        2239,
+        2742,
+        2793,
+        3116
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r1_genetic_algorithm_attempt0.json",
+      "selection_sha256": "bf95565b02111e1aa1d2ea9b5538d57631ab5b1a49fe1a962644f88bdd9f8060"
+    },
+    "main_reserved_ego-Facebook_constant_1_r1_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r1_no_intervention_attempt0.json",
+      "selection_sha256": "ab52672f2771504ad1dcda200686a225716dc58356615906df56a1ba1d89204a"
+    },
+    "main_reserved_ego-Facebook_constant_1_r1_pagerank": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r1_pagerank_attempt0.json",
+      "selection_sha256": "b18503cdeedeb3088ed3a3b0d427522681b2b2045792e45bbb9a37968c65fa28"
+    },
+    "main_reserved_ego-Facebook_constant_1_r1_random": {
+      "protector_seeds": [
+        285,
+        1210,
+        2166,
+        3270,
+        3554
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r1_random_attempt0.json",
+      "selection_sha256": "a723e1b4a685ac620f067f6e11bbac26f2f08d390c979b18bccc5fa21291c1f2"
+    },
+    "main_reserved_ego-Facebook_constant_1_r2_candidate_restricted_greedy": {
+      "protector_seeds": [
+        1663,
+        1684,
+        1888,
+        2543,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r2_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "ff6d59379ae85058ad8ab8035c31276f5ad91569baae2fb0f651b4f8b3ac3c60"
+    },
+    "main_reserved_ego-Facebook_constant_1_r2_degree": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r2_degree_attempt0.json",
+      "selection_sha256": "dd7e2a1988f86538a6c17409e0ccd4b5fdf1d76282f9117d0b55a7c10a177050"
+    },
+    "main_reserved_ego-Facebook_constant_1_r2_genetic_algorithm": {
+      "protector_seeds": [
+        388,
+        2280,
+        2777,
+        3185,
+        3451
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r2_genetic_algorithm_attempt0.json",
+      "selection_sha256": "c39e84e1c692154d70413d2fa286de006df78e85471553c234f5062bff6b8de9"
+    },
+    "main_reserved_ego-Facebook_constant_1_r2_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r2_no_intervention_attempt0.json",
+      "selection_sha256": "307e75f7d506e8e50b5ae67b356e8cdf433333e39c5c855cc91f8855a03da5b6"
+    },
+    "main_reserved_ego-Facebook_constant_1_r2_pagerank": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r2_pagerank_attempt0.json",
+      "selection_sha256": "844b8fe039a74e2822727f080b00aeb979a2023d671496514a90f460ecbd17eb"
+    },
+    "main_reserved_ego-Facebook_constant_1_r2_random": {
+      "protector_seeds": [
+        100,
+        443,
+        2682,
+        2789,
+        2980
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r2_random_attempt0.json",
+      "selection_sha256": "035ce8f51a83e43e8fbc216cae796f96655998a940fd822a341a80efa1e8b314"
+    },
+    "main_reserved_ego-Facebook_constant_1_r3_candidate_restricted_greedy": {
+      "protector_seeds": [
+        107,
+        1663,
+        1684,
+        1912,
+        2543
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r3_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "3f6faa5f5b1751051ef0e9571eab643ace8bc00a3c1f5d758c2ca25335960b80"
+    },
+    "main_reserved_ego-Facebook_constant_1_r3_degree": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r3_degree_attempt0.json",
+      "selection_sha256": "9a8d0691de15c71ec7c87a24f28caa72dc9aaf07e7cb481d2d2af6a6197c58ee"
+    },
+    "main_reserved_ego-Facebook_constant_1_r3_genetic_algorithm": {
+      "protector_seeds": [
+        318,
+        1160,
+        2770,
+        3426,
+        3735
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r3_genetic_algorithm_attempt0.json",
+      "selection_sha256": "f4337c00608dfa4a614ed8389f1b1157f91c355390daaa1d01c6eacc7d454b01"
+    },
+    "main_reserved_ego-Facebook_constant_1_r3_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r3_no_intervention_attempt0.json",
+      "selection_sha256": "819694b2555b7d2e9036448286a271cd05cc36a12974db5247b2e4bb6e7a755a"
+    },
+    "main_reserved_ego-Facebook_constant_1_r3_pagerank": {
+      "protector_seeds": [
+        0,
+        107,
+        1684,
+        1912,
+        3437
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r3_pagerank_attempt0.json",
+      "selection_sha256": "6f724333453861a3f51812f0f05e9f6f310116bd034c82e179e8034627044d88"
+    },
+    "main_reserved_ego-Facebook_constant_1_r3_random": {
+      "protector_seeds": [
+        2473,
+        2804,
+        2940,
+        3745,
+        3807
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_ego-Facebook_constant_1_r3_random_attempt0.json",
+      "selection_sha256": "d126a5a4050a91d763a790a3c59f5d73108764d5a5c0bc65a664a4466f6efd2a"
+    },
+    "main_reserved_email-Eu-core_high_0_r0_candidate_restricted_greedy": {
+      "protector_seeds": [
+        82,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r0_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "c1eb2be9e1968643eda92b9231b6b7b709ccd26f86df3a238c83cb584ff9ace6"
+    },
+    "main_reserved_email-Eu-core_high_0_r0_degree": {
+      "protector_seeds": [
+        82,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r0_degree_attempt0.json",
+      "selection_sha256": "2469b284d432f84a8d308378d486467d4643706d7f61b42f477fec47a1d74b29"
+    },
+    "main_reserved_email-Eu-core_high_0_r0_genetic_algorithm": {
+      "protector_seeds": [
+        253,
+        409,
+        747,
+        784,
+        936
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r0_genetic_algorithm_attempt0.json",
+      "selection_sha256": "fafe3189207e553630a2b64c093f4c5c89c65b5b0e0bfb1bb5440d33235f9409"
+    },
+    "main_reserved_email-Eu-core_high_0_r0_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r0_no_intervention_attempt0.json",
+      "selection_sha256": "3d66e1605e37d298398d9653a2d8311714ae3165d11dc1a48e797fb119e8c24c"
+    },
+    "main_reserved_email-Eu-core_high_0_r0_pagerank": {
+      "protector_seeds": [
+        62,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r0_pagerank_attempt0.json",
+      "selection_sha256": "97e727038dbcc011b3f60caa29f8dfe7ec15c574db49526abc7ef97150c413f9"
+    },
+    "main_reserved_email-Eu-core_high_0_r0_random": {
+      "protector_seeds": [
+        118,
+        565,
+        774,
+        819,
+        978
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r0_random_attempt0.json",
+      "selection_sha256": "9abec891c4cb6c699a6b24df54019b77b96030fc7edf47e6891481350fca5c42"
+    },
+    "main_reserved_email-Eu-core_high_0_r1_candidate_restricted_greedy": {
+      "protector_seeds": [
+        13,
+        62,
+        121,
+        183,
+        249
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r1_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "95de0606f7efcb39bc153838b763f99a804b2433fb9e140746471b71190f0e5b"
+    },
+    "main_reserved_email-Eu-core_high_0_r1_degree": {
+      "protector_seeds": [
+        82,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r1_degree_attempt0.json",
+      "selection_sha256": "464f2c438b58449e03d549d2d3e703382577fb928cfd20f657928d9f30a6182f"
+    },
+    "main_reserved_email-Eu-core_high_0_r1_genetic_algorithm": {
+      "protector_seeds": [
+        107,
+        216,
+        222,
+        441,
+        859
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r1_genetic_algorithm_attempt0.json",
+      "selection_sha256": "8dea43885072f510978d0132978210b7f87f5ac28993580018cc59bc83a0bb42"
+    },
+    "main_reserved_email-Eu-core_high_0_r1_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r1_no_intervention_attempt0.json",
+      "selection_sha256": "86ee0e31fbf67d3fb3fc8e6c91c46afaa8ca755a19b99488870aafbcceee5c91"
+    },
+    "main_reserved_email-Eu-core_high_0_r1_pagerank": {
+      "protector_seeds": [
+        62,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r1_pagerank_attempt0.json",
+      "selection_sha256": "9b076d789c4f7641bf47b5a5e01b9686bac70ed17bf31eb837dbd34b14ff09d9"
+    },
+    "main_reserved_email-Eu-core_high_0_r1_random": {
+      "protector_seeds": [
+        302,
+        425,
+        473,
+        481,
+        659
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r1_random_attempt0.json",
+      "selection_sha256": "c5ff94326a5e9ea216e555fc4b2b3e2b7c9094f25e5edb0ad00ead9994ffca91"
+    },
+    "main_reserved_email-Eu-core_high_0_r2_candidate_restricted_greedy": {
+      "protector_seeds": [
+        62,
+        86,
+        121,
+        160,
+        249
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r2_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "2d2caa20de44ddac8d6bce6f29f8b873d8171816e980b2e64e2c5cbee2717781"
+    },
+    "main_reserved_email-Eu-core_high_0_r2_degree": {
+      "protector_seeds": [
+        82,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r2_degree_attempt0.json",
+      "selection_sha256": "699d61922cf54c588c2083f73ea2671b4f0a56759c84032be1a296b41fd5c6d4"
+    },
+    "main_reserved_email-Eu-core_high_0_r2_genetic_algorithm": {
+      "protector_seeds": [
+        2,
+        155,
+        640,
+        738,
+        976
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r2_genetic_algorithm_attempt0.json",
+      "selection_sha256": "c1e335c51740ffac5ff9b6b2dd29d6268291222b80d58bbc7e2e8f49cd695231"
+    },
+    "main_reserved_email-Eu-core_high_0_r2_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r2_no_intervention_attempt0.json",
+      "selection_sha256": "b0d2aee1ea8b392b45a97f59ee527934ebbd0772f0617ad32d6770b944c900ca"
+    },
+    "main_reserved_email-Eu-core_high_0_r2_pagerank": {
+      "protector_seeds": [
+        62,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r2_pagerank_attempt0.json",
+      "selection_sha256": "db6d4ccc5efa000801995e78e2cda089b27d88a5185a884bd3c1e042c05ba8ec"
+    },
+    "main_reserved_email-Eu-core_high_0_r2_random": {
+      "protector_seeds": [
+        202,
+        262,
+        943,
+        951,
+        953
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r2_random_attempt0.json",
+      "selection_sha256": "fdd67f6cb59171ddcee77aef9d33126dbd9a2389db4fb74b1fdecad0ab57dc2c"
+    },
+    "main_reserved_email-Eu-core_high_0_r3_candidate_restricted_greedy": {
+      "protector_seeds": [
+        82,
+        121,
+        160,
+        183,
+        434
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r3_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "7e6e3c6fb0cefd33f3e0ba95843de9f5371279fc90d21f911e9efa5977dd6417"
+    },
+    "main_reserved_email-Eu-core_high_0_r3_degree": {
+      "protector_seeds": [
+        82,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r3_degree_attempt0.json",
+      "selection_sha256": "26989ac16c66c254867d3cbf88ad79badfef62e6b5e8842be823473f012ff587"
+    },
+    "main_reserved_email-Eu-core_high_0_r3_genetic_algorithm": {
+      "protector_seeds": [
+        28,
+        104,
+        147,
+        303,
+        782
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r3_genetic_algorithm_attempt0.json",
+      "selection_sha256": "d87a216077071031a9b3a6bd6dc34f9a3251722d6628d87233e23ee00ab42b2b"
+    },
+    "main_reserved_email-Eu-core_high_0_r3_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r3_no_intervention_attempt0.json",
+      "selection_sha256": "9259d689fdeda4651e348c6781af6b7ffc57f85fcacea6cb6150115f5c8c0e89"
+    },
+    "main_reserved_email-Eu-core_high_0_r3_pagerank": {
+      "protector_seeds": [
+        62,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r3_pagerank_attempt0.json",
+      "selection_sha256": "23755a8485a9ec0190f6e2c60770c42b29b67e0529dceb1c0f5d04459fac29e1"
+    },
+    "main_reserved_email-Eu-core_high_0_r3_random": {
+      "protector_seeds": [
+        11,
+        371,
+        564,
+        689,
+        866
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_0_r3_random_attempt0.json",
+      "selection_sha256": "619b8b10797f05f921f7ea1b704d5bfc141063b570d87509e77c69a50b058d3f"
+    },
+    "main_reserved_email-Eu-core_high_1_r0_candidate_restricted_greedy": {
+      "protector_seeds": [
+        62,
+        82,
+        86,
+        107,
+        249
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r0_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "5ded578325ea40dac2ea333a687c1063f5cc972fadafe635edae29aad4238fc4"
+    },
+    "main_reserved_email-Eu-core_high_1_r0_degree": {
+      "protector_seeds": [
+        82,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r0_degree_attempt0.json",
+      "selection_sha256": "5ce0d2987ad2d605bc712a936c13d78f57fc7c56ddfa83fb088616cc6c23f737"
+    },
+    "main_reserved_email-Eu-core_high_1_r0_genetic_algorithm": {
+      "protector_seeds": [
+        255,
+        357,
+        500,
+        662,
+        830
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r0_genetic_algorithm_attempt0.json",
+      "selection_sha256": "8a9fc810b3a7fe5f8e5f94f84a024e3ed7808bf803b5cd8033e846046c9c1a42"
+    },
+    "main_reserved_email-Eu-core_high_1_r0_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r0_no_intervention_attempt0.json",
+      "selection_sha256": "111ed02d84edf2b0b1dc209c76a17949a3cc9498ac10616b789094ff16b4d2a5"
+    },
+    "main_reserved_email-Eu-core_high_1_r0_pagerank": {
+      "protector_seeds": [
+        62,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r0_pagerank_attempt0.json",
+      "selection_sha256": "e4fda5fd9cbbac29a4fae152ec715ddfbceaa5b0672f60c8acdc117189149cda"
+    },
+    "main_reserved_email-Eu-core_high_1_r0_random": {
+      "protector_seeds": [
+        46,
+        69,
+        434,
+        874,
+        901
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r0_random_attempt0.json",
+      "selection_sha256": "c3578a412cabc4dd63ef932982c95c81468d4075c889a52e7a11249dff132a8d"
+    },
+    "main_reserved_email-Eu-core_high_1_r1_candidate_restricted_greedy": {
+      "protector_seeds": [
+        86,
+        121,
+        160,
+        183,
+        249
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r1_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "8967b423a9b81312421cc3bdd8fe98108664b9d7a9f55312f2abbd28c03fefe9"
+    },
+    "main_reserved_email-Eu-core_high_1_r1_degree": {
+      "protector_seeds": [
+        82,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r1_degree_attempt0.json",
+      "selection_sha256": "c85cc128d39d555246da210bf1051aceaf221387ce323bab1d9d8ad00e4d8064"
+    },
+    "main_reserved_email-Eu-core_high_1_r1_genetic_algorithm": {
+      "protector_seeds": [
+        107,
+        294,
+        426,
+        786,
+        888
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r1_genetic_algorithm_attempt0.json",
+      "selection_sha256": "70962f14440c0c80de24113876316f5720cce832a9a90ccc615a73cb2bd7e050"
+    },
+    "main_reserved_email-Eu-core_high_1_r1_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r1_no_intervention_attempt0.json",
+      "selection_sha256": "da2d0ecf0fdfbb1ca5909685576a68794e0d848b20c84b0add6c1f8bb8da2561"
+    },
+    "main_reserved_email-Eu-core_high_1_r1_pagerank": {
+      "protector_seeds": [
+        62,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r1_pagerank_attempt0.json",
+      "selection_sha256": "56ad4e427389953e71e5acb7076acc71587a7246a731f7c78f029ddb49260277"
+    },
+    "main_reserved_email-Eu-core_high_1_r1_random": {
+      "protector_seeds": [
+        11,
+        202,
+        215,
+        831,
+        836
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r1_random_attempt0.json",
+      "selection_sha256": "d802b4a1cab5527659e669c680c923478e0398283e9d766df59c27cc342589a4"
+    },
+    "main_reserved_email-Eu-core_high_1_r2_candidate_restricted_greedy": {
+      "protector_seeds": [
+        13,
+        62,
+        82,
+        107,
+        121
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r2_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "2644dedb617afa1663b32fb0ecef92ad112539f978e9f5d53c8e78efca09d081"
+    },
+    "main_reserved_email-Eu-core_high_1_r2_degree": {
+      "protector_seeds": [
+        82,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r2_degree_attempt0.json",
+      "selection_sha256": "c91eea23c7718a3af129886c0a6f96afa1385a5273b2cea6ebdb5d36836ce962"
+    },
+    "main_reserved_email-Eu-core_high_1_r2_genetic_algorithm": {
+      "protector_seeds": [
+        5,
+        8,
+        184,
+        422,
+        448
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r2_genetic_algorithm_attempt0.json",
+      "selection_sha256": "7b427c2a86c29963bf530c05fc4683e30452f1d2dfd92940788fd230d1fc99b8"
+    },
+    "main_reserved_email-Eu-core_high_1_r2_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r2_no_intervention_attempt0.json",
+      "selection_sha256": "a7675a01062916cae0c5a987d8ff0a0f723c093afc9d1adf0dd00036666a8964"
+    },
+    "main_reserved_email-Eu-core_high_1_r2_pagerank": {
+      "protector_seeds": [
+        62,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r2_pagerank_attempt0.json",
+      "selection_sha256": "5ce7b2494302a3ee89f6669604880b62f47c38d07b04cf6fafa5801cc2b7d2a6"
+    },
+    "main_reserved_email-Eu-core_high_1_r2_random": {
+      "protector_seeds": [
+        32,
+        48,
+        218,
+        501,
+        985
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r2_random_attempt0.json",
+      "selection_sha256": "ca8dedbbfbe105c55977bada84223d1ee1a6492baa9f6e12773fe1bd887595bc"
+    },
+    "main_reserved_email-Eu-core_high_1_r3_candidate_restricted_greedy": {
+      "protector_seeds": [
+        62,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r3_candidate_restricted_greedy_attempt0.json",
+      "selection_sha256": "672a0f32e8bb8d15ee09d0b53ea6d6540f361710c2e1a1aab13d0402404176b7"
+    },
+    "main_reserved_email-Eu-core_high_1_r3_degree": {
+      "protector_seeds": [
+        82,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r3_degree_attempt0.json",
+      "selection_sha256": "2b4337d92a1849fa1071cc3e7c438967ee283b67eb539b5b807c2442c04aa3ec"
+    },
+    "main_reserved_email-Eu-core_high_1_r3_genetic_algorithm": {
+      "protector_seeds": [
+        68,
+        282,
+        486,
+        504,
+        675
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r3_genetic_algorithm_attempt0.json",
+      "selection_sha256": "d6a4fe627a3a6a02491ecb102a3f183b2f6e8d90c7f51cf6ca4c0eeacc241d99"
+    },
+    "main_reserved_email-Eu-core_high_1_r3_no_intervention": {
+      "protector_seeds": [],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r3_no_intervention_attempt0.json",
+      "selection_sha256": "8bcd02aa4f363784a5a6f917794fef130a43f1e9f496a3295a470ce1262409f5"
+    },
+    "main_reserved_email-Eu-core_high_1_r3_pagerank": {
+      "protector_seeds": [
+        62,
+        86,
+        107,
+        121,
+        160
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r3_pagerank_attempt0.json",
+      "selection_sha256": "90a2acc73aaa247a8a40c41eab3c4f7c11b8155b931a3173702a16a9d64d7e76"
+    },
+    "main_reserved_email-Eu-core_high_1_r3_random": {
+      "protector_seeds": [
+        103,
+        253,
+        501,
+        636,
+        988
+      ],
+      "selection_path": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/main_experiments_v2/units/select_main_reserved_email-Eu-core_high_1_r3_random_attempt0.json",
+      "selection_sha256": "1df8d1014331120a8f09c03a72b6ebf9dcc826991bbedea7d3d92244019bfd1b"
+    }
+  }
+}

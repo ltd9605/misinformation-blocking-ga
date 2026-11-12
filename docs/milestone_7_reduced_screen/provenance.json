@@ -1,0 +1,6 @@
+{
+  "Protocol_v1_sha256": "c844eebf3f6e66ebd5212d9e58ae9cb41cbe2821f3a687e367996c9ab79ef8a9",
+  "new_user_request_authorizes_conditional_screen": true,
+  "scenario_manifest_sha256": "a80fec44bc51d204f19c457abc8e42efece1ef7e8f7c482eeaaad479d04b4b5a",
+  "stop_reason_is_budget_not_old_authorization_flag": true
+}

@@ -1,0 +1,11 @@
+{
+  "GA_convergence_rows": 264,
+  "GA_elite_carries_checked": 240,
+  "GA_individuals_checked": 2640,
+  "final_batches_checked": 288,
+  "official_resimulations_for_audit": 0,
+  "optimization_raw_CIC_observations_retained": false,
+  "passed": true,
+  "raw_final_CIC_observations_recomputed": 1056000,
+  "selections_checked": 144
+}

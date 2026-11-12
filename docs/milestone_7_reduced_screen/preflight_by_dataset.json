@@ -1,0 +1,80 @@
+[
+  {
+    "GA_final_CIC": 300000,
+    "GA_final_evaluator_calls": 50,
+    "GA_runs": 25,
+    "budget_reasons": [],
+    "control_CIC": 60000,
+    "control_evaluator_calls": 10,
+    "cost_scope": "GA optimization + two final batches + shared controls; excludes raw exports/loading/setup",
+    "dataset": "email-Eu-core",
+    "fitness_CIC_upper": 350000,
+    "fitness_evaluator_calls_upper": 3500,
+    "independent_runs": 5,
+    "rate_projection_seconds_before_safety": 825.094526306325,
+    "rate_projection_seconds_with_safety": 1237.6417894594874,
+    "rumor_seeds": [
+      926
+    ],
+    "runtime_is_hard_upper_bound": false,
+    "runtime_is_measured": false,
+    "scenario_configurations": 5,
+    "total_CIC_upper": 710000,
+    "total_evaluator_calls_upper": 3560,
+    "uncertainty": "Pilot2 rates from one R per dataset; different genotypes/N/G/hardware load can change speed; safety factor is not a guarantee",
+    "unique_parameter_configurations": 5,
+    "within_declared_budget": true
+  },
+  {
+    "GA_final_CIC": 125000,
+    "GA_final_evaluator_calls": 50,
+    "GA_runs": 25,
+    "budget_reasons": [],
+    "control_CIC": 25000,
+    "control_evaluator_calls": 10,
+    "cost_scope": "GA optimization + two final batches + shared controls; excludes raw exports/loading/setup",
+    "dataset": "ego-Facebook",
+    "fitness_CIC_upper": 350000,
+    "fitness_evaluator_calls_upper": 3500,
+    "independent_runs": 5,
+    "rate_projection_seconds_before_safety": 4894.295264649982,
+    "rate_projection_seconds_with_safety": 7341.442896974972,
+    "rumor_seeds": [
+      1180
+    ],
+    "runtime_is_hard_upper_bound": false,
+    "runtime_is_measured": false,
+    "scenario_configurations": 5,
+    "total_CIC_upper": 500000,
+    "total_evaluator_calls_upper": 3560,
+    "uncertainty": "Pilot2 rates from one R per dataset; different genotypes/N/G/hardware load can change speed; safety factor is not a guarantee",
+    "unique_parameter_configurations": 5,
+    "within_declared_budget": true
+  },
+  {
+    "GA_final_CIC": 125000,
+    "GA_final_evaluator_calls": 50,
+    "GA_runs": 25,
+    "budget_reasons": [],
+    "control_CIC": 25000,
+    "control_evaluator_calls": 10,
+    "cost_scope": "GA optimization + two final batches + shared controls; excludes raw exports/loading/setup",
+    "dataset": "Wiki-Vote",
+    "fitness_CIC_upper": 350000,
+    "fitness_evaluator_calls_upper": 3500,
+    "independent_runs": 5,
+    "rate_projection_seconds_before_safety": 1604.0529761252517,
+    "rate_projection_seconds_with_safety": 2406.0794641878774,
+    "rumor_seeds": [
+      1210
+    ],
+    "runtime_is_hard_upper_bound": false,
+    "runtime_is_measured": false,
+    "scenario_configurations": 5,
+    "total_CIC_upper": 500000,
+    "total_evaluator_calls_upper": 3560,
+    "uncertainty": "Pilot2 rates from one R per dataset; different genotypes/N/G/hardware load can change speed; safety factor is not a guarantee",
+    "unique_parameter_configurations": 5,
+    "within_declared_budget": true
+  }
+]

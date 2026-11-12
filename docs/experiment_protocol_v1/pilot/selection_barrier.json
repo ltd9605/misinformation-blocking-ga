@@ -1,0 +1,62 @@
+{
+  "all_selection_attempts_finished_before_any_final": true,
+  "finished_at_utc": "2026-11-11T12:30:39.972297+00:00",
+  "protector_sets": {
+    "Wiki-Vote_high_1_r0_population_size_20": [
+      282,
+      742,
+      986,
+      1799,
+      3945
+    ],
+    "Wiki-Vote_high_1_r0_reference": [
+      282,
+      1799,
+      1980,
+      2202,
+      3900
+    ],
+    "Wiki-Vote_high_1_r1_population_size_20": [
+      1319,
+      3026,
+      3848,
+      4981,
+      5090
+    ],
+    "Wiki-Vote_high_1_r1_reference": [
+      2660,
+      4337,
+      6523,
+      6644,
+      6911
+    ],
+    "email-Eu-core_high_1_r0_population_size_20": [
+      261,
+      404,
+      438,
+      542,
+      852
+    ],
+    "email-Eu-core_high_1_r0_reference": [
+      21,
+      64,
+      306,
+      718,
+      864
+    ],
+    "email-Eu-core_high_1_r1_population_size_20": [
+      63,
+      96,
+      159,
+      256,
+      816
+    ],
+    "email-Eu-core_high_1_r1_reference": [
+      68,
+      132,
+      392,
+      474,
+      672
+    ]
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "preflight": {
+    "GA_final_CIC": 550000,
+    "GA_final_evaluator_calls": 150,
+    "GA_runs": 75,
+    "budget_reasons": [],
+    "control_CIC": 110000,
+    "control_evaluator_calls": 30,
+    "cost_scope": "GA optimization + two final batches + shared controls; excludes raw exports/loading/setup",
+    "fitness_CIC_upper": 900000,
+    "fitness_evaluator_calls_upper": 9000,
+    "independent_runs": 5,
+    "rate_projection_seconds_before_safety": 6624.132089671959,
+    "rate_projection_seconds_with_safety": 9936.198134507938,
+    "rows": [
+      {
+        "control_cic_shared_per_scenario": 60000,
+        "dataset": "email-Eu-core",
+        "final_cic": 60000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 50000,
+        "optimization_evaluator_calls_upper": 500,
+        "profile_id": "reference",
+        "projected_seconds_excluding_shared_control": 137.26409608079607,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "email-Eu-core_high_1",
+        "rumor_seeds": [
+          926
+        ],
+        "scenario_id": "email-Eu-core_high_1"
+      },
+      {
+        "control_cic_shared_per_scenario": 60000,
+        "dataset": "email-Eu-core",
+        "final_cic": 60000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 77500,
+        "optimization_evaluator_calls_upper": 775,
+        "profile_id": "population_size_15",
+        "projected_seconds_excluding_shared_control": 170.07739517336694,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "email-Eu-core_high_1",
+        "rumor_seeds": [
+          926
+        ],
+        "scenario_id": "email-Eu-core_high_1"
+      },
+      {
+        "control_cic_shared_per_scenario": 60000,
+        "dataset": "email-Eu-core",
+        "final_cic": 60000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 72500,
+        "optimization_evaluator_calls_upper": 725,
+        "profile_id": "max_generations_15",
+        "projected_seconds_excluding_shared_control": 164.11965843514741,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "email-Eu-core_high_1",
+        "rumor_seeds": [
+          926
+        ],
+        "scenario_id": "email-Eu-core_high_1"
+      },
+      {
+        "control_cic_shared_per_scenario": 60000,
+        "dataset": "email-Eu-core",
+        "final_cic": 60000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 50000,
+        "optimization_evaluator_calls_upper": 500,
+        "profile_id": "crossover_rate_0p6",
+        "projected_seconds_excluding_shared_control": 137.26409608079607,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "email-Eu-core_high_1",
+        "rumor_seeds": [
+          926
+        ],
+        "scenario_id": "email-Eu-core_high_1"
+      },
+      {
+        "control_cic_shared_per_scenario": 60000,
+        "dataset": "email-Eu-core",
+        "final_cic": 60000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 50000,
+        "optimization_evaluator_calls_upper": 500,
+        "profile_id": "mutation_rate_0p2",
+        "projected_seconds_excluding_shared_control": 137.26409608079607,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "email-Eu-core_high_1",
+        "rumor_seeds": [
+          926
+        ],
+        "scenario_id": "email-Eu-core_high_1"
+      },
+      {
+        "control_cic_shared_per_scenario": 25000,
+        "dataset": "ego-Facebook",
+        "final_cic": 25000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 50000,
+        "optimization_evaluator_calls_upper": 500,
+        "profile_id": "reference",
+        "projected_seconds_excluding_shared_control": 752.7886234493683,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "ego-Facebook_constant_0",
+        "rumor_seeds": [
+          1180
+        ],
+        "scenario_id": "ego-Facebook_constant_0"
+      },
+      {
+        "control_cic_shared_per_scenario": 25000,
+        "dataset": "ego-Facebook",
+        "final_cic": 25000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 77500,
+        "optimization_evaluator_calls_upper": 775,
+        "profile_id": "population_size_15",
+        "projected_seconds_excluding_shared_control": 1018.1245274934583,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "ego-Facebook_constant_0",
+        "rumor_seeds": [
+          1180
+        ],
+        "scenario_id": "ego-Facebook_constant_0"
+      },
+      {
+        "control_cic_shared_per_scenario": 25000,
+        "dataset": "ego-Facebook",
+        "final_cic": 25000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 72500,
+        "optimization_evaluator_calls_upper": 725,
+        "profile_id": "max_generations_15",
+        "projected_seconds_excluding_shared_control": 969.9112826868051,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "ego-Facebook_constant_0",
+        "rumor_seeds": [
+          1180
+        ],
+        "scenario_id": "ego-Facebook_constant_0"
+      },
+      {
+        "control_cic_shared_per_scenario": 25000,
+        "dataset": "ego-Facebook",
+        "final_cic": 25000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 50000,
+        "optimization_evaluator_calls_upper": 500,
+        "profile_id": "crossover_rate_0p6",
+        "projected_seconds_excluding_shared_control": 752.7886234493683,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "ego-Facebook_constant_0",
+        "rumor_seeds": [
+          1180
+        ],
+        "scenario_id": "ego-Facebook_constant_0"
+      },
+      {
+        "control_cic_shared_per_scenario": 25000,
+        "dataset": "ego-Facebook",
+        "final_cic": 25000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 50000,
+        "optimization_evaluator_calls_upper": 500,
+        "profile_id": "mutation_rate_0p2",
+        "projected_seconds_excluding_shared_control": 752.7886234493683,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "ego-Facebook_constant_0",
+        "rumor_seeds": [
+          1180
+        ],
+        "scenario_id": "ego-Facebook_constant_0"
+      },
+      {
+        "control_cic_shared_per_scenario": 25000,
+        "dataset": "Wiki-Vote",
+        "final_cic": 25000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 50000,
+        "optimization_evaluator_calls_upper": 500,
+        "profile_id": "reference",
+        "projected_seconds_excluding_shared_control": 244.02787540258942,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "Wiki-Vote_high_1",
+        "rumor_seeds": [
+          1210
+        ],
+        "scenario_id": "Wiki-Vote_high_1"
+      },
+      {
+        "control_cic_shared_per_scenario": 25000,
+        "dataset": "Wiki-Vote",
+        "final_cic": 25000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 77500,
+        "optimization_evaluator_calls_upper": 775,
+        "profile_id": "population_size_15",
+        "projected_seconds_excluding_shared_control": 330.447237491976,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "Wiki-Vote_high_1",
+        "rumor_seeds": [
+          1210
+        ],
+        "scenario_id": "Wiki-Vote_high_1"
+      },
+      {
+        "control_cic_shared_per_scenario": 25000,
+        "dataset": "Wiki-Vote",
+        "final_cic": 25000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 72500,
+        "optimization_evaluator_calls_upper": 725,
+        "profile_id": "max_generations_15",
+        "projected_seconds_excluding_shared_control": 314.79176599435175,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "Wiki-Vote_high_1",
+        "rumor_seeds": [
+          1210
+        ],
+        "scenario_id": "Wiki-Vote_high_1"
+      },
+      {
+        "control_cic_shared_per_scenario": 25000,
+        "dataset": "Wiki-Vote",
+        "final_cic": 25000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 50000,
+        "optimization_evaluator_calls_upper": 500,
+        "profile_id": "crossover_rate_0p6",
+        "projected_seconds_excluding_shared_control": 244.02787540258942,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "Wiki-Vote_high_1",
+        "rumor_seeds": [
+          1210
+        ],
+        "scenario_id": "Wiki-Vote_high_1"
+      },
+      {
+        "control_cic_shared_per_scenario": 25000,
+        "dataset": "Wiki-Vote",
+        "final_cic": 25000,
+        "final_evaluator_calls": 10,
+        "independent_runs": 5,
+        "optimization_cic_upper": 50000,
+        "optimization_evaluator_calls_upper": 500,
+        "profile_id": "mutation_rate_0p2",
+        "projected_seconds_excluding_shared_control": 244.02787540258942,
+        "projection_is_measurement": false,
+        "rate_evidence_scope": "Wiki-Vote_high_1",
+        "rumor_seeds": [
+          1210
+        ],
+        "scenario_id": "Wiki-Vote_high_1"
+      }
+    ],
+    "runtime_is_hard_upper_bound": false,
+    "runtime_is_measured": false,
+    "scenario_configurations": 15,
+    "total_CIC_upper": 1560000,
+    "total_evaluator_calls_upper": 9180,
+    "uncertainty": "Pilot2 rates from one R per dataset; different genotypes/N/G/hardware load can change speed; safety factor is not a guarantee",
+    "unique_parameter_configurations": 5,
+    "within_declared_budget": true
+  },
+  "profiles": [
+    {
+      "changed_factor": null,
+      "parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "profile_id": "reference"
+    },
+    {
+      "changed_factor": "population_size",
+      "parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 15,
+        "tournament_size": 3
+      },
+      "profile_id": "population_size_15"
+    },
+    {
+      "changed_factor": "max_generations",
+      "parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 15,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "profile_id": "max_generations_15"
+    },
+    {
+      "changed_factor": "crossover_rate",
+      "parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.6,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "profile_id": "crossover_rate_0p6"
+    },
+    {
+      "changed_factor": "mutation_rate",
+      "parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.2,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "profile_id": "mutation_rate_0p2"
+    }
+  ],
+  "status": "unselected_requires_protocol_revision"
+}

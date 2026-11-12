@@ -1,0 +1,104 @@
+[
+  {
+    "actual_main_runtime_seconds": null,
+    "dataset": "Wiki-Vote",
+    "final_CIC": 120000,
+    "final_evaluator_calls": 48,
+    "nearest_topology_nominal_proxy_seconds": 567.6579669320199,
+    "optimization_CIC_upper": 56000,
+    "optimization_evaluator_calls_upper": 560,
+    "planning_ceiling_seconds_with_safety_excluding_shared_overhead": 946.4788951773444,
+    "proxy_max_seconds_before_safety": 630.9859301182296,
+    "proxy_min_seconds_before_safety": 484.1375983107613,
+    "rumor_seeds": [
+      1961
+    ],
+    "runtime_identity_between_R_assumed": false,
+    "scenario_id": "main_reserved_Wiki-Vote_high_0"
+  },
+  {
+    "actual_main_runtime_seconds": null,
+    "dataset": "Wiki-Vote",
+    "final_CIC": 120000,
+    "final_evaluator_calls": 48,
+    "nearest_topology_nominal_proxy_seconds": 630.9859301182296,
+    "optimization_CIC_upper": 56000,
+    "optimization_evaluator_calls_upper": 560,
+    "planning_ceiling_seconds_with_safety_excluding_shared_overhead": 946.4788951773444,
+    "proxy_max_seconds_before_safety": 630.9859301182296,
+    "proxy_min_seconds_before_safety": 484.1375983107613,
+    "rumor_seeds": [
+      1795
+    ],
+    "runtime_identity_between_R_assumed": false,
+    "scenario_id": "main_reserved_Wiki-Vote_high_1"
+  },
+  {
+    "actual_main_runtime_seconds": null,
+    "dataset": "ego-Facebook",
+    "final_CIC": 120000,
+    "final_evaluator_calls": 48,
+    "nearest_topology_nominal_proxy_seconds": 1722.765971375461,
+    "optimization_CIC_upper": 56000,
+    "optimization_evaluator_calls_upper": 560,
+    "planning_ceiling_seconds_with_safety_excluding_shared_overhead": 2718.12908231337,
+    "proxy_max_seconds_before_safety": 1812.08605487558,
+    "proxy_min_seconds_before_safety": 1490.9575877880561,
+    "rumor_seeds": [
+      714
+    ],
+    "runtime_identity_between_R_assumed": false,
+    "scenario_id": "main_reserved_ego-Facebook_constant_0"
+  },
+  {
+    "actual_main_runtime_seconds": null,
+    "dataset": "ego-Facebook",
+    "final_CIC": 120000,
+    "final_evaluator_calls": 48,
+    "nearest_topology_nominal_proxy_seconds": 1722.765971375461,
+    "optimization_CIC_upper": 56000,
+    "optimization_evaluator_calls_upper": 560,
+    "planning_ceiling_seconds_with_safety_excluding_shared_overhead": 2718.12908231337,
+    "proxy_max_seconds_before_safety": 1812.08605487558,
+    "proxy_min_seconds_before_safety": 1490.9575877880561,
+    "rumor_seeds": [
+      2733
+    ],
+    "runtime_identity_between_R_assumed": false,
+    "scenario_id": "main_reserved_ego-Facebook_constant_1"
+  },
+  {
+    "actual_main_runtime_seconds": null,
+    "dataset": "email-Eu-core",
+    "final_CIC": 288000,
+    "final_evaluator_calls": 48,
+    "nearest_topology_nominal_proxy_seconds": 420.10705907898694,
+    "optimization_CIC_upper": 56000,
+    "optimization_evaluator_calls_upper": 560,
+    "planning_ceiling_seconds_with_safety_excluding_shared_overhead": 630.1605886184805,
+    "proxy_max_seconds_before_safety": 420.10705907898694,
+    "proxy_min_seconds_before_safety": 320.61137228362213,
+    "rumor_seeds": [
+      485
+    ],
+    "runtime_identity_between_R_assumed": false,
+    "scenario_id": "main_reserved_email-Eu-core_high_0"
+  },
+  {
+    "actual_main_runtime_seconds": null,
+    "dataset": "email-Eu-core",
+    "final_CIC": 288000,
+    "final_evaluator_calls": 48,
+    "nearest_topology_nominal_proxy_seconds": 420.10705907898694,
+    "optimization_CIC_upper": 56000,
+    "optimization_evaluator_calls_upper": 560,
+    "planning_ceiling_seconds_with_safety_excluding_shared_overhead": 630.1605886184805,
+    "proxy_max_seconds_before_safety": 420.10705907898694,
+    "proxy_min_seconds_before_safety": 320.61137228362213,
+    "rumor_seeds": [
+      374
+    ],
+    "runtime_identity_between_R_assumed": false,
+    "scenario_id": "main_reserved_email-Eu-core_high_1"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "completed_GA_runs_audited": 45,
+  "convergence_rows": 695,
+  "elite_carries_checked": 650,
+  "passed": true,
+  "population_individuals_checked": 9150,
+  "raw_final_and_control_observations_recomputed": 600000,
+  "scope": "actual stored records; optimizer fitness raw CIC outcomes were not retained"
+}

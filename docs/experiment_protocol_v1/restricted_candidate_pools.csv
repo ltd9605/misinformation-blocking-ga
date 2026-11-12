@@ -1,0 +1,12 @@
+scenario_id,dataset,rumor_seeds,candidate_nodes,pool_rule
+email-Eu-core_low_0,email-Eu-core,[761],"[13, 62, 82, 86, 107, 121, 160, 183, 249, 434]",out_degree_if_directed_else_degree
+email-Eu-core_low_1,email-Eu-core,[767],"[13, 62, 82, 86, 107, 121, 160, 183, 249, 434]",out_degree_if_directed_else_degree
+email-Eu-core_high_0,email-Eu-core,[858],"[13, 62, 82, 86, 107, 121, 160, 183, 249, 434]",out_degree_if_directed_else_degree
+email-Eu-core_high_1,email-Eu-core,[926],"[13, 62, 82, 86, 107, 121, 160, 183, 249, 434]",out_degree_if_directed_else_degree
+ego-Facebook_constant_0,ego-Facebook,[1180],"[0, 107, 1663, 1684, 1800, 1888, 1912, 2347, 2543, 3437]",out_degree_if_directed_else_degree
+ego-Facebook_constant_1,ego-Facebook,[1555],"[0, 107, 1663, 1684, 1800, 1888, 1912, 2347, 2543, 3437]",out_degree_if_directed_else_degree
+Wiki-Vote_low_0,Wiki-Vote,[5288],"[11, 457, 766, 1133, 1151, 1166, 1374, 1549, 2565, 2688]",out_degree_if_directed_else_degree
+Wiki-Vote_low_1,Wiki-Vote,[6009],"[11, 457, 766, 1133, 1151, 1166, 1374, 1549, 2565, 2688]",out_degree_if_directed_else_degree
+Wiki-Vote_high_0,Wiki-Vote,[2110],"[11, 457, 766, 1133, 1151, 1166, 1374, 1549, 2565, 2688]",out_degree_if_directed_else_degree
+Wiki-Vote_high_1,Wiki-Vote,[1210],"[11, 457, 766, 1133, 1151, 1166, 1374, 1549, 2565, 2688]",out_degree_if_directed_else_degree
+Wiki-Vote_legacy_4341,Wiki-Vote,[4341],"[11, 457, 766, 1133, 1151, 1166, 1374, 1549, 2565, 2688]",out_degree_if_directed_else_degree

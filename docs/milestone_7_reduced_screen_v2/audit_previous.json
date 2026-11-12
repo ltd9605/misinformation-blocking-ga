@@ -1,0 +1,131 @@
+{
+  "allocation": "five selected profiles replicated on each scenario; nine blueprint profiles not divided among datasets",
+  "blueprint_unique_profiles": 9,
+  "completed_old_screen_runs": 0,
+  "cross_scenario_pairs": 0,
+  "empirical_panel_analysis_available": false,
+  "old_reduced_profiles": 5,
+  "scenarios": [
+    {
+      "dataset": "Wiki-Vote",
+      "levels": {
+        "crossover_rate": [
+          0.6,
+          0.8
+        ],
+        "max_generations": [
+          10,
+          20
+        ],
+        "mutation_rate": [
+          0.1,
+          0.2
+        ],
+        "population_size": [
+          10,
+          20
+        ]
+      },
+      "rumor_seeds": [
+        1210
+      ],
+      "runs": 25,
+      "scenario_id": "Wiki-Vote_high_1",
+      "three_level_panels": [],
+      "unique_profiles": [
+        "crossover_rate_0p6",
+        "max_generations_20",
+        "mutation_rate_0p2",
+        "population_size_20",
+        "reference"
+      ],
+      "valid_planned_two_level_panels": [
+        "population_size",
+        "max_generations",
+        "crossover_rate",
+        "mutation_rate"
+      ]
+    },
+    {
+      "dataset": "ego-Facebook",
+      "levels": {
+        "crossover_rate": [
+          0.6,
+          0.8
+        ],
+        "max_generations": [
+          10,
+          20
+        ],
+        "mutation_rate": [
+          0.1,
+          0.2
+        ],
+        "population_size": [
+          10,
+          20
+        ]
+      },
+      "rumor_seeds": [
+        1180
+      ],
+      "runs": 25,
+      "scenario_id": "ego-Facebook_constant_0",
+      "three_level_panels": [],
+      "unique_profiles": [
+        "crossover_rate_0p6",
+        "max_generations_20",
+        "mutation_rate_0p2",
+        "population_size_20",
+        "reference"
+      ],
+      "valid_planned_two_level_panels": [
+        "population_size",
+        "max_generations",
+        "crossover_rate",
+        "mutation_rate"
+      ]
+    },
+    {
+      "dataset": "email-Eu-core",
+      "levels": {
+        "crossover_rate": [
+          0.6,
+          0.8
+        ],
+        "max_generations": [
+          10,
+          20
+        ],
+        "mutation_rate": [
+          0.1,
+          0.2
+        ],
+        "population_size": [
+          10,
+          20
+        ]
+      },
+      "rumor_seeds": [
+        926
+      ],
+      "runs": 25,
+      "scenario_id": "email-Eu-core_high_1",
+      "three_level_panels": [],
+      "unique_profiles": [
+        "crossover_rate_0p6",
+        "max_generations_20",
+        "mutation_rate_0p2",
+        "population_size_20",
+        "reference"
+      ],
+      "valid_planned_two_level_panels": [
+        "population_size",
+        "max_generations",
+        "crossover_rate",
+        "mutation_rate"
+      ]
+    }
+  ],
+  "validated_pairs": 60
+}

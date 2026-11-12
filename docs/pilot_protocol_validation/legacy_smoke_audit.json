@@ -1,0 +1,84 @@
+{
+  "source_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/experiment_runner_smoke/email-Eu-core/run_0000_f612221a6a70",
+  "source_checksums": {
+    "config.json": "663161245461e92e47422a5118d4fa8f775998bbad4cdbfaf947e4db6ccc13ba",
+    "summary.json": "b30271ae84735768cae970be8dd382eb0f6ed7e136acee52dd4fe34c25e948b5",
+    "results.csv": "241043688236f0594656a44cf83cf5b9488084c4ee96874b8f88f5ad5ca2d602"
+  },
+  "supported_method_count": 7,
+  "configured_method_count": 6,
+  "configured_methods": [
+    "no_intervention",
+    "random",
+    "degree",
+    "pagerank",
+    "candidate_restricted_greedy",
+    "genetic_algorithm"
+  ],
+  "actual_final_evaluations": 6,
+  "k": 2,
+  "rows": [
+    {
+      "algorithm": "no_intervention",
+      "final_evaluation_count": 1,
+      "protector_seeds": []
+    },
+    {
+      "algorithm": "random",
+      "final_evaluation_count": 1,
+      "protector_seeds": [
+        723,
+        757
+      ]
+    },
+    {
+      "algorithm": "degree",
+      "final_evaluation_count": 1,
+      "protector_seeds": [
+        82,
+        160
+      ]
+    },
+    {
+      "algorithm": "pagerank",
+      "final_evaluation_count": 1,
+      "protector_seeds": [
+        62,
+        160
+      ]
+    },
+    {
+      "algorithm": "candidate_restricted_greedy",
+      "final_evaluation_count": 1,
+      "protector_seeds": [
+        107,
+        121
+      ]
+    },
+    {
+      "algorithm": "genetic_algorithm",
+      "final_evaluation_count": 1,
+      "protector_seeds": [
+        292,
+        611
+      ]
+    }
+  ],
+  "skipped_methods": [
+    {
+      "algorithm": "full_greedy",
+      "status": "skipped",
+      "reason": "not_selected_in_legacy_smoke_configuration; Full Greedy limits=0"
+    }
+  ],
+  "explanation": "Six configured methods, each with one final evaluator call. Full Greedy was not requested by that smoke config. k=2; this is not empty-P control reuse. Supporting seven APIs does not mean all seven were executed.",
+  "legacy_timing_components": {
+    "final_evaluation_seconds": 0.18096654198598117,
+    "graph_loading_seconds": 0.025806541001657024,
+    "orchestration_other_seconds": 0.13449512400256936,
+    "preprocessing_seconds": 0.0,
+    "primary_artifact_write_seconds": 0.0012014999956591055,
+    "selection_optimization_seconds": 0.2250787090160884,
+    "total_experiment_runtime_seconds": 0.567548416001955
+  }
+}

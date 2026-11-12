@@ -1,0 +1,2486 @@
+[
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.15546358299616259,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.16089979199750815,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.4707725829939591,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "random",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.62262916599866,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      63,
+      419,
+      694,
+      800,
+      1003
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "random",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6226067079987843,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      63,
+      419,
+      694,
+      800,
+      1003
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "random",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 1.8917972080089385,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      63,
+      419,
+      694,
+      800,
+      1003
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "degree",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6425515000009909,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      82,
+      86,
+      107,
+      121,
+      160
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "degree",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6375386659929063,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      82,
+      86,
+      107,
+      121,
+      160
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "degree",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 1.9232795419957256,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      82,
+      86,
+      107,
+      121,
+      160
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.636305166000966,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      62,
+      86,
+      107,
+      121,
+      160
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6375158750015544,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      62,
+      86,
+      107,
+      121,
+      160
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 1.9160326660057763,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      62,
+      86,
+      107,
+      121,
+      160
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6393290840060217,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      13,
+      62,
+      82,
+      160,
+      249
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6473012499918696,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      13,
+      62,
+      82,
+      160,
+      249
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 1.9285507500026142,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      13,
+      62,
+      82,
+      160,
+      249
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6293173330050195,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      166,
+      173,
+      483,
+      894
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6411311249976279,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      166,
+      173,
+      483,
+      894
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205296843832716500000,
+    "batch": 0,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 1.9540218750044005,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      166,
+      173,
+      483,
+      894
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.16111283301142976,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.1657819170068251,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.48295204200258013,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "random",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6364607910072664,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      63,
+      419,
+      694,
+      800,
+      1003
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "random",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6389957920036977,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      63,
+      419,
+      694,
+      800,
+      1003
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "random",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 1.9015735830034828,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      63,
+      419,
+      694,
+      800,
+      1003
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "degree",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.649190041993279,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      82,
+      86,
+      107,
+      121,
+      160
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "degree",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6391530420078197,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      82,
+      86,
+      107,
+      121,
+      160
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "degree",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 1.9148230419959873,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      82,
+      86,
+      107,
+      121,
+      160
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6314725410047686,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      62,
+      86,
+      107,
+      121,
+      160
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6272651249892078,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      62,
+      86,
+      107,
+      121,
+      160
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 1.8677706250018673,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      62,
+      86,
+      107,
+      121,
+      160
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6789669999998296,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      13,
+      62,
+      82,
+      160,
+      249
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6487453330046264,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      13,
+      62,
+      82,
+      160,
+      249
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 1.9160887499892851,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      13,
+      62,
+      82,
+      160,
+      249
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6440325000003213,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      166,
+      173,
+      483,
+      894
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 0.6458977079892065,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      166,
+      173,
+      483,
+      894
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205296864095829500000,
+    "batch": 1,
+    "dataset": "email-Eu-core",
+    "increment_runtime_seconds": 1.9428579999948852,
+    "optimization_base_random_seed": 205256319607716000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      166,
+      173,
+      483,
+      894
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      926
+    ],
+    "scenario_id": "email-Eu-core_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 3.326913458004128,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 3.363463708999916,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 9.465781417005928,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "random",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.582783250007196,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      373,
+      438,
+      2539,
+      3078,
+      3629
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "random",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.698817499986035,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      373,
+      438,
+      2539,
+      3078,
+      3629
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "random",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 16.96342783300497,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      373,
+      438,
+      2539,
+      3078,
+      3629
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "degree",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.915549874989665,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1684,
+      1912,
+      3437
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "degree",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.8449492910003755,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1684,
+      1912,
+      3437
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "degree",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 17.73047341700294,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1684,
+      1912,
+      3437
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.866705332999118,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1684,
+      1912,
+      3437
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.893319457987673,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1684,
+      1912,
+      3437
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 17.66648291599995,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1684,
+      1912,
+      3437
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.071799750003265,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1663,
+      1888,
+      1912
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.044734333001543,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1663,
+      1888,
+      1912
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 15.167399750003824,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1663,
+      1888,
+      1912
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.329927583006793,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      1153,
+      1714,
+      2473,
+      3010,
+      3206
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.375445750003564,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      1153,
+      1714,
+      2473,
+      3010,
+      3206
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205297046463891500000,
+    "batch": 0,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 16.32466800000111,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      1153,
+      1714,
+      2473,
+      3010,
+      3206
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 3.2030222500034142,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 3.3621809589967597,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 9.978298875008477,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "random",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.69838620799419,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      373,
+      438,
+      2539,
+      3078,
+      3629
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "random",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.64129408300505,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      373,
+      438,
+      2539,
+      3078,
+      3629
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "random",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 16.928064000006998,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      373,
+      438,
+      2539,
+      3078,
+      3629
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "degree",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.9891950829915,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1684,
+      1912,
+      3437
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "degree",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.934384334002971,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1684,
+      1912,
+      3437
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "degree",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 17.59555908299808,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1684,
+      1912,
+      3437
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.871423374992446,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1684,
+      1912,
+      3437
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.884567083005095,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1684,
+      1912,
+      3437
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 17.6400653749879,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1684,
+      1912,
+      3437
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.0379701659985585,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1663,
+      1888,
+      1912
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 4.9907049579924205,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1663,
+      1888,
+      1912
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 15.005778708000435,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      0,
+      107,
+      1663,
+      1888,
+      1912
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.33140441699652,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      1153,
+      1714,
+      2473,
+      3010,
+      3206
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 5.300904500007164,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      1153,
+      1714,
+      2473,
+      3010,
+      3206
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205297066727014500000,
+    "batch": 1,
+    "dataset": "ego-Facebook",
+    "increment_runtime_seconds": 15.978438541991636,
+    "optimization_base_random_seed": 205256522218891000000,
+    "p": 0.03,
+    "protector_seeds": [
+      1153,
+      1714,
+      2473,
+      3010,
+      3206
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1180
+    ],
+    "scenario_id": "ego-Facebook_constant_0",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.4137517920025857,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.37066883299849,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 4.1702887499995995,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "random",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.4474611670011654,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      300,
+      326,
+      679,
+      2214,
+      4290
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "random",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.5110852920042817,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      300,
+      326,
+      679,
+      2214,
+      4290
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "random",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 4.365645416008192,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      300,
+      326,
+      679,
+      2214,
+      4290
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "degree",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 2.280043749997276,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      457,
+      766,
+      2565,
+      2688
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "degree",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 2.2750064580031903,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      457,
+      766,
+      2565,
+      2688
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "degree",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 6.887549374994705,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      457,
+      766,
+      2565,
+      2688
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.5709442910010694,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      15,
+      2398,
+      2625,
+      4037,
+      6634
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.546276166991447,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      15,
+      2398,
+      2625,
+      4037,
+      6634
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 4.644687541993335,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      15,
+      2398,
+      2625,
+      4037,
+      6634
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 2.1410016250010813,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      766,
+      1151,
+      1549,
+      2565
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 2.2072742080054013,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      766,
+      1151,
+      1549,
+      2565
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 6.600158040993847,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      766,
+      1151,
+      1549,
+      2565
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.713217666008859,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      1029,
+      3258,
+      3675,
+      5135,
+      6047
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.7031783329875907,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      1029,
+      3258,
+      3675,
+      5135,
+      6047
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205297249095166500000,
+    "batch": 0,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 5.015794582999661,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      1029,
+      3258,
+      3675,
+      5135,
+      6047
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.373632250004448,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.3694907919998514,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "no_intervention",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 4.021510791004403,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "random",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.437766333008767,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      300,
+      326,
+      679,
+      2214,
+      4290
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "random",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.3863050420040963,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      300,
+      326,
+      679,
+      2214,
+      4290
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "random",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 4.277314749997458,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      300,
+      326,
+      679,
+      2214,
+      4290
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "degree",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 2.352090500004124,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      457,
+      766,
+      2565,
+      2688
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "degree",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 2.3050618749985006,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      457,
+      766,
+      2565,
+      2688
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "degree",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 6.990413583989721,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      457,
+      766,
+      2565,
+      2688
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.550079790991731,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      15,
+      2398,
+      2625,
+      4037,
+      6634
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.5834696250094566,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      15,
+      2398,
+      2625,
+      4037,
+      6634
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "pagerank",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 4.66223583300598,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      15,
+      2398,
+      2625,
+      4037,
+      6634
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 2.2030981249990873,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      766,
+      1151,
+      1549,
+      2565
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 2.194638750006561,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      766,
+      1151,
+      1549,
+      2565
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "candidate_restricted_greedy",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 6.479563957997016,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      11,
+      766,
+      1151,
+      1549,
+      2565
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 500,
+    "actual_cic_simulations": 500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.658868333994178,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      1029,
+      3258,
+      3675,
+      5135,
+      6047
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 1000,
+    "actual_cic_simulations": 500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 1.6604860420047771,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      1029,
+      3258,
+      3675,
+      5135,
+      6047
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  },
+  {
+    "S_eval": 2500,
+    "actual_cic_simulations": 1500,
+    "algorithm": "genetic_algorithm",
+    "base_random_seed": 205297269358299500000,
+    "batch": 1,
+    "dataset": "Wiki-Vote",
+    "increment_runtime_seconds": 5.359393917009584,
+    "optimization_base_random_seed": 205256724830166000000,
+    "p": 0.03,
+    "protector_seeds": [
+      1029,
+      3258,
+      3675,
+      5135,
+      6047
+    ],
+    "reason": null,
+    "rumor_seeds": [
+      1210
+    ],
+    "scenario_id": "Wiki-Vote_high_1",
+    "status": "completed"
+  }
+]

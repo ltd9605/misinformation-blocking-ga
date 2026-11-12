@@ -1,0 +1,41 @@
+[
+  {
+    "changed_factor": null,
+    "parameters": {
+      "cache_fitness": true,
+      "crossover_rate": 0.8,
+      "elitism_count": 1,
+      "max_generations": 10,
+      "mutation_rate": 0.1,
+      "population_size": 10,
+      "tournament_size": 3
+    },
+    "profile_id": "reference"
+  },
+  {
+    "changed_factor": "population_size",
+    "parameters": {
+      "cache_fitness": true,
+      "crossover_rate": 0.8,
+      "elitism_count": 1,
+      "max_generations": 10,
+      "mutation_rate": 0.1,
+      "population_size": 20,
+      "tournament_size": 3
+    },
+    "profile_id": "population_size_20"
+  },
+  {
+    "changed_factor": "population_size",
+    "parameters": {
+      "cache_fitness": true,
+      "crossover_rate": 0.8,
+      "elitism_count": 1,
+      "max_generations": 10,
+      "mutation_rate": 0.1,
+      "population_size": 40,
+      "tournament_size": 3
+    },
+    "profile_id": "population_size_40"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "actual_main_runtime_seconds": null,
+    "dataset": "Wiki-Vote",
+    "final_CIC": 240000,
+    "final_evaluator_calls": 96,
+    "nearest_topology_nominal_proxy_seconds": 1198.6438970502495,
+    "optimization_CIC_upper": 112000,
+    "optimization_evaluator_calls_upper": 1120,
+    "planning_ceiling_seconds_with_safety_excluding_shared_overhead": 1892.9577903546888,
+    "proxy_max_seconds_before_safety": 1261.9718602364592,
+    "proxy_min_seconds_before_safety": 968.2751966215226,
+    "rumor_seeds": null,
+    "runtime_identity_between_R_assumed": false
+  },
+  {
+    "actual_main_runtime_seconds": null,
+    "dataset": "ego-Facebook",
+    "final_CIC": 240000,
+    "final_evaluator_calls": 96,
+    "nearest_topology_nominal_proxy_seconds": 3445.531942750922,
+    "optimization_CIC_upper": 112000,
+    "optimization_evaluator_calls_upper": 1120,
+    "planning_ceiling_seconds_with_safety_excluding_shared_overhead": 5436.25816462674,
+    "proxy_max_seconds_before_safety": 3624.17210975116,
+    "proxy_min_seconds_before_safety": 2981.9151755761122,
+    "rumor_seeds": null,
+    "runtime_identity_between_R_assumed": false
+  },
+  {
+    "actual_main_runtime_seconds": null,
+    "dataset": "email-Eu-core",
+    "final_CIC": 576000,
+    "final_evaluator_calls": 96,
+    "nearest_topology_nominal_proxy_seconds": 840.2141181579739,
+    "optimization_CIC_upper": 112000,
+    "optimization_evaluator_calls_upper": 1120,
+    "planning_ceiling_seconds_with_safety_excluding_shared_overhead": 1260.321177236961,
+    "proxy_max_seconds_before_safety": 840.2141181579739,
+    "proxy_min_seconds_before_safety": 641.2227445672443,
+    "rumor_seeds": null,
+    "runtime_identity_between_R_assumed": false
+  }
+]

@@ -1,0 +1,238 @@
+{
+  "S_eval_evidence": {
+    "Wiki-Vote": "two independent fixed-P batches at reference R/p=0.03",
+    "ego-Facebook": "two independent fixed-P batches at reference R/p=0.03",
+    "email-Eu-core": "extrapolated, not executed"
+  },
+  "S_eval_proposal": {
+    "Wiki-Vote": 2500,
+    "ego-Facebook": 2500,
+    "email-Eu-core": 6000
+  },
+  "S_opt_status": "compute reference measured on three datasets; fitness/solution stability not established; 250 measured on email only",
+  "candidate_pool_size": 10,
+  "email_required_S_plugin": 5202,
+  "email_rounded_S_candidate": 6000,
+  "executable_runner_config": false,
+  "full_greedy": "explicit skipped unless declared calls/simulation/runtime limits permit; restricted not Full",
+  "ga_parameters": {
+    "cache_fitness": true,
+    "crossover_rate": 0.8,
+    "elitism_count": 1,
+    "max_generations": 10,
+    "mutation_rate": 0.1,
+    "population_size": 10,
+    "tournament_size": 3
+  },
+  "independent_main_runs_proposed": 10,
+  "k": 5,
+  "main_experiments_executed": false,
+  "primary_p": [
+    0.03
+  ],
+  "primary_scenarios": [
+    {
+      "dataset": "email-Eu-core",
+      "draw_index": 0,
+      "reachable_count": 966,
+      "reachable_excluding_seed": 965,
+      "reachable_fraction_of_graph": 0.9611940298507463,
+      "reachable_fraction_of_maximum": 1.0,
+      "role": "primary_candidate",
+      "rumor_seeds": [
+        858
+      ],
+      "sampling_seed": 623486053121203770,
+      "scenario_id": "email-Eu-core_high_0",
+      "selection_policy": "uniform_without_replacement_within_topology_stratum",
+      "stratum": "high"
+    },
+    {
+      "dataset": "email-Eu-core",
+      "draw_index": 1,
+      "reachable_count": 965,
+      "reachable_excluding_seed": 964,
+      "reachable_fraction_of_graph": 0.9601990049751243,
+      "reachable_fraction_of_maximum": 0.9989648033126294,
+      "role": "primary_candidate",
+      "rumor_seeds": [
+        926
+      ],
+      "sampling_seed": 623486053121203770,
+      "scenario_id": "email-Eu-core_high_1",
+      "selection_policy": "uniform_without_replacement_within_topology_stratum",
+      "stratum": "high"
+    },
+    {
+      "dataset": "ego-Facebook",
+      "draw_index": 0,
+      "reachable_count": 4039,
+      "reachable_excluding_seed": 4038,
+      "reachable_fraction_of_graph": 1.0,
+      "reachable_fraction_of_maximum": 1.0,
+      "role": "primary_candidate",
+      "rumor_seeds": [
+        1180
+      ],
+      "sampling_seed": 8896979120340374933,
+      "scenario_id": "ego-Facebook_constant_0",
+      "selection_policy": "uniform_without_replacement_within_topology_stratum",
+      "stratum": "constant"
+    },
+    {
+      "dataset": "ego-Facebook",
+      "draw_index": 1,
+      "reachable_count": 4039,
+      "reachable_excluding_seed": 4038,
+      "reachable_fraction_of_graph": 1.0,
+      "reachable_fraction_of_maximum": 1.0,
+      "role": "primary_candidate",
+      "rumor_seeds": [
+        1555
+      ],
+      "sampling_seed": 8896979120340374933,
+      "scenario_id": "ego-Facebook_constant_1",
+      "selection_policy": "uniform_without_replacement_within_topology_stratum",
+      "stratum": "constant"
+    },
+    {
+      "dataset": "Wiki-Vote",
+      "draw_index": 0,
+      "reachable_count": 2317,
+      "reachable_excluding_seed": 2316,
+      "reachable_fraction_of_graph": 0.32565003513703444,
+      "reachable_fraction_of_maximum": 0.9987068965517242,
+      "role": "primary_candidate",
+      "rumor_seeds": [
+        2110
+      ],
+      "sampling_seed": 1968672421774739127,
+      "scenario_id": "Wiki-Vote_high_0",
+      "selection_policy": "uniform_without_replacement_within_topology_stratum",
+      "stratum": "high"
+    },
+    {
+      "dataset": "Wiki-Vote",
+      "draw_index": 1,
+      "reachable_count": 2317,
+      "reachable_excluding_seed": 2316,
+      "reachable_fraction_of_graph": 0.32565003513703444,
+      "reachable_fraction_of_maximum": 0.9987068965517242,
+      "role": "primary_candidate",
+      "rumor_seeds": [
+        1210
+      ],
+      "sampling_seed": 1968672421774739127,
+      "scenario_id": "Wiki-Vote_high_1",
+      "selection_policy": "uniform_without_replacement_within_topology_stratum",
+      "stratum": "high"
+    }
+  ],
+  "projected_not_executed": {
+    "CIC_upper_primary": 2160000,
+    "CIC_upper_with_secondary": 4320000,
+    "comparisons_primary_only": 60,
+    "comparisons_with_secondary_p": 120,
+    "full_main_runtime_seconds": null
+  },
+  "proposed_relative_halfwidth_target": 0.1,
+  "reference_S_opt": 100,
+  "remaining_confirmation": [
+    "primary R list and stratum weights",
+    "p=0.05 accuracy if included",
+    "S_opt100/250 fitness noise, especially Wiki and Facebook",
+    "email S_eval6000 validation",
+    "practical effect threshold and CI/tie/multiple-comparison policy",
+    "run count and main computational budget"
+  ],
+  "rumor_policy": "uniform_actual_node_ids_within_nonempty_reachable_strata; empty strata explicit; low/legacy supplementary; no algorithm outcomes for sampling",
+  "rumor_seed_count": 1,
+  "secondary_p_proposed_not_MC_calibrated": [
+    0.05
+  ],
+  "status": "DRAFT_REQUIRES_PROTOCOL_CONFIRMATION",
+  "supplementary_scenarios": [
+    {
+      "dataset": "email-Eu-core",
+      "draw_index": 0,
+      "reachable_count": 1,
+      "reachable_excluding_seed": 0,
+      "reachable_fraction_of_graph": 0.0009950248756218905,
+      "reachable_fraction_of_maximum": 0.0010351966873706005,
+      "role": "supplementary_low_reach",
+      "rumor_seeds": [
+        761
+      ],
+      "sampling_seed": 4457537432526573887,
+      "scenario_id": "email-Eu-core_low_0",
+      "selection_policy": "uniform_without_replacement_within_topology_stratum",
+      "stratum": "low"
+    },
+    {
+      "dataset": "email-Eu-core",
+      "draw_index": 1,
+      "reachable_count": 1,
+      "reachable_excluding_seed": 0,
+      "reachable_fraction_of_graph": 0.0009950248756218905,
+      "reachable_fraction_of_maximum": 0.0010351966873706005,
+      "role": "supplementary_low_reach",
+      "rumor_seeds": [
+        767
+      ],
+      "sampling_seed": 4457537432526573887,
+      "scenario_id": "email-Eu-core_low_1",
+      "selection_policy": "uniform_without_replacement_within_topology_stratum",
+      "stratum": "low"
+    },
+    {
+      "dataset": "Wiki-Vote",
+      "draw_index": 0,
+      "reachable_count": 1,
+      "reachable_excluding_seed": 0,
+      "reachable_fraction_of_graph": 0.000140548137737175,
+      "reachable_fraction_of_maximum": 0.0004310344827586207,
+      "role": "supplementary_low_reach",
+      "rumor_seeds": [
+        5288
+      ],
+      "sampling_seed": 10904362679883315821,
+      "scenario_id": "Wiki-Vote_low_0",
+      "selection_policy": "uniform_without_replacement_within_topology_stratum",
+      "stratum": "low"
+    },
+    {
+      "dataset": "Wiki-Vote",
+      "draw_index": 1,
+      "reachable_count": 1,
+      "reachable_excluding_seed": 0,
+      "reachable_fraction_of_graph": 0.000140548137737175,
+      "reachable_fraction_of_maximum": 0.0004310344827586207,
+      "role": "supplementary_low_reach",
+      "rumor_seeds": [
+        6009
+      ],
+      "sampling_seed": 10904362679883315821,
+      "scenario_id": "Wiki-Vote_low_1",
+      "selection_policy": "uniform_without_replacement_within_topology_stratum",
+      "stratum": "low"
+    },
+    {
+      "dataset": "Wiki-Vote",
+      "draw_index": null,
+      "reachable_count": 2,
+      "reachable_excluding_seed": 1,
+      "reachable_fraction_of_graph": 0.00028109627547435,
+      "reachable_fraction_of_maximum": 0.0008620689655172414,
+      "role": "supplementary_legacy",
+      "rumor_seeds": [
+        4341
+      ],
+      "sampling_seed": null,
+      "scenario_id": "Wiki-Vote_legacy_4341",
+      "selection_policy": "retained_from_prior_pilot_without_resampling",
+      "stratum": "legacy_low"
+    }
+  ],
+  "target_status": "post-pilot proposal, not preregistered acceptance threshold",
+  "tie_breaking": "protector-priority"
+}

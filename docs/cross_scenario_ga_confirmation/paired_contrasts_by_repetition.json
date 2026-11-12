@@ -1,0 +1,272 @@
+[
+  {
+    "conditional_MC_SE_difference": 0.10151300356616137,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 0.10151300356616137,
+      "ci95_high": -0.7374347640203344,
+      "ci95_low": -1.1353985693129989,
+      "mean_difference": -0.9364166666666667,
+      "unresolved_at_pointwise_95": false
+    },
+    "dataset": "email-Eu-core",
+    "mean_difference": -0.9364166666666667,
+    "population_size": 20,
+    "repetition_index": 0,
+    "scenario_id": "email-Eu-core_high_0"
+  },
+  {
+    "conditional_MC_SE_difference": 0.11993576535918943,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 0.11993576535918943,
+      "ci95_high": 0.37017682823678655,
+      "ci95_low": -0.10001016157011988,
+      "mean_difference": 0.13508333333333333,
+      "unresolved_at_pointwise_95": true
+    },
+    "dataset": "email-Eu-core",
+    "mean_difference": 0.13508333333333322,
+    "population_size": 20,
+    "repetition_index": 1,
+    "scenario_id": "email-Eu-core_high_0"
+  },
+  {
+    "conditional_MC_SE_difference": 0.2740523114510934,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 0.2740523114510934,
+      "ci95_high": 1.6474368474133245,
+      "ci95_low": 0.5730631525866754,
+      "mean_difference": 1.11025,
+      "unresolved_at_pointwise_95": false
+    },
+    "dataset": "email-Eu-core",
+    "mean_difference": 1.1102500000000002,
+    "population_size": 20,
+    "repetition_index": 2,
+    "scenario_id": "email-Eu-core_high_0"
+  },
+  {
+    "conditional_MC_SE_difference": 0.25555574928325553,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 0.25555574928325553,
+      "ci95_high": 2.3805139278206595,
+      "ci95_low": 1.3786527388460073,
+      "mean_difference": 1.8795833333333334,
+      "unresolved_at_pointwise_95": false
+    },
+    "dataset": "email-Eu-core",
+    "mean_difference": 1.8795833333333332,
+    "population_size": 40,
+    "repetition_index": 0,
+    "scenario_id": "email-Eu-core_high_0"
+  },
+  {
+    "conditional_MC_SE_difference": 0.07881236933161177,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 0.07881236933161177,
+      "ci95_high": -0.52543167803712,
+      "ci95_low": -0.8344016552962132,
+      "mean_difference": -0.6799166666666666,
+      "unresolved_at_pointwise_95": false
+    },
+    "dataset": "email-Eu-core",
+    "mean_difference": -0.6799166666666667,
+    "population_size": 40,
+    "repetition_index": 1,
+    "scenario_id": "email-Eu-core_high_0"
+  },
+  {
+    "conditional_MC_SE_difference": 0.25545462113001,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 0.25545462113001,
+      "ci95_high": 1.4222323669535422,
+      "ci95_low": 0.4207676330464578,
+      "mean_difference": 0.9215,
+      "unresolved_at_pointwise_95": false
+    },
+    "dataset": "email-Eu-core",
+    "mean_difference": 0.9215,
+    "population_size": 40,
+    "repetition_index": 2,
+    "scenario_id": "email-Eu-core_high_0"
+  },
+  {
+    "conditional_MC_SE_difference": 1.990151186352662,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 1.990151186352662,
+      "ci95_high": -0.4836307015749597,
+      "ci95_low": -8.28676929842504,
+      "mean_difference": -4.3852,
+      "unresolved_at_pointwise_95": false
+    },
+    "dataset": "ego-Facebook",
+    "mean_difference": -4.385200000000001,
+    "population_size": 20,
+    "repetition_index": 0,
+    "scenario_id": "ego-Facebook_constant_1"
+  },
+  {
+    "conditional_MC_SE_difference": 1.8237555652203872,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 1.8237555652203872,
+      "ci95_high": 9.101360892122079,
+      "ci95_low": 1.9506391078779202,
+      "mean_difference": 5.526,
+      "unresolved_at_pointwise_95": false
+    },
+    "dataset": "ego-Facebook",
+    "mean_difference": 5.526000000000003,
+    "population_size": 20,
+    "repetition_index": 1,
+    "scenario_id": "ego-Facebook_constant_1"
+  },
+  {
+    "conditional_MC_SE_difference": 2.0679725896090293,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 2.0679725896090293,
+      "ci95_high": -5.933466615093747,
+      "ci95_low": -14.041733384906255,
+      "mean_difference": -9.9876,
+      "unresolved_at_pointwise_95": false
+    },
+    "dataset": "ego-Facebook",
+    "mean_difference": -9.987600000000004,
+    "population_size": 20,
+    "repetition_index": 2,
+    "scenario_id": "ego-Facebook_constant_1"
+  },
+  {
+    "conditional_MC_SE_difference": 1.9985095240042032,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 1.9985095240042032,
+      "ci95_high": 2.388755306578968,
+      "ci95_low": -5.447155306578968,
+      "mean_difference": -1.5292,
+      "unresolved_at_pointwise_95": true
+    },
+    "dataset": "ego-Facebook",
+    "mean_difference": -1.529200000000003,
+    "population_size": 40,
+    "repetition_index": 0,
+    "scenario_id": "ego-Facebook_constant_1"
+  },
+  {
+    "conditional_MC_SE_difference": 1.5919529380705344,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 1.5919529380705344,
+      "ci95_high": -1.3520739365401635,
+      "ci95_low": -7.593926063459836,
+      "mean_difference": -4.473,
+      "unresolved_at_pointwise_95": false
+    },
+    "dataset": "ego-Facebook",
+    "mean_difference": -4.472999999999999,
+    "population_size": 40,
+    "repetition_index": 1,
+    "scenario_id": "ego-Facebook_constant_1"
+  },
+  {
+    "conditional_MC_SE_difference": 2.1845208002015686,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 2.1845208002015686,
+      "ci95_high": -6.498980998848885,
+      "ci95_low": -15.064219001151113,
+      "mean_difference": -10.7816,
+      "unresolved_at_pointwise_95": false
+    },
+    "dataset": "ego-Facebook",
+    "mean_difference": -10.781600000000005,
+    "population_size": 40,
+    "repetition_index": 2,
+    "scenario_id": "ego-Facebook_constant_1"
+  },
+  {
+    "conditional_MC_SE_difference": 0.5730190107049904,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 0.5730190107049904,
+      "ci95_high": 1.6275686138578171,
+      "ci95_low": -0.6191686138578172,
+      "mean_difference": 0.5042,
+      "unresolved_at_pointwise_95": true
+    },
+    "dataset": "Wiki-Vote",
+    "mean_difference": 0.5042,
+    "population_size": 20,
+    "repetition_index": 0,
+    "scenario_id": "Wiki-Vote_high_0"
+  },
+  {
+    "conditional_MC_SE_difference": 0.5607371061134037,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 0.5607371061134037,
+      "ci95_high": 1.427490693441861,
+      "ci95_low": -0.7710906934418609,
+      "mean_difference": 0.3282,
+      "unresolved_at_pointwise_95": true
+    },
+    "dataset": "Wiki-Vote",
+    "mean_difference": 0.3281999999999998,
+    "population_size": 20,
+    "repetition_index": 1,
+    "scenario_id": "Wiki-Vote_high_0"
+  },
+  {
+    "conditional_MC_SE_difference": 0.48148971833443377,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 0.48148971833443377,
+      "ci95_high": 0.41413105179299603,
+      "ci95_low": -1.473731051792996,
+      "mean_difference": -0.5298,
+      "unresolved_at_pointwise_95": true
+    },
+    "dataset": "Wiki-Vote",
+    "mean_difference": -0.5297999999999998,
+    "population_size": 20,
+    "repetition_index": 2,
+    "scenario_id": "Wiki-Vote_high_0"
+  },
+  {
+    "conditional_MC_SE_difference": 0.5879810995828806,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 0.5879810995828806,
+      "ci95_high": 1.8065008711288177,
+      "ci95_low": -0.49890087112881754,
+      "mean_difference": 0.6538,
+      "unresolved_at_pointwise_95": true
+    },
+    "dataset": "Wiki-Vote",
+    "mean_difference": 0.6537999999999999,
+    "population_size": 40,
+    "repetition_index": 0,
+    "scenario_id": "Wiki-Vote_high_0"
+  },
+  {
+    "conditional_MC_SE_difference": 0.49595365849469736,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 0.49595365849469736,
+      "ci95_high": 0.45768671906617653,
+      "ci95_low": -1.4868867190661765,
+      "mean_difference": -0.5146,
+      "unresolved_at_pointwise_95": true
+    },
+    "dataset": "Wiki-Vote",
+    "mean_difference": -0.5146000000000002,
+    "population_size": 40,
+    "repetition_index": 1,
+    "scenario_id": "Wiki-Vote_high_0"
+  },
+  {
+    "conditional_MC_SE_difference": 0.5124941666537979,
+    "conditional_MC_paired_interval": {
+      "SE_difference": 0.5124941666537979,
+      "ci95_high": 0.6687133704966972,
+      "ci95_low": -1.3407133704966974,
+      "mean_difference": -0.336,
+      "unresolved_at_pointwise_95": true
+    },
+    "dataset": "Wiki-Vote",
+    "mean_difference": -0.33599999999999985,
+    "population_size": 40,
+    "repetition_index": 2,
+    "scenario_id": "Wiki-Vote_high_0"
+  }
+]

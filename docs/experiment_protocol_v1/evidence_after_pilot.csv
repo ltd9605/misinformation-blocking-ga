@@ -1,0 +1,4 @@
+setting,status_before_pilot,status_after_pilot,scope,max_conditional_batch_CI_halfwidth_fraction,optimality_or_all_context_precision_confirmed
+email_S_eval6000_per_batch,extrapolated_from_Pilot2,executed_limited_scope,"R926/p=.03; N10/N20/G10; four selected P, two batches each",0.10080239305404413,False
+N20,proposed_sensitivity_level,executed_limited_scope,"R926/R1210, two independent GA runs each; run-effect CIs contain zero",,False
+G20/G40/crossover_levels/mutation_levels,proposed_levels,not_executed,design only; no full/reduced sweep,,False

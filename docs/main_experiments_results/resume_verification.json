@@ -1,0 +1,10 @@
+{
+  "active_runtime_including_no_work_resume_seconds": 4436.3118659999745,
+  "additional_CIC_simulations": 0,
+  "completed_units_after": 432,
+  "completed_units_before": 432,
+  "new_worker_attempts": 0,
+  "original_active_runtime_seconds": 4436.311501583987,
+  "passed": true,
+  "result_hashes_identical": true
+}

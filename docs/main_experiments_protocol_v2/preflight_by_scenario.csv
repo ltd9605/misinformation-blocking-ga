@@ -1,0 +1,7 @@
+scenario_id,dataset,rumor_seeds,optimization_evaluator_calls_upper,optimization_CIC_upper,final_evaluator_calls,final_CIC,proxy_min_seconds_before_safety,proxy_max_seconds_before_safety,nearest_topology_nominal_proxy_seconds,planning_ceiling_seconds_with_safety_excluding_shared_overhead,actual_main_runtime_seconds,runtime_identity_between_R_assumed
+main_reserved_Wiki-Vote_high_0,Wiki-Vote,[1961],560,56000,48,120000,484.1375983107613,630.9859301182296,567.6579669320199,946.4788951773444,,False
+main_reserved_Wiki-Vote_high_1,Wiki-Vote,[1795],560,56000,48,120000,484.1375983107613,630.9859301182296,630.9859301182296,946.4788951773444,,False
+main_reserved_ego-Facebook_constant_0,ego-Facebook,[714],560,56000,48,120000,1490.9575877880561,1812.08605487558,1722.765971375461,2718.12908231337,,False
+main_reserved_ego-Facebook_constant_1,ego-Facebook,[2733],560,56000,48,120000,1490.9575877880561,1812.08605487558,1722.765971375461,2718.12908231337,,False
+main_reserved_email-Eu-core_high_0,email-Eu-core,[485],560,56000,48,288000,320.61137228362213,420.10705907898694,420.10705907898694,630.1605886184805,,False
+main_reserved_email-Eu-core_high_1,email-Eu-core,[374],560,56000,48,288000,320.61137228362213,420.10705907898694,420.10705907898694,630.1605886184805,,False

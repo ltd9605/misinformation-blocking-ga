@@ -1,0 +1,17 @@
+dataset,S_opt,repeat,phase,case_id,order,uncertain_pairs,pair_count
+email-Eu-core,20,0,optimization,email-Eu-core_S20_r0,"[""degree"", ""pagerank"", ""candidate_restricted_greedy"", ""random"", ""genetic_algorithm"", ""no_intervention""]",4,15
+email-Eu-core,20,1,optimization,email-Eu-core_S20_r1,"[""candidate_restricted_greedy"", ""pagerank"", ""degree"", ""genetic_algorithm"", ""random"", ""no_intervention""]",3,15
+ego-Facebook,20,0,optimization,ego-Facebook_S20_r0,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""genetic_algorithm"", ""random"", ""no_intervention""]",3,15
+ego-Facebook,20,1,optimization,ego-Facebook_S20_r1,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""genetic_algorithm"", ""random"", ""no_intervention""]",3,15
+email-Eu-core,50,0,optimization,email-Eu-core_S50_r0,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""random"", ""genetic_algorithm"", ""no_intervention""]",3,15
+email-Eu-core,50,1,optimization,email-Eu-core_S50_r1,"[""candidate_restricted_greedy"", ""pagerank"", ""degree"", ""genetic_algorithm"", ""random"", ""no_intervention""]",3,15
+ego-Facebook,50,0,optimization,ego-Facebook_S50_r0,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""genetic_algorithm"", ""random"", ""no_intervention""]",1,15
+ego-Facebook,50,1,optimization,ego-Facebook_S50_r1,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""genetic_algorithm"", ""random"", ""no_intervention""]",1,15
+email-Eu-core,100,0,optimization,email-Eu-core_S100_r0,"[""degree"", ""pagerank"", ""candidate_restricted_greedy"", ""genetic_algorithm"", ""random"", ""no_intervention""]",4,15
+email-Eu-core,100,1,optimization,email-Eu-core_S100_r1,"[""candidate_restricted_greedy"", ""pagerank"", ""degree"", ""genetic_algorithm"", ""random"", ""no_intervention""]",6,15
+ego-Facebook,100,0,optimization,ego-Facebook_S100_r0,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""genetic_algorithm"", ""random"", ""no_intervention""]",1,15
+ego-Facebook,100,1,optimization,ego-Facebook_S100_r1,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""genetic_algorithm"", ""random"", ""no_intervention""]",1,15
+Wiki-Vote,100,0,optimization,Wiki-Vote_S100_r0,"[""candidate_restricted_greedy"", ""degree"", ""genetic_algorithm"", ""pagerank"", ""random"", ""no_intervention""]",1,15
+Wiki-Vote,100,1,optimization,Wiki-Vote_S100_r1,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""genetic_algorithm"", ""random"", ""no_intervention""]",2,15
+email-Eu-core,250,0,optimization,email-Eu-core_S250_r0,"[""candidate_restricted_greedy"", ""degree"", ""pagerank"", ""random"", ""genetic_algorithm"", ""no_intervention""]",4,15
+email-Eu-core,250,1,optimization,email-Eu-core_S250_r1,"[""candidate_restricted_greedy"", ""pagerank"", ""degree"", ""genetic_algorithm"", ""random"", ""no_intervention""]",1,15

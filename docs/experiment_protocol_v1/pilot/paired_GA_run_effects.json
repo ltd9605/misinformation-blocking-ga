@@ -1,0 +1,18 @@
+[
+  {
+    "CI95_over_GA_run_differences_high": 92.15329199217499,
+    "CI95_over_GA_run_differences_low": -13.39969199217498,
+    "automatic_winner": null,
+    "paired_independent_GA_runs": 2,
+    "reference_minus_N20_mean": 39.3768,
+    "scenario_id": "Wiki-Vote_high_1"
+  },
+  {
+    "CI95_over_GA_run_differences_high": 30.04957108239975,
+    "CI95_over_GA_run_differences_low": -28.877571082399747,
+    "automatic_winner": null,
+    "paired_independent_GA_runs": 2,
+    "reference_minus_N20_mean": 0.5860000000000003,
+    "scenario_id": "email-Eu-core_high_1"
+  }
+]

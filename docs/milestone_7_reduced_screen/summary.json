@@ -1,0 +1,52 @@
+{
+  "GA_recommendation": "retain_reference_for_reproducibility_only_no_new_screen_evidence_not_optimality",
+  "actual_screen_CIC_simulations": 0,
+  "actual_screen_evaluator_calls": 0,
+  "completed_GA_runs": 0,
+  "full_design_executed": false,
+  "independent_runs_per_profile_per_scenario": 5,
+  "main_experiments_executed": false,
+  "minimum_projected_time_budget_to_fit_seconds": 10986,
+  "original_45_runs_meaning": "5 profiles * 3 scenarios * 3 repetitions TOTAL; 15 per dataset/scenario",
+  "preflight": {
+    "GA_final_CIC": 550000,
+    "GA_final_evaluator_calls": 150,
+    "GA_runs": 75,
+    "budget_reasons": [
+      "Pilot2_rate_projection_exceeds_budget"
+    ],
+    "control_CIC": 110000,
+    "control_evaluator_calls": 30,
+    "cost_scope": "GA optimization + two final batches + shared controls; excludes raw exports/loading/setup",
+    "fitness_CIC_upper": 1050000,
+    "fitness_evaluator_calls_upper": 10500,
+    "independent_runs": 5,
+    "rate_projection_seconds_before_safety": 7323.442767081558,
+    "rate_projection_seconds_with_safety": 10985.164150622337,
+    "runtime_is_hard_upper_bound": false,
+    "runtime_is_measured": false,
+    "scenario_configurations": 15,
+    "total_CIC_upper": 1710000,
+    "total_evaluator_calls_upper": 10680,
+    "uncertainty": "Pilot2 rates from one R per dataset; different genotypes/N/G/hardware load can change speed; safety factor is not a guarantee",
+    "unique_parameter_configurations": 5,
+    "within_declared_budget": false
+  },
+  "reference_GA_parameters_retained": {
+    "cache_fitness": true,
+    "crossover_rate": 0.8,
+    "elitism_count": 1,
+    "max_generations": 10,
+    "mutation_rate": 0.1,
+    "population_size": 10,
+    "tournament_size": 3
+  },
+  "reference_in_all_four_panels": true,
+  "requested_GA_runs": 75,
+  "requested_GA_runs_per_scenario": 25,
+  "selected_reduced_profiles": 5,
+  "skipped_GA_runs": 75,
+  "status": "stopped_at_preflight",
+  "test_simulations_excluded_from_screen_counters": true,
+  "unique_Protocol_v1_profiles": 9
+}

@@ -1,0 +1,4 @@
+dataset,nodes,edges,directed,maximum_reachable
+email-Eu-core,1005,24929,True,966
+ego-Facebook,4039,88234,False,4039
+Wiki-Vote,7115,103689,True,2320

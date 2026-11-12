@@ -1,0 +1,992 @@
+[
+  {
+    "CI95_run_means_high": 58.122666810335666,
+    "CI95_run_means_low": 57.226999856331,
+    "No_Intervention_mean": 57.67483333333333,
+    "SD_between_run_means_including_MC": 0.28143976931130654,
+    "SE_across_run_means": 0.14071988465565327,
+    "absolute_rumor_reduction_equal_scenario_weight": 0.0,
+    "algorithm": "no_intervention",
+    "algorithm_variance_component_nonnegative_display": 0,
+    "algorithm_variance_component_raw": -0.4201512239032781,
+    "dataset": "email-Eu-core",
+    "fixed_scenarios": [
+      "main_reserved_email-Eu-core_high_0",
+      "main_reserved_email-Eu-core_high_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 0.7066531537822414,
+    "mean_conditional_MC_variance": 0.49935956765327955,
+    "mean_final_evaluation_runtime_seconds": 5.17799648449909,
+    "mean_rumor": 57.67483333333333,
+    "mean_selection_runtime_seconds": 0.0,
+    "mean_total_runtime_seconds": 7.023971197751962,
+    "observed_variance_run_means": 0.07920834375000145,
+    "scenario_mean_max": 74.0058125,
+    "scenario_mean_min": 41.34385416666667,
+    "scenario_mean_range_descriptive": 32.66195833333334,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": true,
+    "spread_reduction_descriptive_CI": {
+      "descriptive_only": true,
+      "intervals": [
+        [
+          0,
+          0
+        ]
+      ],
+      "kind": "structural_zero_control"
+    },
+    "spread_reduction_fraction": 0.0,
+    "spread_reduction_percent": 0.0,
+    "status": "completed",
+    "structural_algorithm_variance": 0,
+    "total_CIC_simulations": 96000,
+    "total_evaluator_calls": 16,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 42.854855467850896,
+    "CI95_run_means_low": 16.51099869881577,
+    "No_Intervention_mean": 57.67483333333333,
+    "SD_between_run_means_including_MC": 8.277863706701766,
+    "SE_across_run_means": 4.138931853350883,
+    "absolute_rumor_reduction_equal_scenario_weight": 27.99190625,
+    "algorithm": "random",
+    "algorithm_variance_component_nonnegative_display": 68.31592385484723,
+    "algorithm_variance_component_raw": 68.31592385484723,
+    "dataset": "email-Eu-core",
+    "fixed_scenarios": [
+      "main_reserved_email-Eu-core_high_0",
+      "main_reserved_email-Eu-core_high_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 0.44838820570508126,
+    "mean_conditional_MC_variance": 0.20710369188306924,
+    "mean_final_evaluation_runtime_seconds": 12.777117625126266,
+    "mean_rumor": 29.682927083333333,
+    "mean_selection_runtime_seconds": 0.0008812502510409104,
+    "mean_total_runtime_seconds": 14.58795544788336,
+    "observed_variance_run_means": 68.52302754673029,
+    "scenario_mean_max": 41.819125,
+    "scenario_mean_min": 17.546729166666665,
+    "scenario_mean_range_descriptive": 24.272395833333334,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": false,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          0.09632203893433927,
+          0.9283988194812862
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.5052557305655493,
+    "spread_reduction_percent": 50.525573056554926,
+    "status": "completed",
+    "structural_algorithm_variance": null,
+    "total_CIC_simulations": 96000,
+    "total_evaluator_calls": 16,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 4.214066237302802,
+    "CI95_run_means_low": 3.916725429363865,
+    "No_Intervention_mean": 57.67483333333333,
+    "SD_between_run_means_including_MC": 0.09343152387057478,
+    "SE_across_run_means": 0.04671576193528739,
+    "absolute_rumor_reduction_equal_scenario_weight": 53.6094375,
+    "algorithm": "degree",
+    "algorithm_variance_component_nonnegative_display": 0,
+    "algorithm_variance_component_raw": 0.006123875470091265,
+    "dataset": "email-Eu-core",
+    "fixed_scenarios": [
+      "main_reserved_email-Eu-core_high_0",
+      "main_reserved_email-Eu-core_high_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 0.051031266977719286,
+    "mean_conditional_MC_variance": 0.00260557418268652,
+    "mean_final_evaluation_runtime_seconds": 15.132001182499152,
+    "mean_rumor": 4.0653958333333335,
+    "mean_selection_runtime_seconds": 0.0010566251221462153,
+    "mean_total_runtime_seconds": 16.912688551741667,
+    "observed_variance_run_means": 0.008729449652777785,
+    "scenario_mean_max": 4.6855416666666665,
+    "scenario_mean_min": 3.44525,
+    "scenario_mean_range_descriptive": 1.2402916666666663,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": true,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          0.9228284583504291,
+          0.9304619583447087
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.9266776153927161,
+    "spread_reduction_percent": 92.66776153927161,
+    "status": "completed",
+    "structural_algorithm_variance": 0,
+    "total_CIC_simulations": 96000,
+    "total_evaluator_calls": 16,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 4.141786712268153,
+    "CI95_run_means_low": 4.052900787731848,
+    "No_Intervention_mean": 57.67483333333333,
+    "SD_between_run_means_including_MC": 0.02793006260270001,
+    "SE_across_run_means": 0.013965031301350005,
+    "absolute_rumor_reduction_equal_scenario_weight": 53.57748958333333,
+    "algorithm": "pagerank",
+    "algorithm_variance_component_nonnegative_display": 0,
+    "algorithm_variance_component_raw": -0.0019834744496454934,
+    "dataset": "email-Eu-core",
+    "fixed_scenarios": [
+      "main_reserved_email-Eu-core_high_0",
+      "main_reserved_email-Eu-core_high_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 0.0525690219716381,
+    "mean_conditional_MC_variance": 0.0027635628466362353,
+    "mean_final_evaluation_runtime_seconds": 15.178718687126093,
+    "mean_rumor": 4.09734375,
+    "mean_selection_runtime_seconds": 0.04414165112757473,
+    "mean_total_runtime_seconds": 17.0468901669974,
+    "observed_variance_run_means": 0.0007800883969907417,
+    "scenario_mean_max": 4.725270833333333,
+    "scenario_mean_min": 3.4694166666666666,
+    "scenario_mean_range_descriptive": 1.2558541666666665,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": true,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          0.9219104559305435,
+          0.9301249839434812
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.9261169318432039,
+    "spread_reduction_percent": 92.61169318432039,
+    "status": "completed",
+    "structural_algorithm_variance": 0,
+    "total_CIC_simulations": 96000,
+    "total_evaluator_calls": 16,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 4.992863723382385,
+    "CI95_run_means_low": 3.895157109950947,
+    "No_Intervention_mean": 57.67483333333333,
+    "SD_between_run_means_including_MC": 0.3449254152721924,
+    "SE_across_run_means": 0.1724627076360962,
+    "absolute_rumor_reduction_equal_scenario_weight": 53.23082291666667,
+    "algorithm": "candidate_restricted_greedy",
+    "algorithm_variance_component_nonnegative_display": 0.11560991645260073,
+    "algorithm_variance_component_raw": 0.11560991645260073,
+    "dataset": "email-Eu-core",
+    "fixed_scenarios": [
+      "main_reserved_email-Eu-core_high_0",
+      "main_reserved_email-Eu-core_high_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 0.05779415283239285,
+    "mean_conditional_MC_variance": 0.003363625648093649,
+    "mean_final_evaluation_runtime_seconds": 15.408851213747766,
+    "mean_rumor": 4.444010416666666,
+    "mean_selection_runtime_seconds": 4.996541755370345,
+    "mean_total_runtime_seconds": 22.20147497399921,
+    "observed_variance_run_means": 0.11897354210069437,
+    "scenario_mean_max": 5.263833333333333,
+    "scenario_mean_min": 3.6241875,
+    "scenario_mean_range_descriptive": 1.6396458333333332,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": false,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          0.9041950260885381,
+          0.9366042009168034
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.9206065304445923,
+    "spread_reduction_percent": 92.06065304445923,
+    "status": "completed",
+    "structural_algorithm_variance": null,
+    "total_CIC_simulations": 128000,
+    "total_evaluator_calls": 336,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 21.248331909415914,
+    "CI95_run_means_low": 8.085980590584086,
+    "No_Intervention_mean": 57.67483333333333,
+    "SD_between_run_means_including_MC": 4.135922512495756,
+    "SE_across_run_means": 2.067961256247878,
+    "absolute_rumor_reduction_equal_scenario_weight": 43.007677083333334,
+    "algorithm": "genetic_algorithm",
+    "algorithm_variance_component_nonnegative_display": 17.039532690365153,
+    "algorithm_variance_component_raw": 17.039532690365153,
+    "dataset": "email-Eu-core",
+    "fixed_scenarios": [
+      "main_reserved_email-Eu-core_high_0",
+      "main_reserved_email-Eu-core_high_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 0.25001519016902,
+    "mean_conditional_MC_variance": 0.06632233900405328,
+    "mean_final_evaluation_runtime_seconds": 15.126756072757416,
+    "mean_rumor": 14.66715625,
+    "mean_selection_runtime_seconds": 3.8261562134994165,
+    "mean_total_runtime_seconds": 20.80493620299967,
+    "observed_variance_run_means": 17.105855029369206,
+    "scenario_mean_max": 19.793958333333332,
+    "scenario_mean_min": 9.540354166666667,
+    "scenario_mean_range_descriptive": 10.253604166666666,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": false,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          0.5790448777257098,
+          0.9192235600317282
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.7508894004550207,
+    "spread_reduction_percent": 75.08894004550207,
+    "status": "completed",
+    "structural_algorithm_variance": null,
+    "total_CIC_simulations": 122800,
+    "total_evaluator_calls": 284,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 114.63307307949266,
+    "CI95_run_means_low": 109.32402692050734,
+    "No_Intervention_mean": 111.97855,
+    "SD_between_run_means_including_MC": 1.6682280389682909,
+    "SE_across_run_means": 0.8341140194841454,
+    "absolute_rumor_reduction_equal_scenario_weight": 0.0,
+    "algorithm": "no_intervention",
+    "algorithm_variance_component_nonnegative_display": 0,
+    "algorithm_variance_component_raw": -4.862554396910392,
+    "dataset": "ego-Facebook",
+    "fixed_scenarios": [
+      "main_reserved_ego-Facebook_constant_0",
+      "main_reserved_ego-Facebook_constant_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 2.764995268826642,
+    "mean_conditional_MC_variance": 7.645539186910382,
+    "mean_final_evaluation_runtime_seconds": 7.602286333250959,
+    "mean_rumor": 111.97855,
+    "mean_selection_runtime_seconds": 0.0,
+    "mean_total_runtime_seconds": 10.113591109375193,
+    "observed_variance_run_means": 2.7829847899999893,
+    "scenario_mean_max": 221.5071,
+    "scenario_mean_min": 2.45,
+    "scenario_mean_range_descriptive": 219.05710000000002,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": true,
+    "spread_reduction_descriptive_CI": {
+      "descriptive_only": true,
+      "intervals": [
+        [
+          0,
+          0
+        ]
+      ],
+      "kind": "structural_zero_control"
+    },
+    "spread_reduction_fraction": 0.0,
+    "spread_reduction_percent": 0.0,
+    "status": "completed",
+    "structural_algorithm_variance": 0,
+    "total_CIC_simulations": 40000,
+    "total_evaluator_calls": 16,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 104.73682164171016,
+    "CI95_run_means_low": 19.663978358289825,
+    "No_Intervention_mean": 111.97855,
+    "SD_between_run_means_including_MC": 26.731902166637276,
+    "SE_across_run_means": 13.365951083318638,
+    "absolute_rumor_reduction_equal_scenario_weight": 49.778150000000004,
+    "algorithm": "random",
+    "algorithm_variance_component_nonnegative_display": 711.2926383266188,
+    "algorithm_variance_component_raw": 711.2926383266188,
+    "dataset": "ego-Facebook",
+    "fixed_scenarios": [
+      "main_reserved_ego-Facebook_constant_0",
+      "main_reserved_ego-Facebook_constant_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 1.7306553940995726,
+    "mean_conditional_MC_variance": 3.3019551200480093,
+    "mean_final_evaluation_runtime_seconds": 38.41123203637835,
+    "mean_rumor": 62.200399999999995,
+    "mean_selection_runtime_seconds": 0.0008523853775841417,
+    "mean_total_runtime_seconds": 40.79158974962047,
+    "observed_variance_run_means": 714.5945934466667,
+    "scenario_mean_max": 121.93105,
+    "scenario_mean_min": 2.4697500000000003,
+    "scenario_mean_range_descriptive": 119.4613,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": false,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          -0.09138932694249569,
+          0.5311828740457228
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.22073881952500918,
+    "spread_reduction_percent": 22.07388195250092,
+    "status": "completed",
+    "structural_algorithm_variance": null,
+    "total_CIC_simulations": 40000,
+    "total_evaluator_calls": 16,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 8.148585498896866,
+    "CI95_run_means_low": 7.558464501103134,
+    "No_Intervention_mean": 111.97855,
+    "SD_between_run_means_including_MC": 0.18542999352855488,
+    "SE_across_run_means": 0.09271499676427744,
+    "absolute_rumor_reduction_equal_scenario_weight": 104.125025,
+    "algorithm": "degree",
+    "algorithm_variance_component_nonnegative_display": 0,
+    "algorithm_variance_component_raw": 0.0035606187627524634,
+    "dataset": "ego-Facebook",
+    "fixed_scenarios": [
+      "main_reserved_ego-Facebook_constant_0",
+      "main_reserved_ego-Facebook_constant_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 0.17553501646836916,
+    "mean_conditional_MC_variance": 0.03082366373724744,
+    "mean_final_evaluation_runtime_seconds": 54.346670916876974,
+    "mean_rumor": 7.853524999999999,
+    "mean_selection_runtime_seconds": 0.0026952553726005135,
+    "mean_total_runtime_seconds": 56.82658237999749,
+    "observed_variance_run_means": 0.034384282499999905,
+    "scenario_mean_max": 13.25375,
+    "scenario_mean_min": 2.4533,
+    "scenario_mean_range_descriptive": 10.80045,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": true,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          0.4390560592404122,
+          0.496038565938658
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.4694093180262827,
+    "spread_reduction_percent": 46.94093180262827,
+    "status": "completed",
+    "structural_algorithm_variance": 0,
+    "total_CIC_simulations": 40000,
+    "total_evaluator_calls": 16,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 8.148585498896866,
+    "CI95_run_means_low": 7.558464501103134,
+    "No_Intervention_mean": 111.97855,
+    "SD_between_run_means_including_MC": 0.18542999352855488,
+    "SE_across_run_means": 0.09271499676427744,
+    "absolute_rumor_reduction_equal_scenario_weight": 104.125025,
+    "algorithm": "pagerank",
+    "algorithm_variance_component_nonnegative_display": 0,
+    "algorithm_variance_component_raw": 0.0035606187627524634,
+    "dataset": "ego-Facebook",
+    "fixed_scenarios": [
+      "main_reserved_ego-Facebook_constant_0",
+      "main_reserved_ego-Facebook_constant_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 0.17553501646836916,
+    "mean_conditional_MC_variance": 0.03082366373724744,
+    "mean_final_evaluation_runtime_seconds": 54.16389788037486,
+    "mean_rumor": 7.853524999999999,
+    "mean_selection_runtime_seconds": 0.1814569791276881,
+    "mean_total_runtime_seconds": 56.813694937380205,
+    "observed_variance_run_means": 0.034384282499999905,
+    "scenario_mean_max": 13.25375,
+    "scenario_mean_min": 2.4533,
+    "scenario_mean_range_descriptive": 10.80045,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": true,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          0.4390560592404122,
+          0.496038565938658
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.4694093180262827,
+    "spread_reduction_percent": 46.94093180262827,
+    "status": "completed",
+    "structural_algorithm_variance": 0,
+    "total_CIC_simulations": 40000,
+    "total_evaluator_calls": 16,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 9.300300309086705,
+    "CI95_run_means_low": 7.311899690913298,
+    "No_Intervention_mean": 111.97855,
+    "SD_between_run_means_including_MC": 0.6248025661492331,
+    "SE_across_run_means": 0.31240128307461656,
+    "absolute_rumor_reduction_equal_scenario_weight": 103.67245,
+    "algorithm": "candidate_restricted_greedy",
+    "algorithm_variance_component_nonnegative_display": 0.3266733438781091,
+    "algorithm_variance_component_raw": 0.3266733438781091,
+    "dataset": "ego-Facebook",
+    "fixed_scenarios": [
+      "main_reserved_ego-Facebook_constant_0",
+      "main_reserved_ego-Facebook_constant_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 0.24289343132131727,
+    "mean_conditional_MC_variance": 0.0637049027885577,
+    "mean_final_evaluation_runtime_seconds": 50.89360759899864,
+    "mean_rumor": 8.3061,
+    "mean_selection_runtime_seconds": 35.86089562487541,
+    "mean_total_runtime_seconds": 89.22601292175386,
+    "observed_variance_run_means": 0.3903782466666668,
+    "scenario_mean_max": 14.10685,
+    "scenario_mean_min": 2.50535,
+    "scenario_mean_range_descriptive": 11.6015,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": false,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          0.43687951182126783,
+          0.4782552316143044
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.4568611971382058,
+    "spread_reduction_percent": 45.68611971382058,
+    "status": "completed",
+    "structural_algorithm_variance": null,
+    "total_CIC_simulations": 72000,
+    "total_evaluator_calls": 336,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 38.35512360894646,
+    "CI95_run_means_low": 8.194526391053541,
+    "No_Intervention_mean": 111.97855,
+    "SD_between_run_means_including_MC": 9.477173948801052,
+    "SE_across_run_means": 4.738586974400526,
+    "absolute_rumor_reduction_equal_scenario_weight": 88.70372499999999,
+    "algorithm": "genetic_algorithm",
+    "algorithm_variance_component_nonnegative_display": 89.12836573576782,
+    "algorithm_variance_component_raw": 89.12836573576782,
+    "dataset": "ego-Facebook",
+    "fixed_scenarios": [
+      "main_reserved_ego-Facebook_constant_0",
+      "main_reserved_ego-Facebook_constant_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 0.7922317813733537,
+    "mean_conditional_MC_variance": 0.688460320065513,
+    "mean_final_evaluation_runtime_seconds": 43.50568087487591,
+    "mean_rumor": 23.274825,
+    "mean_selection_runtime_seconds": 29.710917979249643,
+    "mean_total_runtime_seconds": 75.69399642687858,
+    "observed_variance_run_means": 89.81682605583333,
+    "scenario_mean_max": 44.0543,
+    "scenario_mean_min": 2.49535,
+    "scenario_mean_range_descriptive": 41.558949999999996,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": false,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          0.25108218049240805,
+          0.5226135486649258
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.39130271303599157,
+    "spread_reduction_percent": 39.13027130359916,
+    "status": "completed",
+    "structural_algorithm_variance": null,
+    "total_CIC_simulations": 69100,
+    "total_evaluator_calls": 307,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 50.808201009216376,
+    "CI95_run_means_low": 44.03949899078363,
+    "No_Intervention_mean": 47.42385,
+    "SD_between_run_means_including_MC": 2.1268864794968887,
+    "SE_across_run_means": 1.0634432397484443,
+    "absolute_rumor_reduction_equal_scenario_weight": 0.0,
+    "algorithm": "no_intervention",
+    "algorithm_variance_component_nonnegative_display": 0,
+    "algorithm_variance_component_raw": 3.01667288017337,
+    "dataset": "Wiki-Vote",
+    "fixed_scenarios": [
+      "main_reserved_Wiki-Vote_high_0",
+      "main_reserved_Wiki-Vote_high_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 1.2274464635058582,
+    "mean_conditional_MC_variance": 1.5069732164932987,
+    "mean_final_evaluation_runtime_seconds": 8.931304604373508,
+    "mean_rumor": 47.42385,
+    "mean_selection_runtime_seconds": 0.0,
+    "mean_total_runtime_seconds": 11.491771104247164,
+    "observed_variance_run_means": 4.523646096666669,
+    "scenario_mean_max": 88.45595,
+    "scenario_mean_min": 6.39175,
+    "scenario_mean_range_descriptive": 82.0642,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": true,
+    "spread_reduction_descriptive_CI": {
+      "descriptive_only": true,
+      "intervals": [
+        [
+          0,
+          0
+        ]
+      ],
+      "kind": "structural_zero_control"
+    },
+    "spread_reduction_fraction": 0.0,
+    "spread_reduction_percent": 0.0,
+    "status": "completed",
+    "structural_algorithm_variance": 0,
+    "total_CIC_simulations": 40000,
+    "total_evaluator_calls": 16,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 51.17524833665375,
+    "CI95_run_means_low": 28.153801663346254,
+    "No_Intervention_mean": 47.42385,
+    "SD_between_run_means_including_MC": 7.233883768937679,
+    "SE_across_run_means": 3.6169418844688397,
+    "absolute_rumor_reduction_equal_scenario_weight": 7.759324999999997,
+    "algorithm": "random",
+    "algorithm_variance_component_nonnegative_display": 51.14874405943989,
+    "algorithm_variance_component_raw": 51.14874405943989,
+    "dataset": "Wiki-Vote",
+    "fixed_scenarios": [
+      "main_reserved_Wiki-Vote_high_0",
+      "main_reserved_Wiki-Vote_high_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 1.0788258034958116,
+    "mean_conditional_MC_variance": 1.1803303230601119,
+    "mean_final_evaluation_runtime_seconds": 11.801422895750875,
+    "mean_rumor": 39.664525000000005,
+    "mean_selection_runtime_seconds": 0.0014167083736538189,
+    "mean_total_runtime_seconds": 14.273921088499264,
+    "observed_variance_run_means": 52.3290743825,
+    "scenario_mean_max": 73.95700000000001,
+    "scenario_mean_min": 5.37205,
+    "scenario_mean_range_descriptive": 68.58495,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": false,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          -0.45379895754834265,
+          0.6518401672466708
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.1617226514256338,
+    "spread_reduction_percent": 16.17226514256338,
+    "status": "completed",
+    "structural_algorithm_variance": null,
+    "total_CIC_simulations": 40000,
+    "total_evaluator_calls": 16,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 6.03134203708998,
+    "CI95_run_means_low": 5.676407962910019,
+    "No_Intervention_mean": 47.42385,
+    "SD_between_run_means_including_MC": 0.11152869212299873,
+    "SE_across_run_means": 0.05576434606149937,
+    "absolute_rumor_reduction_equal_scenario_weight": 41.569975,
+    "algorithm": "degree",
+    "algorithm_variance_component_nonnegative_display": 0,
+    "algorithm_variance_component_raw": -0.009806391308928476,
+    "dataset": "Wiki-Vote",
+    "fixed_scenarios": [
+      "main_reserved_Wiki-Vote_high_0",
+      "main_reserved_Wiki-Vote_high_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 0.14911459676733413,
+    "mean_conditional_MC_variance": 0.022245040475595116,
+    "mean_final_evaluation_runtime_seconds": 21.646355103746828,
+    "mean_rumor": 5.8538749999999995,
+    "mean_selection_runtime_seconds": 0.003029864501513657,
+    "mean_total_runtime_seconds": 24.094948687250508,
+    "observed_variance_run_means": 0.01243864916666664,
+    "scenario_mean_max": 10.24315,
+    "scenario_mean_min": 1.4646,
+    "scenario_mean_range_descriptive": 8.77855,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": true,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          0.7625418208033642,
+          0.8626781071140084
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.8275307147041081,
+    "spread_reduction_percent": 82.75307147041082,
+    "status": "completed",
+    "structural_algorithm_variance": 0,
+    "total_CIC_simulations": 40000,
+    "total_evaluator_calls": 16,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 35.866044965859366,
+    "CI95_run_means_low": 33.82710503414064,
+    "No_Intervention_mean": 47.42385,
+    "SD_between_run_means_including_MC": 0.6406832154036819,
+    "SE_across_run_means": 0.32034160770184095,
+    "absolute_rumor_reduction_equal_scenario_weight": 12.577275,
+    "algorithm": "pagerank",
+    "algorithm_variance_component_nonnegative_display": 0,
+    "algorithm_variance_component_raw": -0.565369083828765,
+    "dataset": "Wiki-Vote",
+    "fixed_scenarios": [
+      "main_reserved_Wiki-Vote_high_0",
+      "main_reserved_Wiki-Vote_high_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 0.987829963496774,
+    "mean_conditional_MC_variance": 0.9758440663287657,
+    "mean_final_evaluation_runtime_seconds": 12.363748520745503,
+    "mean_rumor": 34.846575,
+    "mean_selection_runtime_seconds": 0.19064485412491194,
+    "mean_total_runtime_seconds": 15.093795172249884,
+    "observed_variance_run_means": 0.41047498250000064,
+    "scenario_mean_max": 64.86345,
+    "scenario_mean_min": 4.829700000000001,
+    "scenario_mean_range_descriptive": 60.03375,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": true,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          -0.10785306555633939,
+          0.4562849923804403
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.2555500079873168,
+    "spread_reduction_percent": 25.55500079873168,
+    "status": "completed",
+    "structural_algorithm_variance": 0,
+    "total_CIC_simulations": 40000,
+    "total_evaluator_calls": 16,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 4.723914516996075,
+    "CI95_run_means_low": 4.315535483003925,
+    "No_Intervention_mean": 47.42385,
+    "SD_between_run_means_including_MC": 0.12832236424983237,
+    "SE_across_run_means": 0.06416118212491619,
+    "absolute_rumor_reduction_equal_scenario_weight": 42.904125,
+    "algorithm": "candidate_restricted_greedy",
+    "algorithm_variance_component_nonnegative_display": 0.003956710964526228,
+    "algorithm_variance_component_raw": 0.003956710964526228,
+    "dataset": "Wiki-Vote",
+    "fixed_scenarios": [
+      "main_reserved_Wiki-Vote_high_0",
+      "main_reserved_Wiki-Vote_high_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 0.1117130035466612,
+    "mean_conditional_MC_variance": 0.012509918202140428,
+    "mean_final_evaluation_runtime_seconds": 20.440916734378334,
+    "mean_rumor": 4.519725,
+    "mean_selection_runtime_seconds": 15.370479203374998,
+    "mean_total_runtime_seconds": 38.27980840624696,
+    "observed_variance_run_means": 0.016466629166666656,
+    "scenario_mean_max": 7.5237,
+    "scenario_mean_min": 1.5157500000000002,
+    "scenario_mean_range_descriptive": 6.007949999999999,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": false,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          0.7542418651550439,
+          0.883790596931852
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.8389012385337314,
+    "spread_reduction_percent": 83.89012385337314,
+    "status": "completed",
+    "structural_algorithm_variance": null,
+    "total_CIC_simulations": 72000,
+    "total_evaluator_calls": 336,
+    "variance_decomposition_is_descriptive": true
+  },
+  {
+    "CI95_run_means_high": 38.13271217140111,
+    "CI95_run_means_low": 27.14988782859889,
+    "No_Intervention_mean": 47.42385,
+    "SD_between_run_means_including_MC": 3.451063518202275,
+    "SE_across_run_means": 1.7255317591011374,
+    "absolute_rumor_reduction_equal_scenario_weight": 14.78255,
+    "algorithm": "genetic_algorithm",
+    "algorithm_variance_component_nonnegative_display": 11.036962448894108,
+    "algorithm_variance_component_raw": 11.036962448894108,
+    "dataset": "Wiki-Vote",
+    "fixed_scenarios": [
+      "main_reserved_Wiki-Vote_high_0",
+      "main_reserved_Wiki-Vote_high_1"
+    ],
+    "independent_run_count": 4,
+    "mean_conditional_MC_SE": 0.9316444522552274,
+    "mean_conditional_MC_variance": 0.8728769577725545,
+    "mean_final_evaluation_runtime_seconds": 12.410292531376399,
+    "mean_rumor": 32.6413,
+    "mean_selection_runtime_seconds": 7.929209786248975,
+    "mean_total_runtime_seconds": 23.007785937501467,
+    "observed_variance_run_means": 11.909839406666663,
+    "scenario_mean_max": 58.90485,
+    "scenario_mean_min": 6.37775,
+    "scenario_mean_range_descriptive": 52.527100000000004,
+    "scenario_population_inference": false,
+    "scenario_weights": [
+      0.5,
+      0.5
+    ],
+    "selection_variability_structurally_zero": false,
+    "spread_reduction_descriptive_CI": {
+      "construction": "Minkowski_sum_of_two_97p5_percent_Fieller_sets; approximate_descriptive95_percent",
+      "descriptive_only": true,
+      "intervals": [
+        [
+          -0.3036141150498178,
+          0.601594153975131
+        ]
+      ],
+      "kind": "bounded",
+      "negative_reductions_clipped": false,
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "spread_reduction_fraction": 0.16813367072990154,
+    "spread_reduction_percent": 16.813367072990154,
+    "status": "completed",
+    "structural_algorithm_variance": null,
+    "total_CIC_simulations": 65100,
+    "total_evaluator_calls": 267,
+    "variance_decomposition_is_descriptive": true
+  }
+]

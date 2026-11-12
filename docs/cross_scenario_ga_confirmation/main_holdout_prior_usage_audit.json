@@ -1,0 +1,28 @@
+{
+  "confirmation_does_not_evaluate_reserved_R": true,
+  "earlier_known_R_by_dataset": {
+    "Wiki-Vote": [
+      1210,
+      2110,
+      4341,
+      5288,
+      6009
+    ],
+    "ego-Facebook": [
+      1180,
+      1555,
+      2162
+    ],
+    "email-Eu-core": [
+      0,
+      577,
+      761,
+      767,
+      858,
+      926
+    ]
+  },
+  "official_MC_observations_generated": 0,
+  "reserved_R_do_not_overlap": true,
+  "scope": "recorded Pilot2, Protocol Validation and earlier email smoke R; no claim that node IDs never appeared as protectors"
+}

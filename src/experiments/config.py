@@ -64,7 +64,7 @@ class ExperimentConfig:
                    "rumor_seed_policy", "k", "p", "tie_breaking", "S_opt", "S_eval", "algorithm",
                    "algorithms", "ga_parameters", "pagerank_parameters", "candidate_restriction",
                    "limits", "random_seed", "independent_run_index", "seed_block_size",
-                   "output_directory", "save_raw_observations"}
+                   "output_directory", "save_raw_observations", "skipped_algorithms"}
         required = {"dataset", "k", "p", "tie_breaking", "S_opt", "S_eval", "random_seed",
                     "independent_run_index", "output_directory"}
         _keys("experiment", values, allowed, required)
@@ -84,6 +84,12 @@ class ExperimentConfig:
                 or len(set(algorithms)) != len(algorithms)):
             raise ExperimentConfigError(f"algorithms must be a nonempty unique list from {ALGORITHMS}")
         c["algorithms"] = ["no_intervention"] + [name for name in algorithms if name != "no_intervention"]
+        skipped = c.setdefault("skipped_algorithms", {})
+        if (not isinstance(skipped, dict)
+                or any(name not in ALGORITHMS or name in c["algorithms"]
+                       or not isinstance(reason, str) or not reason.strip()
+                       for name, reason in skipped.items())):
+            raise ExperimentConfigError("skipped_algorithms maps unselected known methods to nonempty reasons")
         if ("rumor_seeds" in c) == ("rumor_seed_policy" in c):
             raise ExperimentConfigError("Supply exactly one of rumor_seeds or rumor_seed_policy")
         if "rumor_seeds" in c:

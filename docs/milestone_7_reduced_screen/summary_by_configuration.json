@@ -1,0 +1,242 @@
+[
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "email-Eu-core",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "reference",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      926
+    ],
+    "status": "skipped_global_preflight"
+  },
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "email-Eu-core",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "population_size_20",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      926
+    ],
+    "status": "skipped_global_preflight"
+  },
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "email-Eu-core",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "max_generations_20",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      926
+    ],
+    "status": "skipped_global_preflight"
+  },
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "email-Eu-core",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "crossover_rate_0p6",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      926
+    ],
+    "status": "skipped_global_preflight"
+  },
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "email-Eu-core",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "mutation_rate_0p2",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      926
+    ],
+    "status": "skipped_global_preflight"
+  },
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "ego-Facebook",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "reference",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      1180
+    ],
+    "status": "skipped_global_preflight"
+  },
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "ego-Facebook",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "population_size_20",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      1180
+    ],
+    "status": "skipped_global_preflight"
+  },
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "ego-Facebook",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "max_generations_20",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      1180
+    ],
+    "status": "skipped_global_preflight"
+  },
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "ego-Facebook",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "crossover_rate_0p6",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      1180
+    ],
+    "status": "skipped_global_preflight"
+  },
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "ego-Facebook",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "mutation_rate_0p2",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      1180
+    ],
+    "status": "skipped_global_preflight"
+  },
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "Wiki-Vote",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "reference",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      1210
+    ],
+    "status": "skipped_global_preflight"
+  },
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "Wiki-Vote",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "population_size_20",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      1210
+    ],
+    "status": "skipped_global_preflight"
+  },
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "Wiki-Vote",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "max_generations_20",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      1210
+    ],
+    "status": "skipped_global_preflight"
+  },
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "Wiki-Vote",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "crossover_rate_0p6",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      1210
+    ],
+    "status": "skipped_global_preflight"
+  },
+  {
+    "GA_run_CI_high": null,
+    "GA_run_CI_low": null,
+    "between_GA_run_std": null,
+    "completed_independent_GA_runs": 0,
+    "conditional_MC_SE": null,
+    "dataset": "Wiki-Vote",
+    "mean_independent_final_result": null,
+    "planned_independent_GA_runs": 5,
+    "profile_id": "mutation_rate_0p2",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "rumor_seeds": [
+      1210
+    ],
+    "status": "skipped_global_preflight"
+  }
+]

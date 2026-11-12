@@ -1,0 +1,4 @@
+changed_factor,parameters,profile_id
+,"{""cache_fitness"": true, ""crossover_rate"": 0.8, ""elitism_count"": 1, ""max_generations"": 10, ""mutation_rate"": 0.1, ""population_size"": 10, ""tournament_size"": 3}",reference
+population_size,"{""cache_fitness"": true, ""crossover_rate"": 0.8, ""elitism_count"": 1, ""max_generations"": 10, ""mutation_rate"": 0.1, ""population_size"": 20, ""tournament_size"": 3}",population_size_20
+population_size,"{""cache_fitness"": true, ""crossover_rate"": 0.8, ""elitism_count"": 1, ""max_generations"": 10, ""mutation_rate"": 0.1, ""population_size"": 40, ""tournament_size"": 3}",population_size_40

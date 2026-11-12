@@ -1,0 +1,54 @@
+[
+  {
+    "id": "main_design_confirmation",
+    "requirement": "user confirms this concrete design before any execution",
+    "status": "pending"
+  },
+  {
+    "id": "admission",
+    "requirement": [
+      "runtime_proxy_envelope_with_safety_and_overhead_exceeds_budget"
+    ],
+    "status": "blocked"
+  },
+  {
+    "id": "repeats",
+    "requirement": "five independent runs proposed; do not auto-reduce on budget failure",
+    "status": "proposed_not_confirmed"
+  },
+  {
+    "id": "main_budget",
+    "requirement": "v1 budget was sensitivity-specific; confirm dedicated main allocation rather than assume its availability",
+    "status": "conservative_proposal"
+  },
+  {
+    "id": "new_R_timing",
+    "requirement": "proxy envelopes and nearest-topology heuristic are not a calibrated new-R runtime model; no official observations generated",
+    "status": "unmeasured"
+  },
+  {
+    "id": "coverage",
+    "requirement": "two fixed high/constant R per graph, no medium/low holdout; keep existing low/legacy appendix and all low-spread main outcomes",
+    "status": "limited"
+  },
+  {
+    "id": "main_adapter",
+    "requirement": "validate all-method selection barrier, two batches per locked P, paired raw export and checkpoint ledger; old one-batch runner cannot be invoked twice and called one run",
+    "status": "not_implemented_not_authorized_here"
+  },
+  {
+    "id": "equivalence_margin",
+    "requirement": "no equivalence/practical-effect claims without a prespecified margin",
+    "status": "unconfirmed"
+  },
+  {
+    "id": "power",
+    "requirement": "five proposed runs do not guarantee power; no adaptive stopping based on significance",
+    "status": "not_established"
+  },
+  {
+    "id": "new_R_spread",
+    "requirement": "do not reroll R, retune GA or filter official low/no-spread outcomes",
+    "status": "unobserved_by_design"
+  }
+]

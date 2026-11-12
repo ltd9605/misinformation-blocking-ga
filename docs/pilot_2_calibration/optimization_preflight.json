@@ -1,0 +1,2879 @@
+[
+  {
+    "S_opt": 2,
+    "case_id": "smoke_email-Eu-core",
+    "config": {
+      "S_eval": 5,
+      "S_opt": 2,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "email-Eu-core",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 1,
+        "mutation_rate": 0.1,
+        "population_size": 4,
+        "tournament_size": 2
+      },
+      "independent_run_index": 500,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/smoke_email-Eu-core",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/email-Eu-core",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        926
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 5010 evaluations/10020 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "email-Eu-core",
+    "phase": "smoke",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 1004,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 10020,
+        "optimization_evaluation_upper_bound": 5010,
+        "reason": "full_greedy: estimated 5010 evaluations/10020 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 80,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 14,
+        "optimization_evaluation_upper_bound": 7,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 7
+      }
+    ],
+    "repeat": 0
+  },
+  {
+    "S_opt": 2,
+    "case_id": "smoke_ego-Facebook",
+    "config": {
+      "S_eval": 5,
+      "S_opt": 2,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "ego-Facebook",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 1,
+        "mutation_rate": 0.1,
+        "population_size": 4,
+        "tournament_size": 2
+      },
+      "independent_run_index": 501,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/smoke_ego-Facebook",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/ego-Facebook",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        1180
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 20180 evaluations/40360 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "ego-Facebook",
+    "phase": "smoke",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 4038,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 40360,
+        "optimization_evaluation_upper_bound": 20180,
+        "reason": "full_greedy: estimated 20180 evaluations/40360 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 80,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 14,
+        "optimization_evaluation_upper_bound": 7,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 7
+      }
+    ],
+    "repeat": 0
+  },
+  {
+    "S_opt": 2,
+    "case_id": "smoke_Wiki-Vote",
+    "config": {
+      "S_eval": 5,
+      "S_opt": 2,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "Wiki-Vote",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 1,
+        "mutation_rate": 0.1,
+        "population_size": 4,
+        "tournament_size": 2
+      },
+      "independent_run_index": 502,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/smoke_Wiki-Vote",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/Wiki-Vote",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        1210
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 35560 evaluations/71120 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "Wiki-Vote",
+    "phase": "smoke",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 7114,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 71120,
+        "optimization_evaluation_upper_bound": 35560,
+        "reason": "full_greedy: estimated 35560 evaluations/71120 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 80,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 5,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 14,
+        "optimization_evaluation_upper_bound": 7,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 7
+      }
+    ],
+    "repeat": 0
+  },
+  {
+    "S_opt": 20,
+    "case_id": "email-Eu-core_S20_r0",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 20,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "email-Eu-core",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 0,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/email-Eu-core_S20_r0",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/email-Eu-core",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        926
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 5010 evaluations/100200 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "email-Eu-core",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 1004,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 100200,
+        "optimization_evaluation_upper_bound": 5010,
+        "reason": "full_greedy: estimated 5010 evaluations/100200 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 800,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 2000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 0
+  },
+  {
+    "S_opt": 20,
+    "case_id": "email-Eu-core_S20_r1",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 20,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "email-Eu-core",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 1,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/email-Eu-core_S20_r1",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/email-Eu-core",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        926
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 5010 evaluations/100200 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "email-Eu-core",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 1004,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 100200,
+        "optimization_evaluation_upper_bound": 5010,
+        "reason": "full_greedy: estimated 5010 evaluations/100200 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 800,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 2000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 1
+  },
+  {
+    "S_opt": 20,
+    "case_id": "ego-Facebook_S20_r0",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 20,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "ego-Facebook",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 10,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/ego-Facebook_S20_r0",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/ego-Facebook",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        1180
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 20180 evaluations/403600 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "ego-Facebook",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 4038,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 403600,
+        "optimization_evaluation_upper_bound": 20180,
+        "reason": "full_greedy: estimated 20180 evaluations/403600 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 800,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 2000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 0
+  },
+  {
+    "S_opt": 20,
+    "case_id": "ego-Facebook_S20_r1",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 20,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "ego-Facebook",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 11,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/ego-Facebook_S20_r1",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/ego-Facebook",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        1180
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 20180 evaluations/403600 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "ego-Facebook",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 4038,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 403600,
+        "optimization_evaluation_upper_bound": 20180,
+        "reason": "full_greedy: estimated 20180 evaluations/403600 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 800,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 2000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 1
+  },
+  {
+    "S_opt": 50,
+    "case_id": "email-Eu-core_S50_r0",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 50,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "email-Eu-core",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 0,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/email-Eu-core_S50_r0",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/email-Eu-core",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        926
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 5010 evaluations/250500 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "email-Eu-core",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 1004,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 250500,
+        "optimization_evaluation_upper_bound": 5010,
+        "reason": "full_greedy: estimated 5010 evaluations/250500 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 2000,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 5000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 0
+  },
+  {
+    "S_opt": 50,
+    "case_id": "email-Eu-core_S50_r1",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 50,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "email-Eu-core",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 1,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/email-Eu-core_S50_r1",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/email-Eu-core",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        926
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 5010 evaluations/250500 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "email-Eu-core",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 1004,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 250500,
+        "optimization_evaluation_upper_bound": 5010,
+        "reason": "full_greedy: estimated 5010 evaluations/250500 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 2000,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 5000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 1
+  },
+  {
+    "S_opt": 50,
+    "case_id": "ego-Facebook_S50_r0",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 50,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "ego-Facebook",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 10,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/ego-Facebook_S50_r0",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/ego-Facebook",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        1180
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 20180 evaluations/1009000 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "ego-Facebook",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 4038,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 1009000,
+        "optimization_evaluation_upper_bound": 20180,
+        "reason": "full_greedy: estimated 20180 evaluations/1009000 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 2000,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 5000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 0
+  },
+  {
+    "S_opt": 50,
+    "case_id": "ego-Facebook_S50_r1",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 50,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "ego-Facebook",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 11,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/ego-Facebook_S50_r1",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/ego-Facebook",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        1180
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 20180 evaluations/1009000 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "ego-Facebook",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 4038,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 1009000,
+        "optimization_evaluation_upper_bound": 20180,
+        "reason": "full_greedy: estimated 20180 evaluations/1009000 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 2000,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 5000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 1
+  },
+  {
+    "S_opt": 100,
+    "case_id": "email-Eu-core_S100_r0",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 100,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "email-Eu-core",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 0,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/email-Eu-core_S100_r0",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/email-Eu-core",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        926
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 5010 evaluations/501000 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "email-Eu-core",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 1004,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 501000,
+        "optimization_evaluation_upper_bound": 5010,
+        "reason": "full_greedy: estimated 5010 evaluations/501000 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 4000,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 10000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 0
+  },
+  {
+    "S_opt": 100,
+    "case_id": "email-Eu-core_S100_r1",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 100,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "email-Eu-core",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 1,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/email-Eu-core_S100_r1",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/email-Eu-core",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        926
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 5010 evaluations/501000 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "email-Eu-core",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 1004,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 501000,
+        "optimization_evaluation_upper_bound": 5010,
+        "reason": "full_greedy: estimated 5010 evaluations/501000 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 4000,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 10000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 1
+  },
+  {
+    "S_opt": 100,
+    "case_id": "ego-Facebook_S100_r0",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 100,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "ego-Facebook",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 10,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/ego-Facebook_S100_r0",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/ego-Facebook",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        1180
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 20180 evaluations/2018000 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "ego-Facebook",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 4038,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 2018000,
+        "optimization_evaluation_upper_bound": 20180,
+        "reason": "full_greedy: estimated 20180 evaluations/2018000 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 4000,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 10000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 0
+  },
+  {
+    "S_opt": 100,
+    "case_id": "ego-Facebook_S100_r1",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 100,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "ego-Facebook",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 11,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/ego-Facebook_S100_r1",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/ego-Facebook",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        1180
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 20180 evaluations/2018000 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "ego-Facebook",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 4038,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 2018000,
+        "optimization_evaluation_upper_bound": 20180,
+        "reason": "full_greedy: estimated 20180 evaluations/2018000 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 4000,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 10000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 1
+  },
+  {
+    "S_opt": 100,
+    "case_id": "Wiki-Vote_S100_r0",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 100,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "Wiki-Vote",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 20,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/Wiki-Vote_S100_r0",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/Wiki-Vote",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        1210
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 35560 evaluations/3556000 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "Wiki-Vote",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 7114,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 3556000,
+        "optimization_evaluation_upper_bound": 35560,
+        "reason": "full_greedy: estimated 35560 evaluations/3556000 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 4000,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 10000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 0
+  },
+  {
+    "S_opt": 100,
+    "case_id": "Wiki-Vote_S100_r1",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 100,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "Wiki-Vote",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 21,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/Wiki-Vote_S100_r1",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/Wiki-Vote",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        1210
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 35560 evaluations/3556000 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "Wiki-Vote",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 7114,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 3556000,
+        "optimization_evaluation_upper_bound": 35560,
+        "reason": "full_greedy: estimated 35560 evaluations/3556000 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 4000,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 10000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 1
+  },
+  {
+    "S_opt": 250,
+    "case_id": "email-Eu-core_S250_r0",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 250,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "email-Eu-core",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 0,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/email-Eu-core_S250_r0",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/email-Eu-core",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        926
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 5010 evaluations/1252500 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "email-Eu-core",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 1004,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 1252500,
+        "optimization_evaluation_upper_bound": 5010,
+        "reason": "full_greedy: estimated 5010 evaluations/1252500 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 10000,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 25000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 0
+  },
+  {
+    "S_opt": 250,
+    "case_id": "email-Eu-core_S250_r1",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 250,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "email-Eu-core",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 1,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/email-Eu-core_S250_r1",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/email-Eu-core",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        926
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 5010 evaluations/1252500 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "email-Eu-core",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 1004,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 1252500,
+        "optimization_evaluation_upper_bound": 5010,
+        "reason": "full_greedy: estimated 5010 evaluations/1252500 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 10000,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 25000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 1
+  },
+  {
+    "S_opt": 250,
+    "case_id": "ego-Facebook_S250_r0",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 250,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "ego-Facebook",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 10,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/ego-Facebook_S250_r0",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/ego-Facebook",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        1180
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 20180 evaluations/5045000 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "ego-Facebook",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 4038,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 5045000,
+        "optimization_evaluation_upper_bound": 20180,
+        "reason": "full_greedy: estimated 20180 evaluations/5045000 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 10000,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 25000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 0
+  },
+  {
+    "S_opt": 250,
+    "case_id": "ego-Facebook_S250_r1",
+    "config": {
+      "S_eval": 500,
+      "S_opt": 250,
+      "algorithms": [
+        "no_intervention",
+        "random",
+        "degree",
+        "pagerank",
+        "candidate_restricted_greedy",
+        "genetic_algorithm"
+      ],
+      "candidate_restriction": {
+        "method": "degree",
+        "size": 10
+      },
+      "dataset": "ego-Facebook",
+      "ga_parameters": {
+        "cache_fitness": true,
+        "crossover_rate": 0.8,
+        "elitism_count": 1,
+        "max_generations": 10,
+        "mutation_rate": 0.1,
+        "population_size": 10,
+        "tournament_size": 3
+      },
+      "independent_run_index": 11,
+      "k": 5,
+      "limits": {
+        "max_full_greedy_cic_simulations": 2000,
+        "max_full_greedy_evaluations": 100,
+        "max_optimization_cic_simulations": 25000,
+        "max_optimization_evaluations": 100
+      },
+      "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration/runs/ego-Facebook_S250_r1",
+      "p": 0.03,
+      "pagerank_parameters": {
+        "alpha": 0.85,
+        "max_iter": 1000,
+        "tol": 1e-12
+      },
+      "processed_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/data/processed/ego-Facebook",
+      "purpose": "pilot2_calibration_only",
+      "random_seed": 20261111,
+      "rumor_seeds": [
+        1180
+      ],
+      "save_raw_observations": true,
+      "schema_version": 1,
+      "seed_block_size": 1000000,
+      "skipped_algorithms": {
+        "full_greedy": "full_greedy: estimated 20180 evaluations/5045000 CIC simulations exceed optimization limits"
+      },
+      "tie_breaking": "protector-priority"
+    },
+    "dataset": "ego-Facebook",
+    "phase": "optimization",
+    "preflight": [
+      {
+        "algorithm": "no_intervention",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "random",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "degree",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "pagerank",
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 0,
+        "optimization_evaluation_upper_bound": 0,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "full_greedy",
+        "candidate_count": 4038,
+        "final_cic_simulations": 0,
+        "final_evaluation_count": 0,
+        "optimization_cic_simulation_upper_bound": 5045000,
+        "optimization_evaluation_upper_bound": 20180,
+        "reason": "full_greedy: estimated 20180 evaluations/5045000 CIC simulations exceed optimization limits",
+        "runtime_prediction_seconds": null,
+        "status": "skipped"
+      },
+      {
+        "algorithm": "candidate_restricted_greedy",
+        "candidate_count": 10,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 10000,
+        "optimization_evaluation_upper_bound": 40,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned"
+      },
+      {
+        "algorithm": "genetic_algorithm",
+        "cache_enabled": true,
+        "final_cic_simulations": 500,
+        "final_evaluation_count": 1,
+        "optimization_cic_simulation_upper_bound": 25000,
+        "optimization_evaluation_upper_bound": 100,
+        "reason": null,
+        "runtime_prediction_seconds": null,
+        "status": "planned",
+        "uncached_evaluation_upper_bound": 100
+      }
+    ],
+    "repeat": 1
+  }
+]

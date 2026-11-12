@@ -242,6 +242,80 @@ số independent runs và master seeds. Các giá trị smoke không chốt thi�
 
 ## Milestone 7 – Parameter study
 
+**Main Experiments V2 — 4 independent runs:** người dùng đã xác nhận giảm
+repetitions từ 5 xuống 4 trước khi thu thập kết quả Main. Giữ nguyên sáu R,
+GA reference, k=5, p=0.03, S_opt=100 và final evaluation hai batch của Protocol
+v1. Ma trận có 144 primary result rows và 24 Full Greedy rows skipped theo
+giới hạn chi phí. Upper bound 3.648 evaluator calls/1.392.000 CIC; runtime
+projection 8.889,537 s, trong ngân sách 10.800 s. Adapter checkpoint từng
+selection/batch, khóa toàn bộ P trước final evaluation và không chạy lại unit
+đã hoàn tất khi resume. Đã hoàn thành 144/144 primary rows, 0 failed; actual
+2.058 calls/1.233.000 CIC, active 4.436,312 s; 493/493 tests pass, checksum
+67 protected files/14 data files và topology không đổi. Báo cáo và verification
+ở `MAIN_EXPERIMENTS_RESULTS.md`. Protocol 5 runs dưới đây là lịch
+sử, giữ nguyên để đối chiếu.
+
+**Main Design Freeze & Preflight:** user khóa reference GA/k5/p.03/S_opt100/
+protector-priority; giữ6 main R và v1 S_eval/B2. Proposal5 repeats cho6methods
+=180 primary rows +30 Full Greedy skipped. Upper4.560 calls/1.740.000CIC;
+runtime envelope×safety+overhead11.036,921s >cap10.800s nên STOPPED AT PREFLIGHT,
+không tự giảm repeats. Main calls/CIC=0. Paired family45/within-dataset weights
+đã đề xuất trước outcomes, main allocation/repeats/design vẫn cần xác nhận.
+Chưa all-method B2 adapter hoặc main execution. 461 tests pass,64 existing
+hashes/14 data files không đổi. Xem `MAIN_EXPERIMENTS_PROTOCOL.md`; phần dưới
+ghi lịch sử screening/confirmation, không phải đang chạy thêm GA search.
+
+**Cross-Scenario Confirmation đã hoàn thành:** 3 frozen profiles N10/N20/N40
+×3 validation scenarios R858/1555/2110 ×3 repeats =27/27 GA runs. Giữ các GA
+params còn lại/S/k/p/tie của v1, independent final B2. 593.000 CIC, active
+2.163,03s, peak worker177,8MiB <2GiB;443 tests pass/core/data hashes không đổi.
+Sáu family CIs chứa0, giữ reference làm practical candidate, không equivalence
+hoặc pooled quality ranking. Các validation R đã consumed; main R mới được
+reserve topology-only và main master2026111109 chưa dùng. Chi tiết
+`CROSS_SCENARIO_GA_CONFIRMATION.md`; main protocol vẫn là proposal cần chốt,
+không chạy Main Experiments/Full Design. Các mục dưới là lịch sử từng giai đoạn.
+
+**Reduced Screen V2 đã thực thi theo yêu cầu mới:** 9 unique OFAT profiles ×
+1 email R926 scenario ×5 repeats=45/45 GA runs, đủ ba mức mỗi panel với shared
+reference. Giữ toàn bộ reference S/k/p/tie/GA params còn lại; không là Full
+Design. Preflight 2.898,246 s gồm safety/overhead <10.800 s; thực đo khoảng
+1.116,95 s, 914.300 CIC. CI family cả 8 contrasts chứa0 nên không winner;
+reference vẫn là ứng viên tham chiếu. 415 tests pass, core/data hashes không
+đổi. CSV/JSON/plots/checkpoint và báo cáo `MILESTONE_7_REDUCED_SCREEN_V2.md`.
+Các trạng thái v1 dưới đây là lịch sử; Full Design/main vẫn chưa được chạy.
+
+**Reduced Screen request mới:** user yêu cầu 5 repeats. Protocol v1 reduced
+5 profiles × 3 scenarios tạo 75 runs (45 cũ là 3 repeats toàn bộ). Đã export
+ma trận, 9-profile list/4-panel membership và 60 planned OFAT pairs. Projection
+10.985,164 s vượt cap 10.800 s nên dừng preflight theo điều kiện A: không chạy
+subset hoặc giảm repeats để vượt gate. Báo cáo `MILESTONE_7_REDUCED_SCREEN.md`,
+389 tests pass, core/data checksum không đổi. Cần quyết định budget/matrix ở
+bước riêng trước execution; không tự chạy Full Design 270 hoặc main experiments.
+
+**Trạng thái sau đợt Protocol v1 trước đó:** đã xuất Experimental Protocol v1 và hoàn thành pilot
+kỹ thuật Milestone 7, chưa chạy full sensitivity screen/sweep hoặc main.
+Thiết kế OFAT dùng chung reference, lần lượt N/G/crossover/mutation, same R và
+independent final evaluation. 9 unique profiles/12 panel rows; full270 runs/
+7,3 triệu CIC vượt budget, reduced45 runs/1,026 triệu CIC chỉ là đề xuất.
+Pilot được phép chỉ N10/N20 trên R926/R1210, 2 repeats: 8/8 runs, 154.200 CIC,
+280,701 s, 379 tests pass; core/data/checksums giữ nguyên. Mục 3.3/3.5 xem
+`EXPERIMENT_PROTOCOL_V1.md`, các bảng `docs/experiment_protocol_v1/`.
+
+Trước milestone này đã chạy thêm **Pilot 2 – Calibration** theo yêu cầu riêng:
+phân bố reachable trên mọi node; 11 fixed rumor scenarios (giữ low/legacy),
+No Intervention p=.01/.03/.05/.10; S_opt calibration và independent accuracy
+500/1000/2500. Báo cáo `PILOT_2_CALIBRATION.md`, 361 tests pass, core/data không
+đổi. Protocol Chương 3 chỉ là draft có phân biệt đo/ngoại suy/đề xuất. Chưa
+khởi động parameter study hoặc main experiments; cần xác nhận protocol trước.
+
+Điều kiện hiện tại trước milestone này: đã hoàn thành Pilot Protocol Validation
+theo yêu cầu riêng sau Milestone 6; chưa bắt đầu parameter study. Ba datasets,
+hai p, ba independent algorithm/MC runs với cùng R đã lưu: 18/18 pilots và
+3/3 smokes thành công; Full Greedy skipped do explicit cost limits. Cấu hình
+pilot k5/S_opt20/S_eval200/GA N10 G10 không chốt thành main settings. Cần xử lý
+R ít reachable của Wiki và variance p0.05 email/Facebook trước khi xác nhận
+main protocol. Báo cáo `PILOT_PROTOCOL_VALIDATION.md`, 337 tests pass.
+
 Khảo sát:
 
 - population size;

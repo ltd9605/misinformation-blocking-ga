@@ -1,0 +1,135 @@
+{
+  "Wiki-Vote": {
+    "analysis_runtime_seconds": 0.06529045800562017,
+    "histogram": [
+      {
+        "reachable_count": 1,
+        "source_node_count": 1005
+      },
+      {
+        "reachable_count": 2,
+        "source_node_count": 821
+      },
+      {
+        "reachable_count": 3,
+        "source_node_count": 96
+      },
+      {
+        "reachable_count": 4,
+        "source_node_count": 24
+      },
+      {
+        "reachable_count": 5,
+        "source_node_count": 4
+      },
+      {
+        "reachable_count": 6,
+        "source_node_count": 2
+      },
+      {
+        "reachable_count": 7,
+        "source_node_count": 2
+      },
+      {
+        "reachable_count": 8,
+        "source_node_count": 1
+      },
+      {
+        "reachable_count": 9,
+        "source_node_count": 1
+      },
+      {
+        "reachable_count": 10,
+        "source_node_count": 1
+      },
+      {
+        "reachable_count": 2316,
+        "source_node_count": 1300
+      },
+      {
+        "reachable_count": 2317,
+        "source_node_count": 3803
+      },
+      {
+        "reachable_count": 2318,
+        "source_node_count": 54
+      },
+      {
+        "reachable_count": 2320,
+        "source_node_count": 1
+      }
+    ],
+    "max": 2320,
+    "mean": 1679.9644413211524,
+    "min": 1,
+    "node_count": 7115,
+    "quantiles_linear": {
+      "0": 1,
+      "0.1": 1.0,
+      "0.25": 2.0,
+      "0.5": 2317.0,
+      "0.75": 2317.0,
+      "0.9": 2317.0,
+      "1": 2320
+    },
+    "std_population": 1033.8193884326793
+  },
+  "ego-Facebook": {
+    "analysis_runtime_seconds": 0.007715916988672689,
+    "histogram": [
+      {
+        "reachable_count": 4039,
+        "source_node_count": 4039
+      }
+    ],
+    "max": 4039,
+    "mean": 4039,
+    "min": 4039,
+    "node_count": 4039,
+    "quantiles_linear": {
+      "0": 4039,
+      "0.1": 4039.0,
+      "0.25": 4039.0,
+      "0.5": 4039.0,
+      "0.75": 4039.0,
+      "0.9": 4039.0,
+      "1": 4039
+    },
+    "std_population": 0.0
+  },
+  "email-Eu-core": {
+    "analysis_runtime_seconds": 0.00547541600826662,
+    "histogram": [
+      {
+        "reachable_count": 1,
+        "source_node_count": 181
+      },
+      {
+        "reachable_count": 2,
+        "source_node_count": 2
+      },
+      {
+        "reachable_count": 965,
+        "source_node_count": 803
+      },
+      {
+        "reachable_count": 966,
+        "source_node_count": 19
+      }
+    ],
+    "max": 966,
+    "mean": 789.4865671641791,
+    "min": 1,
+    "node_count": 1005,
+    "quantiles_linear": {
+      "0": 1,
+      "0.1": 1.0,
+      "0.25": 965.0,
+      "0.5": 965.0,
+      "0.75": 965.0,
+      "0.9": 965.0,
+      "1": 966
+    },
+    "std_population": 372.0299873815298
+  }
+}

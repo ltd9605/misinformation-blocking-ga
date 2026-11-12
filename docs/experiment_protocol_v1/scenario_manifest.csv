@@ -1,0 +1,12 @@
+dataset,draw_index,reachable_count,reachable_excluding_seed,reachable_fraction_of_graph,reachable_fraction_of_maximum,role,rumor_seeds,sampling_seed,scenario_id,selection_policy,stratum,scenario_index,protocol_role
+email-Eu-core,0,1,0,0.0009950248756218905,0.0010351966873706005,supplementary_low_reach,[761],4457537432526573887,email-Eu-core_low_0,uniform_without_replacement_within_topology_stratum,low,0,supplementary
+email-Eu-core,1,1,0,0.0009950248756218905,0.0010351966873706005,supplementary_low_reach,[767],4457537432526573887,email-Eu-core_low_1,uniform_without_replacement_within_topology_stratum,low,1,supplementary
+email-Eu-core,0,966,965,0.9611940298507463,1.0,primary_candidate,[858],623486053121203770,email-Eu-core_high_0,uniform_without_replacement_within_topology_stratum,high,2,algorithm_outcome_validation
+email-Eu-core,1,965,964,0.9601990049751243,0.9989648033126294,primary_candidate,[926],623486053121203770,email-Eu-core_high_1,uniform_without_replacement_within_topology_stratum,high,3,development
+ego-Facebook,0,4039,4038,1.0,1.0,primary_candidate,[1180],8896979120340374933,ego-Facebook_constant_0,uniform_without_replacement_within_topology_stratum,constant,4,development
+ego-Facebook,1,4039,4038,1.0,1.0,primary_candidate,[1555],8896979120340374933,ego-Facebook_constant_1,uniform_without_replacement_within_topology_stratum,constant,5,algorithm_outcome_validation
+Wiki-Vote,0,1,0,0.000140548137737175,0.0004310344827586207,supplementary_low_reach,[5288],10904362679883315821,Wiki-Vote_low_0,uniform_without_replacement_within_topology_stratum,low,6,supplementary
+Wiki-Vote,1,1,0,0.000140548137737175,0.0004310344827586207,supplementary_low_reach,[6009],10904362679883315821,Wiki-Vote_low_1,uniform_without_replacement_within_topology_stratum,low,7,supplementary
+Wiki-Vote,0,2317,2316,0.32565003513703444,0.9987068965517242,primary_candidate,[2110],1968672421774739127,Wiki-Vote_high_0,uniform_without_replacement_within_topology_stratum,high,8,algorithm_outcome_validation
+Wiki-Vote,1,2317,2316,0.32565003513703444,0.9987068965517242,primary_candidate,[1210],1968672421774739127,Wiki-Vote_high_1,uniform_without_replacement_within_topology_stratum,high,9,development
+Wiki-Vote,,2,1,0.00028109627547435,0.0008620689655172414,supplementary_legacy,[4341],,Wiki-Vote_legacy_4341,retained_from_prior_pilot_without_resampling,legacy_low,10,supplementary

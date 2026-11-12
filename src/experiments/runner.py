@@ -22,7 +22,7 @@ from src.data import graph_statistics, load_processed_graph
 from src.data.loader import sha256_file
 from src.data.specs import PROJECT_ROOT
 from src.evaluation import MonteCarloResult, evaluate_cic
-from .config import ExperimentConfig, ExperimentConfigError, OPTIMIZERS
+from .config import ALGORITHMS, ExperimentConfig, ExperimentConfigError, OPTIMIZERS
 from .metadata import environment_metadata
 from .metrics import final_metrics
 from .seeds import ExperimentSeedPlan, make_experiment_seed_plan
@@ -224,21 +224,27 @@ def run_experiment(config: ExperimentConfig) -> ExperimentResult:
     if destination.exists():
         raise FileExistsError(f"Experiment directory already exists; choose another output root/run: {destination}")
     load_started = perf_counter()
+    configuration_time = load_started - started
     graph = load_processed_graph(source)
     dataset_metadata = json.loads((source / "metadata.json").read_text(encoding="utf-8"))
     if dataset_metadata.get("dataset") != c["dataset"]:
         raise ExperimentConfigError("Dataset label does not match processed metadata")
     loading_time = perf_counter() - load_started
+    preparation_started = perf_counter()
     source_hashes = {name: sha256_file(source / name) for name in ("nodes.csv", "edges.csv", "metadata.json")}
     before = deepcopy(graph)
     nx.freeze(graph)
     seeds = make_experiment_seed_plan(c["random_seed"], c["independent_run_index"], c["seed_block_size"])
     rumor = resolve_rumor(graph, c, seeds)
     estimates = preflight(graph, rumor, c)
+    preparation_time = perf_counter() - preparation_started
+    provenance_started = perf_counter()
     provenance = environment_metadata()
+    provenance_time = perf_counter() - provenance_started
     selections = {}
     details = {}
     convergence = []
+    selection_phase_started = perf_counter()
     # Complete every selection before exposing any independent evaluation result.
     for algorithm in c["algorithms"]:
         protector, timing, detail, history = _select(graph, rumor, c, algorithm, seeds)
@@ -247,6 +253,9 @@ def run_experiment(config: ExperimentConfig) -> ExperimentResult:
         convergence.extend(history)
         if not nx.utils.graphs_equal(graph, before):
             raise RuntimeError(f"{algorithm} modified the input graph")
+    selection_logging_time = max(0.0, perf_counter() - selection_phase_started
+                                 - sum(timing["selection_runtime_seconds"] for _, timing in selections.values()))
+    final_phase_started = perf_counter()
     destination.parent.mkdir(parents=True, exist_ok=True)
     with TemporaryDirectory(prefix=".experiment-", dir=destination.parent) as temporary:
         stage = Path(temporary)
@@ -294,11 +303,25 @@ def run_experiment(config: ExperimentConfig) -> ExperimentResult:
         finally:
             if raw_stream is not None:
                 raw_stream.close()
+        final_overhead_time = max(0.0, perf_counter() - final_phase_started
+                                  - sum(row["final_evaluation_runtime_seconds"] for row in rows))
+        completed = {row["algorithm"]: row for row in rows}
+        method_statuses = []
+        for name in ALGORITHMS:
+            row = completed.get(name)
+            method_statuses.append({
+                "algorithm": name, "status": "completed" if row else "skipped",
+                "reason": ("reused_empty_protector_control" if row and row["reused_control_evaluation"] else
+                           None if row else c["skipped_algorithms"].get(name, "not_selected_in_configuration")),
+                "final_evaluation_count": row["final_evaluation_count"] if row else 0,
+                "cic_simulations": row["optimization_cic_simulations"] + row["final_cic_simulations"] if row else 0,
+            })
         export_started = perf_counter()
         _write_json(stage / "config.json", c)
         _write_json(stage / "preflight.json", estimates)
         _write_json(stage / "selection_details.json", details)
         _write_csv(stage / "results.csv", rows)
+        _write_csv(stage / "method_status.csv", method_statuses)
         if convergence:
             _write_csv(stage / "convergence.csv", convergence)
         primary_write_time = perf_counter() - export_started
@@ -314,6 +337,14 @@ def run_experiment(config: ExperimentConfig) -> ExperimentResult:
             "processed_source_directory": source.as_posix(), "processed_source_sha256": source_hashes,
             "graph": {**asdict(graph_statistics(graph)), "directed": graph.is_directed()},
             "graph_unchanged": True, "processed_artifacts_unchanged": True,
+            "method_statuses": method_statuses,
+            "orchestration_runtime_breakdown": {
+                "configuration_validation_seconds": configuration_time,
+                "graph_snapshot_seeds_preflight_seconds": preparation_time,
+                "environment_provenance_seconds": provenance_time,
+                "selection_logging_graph_checks_seconds": selection_logging_time,
+                "final_logging_raw_export_integrity_seconds": final_overhead_time,
+            },
             "timings": {
                 "graph_loading_seconds": loading_time, "preprocessing_seconds": 0.0,
                 "selection_optimization_seconds": sum(row["selection_runtime_seconds"] for row in rows),
@@ -342,10 +373,14 @@ def run_experiment(config: ExperimentConfig) -> ExperimentResult:
         metadata["timings"]["orchestration_other_seconds"] = max(
             0.0, total - loading_time - metadata["timings"]["selection_optimization_seconds"]
             - metadata["timings"]["final_evaluation_seconds"] - primary_write_time)
+        metadata["orchestration_runtime_breakdown"]["remaining_overhead_seconds"] = max(
+            0.0, metadata["timings"]["orchestration_other_seconds"]
+            - sum(metadata["orchestration_runtime_breakdown"].values()))
         summary = {
             "dataset": c["dataset"], "declared_purpose": c["purpose"],
             "independent_run_index": c["independent_run_index"], "resolved_rumor_seeds": list(rumor),
             "control": _mc_summary(control), "results": rows, "final_evaluations": final_summaries,
+            "method_statuses": method_statuses,
             "total_optimization_evaluations": sum(row["optimization_evaluation_count"] for row in rows),
             "total_final_evaluations": sum(row["final_evaluation_count"] for row in rows),
             "total_cic_simulations": sum(row["optimization_cic_simulations"] + row["final_cic_simulations"] for row in rows),

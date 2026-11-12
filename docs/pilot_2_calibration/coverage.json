@@ -1,0 +1,314 @@
+[
+  {
+    "S_opt": 20,
+    "actual_cic_simulations": 4480,
+    "dataset": "email-Eu-core",
+    "measured_subprocess_seconds": 5.69785441699787,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 0,
+    "rumor_seeds": [
+      926
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 20,
+    "actual_cic_simulations": 4380,
+    "dataset": "email-Eu-core",
+    "measured_subprocess_seconds": 5.433412625003257,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 1,
+    "rumor_seeds": [
+      926
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 50,
+    "actual_cic_simulations": 6950,
+    "dataset": "email-Eu-core",
+    "measured_subprocess_seconds": 8.436548666999443,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 0,
+    "rumor_seeds": [
+      926
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 50,
+    "actual_cic_simulations": 6500,
+    "dataset": "email-Eu-core",
+    "measured_subprocess_seconds": 7.857859833005932,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 1,
+    "rumor_seeds": [
+      926
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 100,
+    "actual_cic_simulations": 11300,
+    "dataset": "email-Eu-core",
+    "measured_subprocess_seconds": 13.822420374999638,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 0,
+    "rumor_seeds": [
+      926
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 100,
+    "actual_cic_simulations": 10600,
+    "dataset": "email-Eu-core",
+    "measured_subprocess_seconds": 12.90983070799848,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 1,
+    "rumor_seeds": [
+      926
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 250,
+    "actual_cic_simulations": 20500,
+    "dataset": "email-Eu-core",
+    "measured_subprocess_seconds": 24.21665329200914,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 0,
+    "rumor_seeds": [
+      926
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 250,
+    "actual_cic_simulations": 21000,
+    "dataset": "email-Eu-core",
+    "measured_subprocess_seconds": 27.29236825001135,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 1,
+    "rumor_seeds": [
+      926
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 20,
+    "actual_cic_simulations": 4460,
+    "dataset": "ego-Facebook",
+    "measured_subprocess_seconds": 44.735795917004,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 0,
+    "rumor_seeds": [
+      1180
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 20,
+    "actual_cic_simulations": 4480,
+    "dataset": "ego-Facebook",
+    "measured_subprocess_seconds": 43.622516667004675,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 1,
+    "rumor_seeds": [
+      1180
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 50,
+    "actual_cic_simulations": 6700,
+    "dataset": "ego-Facebook",
+    "measured_subprocess_seconds": 65.19163537499844,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 0,
+    "rumor_seeds": [
+      1180
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 50,
+    "actual_cic_simulations": 6800,
+    "dataset": "ego-Facebook",
+    "measured_subprocess_seconds": 65.48860499999137,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 1,
+    "rumor_seeds": [
+      1180
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 100,
+    "actual_cic_simulations": 10700,
+    "dataset": "ego-Facebook",
+    "measured_subprocess_seconds": 103.96310437499778,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 0,
+    "rumor_seeds": [
+      1180
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 100,
+    "actual_cic_simulations": 10500,
+    "dataset": "ego-Facebook",
+    "measured_subprocess_seconds": 103.13597633400059,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 1,
+    "rumor_seeds": [
+      1180
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 250,
+    "actual_cic_simulations": 0,
+    "dataset": "ego-Facebook",
+    "measured_subprocess_seconds": 0.0,
+    "p": 0.03,
+    "reason": "revised_measured_cost_projection_still_exceeds_comparison_cap",
+    "repeat": 0,
+    "rumor_seeds": [
+      1180
+    ],
+    "status": "skipped"
+  },
+  {
+    "S_opt": 250,
+    "actual_cic_simulations": 0,
+    "dataset": "ego-Facebook",
+    "measured_subprocess_seconds": 0.0,
+    "p": 0.03,
+    "reason": "revised_measured_cost_projection_still_exceeds_comparison_cap",
+    "repeat": 1,
+    "rumor_seeds": [
+      1180
+    ],
+    "status": "skipped"
+  },
+  {
+    "S_opt": 20,
+    "actual_cic_simulations": 0,
+    "dataset": "Wiki-Vote",
+    "measured_subprocess_seconds": null,
+    "p": 0.03,
+    "reason": "bounded_partial_grid_Wiki_reference_S100_only",
+    "repeat": 0,
+    "rumor_seeds": [
+      1210
+    ],
+    "status": "not_scheduled"
+  },
+  {
+    "S_opt": 20,
+    "actual_cic_simulations": 0,
+    "dataset": "Wiki-Vote",
+    "measured_subprocess_seconds": null,
+    "p": 0.03,
+    "reason": "bounded_partial_grid_Wiki_reference_S100_only",
+    "repeat": 1,
+    "rumor_seeds": [
+      1210
+    ],
+    "status": "not_scheduled"
+  },
+  {
+    "S_opt": 50,
+    "actual_cic_simulations": 0,
+    "dataset": "Wiki-Vote",
+    "measured_subprocess_seconds": null,
+    "p": 0.03,
+    "reason": "bounded_partial_grid_Wiki_reference_S100_only",
+    "repeat": 0,
+    "rumor_seeds": [
+      1210
+    ],
+    "status": "not_scheduled"
+  },
+  {
+    "S_opt": 50,
+    "actual_cic_simulations": 0,
+    "dataset": "Wiki-Vote",
+    "measured_subprocess_seconds": null,
+    "p": 0.03,
+    "reason": "bounded_partial_grid_Wiki_reference_S100_only",
+    "repeat": 1,
+    "rumor_seeds": [
+      1210
+    ],
+    "status": "not_scheduled"
+  },
+  {
+    "S_opt": 100,
+    "actual_cic_simulations": 10200,
+    "dataset": "Wiki-Vote",
+    "measured_subprocess_seconds": 37.150701915990794,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 0,
+    "rumor_seeds": [
+      1210
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 100,
+    "actual_cic_simulations": 11500,
+    "dataset": "Wiki-Vote",
+    "measured_subprocess_seconds": 39.651408749996335,
+    "p": 0.03,
+    "reason": null,
+    "repeat": 1,
+    "rumor_seeds": [
+      1210
+    ],
+    "status": "completed"
+  },
+  {
+    "S_opt": 250,
+    "actual_cic_simulations": 0,
+    "dataset": "Wiki-Vote",
+    "measured_subprocess_seconds": null,
+    "p": 0.03,
+    "reason": "bounded_partial_grid_Wiki_reference_S100_only",
+    "repeat": 0,
+    "rumor_seeds": [
+      1210
+    ],
+    "status": "not_scheduled"
+  },
+  {
+    "S_opt": 250,
+    "actual_cic_simulations": 0,
+    "dataset": "Wiki-Vote",
+    "measured_subprocess_seconds": null,
+    "p": 0.03,
+    "reason": "bounded_partial_grid_Wiki_reference_S100_only",
+    "repeat": 1,
+    "rumor_seeds": [
+      1210
+    ],
+    "status": "not_scheduled"
+  }
+]

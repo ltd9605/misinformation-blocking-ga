@@ -1,0 +1,2152 @@
+{
+  "GA_runs": 30,
+  "admission_reasons": [
+    "runtime_proxy_envelope_with_safety_and_overhead_exceeds_budget"
+  ],
+  "conditional_Full_Greedy_rows_skipped": 30,
+  "final_CIC": 1320000,
+  "final_evaluator_calls": 360,
+  "nearest_topology_nominal_proxy_seconds": 6855.487447448932,
+  "optimization_CIC_upper": 420000,
+  "optimization_evaluator_calls_upper": 4200,
+  "planned_primary_method_runs": 180,
+  "primary_methods": 6,
+  "projected_seconds_including_safety_and_overhead": 11036.921415272987,
+  "proposed_repeats": 5,
+  "rows": [
+    {
+      "algorithm": "no_intervention",
+      "dataset": "email-Eu-core",
+      "final_CIC": 60000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 22.550705041503534,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 22.550705041503534,
+      "proxy_min_seconds_before_safety": 12.975833544987836,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0003758450840250589,
+          "min_observed_rate": 0.00021626389241646393,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0003758450840250589,
+          "observed_R_ids": [
+            858,
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 22,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.5108256237659905
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0,
+          "min_observed_rate": 0.0,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.5108256237659905
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        485
+      ],
+      "scenario_id": "main_reserved_email-Eu-core_high_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "random",
+      "dataset": "email-Eu-core",
+      "final_CIC": 60000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 76.51291725429473,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 76.51291725429473,
+      "proxy_min_seconds_before_safety": 64.04914545964857,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0012751894159882796,
+          "min_observed_rate": 0.0010674650839937385,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0012751894159882796,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 10,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.5108256237659905
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.00031045899959281087,
+          "min_observed_rate": 0.00024808400485198945,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.00031045899959281087,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.5108256237659905
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        485
+      ],
+      "scenario_id": "main_reserved_email-Eu-core_high_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "degree",
+      "dataset": "email-Eu-core",
+      "final_CIC": 60000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 90.97261270981107,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 90.97261270981107,
+      "proxy_min_seconds_before_safety": 74.02590625017183,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0015161712499975693,
+          "min_observed_rate": 0.0012337295000033918,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0015161712499975693,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 10,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.5108256237659905
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0004675419913837686,
+          "min_observed_rate": 0.0004272499936632812,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0004675419913837686,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.5108256237659905
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        485
+      ],
+      "scenario_id": "main_reserved_email-Eu-core_high_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "pagerank",
+      "dataset": "email-Eu-core",
+      "final_CIC": 60000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 82.2773966249224,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 82.2773966249224,
+      "proxy_min_seconds_before_safety": 74.17567479424179,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0013582081659988035,
+          "min_observed_rate": 0.0012275087499874645,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0013582081659988035,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 10,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.5108256237659905
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.1569813329988392,
+          "min_observed_rate": 0.10502995899878442,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.1569813329988392,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.5108256237659905
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        485
+      ],
+      "scenario_id": "main_reserved_email-Eu-core_high_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "candidate_restricted_greedy",
+      "dataset": "email-Eu-core",
+      "final_CIC": 60000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 107.04322320001666,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 20000,
+      "optimization_evaluator_calls_upper": 200,
+      "proxy_max_seconds_before_safety": 107.04322320001666,
+      "proxy_min_seconds_before_safety": 97.57892268935393,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.001351311334001366,
+          "min_observed_rate": 0.0012188099999912083,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.001351311334001366,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 10,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.5108256237659905
+        },
+        "optimization": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0012977376772541902,
+          "min_observed_rate": 0.0012221788332499274,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0012977376772541902,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.5108256237659905
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0019579229701776057,
+          "min_observed_rate": 0.0013492049765773118,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0019579229701776057,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.5108256237659905
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        485
+      ],
+      "scenario_id": "main_reserved_email-Eu-core_high_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "genetic_algorithm",
+      "dataset": "email-Eu-core",
+      "final_CIC": 60000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 145.77696901818524,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 50000,
+      "optimization_evaluator_calls_upper": 500,
+      "proxy_max_seconds_before_safety": 145.77696901818524,
+      "proxy_min_seconds_before_safety": 77.9587326161237,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.001373194465166307,
+          "min_observed_rate": 0.0005424350068327234,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.001373194465166307,
+          "observed_R_ids": [
+            858,
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 126,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.5108256237659905
+        },
+        "optimization": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0012638108805665318,
+          "min_observed_rate": 0.0009048422524230429,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0012638108805665318,
+          "observed_R_ids": [
+            858,
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 60,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.5108256237659905
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.03895141597604379,
+          "min_observed_rate": 0.03410391700163018,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.03895141597604379,
+          "observed_R_ids": [
+            858,
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 18,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.5108256237659905
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        485
+      ],
+      "scenario_id": "main_reserved_email-Eu-core_high_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "no_intervention",
+      "dataset": "email-Eu-core",
+      "final_CIC": 60000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 22.550705041503534,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 22.550705041503534,
+      "proxy_min_seconds_before_safety": 12.975833544987836,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0003758450840250589,
+          "min_observed_rate": 0.00021626389241646393,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0003758450840250589,
+          "observed_R_ids": [
+            858,
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 22,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40546510810816416
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0,
+          "min_observed_rate": 0.0,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40546510810816416
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        374
+      ],
+      "scenario_id": "main_reserved_email-Eu-core_high_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "random",
+      "dataset": "email-Eu-core",
+      "final_CIC": 60000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 76.51291725429473,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 76.51291725429473,
+      "proxy_min_seconds_before_safety": 64.04914545964857,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0012751894159882796,
+          "min_observed_rate": 0.0010674650839937385,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0012751894159882796,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 10,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40546510810816416
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.00031045899959281087,
+          "min_observed_rate": 0.00024808400485198945,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.00031045899959281087,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40546510810816416
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        374
+      ],
+      "scenario_id": "main_reserved_email-Eu-core_high_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "degree",
+      "dataset": "email-Eu-core",
+      "final_CIC": 60000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 90.97261270981107,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 90.97261270981107,
+      "proxy_min_seconds_before_safety": 74.02590625017183,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0015161712499975693,
+          "min_observed_rate": 0.0012337295000033918,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0015161712499975693,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 10,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40546510810816416
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0004675419913837686,
+          "min_observed_rate": 0.0004272499936632812,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0004675419913837686,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40546510810816416
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        374
+      ],
+      "scenario_id": "main_reserved_email-Eu-core_high_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "pagerank",
+      "dataset": "email-Eu-core",
+      "final_CIC": 60000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 82.2773966249224,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 82.2773966249224,
+      "proxy_min_seconds_before_safety": 74.17567479424179,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0013582081659988035,
+          "min_observed_rate": 0.0012275087499874645,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0013582081659988035,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 10,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40546510810816416
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.1569813329988392,
+          "min_observed_rate": 0.10502995899878442,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.1569813329988392,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40546510810816416
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        374
+      ],
+      "scenario_id": "main_reserved_email-Eu-core_high_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "candidate_restricted_greedy",
+      "dataset": "email-Eu-core",
+      "final_CIC": 60000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 107.04322320001666,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 20000,
+      "optimization_evaluator_calls_upper": 200,
+      "proxy_max_seconds_before_safety": 107.04322320001666,
+      "proxy_min_seconds_before_safety": 97.57892268935393,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.001351311334001366,
+          "min_observed_rate": 0.0012188099999912083,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.001351311334001366,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 10,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40546510810816416
+        },
+        "optimization": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0012977376772541902,
+          "min_observed_rate": 0.0012221788332499274,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0012977376772541902,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40546510810816416
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0019579229701776057,
+          "min_observed_rate": 0.0013492049765773118,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0019579229701776057,
+          "observed_R_ids": [
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40546510810816416
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        374
+      ],
+      "scenario_id": "main_reserved_email-Eu-core_high_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "genetic_algorithm",
+      "dataset": "email-Eu-core",
+      "final_CIC": 60000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 145.77696901818524,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 50000,
+      "optimization_evaluator_calls_upper": 500,
+      "proxy_max_seconds_before_safety": 145.77696901818524,
+      "proxy_min_seconds_before_safety": 77.9587326161237,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.001373194465166307,
+          "min_observed_rate": 0.0005424350068327234,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.001373194465166307,
+          "observed_R_ids": [
+            858,
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 126,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40546510810816416
+        },
+        "optimization": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0012638108805665318,
+          "min_observed_rate": 0.0009048422524230429,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.0012638108805665318,
+          "observed_R_ids": [
+            858,
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 60,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40546510810816416
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.03895141597604379,
+          "min_observed_rate": 0.03410391700163018,
+          "nearest_historical_R": [
+            926
+          ],
+          "nearest_topology_proxy_rate": 0.03895141597604379,
+          "observed_R_ids": [
+            858,
+            926
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 18,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40546510810816416
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        374
+      ],
+      "scenario_id": "main_reserved_email-Eu-core_high_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "no_intervention",
+      "dataset": "ego-Facebook",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 53.790404995015706,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 165.4350208400865,
+      "proxy_min_seconds_before_safety": 50.943848339957185,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.00661740083360346,
+          "min_observed_rate": 0.0020377539335982874,
+          "nearest_historical_R": [
+            1555
+          ],
+          "nearest_topology_proxy_rate": 0.002151616199800628,
+          "observed_R_ids": [
+            1180,
+            1555
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 11,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.8754687373538999
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0,
+          "min_observed_rate": 0.0,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.0,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 6,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.120591195386885
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        714
+      ],
+      "scenario_id": "main_reserved_ego-Facebook_constant_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "random",
+      "dataset": "ego-Facebook",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 282.9993944099988,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 282.9993944099988,
+      "proxy_min_seconds_before_safety": 239.38134291478494,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.011316228167997907,
+          "min_observed_rate": 0.009572065999993357,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.011316228167997907,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.120591195386885
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.01873804201022722,
+          "min_observed_rate": 0.01593858299020212,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.01873804201022722,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 6,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.120591195386885
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        714
+      ],
+      "scenario_id": "main_reserved_ego-Facebook_constant_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "degree",
+      "dataset": "ego-Facebook",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 296.116784984697,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 296.116784984697,
+      "proxy_min_seconds_before_safety": 276.1527787502564,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.011844118165987311,
+          "min_observed_rate": 0.011045645500009414,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.011844118165987311,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.120591195386885
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.002766167002846487,
+          "min_observed_rate": 0.0023282500042114407,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.002766167002846487,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 6,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.120591195386885
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        714
+      ],
+      "scenario_id": "main_reserved_ego-Facebook_constant_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "pagerank",
+      "dataset": "ego-Facebook",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 295.67735996999545,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 295.67735996999545,
+      "proxy_min_seconds_before_safety": 278.53380788554205,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.011773175581998658,
+          "min_observed_rate": 0.011097477582021384,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.011773175581998658,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.120591195386885
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.26959408400580287,
+          "min_observed_rate": 0.2193736670014914,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.26959408400580287,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 6,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.120591195386885
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        714
+      ],
+      "scenario_id": "main_reserved_ego-Facebook_constant_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "candidate_restricted_greedy",
+      "dataset": "ego-Facebook",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 446.32168022064434,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 20000,
+      "optimization_evaluator_calls_upper": 200,
+      "proxy_max_seconds_before_safety": 446.32168022064434,
+      "proxy_min_seconds_before_safety": 403.0319664450508,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.010113573533203453,
+          "min_observed_rate": 0.008735253749997354,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.010113573533203453,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.120591195386885
+        },
+        "optimization": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.009672520031508612,
+          "min_observed_rate": 0.009231168468002579,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.009672520031508612,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.120591195386885
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0063882520771585405,
+          "min_observed_rate": 0.005450667013064958,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.0063882520771585405,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 6,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.120591195386885
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        714
+      ],
+      "scenario_id": "main_reserved_ego-Facebook_constant_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "genetic_algorithm",
+      "dataset": "ego-Facebook",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 778.5518396389749,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 50000,
+      "optimization_evaluator_calls_upper": 500,
+      "proxy_max_seconds_before_safety": 778.5573281690528,
+      "proxy_min_seconds_before_safety": 615.6532403994789,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.011349359199998434,
+          "min_observed_rate": 0.00837673439999926,
+          "nearest_historical_R": [
+            1555
+          ],
+          "nearest_topology_proxy_rate": 0.011349359199998434,
+          "observed_R_ids": [
+            1180,
+            1555
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 26,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.8754687373538999
+        },
+        "optimization": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.009883208900976909,
+          "min_observed_rate": 0.008112537949590479,
+          "nearest_historical_R": [
+            1555
+          ],
+          "nearest_topology_proxy_rate": 0.009883208900976909,
+          "observed_R_ids": [
+            1180,
+            1555
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 11,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.8754687373538999
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.1325806240492966,
+          "min_observed_rate": 0.12159658399468753,
+          "nearest_historical_R": [
+            1555
+          ],
+          "nearest_topology_proxy_rate": 0.13148291803372558,
+          "observed_R_ids": [
+            1180,
+            1555
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 9,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.8754687373538999
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        714
+      ],
+      "scenario_id": "main_reserved_ego-Facebook_constant_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "no_intervention",
+      "dataset": "ego-Facebook",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 53.790404995015706,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 165.4350208400865,
+      "proxy_min_seconds_before_safety": 50.943848339957185,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.00661740083360346,
+          "min_observed_rate": 0.0020377539335982874,
+          "nearest_historical_R": [
+            1555
+          ],
+          "nearest_topology_proxy_rate": 0.002151616199800628,
+          "observed_R_ids": [
+            1180,
+            1555
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 11,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.36464311358790935
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0,
+          "min_observed_rate": 0.0,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.0,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 6,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.6097655716208945
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        2733
+      ],
+      "scenario_id": "main_reserved_ego-Facebook_constant_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "random",
+      "dataset": "ego-Facebook",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 282.9993944099988,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 282.9993944099988,
+      "proxy_min_seconds_before_safety": 239.38134291478494,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.011316228167997907,
+          "min_observed_rate": 0.009572065999993357,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.011316228167997907,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.6097655716208945
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.01873804201022722,
+          "min_observed_rate": 0.01593858299020212,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.01873804201022722,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 6,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.6097655716208945
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        2733
+      ],
+      "scenario_id": "main_reserved_ego-Facebook_constant_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "degree",
+      "dataset": "ego-Facebook",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 296.116784984697,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 296.116784984697,
+      "proxy_min_seconds_before_safety": 276.1527787502564,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.011844118165987311,
+          "min_observed_rate": 0.011045645500009414,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.011844118165987311,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.6097655716208945
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.002766167002846487,
+          "min_observed_rate": 0.0023282500042114407,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.002766167002846487,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 6,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.6097655716208945
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        2733
+      ],
+      "scenario_id": "main_reserved_ego-Facebook_constant_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "pagerank",
+      "dataset": "ego-Facebook",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 295.67735996999545,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 295.67735996999545,
+      "proxy_min_seconds_before_safety": 278.53380788554205,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.011773175581998658,
+          "min_observed_rate": 0.011097477582021384,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.011773175581998658,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.6097655716208945
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.26959408400580287,
+          "min_observed_rate": 0.2193736670014914,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.26959408400580287,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 6,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.6097655716208945
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        2733
+      ],
+      "scenario_id": "main_reserved_ego-Facebook_constant_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "candidate_restricted_greedy",
+      "dataset": "ego-Facebook",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 446.32168022064434,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 20000,
+      "optimization_evaluator_calls_upper": 200,
+      "proxy_max_seconds_before_safety": 446.32168022064434,
+      "proxy_min_seconds_before_safety": 403.0319664450508,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.010113573533203453,
+          "min_observed_rate": 0.008735253749997354,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.010113573533203453,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 8,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.6097655716208945
+        },
+        "optimization": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.009672520031508612,
+          "min_observed_rate": 0.009231168468002579,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.009672520031508612,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.6097655716208945
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0063882520771585405,
+          "min_observed_rate": 0.005450667013064958,
+          "nearest_historical_R": [
+            1180
+          ],
+          "nearest_topology_proxy_rate": 0.0063882520771585405,
+          "observed_R_ids": [
+            1180
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 6,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.6097655716208945
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        2733
+      ],
+      "scenario_id": "main_reserved_ego-Facebook_constant_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "genetic_algorithm",
+      "dataset": "ego-Facebook",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 778.5518396389749,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 50000,
+      "optimization_evaluator_calls_upper": 500,
+      "proxy_max_seconds_before_safety": 778.5573281690528,
+      "proxy_min_seconds_before_safety": 615.6532403994789,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.011349359199998434,
+          "min_observed_rate": 0.00837673439999926,
+          "nearest_historical_R": [
+            1555
+          ],
+          "nearest_topology_proxy_rate": 0.011349359199998434,
+          "observed_R_ids": [
+            1180,
+            1555
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 26,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.36464311358790935
+        },
+        "optimization": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.009883208900976909,
+          "min_observed_rate": 0.008112537949590479,
+          "nearest_historical_R": [
+            1555
+          ],
+          "nearest_topology_proxy_rate": 0.009883208900976909,
+          "observed_R_ids": [
+            1180,
+            1555
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 11,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.36464311358790935
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.1325806240492966,
+          "min_observed_rate": 0.12159658399468753,
+          "nearest_historical_R": [
+            1555
+          ],
+          "nearest_topology_proxy_rate": 0.13148291803372558,
+          "observed_R_ids": [
+            1180,
+            1555
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 9,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.36464311358790935
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        2733
+      ],
+      "scenario_id": "main_reserved_ego-Facebook_constant_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "no_intervention",
+      "dataset": "Wiki-Vote",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 40.25246520497603,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 72.99506666007801,
+      "proxy_min_seconds_before_safety": 39.282815835031215,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.00291980266640312,
+          "min_observed_rate": 0.0015713126334012486,
+          "nearest_historical_R": [
+            2110
+          ],
+          "nearest_topology_proxy_rate": 0.0016100986081990414,
+          "observed_R_ids": [
+            1210,
+            2110
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 11,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40560565624590156
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0,
+          "min_observed_rate": 0.0,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.0,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 3.597452808726183
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        1961
+      ],
+      "scenario_id": "main_reserved_Wiki-Vote_high_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "random",
+      "dataset": "Wiki-Vote",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 81.6604574851226,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 81.6604574851226,
+      "proxy_min_seconds_before_safety": 67.6686839255126,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.003266136916005053,
+          "min_observed_rate": 0.002706466582021676,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.003266136916005053,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 4,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 3.597452808726183
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.001406916999258101,
+          "min_observed_rate": 0.001403874994139187,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.001406916999258101,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 3.597452808726183
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        1961
+      ],
+      "scenario_id": "main_reserved_Wiki-Vote_high_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "degree",
+      "dataset": "Wiki-Vote",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 116.49048000494076,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 116.49048000494076,
+      "proxy_min_seconds_before_safety": 111.3196349851205,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.004659026383596938,
+          "min_observed_rate": 0.0044522151660057714,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.004659026383596938,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 4,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 3.597452808726183
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0029640830034622923,
+          "min_observed_rate": 0.002851166995242238,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.0029640830034622923,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 3.597452808726183
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        1961
+      ],
+      "scenario_id": "main_reserved_Wiki-Vote_high_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "pagerank",
+      "dataset": "Wiki-Vote",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 79.13917791011045,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 79.13917791011045,
+      "proxy_min_seconds_before_safety": 72.59155768952041,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.003118314099602867,
+          "min_observed_rate": 0.002862482915981673,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.003118314099602867,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 4,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 3.597452808726183
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.23626508400775492,
+          "min_observed_rate": 0.20589695799571928,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.23626508400775492,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 3.597452808726183
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        1961
+      ],
+      "scenario_id": "main_reserved_Wiki-Vote_high_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "candidate_restricted_greedy",
+      "dataset": "Wiki-Vote",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 186.77998936502263,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 20000,
+      "optimization_evaluator_calls_upper": 200,
+      "proxy_max_seconds_before_safety": 186.77998936502263,
+      "proxy_min_seconds_before_safety": 174.16445371491136,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.004379373549600132,
+          "min_observed_rate": 0.004042037831997732,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.004379373549600132,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 4,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 3.597452808726183
+        },
+        "optimization": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.003863060792504257,
+          "min_observed_rate": 0.0036540953757648823,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.003863060792504257,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 3.597452808726183
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.006886954986839555,
+          "min_observed_rate": 0.006320079934084788,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.006886954986839555,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 3.597452808726183
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        1961
+      ],
+      "scenario_id": "main_reserved_Wiki-Vote_high_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "genetic_algorithm",
+      "dataset": "Wiki-Vote",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 205.24988869485242,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 50000,
+      "optimization_evaluator_calls_upper": 500,
+      "proxy_max_seconds_before_safety": 251.66724122251253,
+      "proxy_min_seconds_before_safety": 140.1448517383555,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0037770739500003403,
+          "min_observed_rate": 0.0016937204999965616,
+          "nearest_historical_R": [
+            2110
+          ],
+          "nearest_topology_proxy_rate": 0.0028193353331997057,
+          "observed_R_ids": [
+            1210,
+            2110
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 30,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40560565624590156
+        },
+        "optimization": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0031196663412538326,
+          "min_observed_rate": 0.0019325923472669356,
+          "nearest_historical_R": [
+            2110
+          ],
+          "nearest_topology_proxy_rate": 0.0026703693279960133,
+          "observed_R_ids": [
+            1210,
+            2110
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 15,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40560565624590156
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.2514150819624774,
+          "min_observed_rate": 0.23444437501893844,
+          "nearest_historical_R": [
+            2110
+          ],
+          "nearest_topology_proxy_rate": 0.249607793011819,
+          "observed_R_ids": [
+            1210,
+            2110
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 7,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 0.40560565624590156
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        1961
+      ],
+      "scenario_id": "main_reserved_Wiki-Vote_high_0",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "no_intervention",
+      "dataset": "Wiki-Vote",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 72.99506666007801,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 72.99506666007801,
+      "proxy_min_seconds_before_safety": 39.282815835031215,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.00291980266640312,
+          "min_observed_rate": 0.0015713126334012486,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.00291980266640312,
+          "observed_R_ids": [
+            1210,
+            2110
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 11,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.5824092400461813
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0,
+          "min_observed_rate": 0.0,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.0,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.5824092400461813
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        1795
+      ],
+      "scenario_id": "main_reserved_Wiki-Vote_high_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "random",
+      "dataset": "Wiki-Vote",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 81.6604574851226,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 81.6604574851226,
+      "proxy_min_seconds_before_safety": 67.6686839255126,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.003266136916005053,
+          "min_observed_rate": 0.002706466582021676,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.003266136916005053,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 4,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.5824092400461813
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.001406916999258101,
+          "min_observed_rate": 0.001403874994139187,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.001406916999258101,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.5824092400461813
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        1795
+      ],
+      "scenario_id": "main_reserved_Wiki-Vote_high_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "degree",
+      "dataset": "Wiki-Vote",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 116.49048000494076,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 116.49048000494076,
+      "proxy_min_seconds_before_safety": 111.3196349851205,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.004659026383596938,
+          "min_observed_rate": 0.0044522151660057714,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.004659026383596938,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 4,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.5824092400461813
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0029640830034622923,
+          "min_observed_rate": 0.002851166995242238,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.0029640830034622923,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.5824092400461813
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        1795
+      ],
+      "scenario_id": "main_reserved_Wiki-Vote_high_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "pagerank",
+      "dataset": "Wiki-Vote",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 79.13917791011045,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 0,
+      "optimization_evaluator_calls_upper": 0,
+      "proxy_max_seconds_before_safety": 79.13917791011045,
+      "proxy_min_seconds_before_safety": 72.59155768952041,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.003118314099602867,
+          "min_observed_rate": 0.002862482915981673,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.003118314099602867,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 4,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.5824092400461813
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.23626508400775492,
+          "min_observed_rate": 0.20589695799571928,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.23626508400775492,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.5824092400461813
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        1795
+      ],
+      "scenario_id": "main_reserved_Wiki-Vote_high_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "candidate_restricted_greedy",
+      "dataset": "Wiki-Vote",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 186.77998936502263,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 20000,
+      "optimization_evaluator_calls_upper": 200,
+      "proxy_max_seconds_before_safety": 186.77998936502263,
+      "proxy_min_seconds_before_safety": 174.16445371491136,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.004379373549600132,
+          "min_observed_rate": 0.004042037831997732,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.004379373549600132,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 4,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.5824092400461813
+        },
+        "optimization": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.003863060792504257,
+          "min_observed_rate": 0.0036540953757648823,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.003863060792504257,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.5824092400461813
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.006886954986839555,
+          "min_observed_rate": 0.006320079934084788,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.006886954986839555,
+          "observed_R_ids": [
+            1210
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 2,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.5824092400461813
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        1795
+      ],
+      "scenario_id": "main_reserved_Wiki-Vote_high_1",
+      "scenario_runtime_identity_assumed": false
+    },
+    {
+      "algorithm": "genetic_algorithm",
+      "dataset": "Wiki-Vote",
+      "final_CIC": 25000,
+      "final_evaluator_calls": 10,
+      "main_R_point_estimate_seconds": null,
+      "nearest_topology_nominal_proxy_seconds": 251.66724122251253,
+      "observed_main_R_runtime_seconds": null,
+      "optimization_CIC_upper": 50000,
+      "optimization_evaluator_calls_upper": 500,
+      "proxy_max_seconds_before_safety": 251.66724122251253,
+      "proxy_min_seconds_before_safety": 140.1448517383555,
+      "rate_evidence": {
+        "final": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0037770739500003403,
+          "min_observed_rate": 0.0016937204999965616,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.0037770739500003403,
+          "observed_R_ids": [
+            1210,
+            2110
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 30,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.5824092400461813
+        },
+        "optimization": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.0031196663412538326,
+          "min_observed_rate": 0.0019325923472669356,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.0031196663412538326,
+          "observed_R_ids": [
+            1210,
+            2110
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 15,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.5824092400461813
+        },
+        "selection_non_MC": {
+          "main_R_actual_rate": null,
+          "max_observed_rate": 0.2514150819624774,
+          "min_observed_rate": 0.23444437501893844,
+          "nearest_historical_R": [
+            1210
+          ],
+          "nearest_topology_proxy_rate": 0.2514150819624774,
+          "observed_R_ids": [
+            1210,
+            2110
+          ],
+          "observed_on_main_R": false,
+          "provenance_record_count_not_independent_n": 7,
+          "proxy_is_validated_causal_model": false,
+          "topology_distance": 1.5824092400461813
+        }
+      },
+      "repeats": 5,
+      "rumor_seeds": [
+        1795
+      ],
+      "scenario_id": "main_reserved_Wiki-Vote_high_1",
+      "scenario_runtime_identity_assumed": false
+    }
+  ],
+  "runtime_headroom_seconds": -236.92141527298736,
+  "runtime_is_measured_on_main_R": false,
+  "runtime_projection_is_hard_bound": false,
+  "runtime_proxy_max_seconds_before_safety": 7157.947610181991,
+  "runtime_proxy_min_seconds_before_safety": 5739.266395956099,
+  "scenarios": 6,
+  "scope": "all six method selections and two final batches per P including shared NI; no duplicated control per comparator; no official CIC executed",
+  "total_CIC_upper": 1740000,
+  "total_evaluator_calls_upper": 4560,
+  "within_declared_budget": false
+}

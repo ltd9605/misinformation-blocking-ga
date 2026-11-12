@@ -1,0 +1,9 @@
+{
+  "automatic_configuration_change": false,
+  "confidence": 0.95,
+  "contrasts": "population20_and40_vs_reference_within_each_dataset_only",
+  "decision": "retain_reference_unless_evidence_requires_reconsideration_never_claim_equivalence",
+  "multiplicity": "approximate_Bonferroni_t_CI_family_of_six_contrasts_no_effect_pooling",
+  "practical_equivalence_margin": null,
+  "unit": "independent_GA_run"
+}

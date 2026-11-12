@@ -1,0 +1,127 @@
+{
+  "budget": {
+    "charged_cic_simulations": 250216,
+    "measured_cic_simulations": 250216,
+    "phase_wall_seconds": {
+      "accuracy": 450.8030896669952,
+      "controls": 20.26079000000027,
+      "optimize": 405.6933856250107,
+      "prepare": 0.11437695901258849,
+      "revisit_admission": 207.11164520900638,
+      "summarize": 0.13753766599984374
+    },
+    "unknown_partial_work": false
+  },
+  "coverage_counts": {
+    "completed": 16,
+    "not_scheduled": 6,
+    "skipped": 2
+  },
+  "environment": {
+    "git_commit": "f62679ef97d66e7d30fb98d6c43a39f1275e17e9",
+    "git_dirty": true,
+    "git_status_porcelain": "M EXPERIMENT_PLAN.md\n M PROJECT_CONTEXT.md\n M README.md\n M src/experiments/config.py\n M src/experiments/runner.py\n M tests/test_experiment_config.py\n M tests/test_experiment_runner.py\n?? PILOT_PROTOCOL_VALIDATION.md\n?? docs/pilot_protocol_validation/\n?? experiments/configs/pilot_2_calibration.json\n?? experiments/configs/pilot_protocol_validation.json\n?? experiments/pilot_2_calibration.py\n?? experiments/pilot_protocol_validation.py\n?? src/experiments/calibration.py\n?? src/experiments/protocol.py\n?? tests/test_pilot_protocol.py",
+    "hardware_model": null,
+    "libraries": {
+      "contourpy": "1.4.0",
+      "cycler": "0.12.1",
+      "fonttools": "4.68.0",
+      "kiwisolver": "1.5.1",
+      "matplotlib": "3.11.2",
+      "networkx": "3.7",
+      "numpy": "2.5.4",
+      "packaging": "26.3",
+      "pandas": "3.1.0",
+      "pillow": "13.0.0",
+      "pip": "26.2.2",
+      "pyparsing": "3.3.3",
+      "python-dateutil": "4.0.0",
+      "scipy": "1.18.1",
+      "tzdata": "2026.6"
+    },
+    "logical_cpu_count": 10,
+    "machine": "arm64",
+    "os": "Darwin",
+    "os_release": "24.3.0",
+    "physical_memory_bytes": 17179869184,
+    "platform": "macOS-15.3.1-arm64-arm-64bit-Mach-O",
+    "processor": "arm",
+    "python": "3.15.2",
+    "python_implementation": "CPython",
+    "source_sha256": {
+      "src/__init__.py": "e10c96ab2b3521f043737cd470ed7e5646f097b687d84f254dd28f331889f7e2",
+      "src/algorithms/__init__.py": "c72b3afe0d49cf71ca103f59cdf9fe668aa3c44835c4ac5aecf197b219ffdae2",
+      "src/algorithms/baselines.py": "5874c96f3e7d6604c81b4559ba06e70408ed137d081b36dd9647767e9dca1ed5",
+      "src/algorithms/ga_operators.py": "1271e7461a153b1763057ed20b3ef13f80201350381923ceb89d4b6f9499e5c4",
+      "src/algorithms/genetic_algorithm.py": "405bde11dae3d29a065e71b4ea6f0a95804b97787f7daaa2c2d9c04a0adfafe6",
+      "src/algorithms/greedy.py": "651cb8289447a40bc7bd14a1d787a509ee7fdd20d1a87576e252c29631e9dedf",
+      "src/data/__init__.py": "8ceee264ecd92c672a604e5f0ef41f95711101394a80cdc1cc47d6df16ba4acf",
+      "src/data/loader.py": "5472bbc5781bbd7858ed8f3d030a9f7f45718136b1bf3e88fc1cc9bfc400f65d",
+      "src/data/pipeline.py": "b64b039ecd7e7b144962aef1a0ab1c592aaa46a9add835c542eb54e4a34219ad",
+      "src/data/preprocess.py": "ed6673f7a9f3a4e240cd7470f094a67944df2c8aad20e18bc56e60abb7ad6819",
+      "src/data/specs.py": "44931176c2eb6be3a9537c20b2408b93087d68036004612acba4a2cf0135f455",
+      "src/data/storage.py": "5a021e461a83f54cafe612833da09f876a3136ae1c7385b0bbf87b3232ab6e9c",
+      "src/data/validation.py": "8f31329f17b95e9c84b2cad2a2d26585d118b574d19b37c4054053b5ec935978",
+      "src/diffusion/__init__.py": "df118290b81fe4873760f4230c1e3d9f35c3fa02164528a3e6b3c8173ad4277f",
+      "src/diffusion/cic.py": "2ffa91cb93f04db75ebf9896716e52f5278ac53b78332fc81be3f24e676fd28d",
+      "src/diffusion/ic.py": "b43bc85640ac997954ef2982a921fc5441d9529787318b8ace8e43dfbcc3f83d",
+      "src/evaluation/__init__.py": "3346596d227d2d1a9faf9ee8f0de18b3aec05a4c2dff3ffd1a9d4371d241d0a7",
+      "src/evaluation/monte_carlo.py": "87dc2da4a501c04267713cf31f633850a99d6877ccf07fcff89fb50870248659",
+      "src/experiments/__init__.py": "88221f0222931566c29287fdb66a26513a28a5150632d85ae919f4b64ad3dc8d",
+      "src/experiments/calibration.py": "19d035f00068f3ecef49f3c3b3e39742c6595f9b22570e6b59816b347d87b48f",
+      "src/experiments/config.py": "3bb08a6a8d32d64c6ae7d3d95408631c9632dff2a12c106699849efef0dae51a",
+      "src/experiments/metadata.py": "f005e51cb26b95bdfb39139a0234b6691c24cb4d0214f164e4bc0cceba539910",
+      "src/experiments/metrics.py": "0a7f7250f0a48ef4bc3ae390c5dea354d3ad0eb6abd0e1b51d14ae57a2dd119c",
+      "src/experiments/protocol.py": "c040bb1ff983465f5a95ebd0745d61312d93aaa4d7415562d4f7a9d1f40fb9c7",
+      "src/experiments/runner.py": "53eaf53394a25ead8b3daef925315d93a84489ef99e81965f390108fb6c565f4",
+      "src/experiments/seeds.py": "a7861b6e94280736632cd2e85de3717697345ca0318eea5c022a55d7d5f19c02"
+    }
+  },
+  "implementation_sha256": {
+    "experiments/analyze_pilot_2.py": "aed1ee9ad140898a4caeb7809a71c00e7b8176e1581066e68f2d613fddfd84b8",
+    "experiments/configs/pilot_2_calibration.json": "11d33fcf1ce4e501523032f665be45d12c5ffed3be1c1584fa3a2d2f419c44a5",
+    "experiments/pilot_2_calibration.py": "8f840a52b26381b312e1d817156038b3018d8935e909f3fde106bb1a53fcbef1",
+    "src/experiments/calibration.py": "19d035f00068f3ecef49f3c3b3e39742c6595f9b22570e6b59816b347d87b48f",
+    "tests/test_calibration.py": "41bfbd6e35a0c476e3eb7c45e332f903d0be6dfdc8d9b95f4a9c0975a18c065c"
+  },
+  "official_experiment": false,
+  "purpose": "pilot_2_calibration_only_not_main_experiments",
+  "runtime_scope": {
+    "accuracy_prefix": "cumulative actual runtimes of incremental 500+500+1500 calls, including per-call aggregation",
+    "phase_active": "inside phase methods; excludes agent coding/reading, constructor setup/imports, plotting and tests",
+    "runner": "API entry through primary writes, final manifest/rename excluded per established API"
+  },
+  "seed_policy": {
+    "accuracy": "index 2000+10*dataset_index+batch, second half; each batch independent of training and other batches; same seeds across methods",
+    "controls": "index 1000+case index, final half only",
+    "master_seed": 20261111,
+    "optimization": "index 10*dataset_index+repeat, deliberately shared across S_opt levels; independent between repeats",
+    "prefix_semantics": "nested fitness prefixes across S_opt; nested final 500/1000/2500 within each batch; these are not extra independent batches",
+    "rumor_sampling": "SHA256 pilot2-rumor-v1:{master}:{dataset}:{stratum}, uniform actual IDs; manifest persisted before controls",
+    "smokes": "indices 500+dataset_index",
+    "width": 1000000
+  },
+  "statistical_scope": {
+    "confidence_interval": "approximate pointwise Student-t 95%; paired differences by simulation seed; no multiplicity correction",
+    "quality_claim": "none; order stability only; unresolved pairs kept uncertain",
+    "sampling_scope": "one calibration reference R per dataset; full topology distribution covers all nodes",
+    "zero_observed_variance": "Wilson no-spread CI and structural reachability flag, not proof of deterministic spread"
+  },
+  "validation": {
+    "accuracy_observations": 90000,
+    "all_metrics_recomputed": true,
+    "artifact_hashes_checked": 133,
+    "comparison_final_observations": 48090,
+    "control_observations": 8800,
+    "data_files_unchanged": 14,
+    "graph_BFS_oracle_checks": 192,
+    "original_file_checksums_unchanged": 39,
+    "paired_GA_initial_population_and_operator_seed_equal": true,
+    "paired_baseline_replay_equal": true,
+    "tests": {
+      "command": ".venv/bin/python -B -m unittest discover -s tests",
+      "passed": 361,
+      "runtime_seconds": 8.494
+    }
+  }
+}

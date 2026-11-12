@@ -1,0 +1,13 @@
+{
+  "purpose": "exploratory_reduced_GA_screen_not_main_evaluation",
+  "protocol_path": "experiments/configs/experiment_protocol_v1.json",
+  "exported_protocol_design": "docs/experiment_protocol_v1",
+  "requested_independent_runs": 5,
+  "screen_master_seed": 2026111108,
+  "reserved_main_master_seed": 2026111109,
+  "budget_policy": "inherit_Protocol_v1_without_changes_stop_if_any_limit_exceeded",
+  "authorization_source": "current_user_request_conditional_on_preflight",
+  "full_design_authorized": false,
+  "main_experiments_authorized": false,
+  "output_directory": "docs/milestone_7_reduced_screen"
+}

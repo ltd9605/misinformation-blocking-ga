@@ -1,0 +1,41 @@
+{
+  "purpose": "compact measured pilot protocol evidence; raw per-case observations remain under results/pilot_protocol_validation",
+  "files": {
+    "protocol_config.json": "045d0d59975bcc957e1f4ad988c36d2e6a9f2a33b903bad0a77f9a60fe560fd5",
+    "rumor_scenarios.json": "02ad86e97d9c64fda8240790c6214dadaa084bc2793d6975b818921800c36178",
+    "preflight.csv": "319500ccb4e94e41b35b1a3c800b09eff679f6b502c87fd31e08b0318659bec1",
+    "preflight.json": "070eac076961fb6e0f4824137dd94aa71ddcece6a2b2aac07953a799b50654bc",
+    "execution.csv": "85c9d7da2805eb414b73b987ccaf88801e465c58dd835d6ee9a6a29ef97c2e54",
+    "execution.json": "460310b0cbab82c349c4937e2140a37303ed471dcab38a92f45c5fb8a8babf74",
+    "method_status.csv": "a7b1fc8c94587c10229d30f97a827906a70dad8344ecc08631fb4a165a7da0c5",
+    "method_status.json": "f30a47c981b0ee2caa904d7980c9729aeb8fe17bdc214314247d9b2b7eb72983",
+    "results.csv": "2ab3812c8c5c2d7df7f88d121ac94f9209a07530f168c65596da0485011420c3",
+    "results.json": "4c7a2e88834395144915a7fed5c6637c19648bf73892ce23a374ef1da8faca32",
+    "convergence.csv": "8141c110ec207826cf7b7fe40a7a04a1105bbebb3c7dc2f552d9b620d13ccd47",
+    "fitness_gaps.csv": "bec6877a7b94d31d8ecbd2c5023d54e23e4bc08d6875c26a1fc3af0e4aaa5435",
+    "mc_precision.csv": "01d28f6e00cf974282bda3f14f79522942d8bf27b686b7c345af6f8cf64e6d52",
+    "spread_diagnostics.csv": "50b02aca15a14f395d97f4f73f6b39b284eeb339c6c349cfd4117af77fa76318",
+    "summary.json": "d0ba8d14ad08c33f4d20eeecb30ba3997771e714efcc9c2b51de27d9952afda3",
+    "metadata.json": "0ec53f2b499496b5df15963213d21a3ce955cf25fbb471a96b23b43c765d1b29",
+    "environment.json": "7832314e2005c0b18e75a38c48074fe1994b27f927bcc4da76ede5ab56ce588a",
+    "integrity.json": "5cc3ef096c02adee1641ce730ffe1d814f4ff174c585a8d274fa59c7363ffa51",
+    "integrity_before.json": "224e6034eb830f9d546ff13183c052100ec5c2c8336af9642acd2f87451e38e6",
+    "integrity_after.json": "224e6034eb830f9d546ff13183c052100ec5c2c8336af9642acd2f87451e38e6",
+    "validation_checks.json": "25b4ed6defedab6daea11a3b84729a7bbd850bbb89ea950a1a66d907c30f1a95",
+    "validation_replay.json": "7feb13eac3b4b39d89771adab6da310f8a218453e0095fbb5002f329054f394a",
+    "legacy_smoke_audit.json": "308bff198f4aae7b8bccfe7103c0a4c4ab978de572b1a88d1d24535ec400472c"
+  },
+  "implementation_sha256": {
+    "experiments/pilot_protocol_validation.py": "64a33f5f942861675421ad8a6d013693d9e3d090dd97f73e9cc2fef63d8d8acc",
+    "experiments/configs/pilot_protocol_validation.json": "e7902492bbd1ca7d7309532faff665a9f4b9b3340fd5a3ee6afac3f999c25fed",
+    "experiments/run_experiment.py": "50e0837d427014b365b3ef1be5a3e2c0de9244f8a5bb838a1737143475d19e98",
+    "main.py": "f31de42459bf480c44e56336e58e449bb5885bbe6a46c7f6b4b5267c49ff7bc9",
+    "src/experiments/__init__.py": "88221f0222931566c29287fdb66a26513a28a5150632d85ae919f4b64ad3dc8d",
+    "src/experiments/config.py": "3bb08a6a8d32d64c6ae7d3d95408631c9632dff2a12c106699849efef0dae51a",
+    "src/experiments/metadata.py": "f005e51cb26b95bdfb39139a0234b6691c24cb4d0214f164e4bc0cceba539910",
+    "src/experiments/metrics.py": "0a7f7250f0a48ef4bc3ae390c5dea354d3ad0eb6abd0e1b51d14ae57a2dd119c",
+    "src/experiments/protocol.py": "c040bb1ff983465f5a95ebd0745d61312d93aaa4d7415562d4f7a9d1f40fb9c7",
+    "src/experiments/runner.py": "53eaf53394a25ead8b3daef925315d93a84489ef99e81965f390108fb6c565f4",
+    "src/experiments/seeds.py": "a7861b6e94280736632cd2e85de3717697345ca0318eea5c022a55d7d5f19c02"
+  }
+}

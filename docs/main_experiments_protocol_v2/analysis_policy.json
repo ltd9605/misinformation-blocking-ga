@@ -1,0 +1,31 @@
+{
+  "CI_includes_zero": "insufficient_evidence_not_equivalence",
+  "GA_retuning_after_main_outcomes": false,
+  "adaptive_R_filtering_or_repeat_changes": false,
+  "comparators": [
+    "no_intervention",
+    "random",
+    "degree",
+    "pagerank",
+    "candidate_restricted_greedy"
+  ],
+  "confidence": 0.95,
+  "cross_dataset_effect_pooling": false,
+  "deterministic_selection_variability": "structurally_zero; keep_final_MC_uncertainty",
+  "multiplicity": "approximate_Bonferroni_Student_t_simultaneous_CIs_over_45_predeclared_effects_plus_pointwise_descriptive_CIs",
+  "practical_equivalence_margin": null,
+  "primary_CI_family_size": 45,
+  "primary_effect": "GA_minus_comparator_final_rumor_mean",
+  "raw_final_observations_required_for_paired_MC_covariance": true,
+  "replication_unit": "paired_algorithm_run_means_within_fixed_scenario; within_dataset_two_scenario_bundles_by_repeat",
+  "scenario_effects": 30,
+  "scenario_population_inference": false,
+  "spread_reduction_CI": "descriptive_paired_Fieller_ratio_CI_with_unbounded_or_disjoint_sets_reported_without_clipping",
+  "spread_reduction_estimand": "one_minus_ratio_of_means_vs_control; equal_weight_average_of_scenario_ratios_within_dataset",
+  "training_fitness_as_final_metric": false,
+  "within_dataset_equal_scenario_weight_effects": 15,
+  "within_dataset_scenario_weights": [
+    0.5,
+    0.5
+  ]
+}

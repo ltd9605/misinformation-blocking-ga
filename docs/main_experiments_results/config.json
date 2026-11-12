@@ -1,0 +1,109 @@
+{
+  "GA": {
+    "cache_fitness": true,
+    "crossover_rate": 0.8,
+    "elitism_count": 1,
+    "max_generations": 10,
+    "mutation_rate": 0.1,
+    "population_size": 10,
+    "tournament_size": 3
+  },
+  "GA_lock_confirmed_by_user": true,
+  "S_eval_per_batch": {
+    "Wiki-Vote": 2500,
+    "ego-Facebook": 2500,
+    "email-Eu-core": 6000
+  },
+  "S_opt": 100,
+  "admission_budget": {
+    "max_cic_simulations": 3000000,
+    "max_ga_runs": 120,
+    "max_projected_seconds": 10800,
+    "overhead_allowance_seconds": 300,
+    "runtime_safety_factor": 1.5
+  },
+  "analysis_policy": {
+    "CI_includes_zero": "insufficient_evidence_not_equivalence",
+    "GA_retuning_after_main_outcomes": false,
+    "adaptive_R_filtering_or_repeat_changes": false,
+    "comparators": [
+      "no_intervention",
+      "random",
+      "degree",
+      "pagerank",
+      "candidate_restricted_greedy"
+    ],
+    "confidence": 0.95,
+    "cross_dataset_effect_pooling": false,
+    "deterministic_selection_variability": "structurally_zero; keep_final_MC_uncertainty",
+    "multiplicity": "approximate_Bonferroni_Student_t_simultaneous_CIs_over_45_predeclared_effects_plus_pointwise_descriptive_CIs",
+    "practical_equivalence_margin": null,
+    "primary_CI_family_size": 45,
+    "primary_effect": "GA_minus_comparator_final_rumor_mean",
+    "raw_final_observations_required_for_paired_MC_covariance": true,
+    "replication_unit": "paired_algorithm_run_means_within_fixed_scenario; within_dataset_two_scenario_bundles_by_repeat",
+    "scenario_effects": 30,
+    "scenario_population_inference": false,
+    "spread_reduction_CI": "descriptive_paired_Fieller_ratio_CI_with_unbounded_or_disjoint_sets_reported_without_clipping",
+    "spread_reduction_estimand": "one_minus_ratio_of_means_vs_control; equal_weight_average_of_scenario_ratios_within_dataset",
+    "training_fitness_as_final_metric": false,
+    "within_dataset_equal_scenario_weight_effects": 15,
+    "within_dataset_scenario_weights": [
+      0.5,
+      0.5
+    ]
+  },
+  "budget_status": "main_budget_10800_confirmed_by_user",
+  "candidate_restricted_greedy": {
+    "pool_size": 10,
+    "ranking": "out_degree_if_directed_else_degree",
+    "tie_breaking": "ascending_actual_integer_node_id"
+  },
+  "conditional_method": "full_greedy",
+  "design_confirmed": true,
+  "execution_authorized": true,
+  "execution_output_directory": "results/main_experiments_v2",
+  "final_batches": 2,
+  "full_greedy_limits": {
+    "max_cic_simulations": 2000,
+    "max_evaluator_calls": 100
+  },
+  "k": 5,
+  "master_seed": 2026111109,
+  "output_directory": "docs/main_experiments_protocol_v2",
+  "p": 0.03,
+  "pagerank": {
+    "alpha": 0.85,
+    "max_iter": 1000,
+    "tol": 1e-12
+  },
+  "primary_methods": [
+    "no_intervention",
+    "random",
+    "degree",
+    "pagerank",
+    "candidate_restricted_greedy",
+    "genetic_algorithm"
+  ],
+  "proposed_independent_runs": 4,
+  "protocol_version": "main-experiments-v2-four-runs",
+  "purpose": "confirmed_main_experiments",
+  "repeat_rationale": "User selected four independent runs per scenario on 2026-11-12 to retain all R/methods/S and budget10800; prior five-run protocol preserved",
+  "repeats_confirmed": true,
+  "resource_limits": {
+    "RSS_sampling_seconds": 0.5,
+    "concurrent_workers": 1,
+    "final_batch_timeout_seconds": 120,
+    "parent_RSS_allowance_bytes": 536870912,
+    "selection_timeout_seconds": 900,
+    "worker_RSS_bytes": 2147483648
+  },
+  "results_export_directory": "docs/main_experiments_results",
+  "scenario_reservation": "docs/cross_scenario_ga_confirmation/reserved_main_scenarios.json",
+  "seed_block_width": 1000000,
+  "seed_policy": "preserve_reserved_scenario_index_times100_plus_repeat; shared_opt_schedule_for_GA_and_greedy; shared_final_schedule_for_all_methods",
+  "seed_reservation": "docs/cross_scenario_ga_confirmation/reserved_main_seed_intervals.json",
+  "source_protocol": "experiments/configs/experiment_protocol_v1.json",
+  "supersedes": "experiments/configs/main_experiments_protocol.json",
+  "tie_breaking": "protector-priority"
+}

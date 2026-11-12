@@ -1,0 +1,52 @@
+[
+  {
+    "id": "main_design_confirmation",
+    "requirement": "resolved by four-run approval and tested adapter; original five-run artifacts retained",
+    "status": "confirmed_by_current_user"
+  },
+  {
+    "id": "admission",
+    "requirement": [],
+    "status": "passed"
+  },
+  {
+    "id": "repeats",
+    "requirement": "resolved by four-run approval and tested adapter; original five-run artifacts retained",
+    "status": "confirmed_four"
+  },
+  {
+    "id": "main_budget",
+    "requirement": "resolved by four-run approval and tested adapter; original five-run artifacts retained",
+    "status": "confirmed_10800_seconds"
+  },
+  {
+    "id": "new_R_timing",
+    "requirement": "proxy envelopes and nearest-topology heuristic are not a calibrated new-R runtime model; no official observations generated",
+    "status": "unmeasured"
+  },
+  {
+    "id": "coverage",
+    "requirement": "two fixed high/constant R per graph, no medium/low holdout; keep existing low/legacy appendix and all low-spread main outcomes",
+    "status": "limited"
+  },
+  {
+    "id": "main_adapter",
+    "requirement": "resolved by four-run approval and tested adapter; original five-run artifacts retained",
+    "status": "implemented_validated_before_execution"
+  },
+  {
+    "id": "equivalence_margin",
+    "requirement": "no equivalence/practical-effect claims without a prespecified margin",
+    "status": "unconfirmed"
+  },
+  {
+    "id": "power",
+    "requirement": "five proposed runs do not guarantee power; no adaptive stopping based on significance",
+    "status": "not_established"
+  },
+  {
+    "id": "new_R_spread",
+    "requirement": "do not reroll R, retune GA or filter official low/no-spread outcomes",
+    "status": "unobserved_by_design"
+  }
+]

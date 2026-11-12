@@ -1,0 +1,67 @@
+[
+  {
+    "case_id": "ego-Facebook_S100_r0",
+    "evidence_case_ids": [
+      "ego-Facebook_S20_r0",
+      "ego-Facebook_S20_r1",
+      "ego-Facebook_S50_r0",
+      "ego-Facebook_S50_r1"
+    ],
+    "hard_cap_unchanged_seconds": 300,
+    "original_projected_seconds": 309.5140587112983,
+    "reason": null,
+    "revised_projected_seconds": 152.69031312452717,
+    "rule": "worst measured selection_seconds/S and final/overhead; no quality metrics used",
+    "status": "completed"
+  },
+  {
+    "case_id": "ego-Facebook_S100_r1",
+    "evidence_case_ids": [
+      "ego-Facebook_S20_r0",
+      "ego-Facebook_S20_r1",
+      "ego-Facebook_S50_r0",
+      "ego-Facebook_S50_r1",
+      "ego-Facebook_S100_r0"
+    ],
+    "hard_cap_unchanged_seconds": 300,
+    "original_projected_seconds": 309.5140587112983,
+    "reason": null,
+    "revised_projected_seconds": 155.7135496875635,
+    "rule": "worst measured selection_seconds/S and final/overhead; no quality metrics used",
+    "status": "completed"
+  },
+  {
+    "case_id": "ego-Facebook_S250_r0",
+    "evidence_case_ids": [
+      "ego-Facebook_S20_r0",
+      "ego-Facebook_S20_r1",
+      "ego-Facebook_S50_r0",
+      "ego-Facebook_S50_r1",
+      "ego-Facebook_S100_r0",
+      "ego-Facebook_S100_r1"
+    ],
+    "hard_cap_unchanged_seconds": 300,
+    "original_projected_seconds": 688.2320004104404,
+    "reason": "revised_measured_cost_projection_still_exceeds_comparison_cap",
+    "revised_projected_seconds": 319.86707431275136,
+    "rule": "worst measured selection_seconds/S and final/overhead; no quality metrics used",
+    "status": "skipped"
+  },
+  {
+    "case_id": "ego-Facebook_S250_r1",
+    "evidence_case_ids": [
+      "ego-Facebook_S20_r0",
+      "ego-Facebook_S20_r1",
+      "ego-Facebook_S50_r0",
+      "ego-Facebook_S50_r1",
+      "ego-Facebook_S100_r0",
+      "ego-Facebook_S100_r1"
+    ],
+    "hard_cap_unchanged_seconds": 300,
+    "original_projected_seconds": 688.2320004104404,
+    "reason": "revised_measured_cost_projection_still_exceeds_comparison_cap",
+    "revised_projected_seconds": 319.86707431275136,
+    "rule": "worst measured selection_seconds/S and final/overhead; no quality metrics used",
+    "status": "skipped"
+  }
+]

@@ -1,0 +1,11 @@
+condition,detail
+MC_fitness_accuracy,"S_opt100 has residual selection/validation gaps, particularly Wiki; no optimum claim"
+email_final_accuracy,S_eval6000 was a Pilot2 extrapolation; bounded pilot only validates limited P/R contexts
+rumor_scenario_coverage,Validation R858/1555/2110 have control scans but no GA quality tuning; supplementary low cases retained
+replication_power,"10 full/3 reduced runs are design choices, not a completed statistical-power analysis; pilot has 2"
+parameter_levels,Proposed levels support OFAT screening; no global optimum or interactions established
+practical_effect,Equivalence margin is unset; uncertain pairs cannot be called equal or strictly ranked
+multiplicity,Confirm comparison family/multiplicity policy before inferential full study
+runtime_transfer,Rates measured on one R per dataset; new P/N/G/R can change work; forecasts are not measured upper bounds
+secondary_probability,p=.05/.10 not authorized in this sensitivity plan; require separate protocol/calibration
+main_authorization,"Full sweep, reduced screen and main experiments remain disabled until explicitly authorized"

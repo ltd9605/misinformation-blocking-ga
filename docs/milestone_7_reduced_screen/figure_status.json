@@ -1,0 +1,32 @@
+[
+  {
+    "figure_group": "population_size",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "status": "not_generated_no_completed_screen_runs"
+  },
+  {
+    "figure_group": "max_generations",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "status": "not_generated_no_completed_screen_runs"
+  },
+  {
+    "figure_group": "crossover_rate",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "status": "not_generated_no_completed_screen_runs"
+  },
+  {
+    "figure_group": "mutation_rate",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "status": "not_generated_no_completed_screen_runs"
+  },
+  {
+    "figure_group": "reference_convergence",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "status": "not_generated_no_completed_screen_runs"
+  },
+  {
+    "figure_group": "quality_vs_cost",
+    "reason": "Pilot2_rate_projection_exceeds_budget",
+    "status": "not_generated_no_completed_screen_runs"
+  }
+]

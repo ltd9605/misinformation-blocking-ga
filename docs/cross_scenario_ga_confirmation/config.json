@@ -1,0 +1,40 @@
+{
+  "analysis_policy": {
+    "automatic_configuration_change": false,
+    "confidence": 0.95,
+    "contrasts": "population20_and40_vs_reference_within_each_dataset_only",
+    "decision": "retain_reference_unless_evidence_requires_reconsideration_never_claim_equivalence",
+    "multiplicity": "approximate_Bonferroni_t_CI_family_of_six_contrasts_no_effect_pooling",
+    "practical_equivalence_margin": null,
+    "unit": "independent_GA_run"
+  },
+  "export_directory": "docs/cross_scenario_ga_confirmation",
+  "exported_protocol_design": "docs/experiment_protocol_v1",
+  "final_seed_policy": "shared_across_profiles_within_scenario_repetition",
+  "full_design_authorized": false,
+  "independent_runs": 3,
+  "main_experiments_authorized": false,
+  "main_holdout_sampling_master_seed": 2026111112,
+  "master_seed": 2026111111,
+  "memory_poll_seconds": 0.5,
+  "optimization_seed_policy": "distinct_per_profile_and_repetition",
+  "output_directory": "results/cross_scenario_ga_confirmation",
+  "profile_ids": [
+    "reference",
+    "population_size_20",
+    "population_size_40"
+  ],
+  "protocol_path": "experiments/configs/experiment_protocol_v1.json",
+  "purpose": "confirm_frozen_GA_configurations_not_hyperparameter_search_or_main",
+  "reserved_main_master_seed": 2026111109,
+  "reserved_main_run_slots": 10,
+  "reserved_main_scenarios_per_dataset": 2,
+  "runtime_overhead_allowance_seconds": 300,
+  "scenario_ids": [
+    "email-Eu-core_high_0",
+    "ego-Facebook_constant_1",
+    "Wiki-Vote_high_0"
+  ],
+  "worker_RSS_limit_bytes": 2147483648,
+  "worker_timeout_seconds": 900
+}

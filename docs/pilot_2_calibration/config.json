@@ -1,0 +1,73 @@
+{
+  "S_opt_levels": [
+    20,
+    50,
+    100,
+    250
+  ],
+  "accuracy_batches": 2,
+  "accuracy_prefixes": [
+    500,
+    1000,
+    2500
+  ],
+  "candidate_pool_size": 10,
+  "comparison_S_eval": 500,
+  "control_batch_S": 100,
+  "control_batches": 2,
+  "datasets": [
+    "email-Eu-core",
+    "ego-Facebook",
+    "Wiki-Vote"
+  ],
+  "full_S_opt_grid_datasets": [
+    "email-Eu-core",
+    "ego-Facebook"
+  ],
+  "ga_parameters": {
+    "cache_fitness": true,
+    "crossover_rate": 0.8,
+    "elitism_count": 1,
+    "max_generations": 10,
+    "mutation_rate": 0.1,
+    "population_size": 10,
+    "tournament_size": 3
+  },
+  "k": 5,
+  "limits": {
+    "max_full_greedy_cic_simulations": 2000,
+    "max_full_greedy_evaluations": 100,
+    "max_optimization_cic_simulations": 25000,
+    "max_optimization_evaluations": 100
+  },
+  "master_seed": 20261111,
+  "optimization_repeats": 2,
+  "output_directory": "/Users/Shared/ITSGU/misinformation-blocking-ga/results/pilot_2_calibration",
+  "pagerank_parameters": {
+    "alpha": 0.85,
+    "max_iter": 1000,
+    "tol": 1e-12
+  },
+  "propagation_probabilities": [
+    0.01,
+    0.03,
+    0.05,
+    0.1
+  ],
+  "purpose": "pilot_2_calibration_only_not_main_experiments",
+  "reference_S_opt": 100,
+  "representative_gate": {
+    "max_graph_fraction": 0.8,
+    "max_reachable_fraction": 0.9,
+    "min_graph_fraction": 0.02
+  },
+  "resources": {
+    "max_cic_simulations": 450000,
+    "max_comparison_wall_seconds": 300,
+    "max_wall_seconds": 1800,
+    "runtime_safety_factor": 1.5
+  },
+  "samples_per_reachable_stratum": 2,
+  "seed_block_size": 1000000,
+  "tie_breaking": "protector-priority"
+}

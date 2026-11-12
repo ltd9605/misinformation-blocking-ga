@@ -1,0 +1,148 @@
+case_id,phase,dataset,p,replicate_index,independent_run_index,algorithm,cic_simulations,final_evaluation_count,reason,status,actual_cic_simulations
+smoke_email-Eu-core_p0.05_r0,smoke,email-Eu-core,0.05,0,18,no_intervention,5,1,,completed,5
+smoke_email-Eu-core_p0.05_r0,smoke,email-Eu-core,0.05,0,18,random,5,1,,completed,5
+smoke_email-Eu-core_p0.05_r0,smoke,email-Eu-core,0.05,0,18,degree,5,1,,completed,5
+smoke_email-Eu-core_p0.05_r0,smoke,email-Eu-core,0.05,0,18,pagerank,5,1,,completed,5
+smoke_email-Eu-core_p0.05_r0,smoke,email-Eu-core,0.05,0,18,full_greedy,0,0,full_greedy: estimated 5010 evaluations/10020 CIC simulations exceed optimization limits,skipped,0
+smoke_email-Eu-core_p0.05_r0,smoke,email-Eu-core,0.05,0,18,candidate_restricted_greedy,85,1,,completed,85
+smoke_email-Eu-core_p0.05_r0,smoke,email-Eu-core,0.05,0,18,genetic_algorithm,17,1,,completed,17
+smoke_ego-Facebook_p0.05_r0,smoke,ego-Facebook,0.05,0,19,no_intervention,5,1,,completed,5
+smoke_ego-Facebook_p0.05_r0,smoke,ego-Facebook,0.05,0,19,random,5,1,,completed,5
+smoke_ego-Facebook_p0.05_r0,smoke,ego-Facebook,0.05,0,19,degree,5,1,,completed,5
+smoke_ego-Facebook_p0.05_r0,smoke,ego-Facebook,0.05,0,19,pagerank,5,1,,completed,5
+smoke_ego-Facebook_p0.05_r0,smoke,ego-Facebook,0.05,0,19,full_greedy,0,0,full_greedy: estimated 20180 evaluations/40360 CIC simulations exceed optimization limits,skipped,0
+smoke_ego-Facebook_p0.05_r0,smoke,ego-Facebook,0.05,0,19,candidate_restricted_greedy,85,1,,completed,85
+smoke_ego-Facebook_p0.05_r0,smoke,ego-Facebook,0.05,0,19,genetic_algorithm,17,1,,completed,17
+smoke_Wiki-Vote_p0.05_r0,smoke,Wiki-Vote,0.05,0,20,no_intervention,5,1,,completed,5
+smoke_Wiki-Vote_p0.05_r0,smoke,Wiki-Vote,0.05,0,20,random,5,1,,completed,5
+smoke_Wiki-Vote_p0.05_r0,smoke,Wiki-Vote,0.05,0,20,degree,5,1,,completed,5
+smoke_Wiki-Vote_p0.05_r0,smoke,Wiki-Vote,0.05,0,20,pagerank,5,1,,completed,5
+smoke_Wiki-Vote_p0.05_r0,smoke,Wiki-Vote,0.05,0,20,full_greedy,0,0,full_greedy: estimated 35560 evaluations/71120 CIC simulations exceed optimization limits,skipped,0
+smoke_Wiki-Vote_p0.05_r0,smoke,Wiki-Vote,0.05,0,20,candidate_restricted_greedy,85,1,,completed,85
+smoke_Wiki-Vote_p0.05_r0,smoke,Wiki-Vote,0.05,0,20,genetic_algorithm,15,1,,completed,15
+pilot_email-Eu-core_p0.01_r0,pilot,email-Eu-core,0.01,0,0,no_intervention,200,1,,completed,200
+pilot_email-Eu-core_p0.01_r0,pilot,email-Eu-core,0.01,0,0,random,200,1,,completed,200
+pilot_email-Eu-core_p0.01_r0,pilot,email-Eu-core,0.01,0,0,degree,200,1,,completed,200
+pilot_email-Eu-core_p0.01_r0,pilot,email-Eu-core,0.01,0,0,pagerank,200,1,,completed,200
+pilot_email-Eu-core_p0.01_r0,pilot,email-Eu-core,0.01,0,0,full_greedy,0,0,full_greedy: estimated 5010 evaluations/100200 CIC simulations exceed optimization limits,skipped,0
+pilot_email-Eu-core_p0.01_r0,pilot,email-Eu-core,0.01,0,0,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_email-Eu-core_p0.01_r0,pilot,email-Eu-core,0.01,0,0,genetic_algorithm,760,1,,completed,760
+pilot_email-Eu-core_p0.01_r1,pilot,email-Eu-core,0.01,1,1,no_intervention,200,1,,completed,200
+pilot_email-Eu-core_p0.01_r1,pilot,email-Eu-core,0.01,1,1,random,200,1,,completed,200
+pilot_email-Eu-core_p0.01_r1,pilot,email-Eu-core,0.01,1,1,degree,200,1,,completed,200
+pilot_email-Eu-core_p0.01_r1,pilot,email-Eu-core,0.01,1,1,pagerank,200,1,,completed,200
+pilot_email-Eu-core_p0.01_r1,pilot,email-Eu-core,0.01,1,1,full_greedy,0,0,full_greedy: estimated 5010 evaluations/100200 CIC simulations exceed optimization limits,skipped,0
+pilot_email-Eu-core_p0.01_r1,pilot,email-Eu-core,0.01,1,1,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_email-Eu-core_p0.01_r1,pilot,email-Eu-core,0.01,1,1,genetic_algorithm,860,1,,completed,860
+pilot_email-Eu-core_p0.01_r2,pilot,email-Eu-core,0.01,2,2,no_intervention,200,1,,completed,200
+pilot_email-Eu-core_p0.01_r2,pilot,email-Eu-core,0.01,2,2,random,200,1,,completed,200
+pilot_email-Eu-core_p0.01_r2,pilot,email-Eu-core,0.01,2,2,degree,200,1,,completed,200
+pilot_email-Eu-core_p0.01_r2,pilot,email-Eu-core,0.01,2,2,pagerank,200,1,,completed,200
+pilot_email-Eu-core_p0.01_r2,pilot,email-Eu-core,0.01,2,2,full_greedy,0,0,full_greedy: estimated 5010 evaluations/100200 CIC simulations exceed optimization limits,skipped,0
+pilot_email-Eu-core_p0.01_r2,pilot,email-Eu-core,0.01,2,2,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_email-Eu-core_p0.01_r2,pilot,email-Eu-core,0.01,2,2,genetic_algorithm,680,1,,completed,680
+pilot_email-Eu-core_p0.05_r0,pilot,email-Eu-core,0.05,0,3,no_intervention,200,1,,completed,200
+pilot_email-Eu-core_p0.05_r0,pilot,email-Eu-core,0.05,0,3,random,200,1,,completed,200
+pilot_email-Eu-core_p0.05_r0,pilot,email-Eu-core,0.05,0,3,degree,200,1,,completed,200
+pilot_email-Eu-core_p0.05_r0,pilot,email-Eu-core,0.05,0,3,pagerank,200,1,,completed,200
+pilot_email-Eu-core_p0.05_r0,pilot,email-Eu-core,0.05,0,3,full_greedy,0,0,full_greedy: estimated 5010 evaluations/100200 CIC simulations exceed optimization limits,skipped,0
+pilot_email-Eu-core_p0.05_r0,pilot,email-Eu-core,0.05,0,3,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_email-Eu-core_p0.05_r0,pilot,email-Eu-core,0.05,0,3,genetic_algorithm,700,1,,completed,700
+pilot_email-Eu-core_p0.05_r1,pilot,email-Eu-core,0.05,1,4,no_intervention,200,1,,completed,200
+pilot_email-Eu-core_p0.05_r1,pilot,email-Eu-core,0.05,1,4,random,200,1,,completed,200
+pilot_email-Eu-core_p0.05_r1,pilot,email-Eu-core,0.05,1,4,degree,200,1,,completed,200
+pilot_email-Eu-core_p0.05_r1,pilot,email-Eu-core,0.05,1,4,pagerank,200,1,,completed,200
+pilot_email-Eu-core_p0.05_r1,pilot,email-Eu-core,0.05,1,4,full_greedy,0,0,full_greedy: estimated 5010 evaluations/100200 CIC simulations exceed optimization limits,skipped,0
+pilot_email-Eu-core_p0.05_r1,pilot,email-Eu-core,0.05,1,4,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_email-Eu-core_p0.05_r1,pilot,email-Eu-core,0.05,1,4,genetic_algorithm,700,1,,completed,700
+pilot_email-Eu-core_p0.05_r2,pilot,email-Eu-core,0.05,2,5,no_intervention,200,1,,completed,200
+pilot_email-Eu-core_p0.05_r2,pilot,email-Eu-core,0.05,2,5,random,200,1,,completed,200
+pilot_email-Eu-core_p0.05_r2,pilot,email-Eu-core,0.05,2,5,degree,200,1,,completed,200
+pilot_email-Eu-core_p0.05_r2,pilot,email-Eu-core,0.05,2,5,pagerank,200,1,,completed,200
+pilot_email-Eu-core_p0.05_r2,pilot,email-Eu-core,0.05,2,5,full_greedy,0,0,full_greedy: estimated 5010 evaluations/100200 CIC simulations exceed optimization limits,skipped,0
+pilot_email-Eu-core_p0.05_r2,pilot,email-Eu-core,0.05,2,5,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_email-Eu-core_p0.05_r2,pilot,email-Eu-core,0.05,2,5,genetic_algorithm,740,1,,completed,740
+pilot_ego-Facebook_p0.01_r0,pilot,ego-Facebook,0.01,0,6,no_intervention,200,1,,completed,200
+pilot_ego-Facebook_p0.01_r0,pilot,ego-Facebook,0.01,0,6,random,200,1,,completed,200
+pilot_ego-Facebook_p0.01_r0,pilot,ego-Facebook,0.01,0,6,degree,200,1,,completed,200
+pilot_ego-Facebook_p0.01_r0,pilot,ego-Facebook,0.01,0,6,pagerank,200,1,,completed,200
+pilot_ego-Facebook_p0.01_r0,pilot,ego-Facebook,0.01,0,6,full_greedy,0,0,full_greedy: estimated 20180 evaluations/403600 CIC simulations exceed optimization limits,skipped,0
+pilot_ego-Facebook_p0.01_r0,pilot,ego-Facebook,0.01,0,6,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_ego-Facebook_p0.01_r0,pilot,ego-Facebook,0.01,0,6,genetic_algorithm,980,1,,completed,980
+pilot_ego-Facebook_p0.01_r1,pilot,ego-Facebook,0.01,1,7,no_intervention,200,1,,completed,200
+pilot_ego-Facebook_p0.01_r1,pilot,ego-Facebook,0.01,1,7,random,200,1,,completed,200
+pilot_ego-Facebook_p0.01_r1,pilot,ego-Facebook,0.01,1,7,degree,200,1,,completed,200
+pilot_ego-Facebook_p0.01_r1,pilot,ego-Facebook,0.01,1,7,pagerank,200,1,,completed,200
+pilot_ego-Facebook_p0.01_r1,pilot,ego-Facebook,0.01,1,7,full_greedy,0,0,full_greedy: estimated 20180 evaluations/403600 CIC simulations exceed optimization limits,skipped,0
+pilot_ego-Facebook_p0.01_r1,pilot,ego-Facebook,0.01,1,7,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_ego-Facebook_p0.01_r1,pilot,ego-Facebook,0.01,1,7,genetic_algorithm,980,1,,completed,980
+pilot_ego-Facebook_p0.01_r2,pilot,ego-Facebook,0.01,2,8,no_intervention,200,1,,completed,200
+pilot_ego-Facebook_p0.01_r2,pilot,ego-Facebook,0.01,2,8,random,200,1,,completed,200
+pilot_ego-Facebook_p0.01_r2,pilot,ego-Facebook,0.01,2,8,degree,200,1,,completed,200
+pilot_ego-Facebook_p0.01_r2,pilot,ego-Facebook,0.01,2,8,pagerank,200,1,,completed,200
+pilot_ego-Facebook_p0.01_r2,pilot,ego-Facebook,0.01,2,8,full_greedy,0,0,full_greedy: estimated 20180 evaluations/403600 CIC simulations exceed optimization limits,skipped,0
+pilot_ego-Facebook_p0.01_r2,pilot,ego-Facebook,0.01,2,8,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_ego-Facebook_p0.01_r2,pilot,ego-Facebook,0.01,2,8,genetic_algorithm,840,1,,completed,840
+pilot_ego-Facebook_p0.05_r0,pilot,ego-Facebook,0.05,0,9,no_intervention,200,1,,completed,200
+pilot_ego-Facebook_p0.05_r0,pilot,ego-Facebook,0.05,0,9,random,200,1,,completed,200
+pilot_ego-Facebook_p0.05_r0,pilot,ego-Facebook,0.05,0,9,degree,200,1,,completed,200
+pilot_ego-Facebook_p0.05_r0,pilot,ego-Facebook,0.05,0,9,pagerank,200,1,,completed,200
+pilot_ego-Facebook_p0.05_r0,pilot,ego-Facebook,0.05,0,9,full_greedy,0,0,full_greedy: estimated 20180 evaluations/403600 CIC simulations exceed optimization limits,skipped,0
+pilot_ego-Facebook_p0.05_r0,pilot,ego-Facebook,0.05,0,9,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_ego-Facebook_p0.05_r0,pilot,ego-Facebook,0.05,0,9,genetic_algorithm,940,1,,completed,940
+pilot_ego-Facebook_p0.05_r1,pilot,ego-Facebook,0.05,1,10,no_intervention,200,1,,completed,200
+pilot_ego-Facebook_p0.05_r1,pilot,ego-Facebook,0.05,1,10,random,200,1,,completed,200
+pilot_ego-Facebook_p0.05_r1,pilot,ego-Facebook,0.05,1,10,degree,200,1,,completed,200
+pilot_ego-Facebook_p0.05_r1,pilot,ego-Facebook,0.05,1,10,pagerank,200,1,,completed,200
+pilot_ego-Facebook_p0.05_r1,pilot,ego-Facebook,0.05,1,10,full_greedy,0,0,full_greedy: estimated 20180 evaluations/403600 CIC simulations exceed optimization limits,skipped,0
+pilot_ego-Facebook_p0.05_r1,pilot,ego-Facebook,0.05,1,10,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_ego-Facebook_p0.05_r1,pilot,ego-Facebook,0.05,1,10,genetic_algorithm,900,1,,completed,900
+pilot_ego-Facebook_p0.05_r2,pilot,ego-Facebook,0.05,2,11,no_intervention,200,1,,completed,200
+pilot_ego-Facebook_p0.05_r2,pilot,ego-Facebook,0.05,2,11,random,200,1,,completed,200
+pilot_ego-Facebook_p0.05_r2,pilot,ego-Facebook,0.05,2,11,degree,200,1,,completed,200
+pilot_ego-Facebook_p0.05_r2,pilot,ego-Facebook,0.05,2,11,pagerank,200,1,,completed,200
+pilot_ego-Facebook_p0.05_r2,pilot,ego-Facebook,0.05,2,11,full_greedy,0,0,full_greedy: estimated 20180 evaluations/403600 CIC simulations exceed optimization limits,skipped,0
+pilot_ego-Facebook_p0.05_r2,pilot,ego-Facebook,0.05,2,11,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_ego-Facebook_p0.05_r2,pilot,ego-Facebook,0.05,2,11,genetic_algorithm,840,1,,completed,840
+pilot_Wiki-Vote_p0.01_r0,pilot,Wiki-Vote,0.01,0,12,no_intervention,200,1,,completed,200
+pilot_Wiki-Vote_p0.01_r0,pilot,Wiki-Vote,0.01,0,12,random,200,1,,completed,200
+pilot_Wiki-Vote_p0.01_r0,pilot,Wiki-Vote,0.01,0,12,degree,200,1,,completed,200
+pilot_Wiki-Vote_p0.01_r0,pilot,Wiki-Vote,0.01,0,12,pagerank,200,1,,completed,200
+pilot_Wiki-Vote_p0.01_r0,pilot,Wiki-Vote,0.01,0,12,full_greedy,0,0,full_greedy: estimated 35560 evaluations/711200 CIC simulations exceed optimization limits,skipped,0
+pilot_Wiki-Vote_p0.01_r0,pilot,Wiki-Vote,0.01,0,12,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_Wiki-Vote_p0.01_r0,pilot,Wiki-Vote,0.01,0,12,genetic_algorithm,640,1,,completed,640
+pilot_Wiki-Vote_p0.01_r1,pilot,Wiki-Vote,0.01,1,13,no_intervention,200,1,,completed,200
+pilot_Wiki-Vote_p0.01_r1,pilot,Wiki-Vote,0.01,1,13,random,200,1,,completed,200
+pilot_Wiki-Vote_p0.01_r1,pilot,Wiki-Vote,0.01,1,13,degree,200,1,,completed,200
+pilot_Wiki-Vote_p0.01_r1,pilot,Wiki-Vote,0.01,1,13,pagerank,200,1,,completed,200
+pilot_Wiki-Vote_p0.01_r1,pilot,Wiki-Vote,0.01,1,13,full_greedy,0,0,full_greedy: estimated 35560 evaluations/711200 CIC simulations exceed optimization limits,skipped,0
+pilot_Wiki-Vote_p0.01_r1,pilot,Wiki-Vote,0.01,1,13,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_Wiki-Vote_p0.01_r1,pilot,Wiki-Vote,0.01,1,13,genetic_algorithm,880,1,,completed,880
+pilot_Wiki-Vote_p0.01_r2,pilot,Wiki-Vote,0.01,2,14,no_intervention,200,1,,completed,200
+pilot_Wiki-Vote_p0.01_r2,pilot,Wiki-Vote,0.01,2,14,random,200,1,,completed,200
+pilot_Wiki-Vote_p0.01_r2,pilot,Wiki-Vote,0.01,2,14,degree,200,1,,completed,200
+pilot_Wiki-Vote_p0.01_r2,pilot,Wiki-Vote,0.01,2,14,pagerank,200,1,,completed,200
+pilot_Wiki-Vote_p0.01_r2,pilot,Wiki-Vote,0.01,2,14,full_greedy,0,0,full_greedy: estimated 35560 evaluations/711200 CIC simulations exceed optimization limits,skipped,0
+pilot_Wiki-Vote_p0.01_r2,pilot,Wiki-Vote,0.01,2,14,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_Wiki-Vote_p0.01_r2,pilot,Wiki-Vote,0.01,2,14,genetic_algorithm,880,1,,completed,880
+pilot_Wiki-Vote_p0.05_r0,pilot,Wiki-Vote,0.05,0,15,no_intervention,200,1,,completed,200
+pilot_Wiki-Vote_p0.05_r0,pilot,Wiki-Vote,0.05,0,15,random,200,1,,completed,200
+pilot_Wiki-Vote_p0.05_r0,pilot,Wiki-Vote,0.05,0,15,degree,200,1,,completed,200
+pilot_Wiki-Vote_p0.05_r0,pilot,Wiki-Vote,0.05,0,15,pagerank,200,1,,completed,200
+pilot_Wiki-Vote_p0.05_r0,pilot,Wiki-Vote,0.05,0,15,full_greedy,0,0,full_greedy: estimated 35560 evaluations/711200 CIC simulations exceed optimization limits,skipped,0
+pilot_Wiki-Vote_p0.05_r0,pilot,Wiki-Vote,0.05,0,15,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_Wiki-Vote_p0.05_r0,pilot,Wiki-Vote,0.05,0,15,genetic_algorithm,1020,1,,completed,1020
+pilot_Wiki-Vote_p0.05_r1,pilot,Wiki-Vote,0.05,1,16,no_intervention,200,1,,completed,200
+pilot_Wiki-Vote_p0.05_r1,pilot,Wiki-Vote,0.05,1,16,random,200,1,,completed,200
+pilot_Wiki-Vote_p0.05_r1,pilot,Wiki-Vote,0.05,1,16,degree,200,1,,completed,200
+pilot_Wiki-Vote_p0.05_r1,pilot,Wiki-Vote,0.05,1,16,pagerank,200,1,,completed,200
+pilot_Wiki-Vote_p0.05_r1,pilot,Wiki-Vote,0.05,1,16,full_greedy,0,0,full_greedy: estimated 35560 evaluations/711200 CIC simulations exceed optimization limits,skipped,0
+pilot_Wiki-Vote_p0.05_r1,pilot,Wiki-Vote,0.05,1,16,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_Wiki-Vote_p0.05_r1,pilot,Wiki-Vote,0.05,1,16,genetic_algorithm,900,1,,completed,900
+pilot_Wiki-Vote_p0.05_r2,pilot,Wiki-Vote,0.05,2,17,no_intervention,200,1,,completed,200
+pilot_Wiki-Vote_p0.05_r2,pilot,Wiki-Vote,0.05,2,17,random,200,1,,completed,200
+pilot_Wiki-Vote_p0.05_r2,pilot,Wiki-Vote,0.05,2,17,degree,200,1,,completed,200
+pilot_Wiki-Vote_p0.05_r2,pilot,Wiki-Vote,0.05,2,17,pagerank,200,1,,completed,200
+pilot_Wiki-Vote_p0.05_r2,pilot,Wiki-Vote,0.05,2,17,full_greedy,0,0,full_greedy: estimated 35560 evaluations/711200 CIC simulations exceed optimization limits,skipped,0
+pilot_Wiki-Vote_p0.05_r2,pilot,Wiki-Vote,0.05,2,17,candidate_restricted_greedy,1000,1,,completed,1000
+pilot_Wiki-Vote_p0.05_r2,pilot,Wiki-Vote,0.05,2,17,genetic_algorithm,860,1,,completed,860

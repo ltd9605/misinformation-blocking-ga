@@ -1,0 +1,11 @@
+id,status,requirement
+main_design_confirmation,confirmed_by_current_user,resolved by four-run approval and tested adapter; original five-run artifacts retained
+admission,passed,[]
+repeats,confirmed_four,resolved by four-run approval and tested adapter; original five-run artifacts retained
+main_budget,confirmed_10800_seconds,resolved by four-run approval and tested adapter; original five-run artifacts retained
+new_R_timing,unmeasured,proxy envelopes and nearest-topology heuristic are not a calibrated new-R runtime model; no official observations generated
+coverage,limited,"two fixed high/constant R per graph, no medium/low holdout; keep existing low/legacy appendix and all low-spread main outcomes"
+main_adapter,implemented_validated_before_execution,resolved by four-run approval and tested adapter; original five-run artifacts retained
+equivalence_margin,unconfirmed,no equivalence/practical-effect claims without a prespecified margin
+power,not_established,five proposed runs do not guarantee power; no adaptive stopping based on significance
+new_R_spread,unobserved_by_design,"do not reroll R, retune GA or filter official low/no-spread outcomes"

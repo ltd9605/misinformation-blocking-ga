@@ -1,0 +1,14 @@
+{
+  "data_files_checked": 14,
+  "main_resimulations_for_audit": 0,
+  "numeric_reaggregation_bit_identical": true,
+  "passed": true,
+  "prior_artifacts_unchanged": true,
+  "protected_files_checked": 67,
+  "test_command": ".venv/bin/python -B -m unittest discover -s tests -q",
+  "test_log_sha256": "f9b927195dcaacca37f7a0749c26d820dba0372031d5b645ba66989fa83f9510",
+  "test_runtime_seconds": 12.12,
+  "tests_passed": 493,
+  "tests_run": 493,
+  "topology_unchanged": true
+}

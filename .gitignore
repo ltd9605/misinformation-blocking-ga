@@ -6,3 +6,6 @@ __pycache__/
 results/
 AGENTS.md
 .DS_Store
+
+# Local ZIP copies duplicate the unpacked, versioned research artifacts.
+docs/*.zip

@@ -1,0 +1,25 @@
+{
+  "analysis": {
+    "automatic_winner_selection": false,
+    "confidence": 0.95,
+    "contrasts": "eight_alternatives_vs_shared_reference_paired_by_repetition",
+    "multiplicity": "Bonferroni_simultaneous_CI_across_eight_contrasts",
+    "practical_difference_threshold": null,
+    "primary_unit": "independent_GA_run"
+  },
+  "export_directory": "docs/milestone_7_reduced_screen_v2",
+  "exported_protocol_design": "docs/experiment_protocol_v1",
+  "final_seed_policy": "shared_across_profiles_within_repetition_independent_of_optimization",
+  "full_design_authorized": false,
+  "main_experiments_authorized": false,
+  "optimization_seed_policy": "distinct_per_profile_and_repetition",
+  "output_directory": "results/milestone_7_reduced_screen_v2",
+  "protocol_path": "experiments/configs/experiment_protocol_v1.json",
+  "purpose": "single_scenario_OFAT_reduced_screen_not_main",
+  "requested_independent_runs": 5,
+  "reserved_main_master_seed": 2026111109,
+  "runtime_overhead_allowance_seconds": 300,
+  "scenario_id": "email-Eu-core_high_1",
+  "screen_master_seed": 2026111110,
+  "worker_timeout_seconds": 600
+}

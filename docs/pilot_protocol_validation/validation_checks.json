@@ -1,0 +1,11 @@
+{
+  "comparisons_verified": 21,
+  "raw_observations_verified": 21690,
+  "artifact_hashes_verified": 147,
+  "convergence_rows_verified": 204,
+  "full_greedy_skips": 21,
+  "seed_intervals_disjoint_across_all_primary_comparisons": true,
+  "all_metrics_recomputed": true,
+  "data_files_unchanged": 14,
+  "core_snapshot_files_unchanged": 32
+}

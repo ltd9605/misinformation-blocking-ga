@@ -135,6 +135,12 @@ class ExperimentConfigurationTests(TemporaryFilesTest):
         self.assertEqual(config.fingerprint, self.config(output_directory=str(self.root / "elsewhere"), save_raw_observations=True).fingerprint)
         self.assertNotEqual(config.fingerprint, self.config(independent_run_index=1).fingerprint)
 
+    def test_skip_reasons_must_describe_known_unselected_methods(self):
+        for skipped in ({"random": "selected simultaneously"}, {"unknown": "invalid"},
+                        {"full_greedy": " "}, {"full_greedy": None}, []):
+            with self.subTest(skipped=skipped), self.assertRaises(ExperimentConfigError):
+                self.config(skipped_algorithms=skipped)
+
 
 class ExperimentSeedTests(unittest.TestCase):
     def test_seed_plan_replays_and_phase_domains_are_separate(self):

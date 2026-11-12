@@ -1,0 +1,61 @@
+{
+  "all_protected_hashes_unchanged": true,
+  "confirmation_and_main_reserved_reachability_recomputed": true,
+  "data_file_set_unchanged": true,
+  "data_files_checked": 14,
+  "implementation_sha256": {
+    "experiments/analyze_cross_scenario_confirmation.py": "387614406f9329e0d31c7a5d347d5d430357550081d2b709f845f19d5578fb9f",
+    "experiments/configs/cross_scenario_ga_confirmation.json": "a7f3ca2bb268217fad0f778d79673e85867a662cf3da2b9fc56981c45deae54e",
+    "experiments/cross_scenario_ga_confirmation.py": "ce8bb50691ab245e78f1714dd8e9b61668aea8e067b723a179b3af83e0a0d3af",
+    "tests/test_cross_scenario_analysis.py": "9e2da06669256fa8a5cec71b10a681752c11be9ec029b51dc72a31baaca17c53",
+    "tests/test_cross_scenario_confirmation.py": "dac8746c41924db5f975f58474b8d8f5d5fcaac193de28e7f68831c510e2f735"
+  },
+  "prior_artifacts": [
+    {
+      "directory": "docs/pilot_protocol_validation",
+      "files": 23,
+      "unchanged": true
+    },
+    {
+      "directory": "docs/pilot_2_calibration",
+      "files": 55,
+      "unchanged": true
+    },
+    {
+      "directory": "docs/experiment_protocol_v1",
+      "files": 53,
+      "unchanged": true
+    },
+    {
+      "directory": "docs/milestone_7_reduced_screen",
+      "files": 104,
+      "unchanged": true
+    },
+    {
+      "directory": "docs/milestone_7_reduced_screen_v2",
+      "files": 103,
+      "unchanged": true
+    }
+  ],
+  "protected_files_checked": 44,
+  "test_runtime_seconds": 9.713,
+  "tests_passed": 443,
+  "tests_run": 443,
+  "topology": {
+    "Wiki-Vote": {
+      "directed": true,
+      "edges": 103689,
+      "nodes": 7115
+    },
+    "ego-Facebook": {
+      "directed": false,
+      "edges": 88234,
+      "nodes": 4039
+    },
+    "email-Eu-core": {
+      "directed": true,
+      "edges": 24929,
+      "nodes": 1005
+    }
+  }
+}

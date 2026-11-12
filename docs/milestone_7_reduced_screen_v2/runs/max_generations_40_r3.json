@@ -1,0 +1,4429 @@
+{
+  "CIC_simulations": 17800,
+  "GA_operators_seed": 1809518650599405620,
+  "GA_random_seed": 5707798430099661941,
+  "OFAT_panels": [
+    "max_generations"
+  ],
+  "S_eval": 6000,
+  "S_opt": 100,
+  "cache_fitness": true,
+  "cache_hits": 312,
+  "control_mean": 31.352666666666668,
+  "convergence": [
+    {
+      "best_fitness": 7.56,
+      "best_protector_nodes": [
+        202,
+        470,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 7.56,
+      "cache_hits_this_generation": 0,
+      "cumulative_cache_hits": 0,
+      "cumulative_evaluations": 10,
+      "elapsed_optimization_seconds": 0.9733204579970334,
+      "elite_count_carried": 0,
+      "evaluations_this_generation": 10,
+      "fitness_values": [
+        12.77,
+        31.05,
+        10.04,
+        15.9,
+        12.15,
+        16.97,
+        13.7,
+        29.85,
+        7.56,
+        11.97
+      ],
+      "generation": 0,
+      "mean_fitness": 16.196,
+      "population": [
+        [
+          37,
+          403,
+          573,
+          725,
+          819
+        ],
+        [
+          399,
+          435,
+          767,
+          858,
+          946
+        ],
+        [
+          145,
+          148,
+          225,
+          360,
+          413
+        ],
+        [
+          452,
+          610,
+          614,
+          918,
+          960
+        ],
+        [
+          255,
+          501,
+          609,
+          771,
+          785
+        ],
+        [
+          206,
+          748,
+          856,
+          860,
+          953
+        ],
+        [
+          167,
+          252,
+          289,
+          547,
+          591
+        ],
+        [
+          94,
+          100,
+          277,
+          646,
+          905
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          95,
+          319,
+          604,
+          787,
+          977
+        ]
+      ],
+      "unique_individuals": 10,
+      "worst_fitness": 31.05
+    },
+    {
+      "best_fitness": 7.56,
+      "best_protector_nodes": [
+        202,
+        470,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 7.56,
+      "cache_hits_this_generation": 3,
+      "cumulative_cache_hits": 3,
+      "cumulative_evaluations": 16,
+      "elapsed_optimization_seconds": 1.647245957996347,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 6,
+      "fitness_values": [
+        7.56,
+        14.59,
+        22.45,
+        18.74,
+        14.19,
+        12.15,
+        7.56,
+        7.56,
+        16.99,
+        11.95
+      ],
+      "generation": 1,
+      "mean_fitness": 13.373999999999999,
+      "population": [
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          37,
+          255,
+          403,
+          573,
+          771
+        ],
+        [
+          145,
+          148,
+          225,
+          319,
+          977
+        ],
+        [
+          96,
+          255,
+          501,
+          609,
+          771
+        ],
+        [
+          148,
+          225,
+          233,
+          413,
+          470
+        ],
+        [
+          255,
+          501,
+          609,
+          771,
+          785
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          37,
+          148,
+          225,
+          403,
+          819
+        ],
+        [
+          95,
+          258,
+          319,
+          787,
+          977
+        ]
+      ],
+      "unique_individuals": 8,
+      "worst_fitness": 22.45
+    },
+    {
+      "best_fitness": 7.56,
+      "best_protector_nodes": [
+        202,
+        470,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 7.56,
+      "cache_hits_this_generation": 4,
+      "cumulative_cache_hits": 7,
+      "cumulative_evaluations": 21,
+      "elapsed_optimization_seconds": 2.145478792008362,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 5,
+      "fitness_values": [
+        7.56,
+        18.76,
+        11.95,
+        8.8,
+        15.37,
+        16.74,
+        7.56,
+        7.56,
+        20.35,
+        7.56
+      ],
+      "generation": 2,
+      "mean_fitness": 12.221,
+      "population": [
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          255,
+          501,
+          531,
+          771,
+          785
+        ],
+        [
+          95,
+          258,
+          319,
+          787,
+          977
+        ],
+        [
+          258,
+          470,
+          531,
+          787,
+          977
+        ],
+        [
+          95,
+          202,
+          258,
+          878,
+          977
+        ],
+        [
+          202,
+          319,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          531,
+          551,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 7,
+      "worst_fitness": 20.35
+    },
+    {
+      "best_fitness": 7.56,
+      "best_protector_nodes": [
+        202,
+        470,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 7.56,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 15,
+      "cumulative_evaluations": 22,
+      "elapsed_optimization_seconds": 2.2410758750047535,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        7.56,
+        7.56,
+        8.8,
+        8.8,
+        7.56,
+        7.56,
+        7.56,
+        7.56,
+        14.71,
+        7.56
+      ],
+      "generation": 3,
+      "mean_fitness": 8.523,
+      "population": [
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          258,
+          470,
+          531,
+          787,
+          977
+        ],
+        [
+          258,
+          470,
+          531,
+          787,
+          977
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          977
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 3,
+      "worst_fitness": 14.71
+    },
+    {
+      "best_fitness": 7.56,
+      "best_protector_nodes": [
+        202,
+        470,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 7.56,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 24,
+      "cumulative_evaluations": 22,
+      "elapsed_optimization_seconds": 2.2439916669973172,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        7.56,
+        7.56,
+        7.56,
+        7.56,
+        7.56,
+        7.56,
+        7.56,
+        7.56,
+        7.56,
+        7.56
+      ],
+      "generation": 4,
+      "mean_fitness": 7.56,
+      "population": [
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 1,
+      "worst_fitness": 7.56
+    },
+    {
+      "best_fitness": 7.56,
+      "best_protector_nodes": [
+        202,
+        470,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 7.56,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 32,
+      "cumulative_evaluations": 23,
+      "elapsed_optimization_seconds": 2.3472275829990394,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        7.56,
+        7.56,
+        7.56,
+        7.56,
+        13.36,
+        7.56,
+        7.56,
+        7.56,
+        7.56,
+        7.56
+      ],
+      "generation": 5,
+      "mean_fitness": 8.139999999999999,
+      "population": [
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          171,
+          202,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 13.36
+    },
+    {
+      "best_fitness": 6.5,
+      "best_protector_nodes": [
+        160,
+        470,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 6.5,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 40,
+      "cumulative_evaluations": 24,
+      "elapsed_optimization_seconds": 2.4806670830002986,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        7.56,
+        7.56,
+        7.56,
+        7.56,
+        7.56,
+        7.56,
+        7.56,
+        6.5,
+        7.56,
+        7.56
+      ],
+      "generation": 6,
+      "mean_fitness": 7.453999999999999,
+      "population": [
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 7.56
+    },
+    {
+      "best_fitness": 6.5,
+      "best_protector_nodes": [
+        160,
+        470,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 6.5,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 49,
+      "cumulative_evaluations": 24,
+      "elapsed_optimization_seconds": 2.4836220419965684,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        6.5,
+        7.56,
+        7.56,
+        6.5,
+        6.5,
+        6.5,
+        6.5,
+        7.56,
+        6.5,
+        7.56
+      ],
+      "generation": 7,
+      "mean_fitness": 6.9239999999999995,
+      "population": [
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 7.56
+    },
+    {
+      "best_fitness": 4.11,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 4.11,
+      "cache_hits_this_generation": 7,
+      "cumulative_cache_hits": 56,
+      "cumulative_evaluations": 26,
+      "elapsed_optimization_seconds": 2.712878999998793,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 2,
+      "fitness_values": [
+        6.5,
+        6.5,
+        6.5,
+        6.5,
+        6.5,
+        6.5,
+        18.25,
+        7.56,
+        4.11,
+        6.5
+      ],
+      "generation": 8,
+      "mean_fitness": 7.542,
+      "population": [
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          67,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          202,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 4,
+      "worst_fitness": 18.25
+    },
+    {
+      "best_fitness": 4.11,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 4.11,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 65,
+      "cumulative_evaluations": 26,
+      "elapsed_optimization_seconds": 2.7159802920068614,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        4.11,
+        6.5,
+        6.5,
+        4.11,
+        6.5,
+        6.5,
+        6.5,
+        4.11,
+        6.5,
+        4.11
+      ],
+      "generation": 9,
+      "mean_fitness": 5.544,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 6.5
+    },
+    {
+      "best_fitness": 4.11,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 4.11,
+      "cache_hits_this_generation": 7,
+      "cumulative_cache_hits": 72,
+      "cumulative_evaluations": 28,
+      "elapsed_optimization_seconds": 2.9283304170094198,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 2,
+      "fitness_values": [
+        4.11,
+        6.5,
+        4.11,
+        4.11,
+        14.63,
+        4.11,
+        4.11,
+        4.98,
+        4.11,
+        4.11
+      ],
+      "generation": 10,
+      "mean_fitness": 5.488,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          470,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          227,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          878,
+          925,
+          935
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 4,
+      "worst_fitness": 14.63
+    },
+    {
+      "best_fitness": 4.11,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 4.11,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 81,
+      "cumulative_evaluations": 28,
+      "elapsed_optimization_seconds": 2.931613542008563,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11
+      ],
+      "generation": 11,
+      "mean_fitness": 4.11,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 1,
+      "worst_fitness": 4.11
+    },
+    {
+      "best_fitness": 4.11,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 4.11,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 89,
+      "cumulative_evaluations": 29,
+      "elapsed_optimization_seconds": 3.0594287920102943,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        6.67,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11
+      ],
+      "generation": 12,
+      "mean_fitness": 4.3660000000000005,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          43,
+          160,
+          475,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 6.67
+    },
+    {
+      "best_fitness": 4.11,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 4.11,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 98,
+      "cumulative_evaluations": 29,
+      "elapsed_optimization_seconds": 3.062467750001815,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11
+      ],
+      "generation": 13,
+      "mean_fitness": 4.11,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 1,
+      "worst_fitness": 4.11
+    },
+    {
+      "best_fitness": 4.11,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 4.11,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 107,
+      "cumulative_evaluations": 29,
+      "elapsed_optimization_seconds": 3.065771458001109,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11
+      ],
+      "generation": 14,
+      "mean_fitness": 4.11,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 1,
+      "worst_fitness": 4.11
+    },
+    {
+      "best_fitness": 4.11,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 4.11,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 115,
+      "cumulative_evaluations": 30,
+      "elapsed_optimization_seconds": 3.169640749998507,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        11.52,
+        4.11,
+        4.11
+      ],
+      "generation": 15,
+      "mean_fitness": 4.851000000000001,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          31,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 11.52
+    },
+    {
+      "best_fitness": 4.11,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 4.11,
+      "cache_hits_this_generation": 7,
+      "cumulative_cache_hits": 122,
+      "cumulative_evaluations": 32,
+      "elapsed_optimization_seconds": 3.3800781669997377,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 2,
+      "fitness_values": [
+        4.11,
+        15.37,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        6.97
+      ],
+      "generation": 16,
+      "mean_fitness": 5.522,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          475,
+          531,
+          702,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          488,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 3,
+      "worst_fitness": 15.37
+    },
+    {
+      "best_fitness": 4.11,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 4.11,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 130,
+      "cumulative_evaluations": 33,
+      "elapsed_optimization_seconds": 3.51268208300462,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        4.11,
+        4.11,
+        8.44,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11
+      ],
+      "generation": 17,
+      "mean_fitness": 4.543,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          728,
+          878
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 8.44
+    },
+    {
+      "best_fitness": 4.11,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 4.11,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 138,
+      "cumulative_evaluations": 34,
+      "elapsed_optimization_seconds": 3.6002585829992313,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        14.22,
+        4.11
+      ],
+      "generation": 18,
+      "mean_fitness": 5.121,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          475,
+          531,
+          878,
+          911,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 14.22
+    },
+    {
+      "best_fitness": 4.11,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 4.11,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 147,
+      "cumulative_evaluations": 34,
+      "elapsed_optimization_seconds": 3.6032573749980656,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11
+      ],
+      "generation": 19,
+      "mean_fitness": 4.11,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 1,
+      "worst_fitness": 4.11
+    },
+    {
+      "best_fitness": 4.11,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        878,
+        925
+      ],
+      "best_so_far_fitness": 4.11,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 156,
+      "cumulative_evaluations": 34,
+      "elapsed_optimization_seconds": 3.606323917003465,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11
+      ],
+      "generation": 20,
+      "mean_fitness": 4.11,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 1,
+      "worst_fitness": 4.11
+    },
+    {
+      "best_fitness": 2.98,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        925,
+        929
+      ],
+      "best_so_far_fitness": 2.98,
+      "cache_hits_this_generation": 7,
+      "cumulative_cache_hits": 163,
+      "cumulative_evaluations": 36,
+      "elapsed_optimization_seconds": 3.8594267919979757,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 2,
+      "fitness_values": [
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        2.98,
+        4.11,
+        4.11,
+        6.78,
+        4.11
+      ],
+      "generation": 21,
+      "mean_fitness": 4.264,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          925,
+          929
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          311,
+          475,
+          531,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 3,
+      "worst_fitness": 6.78
+    },
+    {
+      "best_fitness": 2.98,
+      "best_protector_nodes": [
+        160,
+        475,
+        531,
+        925,
+        929
+      ],
+      "best_so_far_fitness": 2.98,
+      "cache_hits_this_generation": 7,
+      "cumulative_cache_hits": 170,
+      "cumulative_evaluations": 38,
+      "elapsed_optimization_seconds": 4.1222494170069695,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 2,
+      "fitness_values": [
+        2.98,
+        5.0,
+        4.11,
+        5.56,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11,
+        4.11
+      ],
+      "generation": 22,
+      "mean_fitness": 4.231,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          925,
+          929
+        ],
+        [
+          160,
+          483,
+          531,
+          925,
+          929
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          16,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 4,
+      "worst_fitness": 5.56
+    },
+    {
+      "best_fitness": 2.0,
+      "best_protector_nodes": [
+        56,
+        160,
+        475,
+        531,
+        878
+      ],
+      "best_so_far_fitness": 2.0,
+      "cache_hits_this_generation": 7,
+      "cumulative_cache_hits": 177,
+      "cumulative_evaluations": 40,
+      "elapsed_optimization_seconds": 4.392910374997882,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 2,
+      "fitness_values": [
+        2.98,
+        4.11,
+        6.32,
+        4.11,
+        2.98,
+        4.11,
+        4.11,
+        2.0,
+        4.11,
+        4.11
+      ],
+      "generation": 23,
+      "mean_fitness": 3.8940000000000006,
+      "population": [
+        [
+          160,
+          475,
+          531,
+          925,
+          929
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          455,
+          475,
+          531,
+          878
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          925,
+          929
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ]
+      ],
+      "unique_individuals": 4,
+      "worst_fitness": 6.32
+    },
+    {
+      "best_fitness": 2.0,
+      "best_protector_nodes": [
+        56,
+        160,
+        475,
+        531,
+        878
+      ],
+      "best_so_far_fitness": 2.0,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 186,
+      "cumulative_evaluations": 40,
+      "elapsed_optimization_seconds": 4.396011083008489,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        2.0,
+        2.98,
+        2.0,
+        2.0,
+        4.11,
+        2.98,
+        2.0,
+        2.0,
+        2.98,
+        2.98
+      ],
+      "generation": 24,
+      "mean_fitness": 2.603,
+      "population": [
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          160,
+          475,
+          531,
+          925,
+          929
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          160,
+          475,
+          531,
+          878,
+          925
+        ],
+        [
+          160,
+          475,
+          531,
+          925,
+          929
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          160,
+          475,
+          531,
+          925,
+          929
+        ],
+        [
+          160,
+          475,
+          531,
+          925,
+          929
+        ]
+      ],
+      "unique_individuals": 3,
+      "worst_fitness": 4.11
+    },
+    {
+      "best_fitness": 2.0,
+      "best_protector_nodes": [
+        56,
+        160,
+        475,
+        531,
+        878
+      ],
+      "best_so_far_fitness": 2.0,
+      "cache_hits_this_generation": 7,
+      "cumulative_cache_hits": 193,
+      "cumulative_evaluations": 42,
+      "elapsed_optimization_seconds": 4.646298167004716,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 2,
+      "fitness_values": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        11.27,
+        2.0,
+        4.75,
+        2.0,
+        2.0
+      ],
+      "generation": 25,
+      "mean_fitness": 3.2019999999999995,
+      "population": [
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          117,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          925
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ]
+      ],
+      "unique_individuals": 3,
+      "worst_fitness": 11.27
+    },
+    {
+      "best_fitness": 2.0,
+      "best_protector_nodes": [
+        56,
+        160,
+        475,
+        531,
+        878
+      ],
+      "best_so_far_fitness": 2.0,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 201,
+      "cumulative_evaluations": 43,
+      "elapsed_optimization_seconds": 4.777964749999228,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        11.17,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "generation": 26,
+      "mean_fitness": 2.9170000000000003,
+      "population": [
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          349,
+          475,
+          531
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 11.17
+    },
+    {
+      "best_fitness": 2.0,
+      "best_protector_nodes": [
+        56,
+        160,
+        475,
+        531,
+        878
+      ],
+      "best_so_far_fitness": 2.0,
+      "cache_hits_this_generation": 7,
+      "cumulative_cache_hits": 208,
+      "cumulative_evaluations": 45,
+      "elapsed_optimization_seconds": 5.042968708003173,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 2,
+      "fitness_values": [
+        2.0,
+        2.0,
+        5.59,
+        4.27,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "generation": 27,
+      "mean_fitness": 2.586,
+      "population": [
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          766,
+          878
+        ],
+        [
+          56,
+          160,
+          364,
+          475,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ]
+      ],
+      "unique_individuals": 3,
+      "worst_fitness": 5.59
+    },
+    {
+      "best_fitness": 2.0,
+      "best_protector_nodes": [
+        56,
+        160,
+        475,
+        531,
+        878
+      ],
+      "best_so_far_fitness": 2.0,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 216,
+      "cumulative_evaluations": 46,
+      "elapsed_optimization_seconds": 5.1665831669961335,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        7.07,
+        2.0,
+        2.0
+      ],
+      "generation": 28,
+      "mean_fitness": 2.507,
+      "population": [
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          218,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 7.07
+    },
+    {
+      "best_fitness": 2.0,
+      "best_protector_nodes": [
+        56,
+        160,
+        475,
+        531,
+        878
+      ],
+      "best_so_far_fitness": 2.0,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 224,
+      "cumulative_evaluations": 47,
+      "elapsed_optimization_seconds": 5.302116332997684,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.28,
+        2.0,
+        2.0
+      ],
+      "generation": 29,
+      "mean_fitness": 2.028,
+      "population": [
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          70,
+          160,
+          475,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 2.28
+    },
+    {
+      "best_fitness": 2.0,
+      "best_protector_nodes": [
+        56,
+        160,
+        475,
+        531,
+        878
+      ],
+      "best_so_far_fitness": 2.0,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 233,
+      "cumulative_evaluations": 47,
+      "elapsed_optimization_seconds": 5.3055121670040535,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "generation": 30,
+      "mean_fitness": 2.0,
+      "population": [
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ]
+      ],
+      "unique_individuals": 1,
+      "worst_fitness": 2.0
+    },
+    {
+      "best_fitness": 2.0,
+      "best_protector_nodes": [
+        56,
+        160,
+        475,
+        531,
+        878
+      ],
+      "best_so_far_fitness": 2.0,
+      "cache_hits_this_generation": 7,
+      "cumulative_cache_hits": 240,
+      "cumulative_evaluations": 49,
+      "elapsed_optimization_seconds": 5.568356792005943,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 2,
+      "fitness_values": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.33,
+        8.13,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "generation": 31,
+      "mean_fitness": 2.646,
+      "population": [
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          837,
+          878
+        ],
+        [
+          160,
+          475,
+          531,
+          656,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ]
+      ],
+      "unique_individuals": 3,
+      "worst_fitness": 8.13
+    },
+    {
+      "best_fitness": 2.0,
+      "best_protector_nodes": [
+        56,
+        160,
+        475,
+        531,
+        878
+      ],
+      "best_so_far_fitness": 2.0,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 248,
+      "cumulative_evaluations": 50,
+      "elapsed_optimization_seconds": 5.697267958006705,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        4.17,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "generation": 32,
+      "mean_fitness": 2.217,
+      "population": [
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          160,
+          475,
+          531,
+          632,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 4.17
+    },
+    {
+      "best_fitness": 2.0,
+      "best_protector_nodes": [
+        56,
+        160,
+        475,
+        531,
+        878
+      ],
+      "best_so_far_fitness": 2.0,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 257,
+      "cumulative_evaluations": 50,
+      "elapsed_optimization_seconds": 5.700498542006244,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "generation": 33,
+      "mean_fitness": 2.0,
+      "population": [
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ]
+      ],
+      "unique_individuals": 1,
+      "worst_fitness": 2.0
+    },
+    {
+      "best_fitness": 2.0,
+      "best_protector_nodes": [
+        56,
+        160,
+        475,
+        531,
+        878
+      ],
+      "best_so_far_fitness": 2.0,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 265,
+      "cumulative_evaluations": 51,
+      "elapsed_optimization_seconds": 5.843666375003522,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        2.0,
+        2.0,
+        2.0,
+        6.16,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "generation": 34,
+      "mean_fitness": 2.416,
+      "population": [
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          630,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 6.16
+    },
+    {
+      "best_fitness": 2.0,
+      "best_protector_nodes": [
+        56,
+        160,
+        475,
+        531,
+        878
+      ],
+      "best_so_far_fitness": 2.0,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 273,
+      "cumulative_evaluations": 52,
+      "elapsed_optimization_seconds": 5.97805750000407,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        4.7
+      ],
+      "generation": 35,
+      "mean_fitness": 2.27,
+      "population": [
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          158,
+          160,
+          475,
+          531,
+          878
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 4.7
+    },
+    {
+      "best_fitness": 1.96,
+      "best_protector_nodes": [
+        56,
+        160,
+        531,
+        792,
+        878
+      ],
+      "best_so_far_fitness": 1.96,
+      "cache_hits_this_generation": 7,
+      "cumulative_cache_hits": 280,
+      "cumulative_evaluations": 54,
+      "elapsed_optimization_seconds": 6.237688958004583,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 2,
+      "fitness_values": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        5.88,
+        1.96,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "generation": 36,
+      "mean_fitness": 2.384,
+      "population": [
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          555,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ]
+      ],
+      "unique_individuals": 3,
+      "worst_fitness": 5.88
+    },
+    {
+      "best_fitness": 1.96,
+      "best_protector_nodes": [
+        56,
+        160,
+        531,
+        792,
+        878
+      ],
+      "best_so_far_fitness": 1.96,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 288,
+      "cumulative_evaluations": 55,
+      "elapsed_optimization_seconds": 6.3627992080000695,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        1.96,
+        1.96,
+        2.0,
+        1.96,
+        4.4,
+        1.96,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "generation": 37,
+      "mean_fitness": 2.224,
+      "population": [
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          792,
+          804,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ],
+        [
+          56,
+          160,
+          475,
+          531,
+          878
+        ]
+      ],
+      "unique_individuals": 3,
+      "worst_fitness": 4.4
+    },
+    {
+      "best_fitness": 1.96,
+      "best_protector_nodes": [
+        56,
+        160,
+        531,
+        792,
+        878
+      ],
+      "best_so_far_fitness": 1.96,
+      "cache_hits_this_generation": 9,
+      "cumulative_cache_hits": 297,
+      "cumulative_evaluations": 55,
+      "elapsed_optimization_seconds": 6.36585791700054,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 0,
+      "fitness_values": [
+        1.96,
+        1.96,
+        1.96,
+        1.96,
+        1.96,
+        1.96,
+        1.96,
+        1.96,
+        1.96,
+        1.96
+      ],
+      "generation": 38,
+      "mean_fitness": 1.9600000000000002,
+      "population": [
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ]
+      ],
+      "unique_individuals": 1,
+      "worst_fitness": 1.96
+    },
+    {
+      "best_fitness": 1.96,
+      "best_protector_nodes": [
+        56,
+        160,
+        531,
+        792,
+        878
+      ],
+      "best_so_far_fitness": 1.96,
+      "cache_hits_this_generation": 8,
+      "cumulative_cache_hits": 305,
+      "cumulative_evaluations": 56,
+      "elapsed_optimization_seconds": 6.495686333000776,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 1,
+      "fitness_values": [
+        1.96,
+        1.96,
+        1.96,
+        1.96,
+        1.96,
+        2.95,
+        1.96,
+        1.96,
+        1.96,
+        1.96
+      ],
+      "generation": 39,
+      "mean_fitness": 2.059,
+      "population": [
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          447,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ]
+      ],
+      "unique_individuals": 2,
+      "worst_fitness": 2.95
+    },
+    {
+      "best_fitness": 1.96,
+      "best_protector_nodes": [
+        56,
+        160,
+        531,
+        792,
+        878
+      ],
+      "best_so_far_fitness": 1.96,
+      "cache_hits_this_generation": 7,
+      "cumulative_cache_hits": 312,
+      "cumulative_evaluations": 58,
+      "elapsed_optimization_seconds": 6.746689958003117,
+      "elite_count_carried": 1,
+      "evaluations_this_generation": 2,
+      "fitness_values": [
+        1.96,
+        1.96,
+        8.04,
+        1.96,
+        1.96,
+        1.96,
+        6.04,
+        1.96,
+        1.96,
+        1.96
+      ],
+      "generation": 40,
+      "mean_fitness": 2.976,
+      "population": [
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          160,
+          396,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          962
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ],
+        [
+          56,
+          160,
+          531,
+          792,
+          878
+        ]
+      ],
+      "unique_individuals": 3,
+      "worst_fitness": 8.04
+    }
+  ],
+  "crossover_rate": 0.8,
+  "dataset": "email-Eu-core",
+  "elite_fitness_reuse_count": 40,
+  "elitism_count": 1,
+  "evaluator_calls": 60,
+  "final_batch_seeds": [
+    2052563729957484294500000,
+    2052563729957484294506000
+  ],
+  "final_batches": [
+    {
+      "base_seed": 2052563729957484294500000,
+      "batch": 0,
+      "runtime_seconds": 7.693149833008647,
+      "statistics": {
+        "S": 6000,
+        "ci95_half_width": 0.4429127800175455,
+        "ci95_high": 5.508079446684212,
+        "ci95_low": 4.622253886649121,
+        "max_rumor_count": 276,
+        "min_rumor_count": 1,
+        "no_spread_fraction": 0.7303333333333333,
+        "no_spread_wilson95_high": 0.7414124770003709,
+        "no_spread_wilson95_low": 0.7189594397062569,
+        "reachable_fraction_activated": null,
+        "rumor_SE": 0.22593446678511192,
+        "rumor_fraction": 0.005039966832504145,
+        "rumor_mean": 5.065166666666666,
+        "rumor_std_population": 17.499350082376075,
+        "rumor_std_sample": 17.500808543859826,
+        "zero_variance_not_structurally_certain": false
+      }
+    },
+    {
+      "base_seed": 2052563729957484294506000,
+      "batch": 1,
+      "runtime_seconds": 7.572852666999097,
+      "statistics": {
+        "S": 6000,
+        "ci95_half_width": 0.4361369651484013,
+        "ci95_high": 5.6654702984817344,
+        "ci95_low": 4.793196368184931,
+        "max_rumor_count": 275,
+        "min_rumor_count": 1,
+        "no_spread_fraction": 0.7156666666666667,
+        "no_spread_wilson95_high": 0.7269399601122234,
+        "no_spread_wilson95_low": 0.7041173917100462,
+        "reachable_fraction_activated": null,
+        "rumor_SE": 0.2224780523654736,
+        "rumor_fraction": 0.005203316749585406,
+        "rumor_mean": 5.229333333333333,
+        "rumor_std_population": 17.23163968466792,
+        "rumor_std_sample": 17.23307583416282,
+        "zero_variance_not_structurally_certain": false
+      }
+    }
+  ],
+  "final_evaluation_runtime_seconds": 15.266002500007744,
+  "final_evaluator_calls": 2,
+  "final_run_index": 303,
+  "final_seed_stop_exclusive": 2052563729957484294512000,
+  "final_simulations": 12000,
+  "fitness_MC_runtime_seconds": 6.610238586872583,
+  "fitness_request_count": 370,
+  "generations_run": 40,
+  "graph_loading_seconds": 0.02550691700889729,
+  "graph_unchanged": true,
+  "independent_MC_CI95_high": 5.458009412565457,
+  "independent_MC_CI95_low": 4.836490587434542,
+  "independent_MC_SE": 0.15853764054133654,
+  "independent_mean": 5.14725,
+  "independent_minus_training": 3.1872499999999997,
+  "independent_std_population": 17.366204750534873,
+  "independent_std_sample": 17.366928387627112,
+  "k": 5,
+  "master_seed": 2026111110,
+  "max_generations": 40,
+  "mutation_rate": 0.1,
+  "optimization_CIC_simulations": 5800,
+  "optimization_base_random_seed": 2052644977829210744000000,
+  "optimization_evaluator_calls": 58,
+  "optimization_run_index": 40403,
+  "optimization_seed_stop_exclusive": 2052644977829210744000100,
+  "p": 0.03,
+  "population_size": 10,
+  "profile_id": "max_generations_40",
+  "protector_seeds": [
+    56,
+    160,
+    531,
+    792,
+    878
+  ],
+  "reason": null,
+  "repetition_index": 3,
+  "rumor_seeds": [
+    926
+  ],
+  "run_id": "max_generations_40_r3",
+  "scenario_id": "email-Eu-core_high_1",
+  "scenario_index": 3,
+  "selection_non_MC_seconds": 0.1365004961262457,
+  "selection_runtime_seconds": 6.746739082998829,
+  "spread_reduction_fraction": 0.8358273618405665,
+  "status": "completed",
+  "tie_breaking": "protector-priority",
+  "tournament_size": 3,
+  "training_fitness": 1.96,
+  "worker_runtime_seconds": 22.078032959005213
+}

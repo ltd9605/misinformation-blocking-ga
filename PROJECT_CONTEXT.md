@@ -346,6 +346,178 @@ Kết quả nên được lưu dưới CSV hoặc JSON để có thể phân tí
 
 ## 10. Mục tiêu Chương 3
 
+### Pilot Protocol Validation sau Milestone 6
+
+Đã thực hiện pilot kỹ thuật cả ba processed datasets theo yêu cầu mới, không
+phải main experiments/parameter study. Báo cáo `PILOT_PROTOCOL_VALIDATION.md`;
+compact CSV/JSON trong `docs/pilot_protocol_validation/`. Config đề xuất nằm ở
+`experiments/configs/pilot_protocol_validation.json`, không phải main defaults.
+
+R lấy mẫu đều từ actual node IDs bằng SHA-256 domain riêng, lưu trước mô phỏng:
+email [577], Facebook [2162], Wiki [4341]. Giữ cùng R qua p/methods/repeats;
+không lấy mẫu lại theo kết quả. Wiki R chỉ reachable 2 nodes nên pilot không
+đại diện cho độ lan truyền của toàn dataset. Independent runs thay RNG thuật
+toán/MC, không thay R. Ba smokes và 18 pilots đều thành công, Full Greedy vượt
+cost limits được skipped tường minh, không thay bằng Restricted dưới tên Full.
+
+337 tests pass; dữ liệu và core semantics không đổi. Runner có method-status
+manifest đủ 7 methods và breakdown orchestration runtime. S_opt=20/S_eval=200,
+GA N10/G10 đã khả thi về thời gian; chưa chốt độ chính xác. p=0.01 ít spread
+trong các R hiện tại; p=0.05 email/Facebook có variance cao. Cần xác nhận thêm
+rumor scenarios, error targets, S/GA parameters/run count trước main. Không
+chuyển sang Milestone 7 theo yêu cầu giai đoạn này.
+
+### Pilot 2 – Calibration, chưa main experiments
+
+Báo cáo `PILOT_2_CALIBRATION.md`; compact artifacts `docs/pilot_2_calibration/`.
+Reachability chính xác cho cả 12.159 nodes: email chủ yếu 1–2 hoặc 965–966;
+Facebook tất cả 4.039; Wiki 1–10 hoặc 2.316–2.320. Không tồn tại medium strata
+thật sự; không tạo giả bằng cách chia ties. Lấy mẫu đều theo actual IDs trong
+các strata, lưu manifest trước outcomes; giữ low scenarios và Wiki [4341].
+
+Control scan 11 R × p=.01/.03/.05/.10 × 2 batches, chọn calibration references
+bằng No Intervention gate trước optimizer: email [926], Facebook [1180], Wiki
+[1210], đều p=.03. Không dùng chất lượng GA/algorithm nào để chọn R/p.
+
+16 optimization comparisons + 3 smokes, 2 independent accuracy batches tới
+S_eval=2500 cho fixed P; actual 250.216 CIC, active phases 1.084,121 s; 361 tests
+pass và 39 existing file checksums/14 data files không đổi. Facebook S_opt250
+skipped do projection >300 s; Wiki không full S grid. Nested prefixes không
+là independent batches. Accuracy t CIs/paired differences và solution/ranking
+stability bổ sung SE; không dùng SE/n đơn lẻ. Email còn CI tương đối rộng,
+Wiki S_opt100 còn training-validation gap. Main protocol vẫn là proposal cần
+xác nhận; đề xuất extrapolated S_eval6000 email chưa được thực thi. Chưa chạy
+Milestone 7 hoặc main experiments.
+
+### Experimental Protocol v1 và chuẩn bị Milestone 7
+
+`EXPERIMENT_PROTOCOL_V1.md` và `experiments/configs/experiment_protocol_v1.json`
+cố định reference k5/p.03/protector-priority/S_opt100, S_eval mỗi batch
+6000 email và 2500 Facebook/Wiki, hai final batches độc lập mỗi P. N10/G10,
+rates .8/.1/tournament3/elite1/cache là reference khả thi, không phải tối ưu.
+Development R926/1180/1210 dùng cùng giữa mọi cấu hình; R858/1555/2110 giữ
+ngoài tuning GA cho validation sau. Low/legacy scenarios không bị loại.
+
+Thiết kế OFAT 4 panels lần lượt population/generations/crossover/mutation:
+9 unique profiles (12 panel rows) dùng chung physical baseline. Full270 runs/
+7,3 triệu CIC vượt budget; reduced45 runs/1,026 triệu CIC mới là đề xuất.
+Chỉ pilot N10/N20 trên email R926 và Wiki R1210 được thực thi: 8/8 GA runs,
+154.200 CIC, 280,701 s; 379 tests pass. S_eval6000 nay đã đo trong scope pilot
+hẹp, chưa bảo đảm mọi P/R. CI parameter effects qua hai GA repeats còn chứa0;
+không winner selection. Không full parameter sweep hoặc main experiments.
+Compact tables/preflight/pilot evidence: `docs/experiment_protocol_v1/`.
+
+### Milestone 7 – Reduced Screen request và budget stop
+
+`MILESTONE_7_REDUCED_SCREEN.md` / `docs/milestone_7_reduced_screen/` ghi ma trận
+đọc trực tiếp Protocol v1: 9 unique profiles, Reduced chọn 5, reference thuộc
+cả 4 panels. 45 v1 là tổng 5 profiles × 3 scenarios × 3 repeats; yêu cầu mới
+5 repeats là 75 runs, 25 mỗi dataset/scenario. Giữ R926/1180/1210, k=5,
+p=.03, S_opt=100 và S_eval/B=2 của v1.
+
+Projection 10.985,164 s vượt cap 10.800 s dù calls/CIC vẫn fit. Theo điều kiện
+A của user, đã dừng toàn bộ tại preflight: 0 completed screen runs, 75 explicit
+skipped, không quality/convergence plots giả. Không tự nâng budget/giảm repeats
+hoặc chọn matrix khác. Screen master=2026111108 tách pilot master=2026111107
+và reserved main master=2026111109; validation scenarios được reserve.
+389 tests pass, 44 existing file checksums/14 data files không đổi. Không có
+evidence Reduced Screen mới để thay reference GA, không full design/main.
+
+### Milestone 7 – Reduced Screen V2
+
+Theo thiết kế mới được user xác nhận: đủ 9 profiles/4 panels ba mức, chỉ email
+R926 (chọn từ reachability/No Intervention Pilot 2), 5 independent runs/profile:
+45/45 GA thành công, không failed/skipped. Giữ k5/p.03/protector-priority,
+S_opt100, S_eval6000/batch/B2 và reference v1. Mỗi GA có optimizer/fitness seeds
+riêng; final schedules chung theo repetition giữa profiles, tách optimization.
+Master V2=2026111110; main2026111109 và validation Rs không dùng trong V2.
+
+Preflight upper 8.600 calls/1.450.000 CIC, projection gồm safety1.5+overhead300s
+=2.898,246 s <10.800 s. Thực đo 3.243 calls/914.300 CIC, active runtime khoảng
+1.116,95 s; 5.357 cache hits, 650 elite carries. Checkpoint atomic/resume giữ
+budget cộng dồn, không chạy lại run hoàn tất. 695 convergence rows; audit
+9.150 individuals và 600.000 final/control observations. Đã xuất CSV/JSON và
+4 nhóm plots cùng convergence/quality-cost tại docs/milestone_7_reduced_screen_v2.
+
+Cả 8 contrasts với reference có CI hiệu chỉnh Bonferroni chứa0: chưa đủ bằng
+chứng thay reference. N20/N40 chỉ là ứng viên trade-off cần kiểm tra trên
+development scenarios khác, không là hyperparameters tối ưu. Không suy rộng
+population effect qua dataset khác; không chạy main/Full Design. 415 tests
+pass, 44 protected file hashes/14 data files không đổi. Báo cáo
+`MILESTONE_7_REDUCED_SCREEN_V2.md`; không ghi đè preflight v1 bị chặn trước đó.
+
+### Cross-Scenario GA Configuration Confirmation
+
+27/27 GA runs và18 shared-control batches thành công: N10/N20/N40 ×3 repeats
+trên email R858/Facebook R1555/Wiki R2110. Đây là validation scenarios v1,
+trước đó chỉ có No Intervention scan, nay đã consumed cho confirmation; không
+tiếp tục coi là blind main holdouts. Giữ G10/rates .8/.1/tournament3/elite1/
+cache, k5/p.03/protector-priority/S_opt100/S_eval6000 hoặc2500 mỗi batch/B2.
+
+Preflight6.732 calls/930.000 CIC upper, forecast6.359,888s gồm safety/overhead
+<10.800s; worker RSS cap2GiB, concurrency1. Thực đo3.362 calls/593.000CIC,
+active2.163,03s, peakRSS177,8MiB; 3.370 cache hits,270 elite carries. Audit297
+convergence rows,6.930 individuals,264.000 final/control observations. 443 tests
+pass;44 protected/14 data files không đổi. Có checkpoint/resume không lặp work.
+
+Cả6 family CIs của contrasts đều chứa0; giữ reference như practical candidate,
+không chứng minh equivalence/optimality hoặc gộp effect giữa datasets. Email/
+Wiki validation R có ít spread, n=3 còn yếu. Main proposal giữ N10/G10/.8/.1/
+tournament3/elite1/cache; frozen v1 không bị sửa, chưa khóa/chạy main.
+
+Confirmation master2026111111 tách main2026111109. Main R đề xuất mới bằng
+topology-only: email[485]/[374],Facebook[714]/[2733],Wiki[1961]/[1795], chưa có
+diffusion outcomes.60 seed slots reserve chỉ là slots, main repeats chưa chốt.
+Báo cáo `CROSS_SCENARIO_GA_CONFIRMATION.md`, CSV/JSON/plots ở
+docs/cross_scenario_ga_confirmation; không Main Experiments hoặc Full Design.
+
+### Main Experiments Design Freeze & Computational Preflight
+
+User đã khóa GA N10/G10/crossover.8/mutation.1/tournament3/elite1/cache,
+S_opt100/k5/p.03/protector-priority. Sáu main R giữ nguyên: email485/374,
+Facebook714/2733,Wiki1961/1795; topology/sampling/old-R exclusions được audit,
+không chạy diffusion trên R mới. Wiki1961 d5 có analytic NI no-growth85,87%,
+Wiki1795 d44 là26,18%; giữ cả hai. Low/legacy cũ vẫn ở supplementary manifest,
+không được gọi lại là official blind holdouts.
+
+Đề xuất5 repeats ×6R ×6methods =180 primary rows, thêm30 Full Greedy explicit
+skipped do calls/CIC limits; tổng210 matrix rows. Final B2/S_eval6000 email,
+2500 Facebook/Wiki theo v1. Exact upper4.560 calls/1.740.000CIC; runtime proxy
+envelope gồm safety1.5+overhead300s =11.036,921s >10.800s, **STOPPED AT PREFLIGHT**.
+Không tự giảm repeats: alternatives4≈8.889,537s,3≈6.742,153s chỉ proposal.
+V1 cap sensitivity được giữ như conservative main ceiling, main allocation
+chưa tự được xác nhận. Main calls/CIC=0; design/execution confirmation=false.
+
+Statistical plan: paired rumor differences,30 scenario+15 within-dataset
+equal-weight contrasts, Bonferroni family45; ratio-of-means spread reduction
+với descriptive Fieller CI. Tách MC/algorithm variation, không cross-dataset
+pooling hoặc equivalence claims khi CI chứa0. Chưa triển khai main all-method
+two-batch/checkpoint adapter; existing one-batch runner không được gọi hai lần
+để thay thế. 461 tests pass;64 existing file hashes/14 data files không đổi.
+Báo cáo `MAIN_EXPERIMENTS_PROTOCOL.md`, config/CSV/JSON ở
+docs/main_experiments_protocol; main chưa chạy, GA không retune.
+
+### Main Experiments Protocol V2 — đã hoàn thành
+
+User ngày12/11/2026 xác nhận4 independent runs/scenario, giữ6 main R, toàn bộ
+GA/k/p/tie/S/B và cap10800s. Protocol5runs không ghi đè; V2 riêng tại
+`MAIN_EXPERIMENTS_PROTOCOL_V2.md`, JSON cùng tên và docs/main_experiments_protocol_v2.
+Preflight upper3648calls/1.392.000CIC, projected8889,537s,headroom1910,463s;
+144primary results và24Full Greedy skipped. Adapter gọi dispatcher/evaluator
+cũ, checkpoint144 selections trước288 final batches, có selection barrier.
+
+Main hoàn tất 144/144 result rows, 0 failed; 24 Full Greedy rows skipped do
+chi phí. Actual 2.058 evaluator calls/1.233.000 CIC, active 4.436,312 s trong
+cap 10.800 s; cache hits 1.590, peak worker 205,8 MiB. Final 288 batches có
+1.056.000 observations độc lập với optimization. 493/493 tests pass; 67 tệp
+được bảo vệ, gồm 14 data files, cùng các artifact cũ giữ checksum/topology.
+Resume không tạo thêm worker/CIC; numeric reaggregation bit-identical, không
+rerun main để kiểm tra. Family45 có 9 effects phân biệt được, 36 chưa đủ bằng
+chứng; không suy equivalence hoặc global winner. Giữ 19 reduction âm, không
+retune GA/R hoặc thêm experiments. Báo cáo MAIN_EXPERIMENTS_RESULTS.md và
+docs/main_experiments_results; raw/checkpoint ở results/main_experiments_v2.
+Các mục trên là lịch sử.
+
 Chương 3 gồm:
 
 3.1. Môi trường thực nghiệm.
