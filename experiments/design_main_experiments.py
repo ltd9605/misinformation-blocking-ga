@@ -20,6 +20,7 @@ from experiments.reduced_screen_v2 import atomic_json, fingerprint
 from src.algorithms import estimate_greedy_cost, make_seed_plan
 from src.data import load_processed_graph
 from src.data.loader import sha256_file
+from experiments.reporting import project_document, write_project_report
 from src.data.specs import PROJECT_ROOT
 from src.experiments.calibration import reachable_sizes
 from src.experiments.seeds import make_experiment_seed_plan
@@ -423,7 +424,7 @@ def write_report(plan: dict, target: Path, destination: Path) -> None:
     verification = json.loads(verification_path.read_text()) if verification_path.exists() else None
     check = f"**{verification['tests_passed']}/{verification['tests_run']} tests pass**; {verification['protected_files_checked']} existing files giữ checksum, gồm {verification['data_files_checked']} data files. Không thêm/xóa file dữ liệu." if verification else "Full tests/checksums sẽ được điền sau verification cuối."
     status = "BLOCKED AT PREFLIGHT" if not pre["within_declared_budget"] else "BUDGET ELIGIBLE; DESIGN CONFIRMATION STILL REQUIRED"
-    target.write_text(f"""# Main Experiments Protocol — Design Freeze & Computational Preflight
+    write_project_report(target, f"""# Main Experiments Protocol — Design Freeze & Computational Preflight
 
 **Trạng thái: {status}.** Đã khóa GA theo yêu cầu người dùng; ma trận và phân
 tích main là thiết kế reviewable, chưa được xác nhận để thực thi. Đã chạy
@@ -697,7 +698,7 @@ def main(argv: list[str] | None = None) -> int:
     plan = build_plan(request)
     destination = args.output_dir.resolve() if args.output_dir else PROJECT_ROOT/request["output_directory"]
     summary = export_plan(plan, destination)
-    report_target = destination/"MAIN_EXPERIMENTS_PROTOCOL.md" if args.output_dir else PROJECT_ROOT/"MAIN_EXPERIMENTS_PROTOCOL.md"
+    report_target = destination/"MAIN_EXPERIMENTS_PROTOCOL.md" if args.output_dir else project_document("MAIN_EXPERIMENTS_PROTOCOL.md")
     write_report(plan, report_target, destination)
     print(json.dumps(summary, indent=2))
     return 0

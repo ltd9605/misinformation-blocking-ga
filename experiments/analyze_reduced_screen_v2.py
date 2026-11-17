@@ -22,6 +22,7 @@ from scipy.stats import t
 from experiments.pilot_protocol_validation import write_csv, write_json
 from experiments.reduced_screen_v2 import atomic_json, fingerprint
 from src.data.loader import sha256_file
+from experiments.reporting import project_document, write_project_report
 from src.data.specs import PROJECT_ROOT
 from src.experiments.calibration import jaccard, observation_summary, paired_differences
 from src.experiments.sensitivity import FACTORS, variance_components
@@ -393,7 +394,7 @@ một scenario development, chưa phải hiệu ứng tổng quát trên các da
     unresolved = all(c["conclusion"] == "insufficient_evidence_of_difference" for c in contrasts)
     candidate_text = ("Chưa đủ bằng chứng để thay reference bằng một mức tham số khác. Giữ N=10, G=10, crossover=0.8, mutation=0.1, tournament=3, elitism=1, cache=True làm ứng viên tham chiếu để kiểm tra tiếp trên dataset/scenario khác. Đây là lựa chọn tiết kiệm có điều kiện, không phải tham số tối ưu." if unresolved else
         "Có contrast thăm dò có CI hiệu chỉnh không chứa 0; chỉ ghi nhận trong scenario email R926, xem bảng từng panel. Chưa tự chốt winner hoặc thay protocol main; reference vẫn là mốc để xác nhận trên dataset/scenario khác. Các profile có bằng chứng thăm dò cần được xác nhận độc lập trước khi sử dụng.")
-    target.write_text(f"""# Milestone 7 – Reduced GA Parameter Screening V2
+    write_project_report(target, f"""# Milestone 7 – Reduced GA Parameter Screening V2
 
 Trạng thái: **{summary['status']}**, {summary['completed_GA_runs']}/45 GA runs thành công,
 {summary['failed_GA_runs']} thất bại, {summary['skipped_GA_runs']} skipped;
@@ -611,7 +612,7 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     summary = analyze(args.root, args.output)
     if summary["completed_GA_runs"] == 45:
-        report(args.output, PROJECT_ROOT/"MILESTONE_7_REDUCED_SCREEN_V2.md")
+        report(args.output, project_document("MILESTONE_7_REDUCED_SCREEN_V2.md"))
     print(json.dumps({k: v for k, v in summary.items() if k not in ("figures", "preflight")}, indent=2))
     return 0
 

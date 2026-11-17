@@ -163,9 +163,9 @@ Delta=alternative−reference, số âm là ít rumor hơn; chỉ so trong scena
 
 Training fitness gần floor1 trong cả ba cấu hình; final means không bằng training fitness. Source có 96% no-growth trong Pilot2, nên panel này kiểm tra được khả năng chạy trên R mới nhưng yếu để phân biệt population. Mean N40 lớn hơn N10 trong sample này không đủ chứng minh N40 kém hơn.
 
-![Quality/cost email-Eu-core](docs/cross_scenario_ga_confirmation/figures/email-Eu-core_quality_cost.png)
+![Quality/cost email-Eu-core](../cross_scenario_ga_confirmation/figures/email-Eu-core_quality_cost.png)
 
-![Convergence email-Eu-core](docs/cross_scenario_ga_confirmation/figures/email-Eu-core_convergence.png)
+![Convergence email-Eu-core](../cross_scenario_ga_confirmation/figures/email-Eu-core_convergence.png)
 ### ego-Facebook, R=[1555]
 
 Reachable=4039, stratum=constant. Mỗi N
@@ -186,9 +186,9 @@ Delta=alternative−reference, số âm là ít rumor hơn; chỉ so trong scena
 
 Mean final giảm mô tả khi tăng N, nhưng hai contrast CIs còn chứa0. N40 tốn 11.73 lần selection time của N10. Training–final gaps vẫn lớn và tăng search effort không tự chứng minh lợi ích đủ chắc chắn để thay reference.
 
-![Quality/cost ego-Facebook](docs/cross_scenario_ga_confirmation/figures/ego-Facebook_quality_cost.png)
+![Quality/cost ego-Facebook](../cross_scenario_ga_confirmation/figures/ego-Facebook_quality_cost.png)
 
-![Convergence ego-Facebook](docs/cross_scenario_ga_confirmation/figures/ego-Facebook_convergence.png)
+![Convergence ego-Facebook](../cross_scenario_ga_confirmation/figures/ego-Facebook_convergence.png)
 ### Wiki-Vote, R=[2110]
 
 Reachable=2317, stratum=high. Mỗi N
@@ -209,9 +209,9 @@ Delta=alternative−reference, số âm là ít rumor hơn; chỉ so trong scena
 
 Final means còn gần nhau trong khi conditional MC SE đáng kể. Raw GA variance component âm ở N=[10]; giữ nguyên giá trị âm thay vì xem nó là bằng chứng GA ổn định tuyệt đối. CI qua chỉ ba run means có thể hẹp do ngẫu nhiên, không thay thế MC diagnostics hoặc chứng minh equivalence.
 
-![Quality/cost Wiki-Vote](docs/cross_scenario_ga_confirmation/figures/Wiki-Vote_quality_cost.png)
+![Quality/cost Wiki-Vote](../cross_scenario_ga_confirmation/figures/Wiki-Vote_quality_cost.png)
 
-![Convergence Wiki-Vote](docs/cross_scenario_ga_confirmation/figures/Wiki-Vote_convergence.png)
+![Convergence Wiki-Vote](../cross_scenario_ga_confirmation/figures/Wiki-Vote_convergence.png)
 
 ## 6. Diễn giải bất định và quyết định cấu hình
 
@@ -253,12 +253,12 @@ population invariants/elite carries/counters được audit lại từ checkpoin
 Không chạy Main Experiments/Full Design. Không tái sử dụng observations hiện
 tại làm official main evidence.
 
-[matrix.csv](docs/cross_scenario_ga_confirmation/matrix.csv),
-[run_results.csv](docs/cross_scenario_ga_confirmation/run_results.csv),
-[summary_by_dataset_configuration.csv](docs/cross_scenario_ga_confirmation/summary_by_dataset_configuration.csv),
-[contrasts.csv](docs/cross_scenario_ga_confirmation/contrasts.csv),
-[convergence.csv](docs/cross_scenario_ga_confirmation/convergence.csv),
-[main_configuration_proposal.json](docs/cross_scenario_ga_confirmation/main_configuration_proposal.json).
+[matrix.csv](../cross_scenario_ga_confirmation/matrix.csv),
+[run_results.csv](../cross_scenario_ga_confirmation/run_results.csv),
+[summary_by_dataset_configuration.csv](../cross_scenario_ga_confirmation/summary_by_dataset_configuration.csv),
+[contrasts.csv](../cross_scenario_ga_confirmation/contrasts.csv),
+[convergence.csv](../cross_scenario_ga_confirmation/convergence.csv),
+[main_configuration_proposal.json](../cross_scenario_ga_confirmation/main_configuration_proposal.json).
 Per-run JSON/history ở docs/cross_scenario_ga_confirmation/runs; raw counts/
 complete GA payloads/checkpoints ở results/cross_scenario_ga_confirmation
 (gitignored), có raw inventory/hashes và metadata Python/libs/OS/hardware/Git.

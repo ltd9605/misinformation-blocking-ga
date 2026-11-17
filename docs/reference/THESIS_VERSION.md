@@ -30,15 +30,15 @@ Chi tiết cấu hình, R/P, lịch seed, giới hạn và uncertainty được 
 
 | Nội dung | Tệp/thư mục |
 |---|---|
-| Hướng dẫn cài đặt, cấu trúc và API | [README.md](README.md) |
-| Hướng dẫn chạy ví dụ nhỏ bằng tay | [HUONG_DAN_CHAY_THU_CONG.md](HUONG_DAN_CHAY_THU_CONG.md) |
-| Protocol Main đã khóa | [MAIN_EXPERIMENTS_PROTOCOL_V2.md](MAIN_EXPERIMENTS_PROTOCOL_V2.md) |
-| JSON cấu hình Main | [main_experiments_protocol_v2.json](experiments/configs/main_experiments_protocol_v2.json) |
-| Báo cáo thực nghiệm | [MAIN_EXPERIMENTS_RESULTS.md](MAIN_EXPERIMENTS_RESULTS.md) |
-| CSV/JSON, bảng tổng hợp, convergence, biểu đồ và manifest | [docs/main_experiments_results](docs/main_experiments_results) |
+| Hướng dẫn cài đặt, cấu trúc và API | [README.md](../../README.md) |
+| Hướng dẫn chạy ví dụ nhỏ bằng tay | [HUONG_DAN_CHAY_THU_CONG.md](../guides/HUONG_DAN_CHAY_THU_CONG.md) |
+| Protocol Main đã khóa | [MAIN_EXPERIMENTS_PROTOCOL_V2.md](../protocols/MAIN_EXPERIMENTS_PROTOCOL_V2.md) |
+| JSON cấu hình Main | [main_experiments_protocol_v2.json](../../experiments/configs/main_experiments_protocol_v2.json) |
+| Báo cáo thực nghiệm | [MAIN_EXPERIMENTS_RESULTS.md](../reports/MAIN_EXPERIMENTS_RESULTS.md) |
+| CSV/JSON, bảng tổng hợp, convergence, biểu đồ và manifest | [docs/main_experiments_results](../main_experiments_results) |
 | Calibration và các khảo sát trước Main | Các báo cáo `PILOT_*`, `MILESTONE_7_*`, `CROSS_SCENARIO_GA_CONFIRMATION.md` và thư mục tương ứng trong `docs/` |
-| Kiểm tra trước khi chốt phiên bản | [docs/thesis_version_validation](docs/thesis_version_validation) |
-| Phiên bản thư viện | [requirements.txt](requirements.txt) |
+| Kiểm tra trước khi chốt phiên bản | [docs/thesis_version_validation](../thesis_version_validation) |
+| Phiên bản thư viện | [requirements.txt](../../requirements.txt) |
 
 Các file trong `docs/` được quản lý trực tiếp bằng Git. Hai ZIP đóng gói cục
 bộ được giữ trên máy và bỏ qua khi commit vì trùng với các thư mục đã giải nén.

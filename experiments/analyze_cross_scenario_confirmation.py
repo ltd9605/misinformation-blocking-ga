@@ -16,6 +16,7 @@ from experiments.analyze_reduced_screen_v2 import audit_observed, contrast_summa
 from experiments.pilot_protocol_validation import write_csv
 from experiments.reduced_screen_v2 import atomic_json
 from src.data.loader import sha256_file
+from experiments.reporting import project_document, write_project_report
 from src.data.specs import PROJECT_ROOT
 from src.experiments.calibration import jaccard, observation_summary, paired_differences
 from src.experiments.sensitivity import variance_components
@@ -340,7 +341,7 @@ Delta=alternative−reference, số âm là ít rumor hơn; chỉ so trong scena
     holdouttable = "\n".join(f"| {r['dataset']} | {r['rumor_seeds']} | {r['stratum']} | {r['reachable_count']} | {r['sampling_seed']} | 0 |" for r in reservations)
     runtime_table = "\n".join(f"| {r['dataset']} | {r['completed_GA_runs']} | {r['evaluator_calls']} | {r['CIC_simulations']} | {r['selection_seconds']:.3f} | {r['final_evaluation_seconds']:.3f} | {r['worker_peak_RSS_bytes']/1024**2:.1f} |" for r in load("runtime_by_dataset"))
     test_text = f"**{verification['tests_passed']}/{verification['tests_run']} tests pass**; {verification['protected_files_checked']} existing protected files, trong đó {verification['data_files_checked']} data files, giữ nguyên checksum." if verification else "Final tests/checksum verification đang chờ cập nhật verification.json."
-    target.write_text(f"""# Cross-Scenario GA Configuration Confirmation
+    write_project_report(target, f"""# Cross-Scenario GA Configuration Confirmation
 
 **{s['completed_GA_runs']}/27 GA runs thành công**, {s['failed_GA_runs']} failed,
 {s['skipped_GA_runs']} skipped; {s['failed_or_interrupted_attempts']} failed/interrupted attempts.
@@ -545,7 +546,7 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     summary = analyze(args.root, args.output)
     if summary["completed_GA_runs"] == 27:
-        write_report(args.output, PROJECT_ROOT/"CROSS_SCENARIO_GA_CONFIRMATION.md")
+        write_report(args.output, project_document("CROSS_SCENARIO_GA_CONFIRMATION.md"))
     print(json.dumps({k: v for k, v in summary.items() if k != "figures"}, indent=2))
     return 0
 

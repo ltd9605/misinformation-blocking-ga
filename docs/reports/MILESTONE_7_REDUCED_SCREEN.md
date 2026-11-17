@@ -6,10 +6,10 @@ chạy bất kỳ subset, GA selection, control hoặc final evaluation nào c�
 Không tăng ngân sách, giảm safety factor/repetitions, thay R hoặc thay levels
 để làm ma trận vừa giới hạn. Đây chưa phải kết quả thực nghiệm Reduced Screen.
 
-Artifacts: [docs/milestone_7_reduced_screen](docs/milestone_7_reduced_screen).
-Request config: [milestone_7_reduced_screen.json](experiments/configs/milestone_7_reduced_screen.json).
+Artifacts: [docs/milestone_7_reduced_screen](../milestone_7_reduced_screen).
+Request config: [milestone_7_reduced_screen.json](../../experiments/configs/milestone_7_reduced_screen.json).
 Protocol gốc được đọc trực tiếp, kiểm tra checksum/frozen design và giữ nguyên:
-[experiment_protocol_v1.json](experiments/configs/experiment_protocol_v1.json).
+[experiment_protocol_v1.json](../../experiments/configs/experiment_protocol_v1.json).
 Quyền chạy có điều kiện đến từ yêu cầu mới; lý do dừng là **budget**, không
 phải authorization flag lịch sử còn false trong file v1.
 

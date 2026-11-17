@@ -6,7 +6,7 @@ Terminal và đọc kết quả. Ví dụ dùng đúng IC/CIC, Monte Carlo và c
 số nhỏ bên dưới dùng để học cách chạy và kiểm tra chương trình.
 
 File cấu hình có sẵn:
-[experiments/configs/manual_small_scenario.json](experiments/configs/manual_small_scenario.json).
+[experiments/configs/manual_small_scenario.json](../../experiments/configs/manual_small_scenario.json).
 Đầu vào và đầu ra của bài thực hành nằm trong `results/`, tách khỏi ba bộ dữ
 liệu SNAP và kết quả Main Experiments đã khóa.
 

@@ -20,6 +20,7 @@ from experiments.pilot_protocol_validation import write_csv
 from experiments.reduced_screen_v2 import atomic_json, fingerprint, protected_snapshot, reconcile_pending
 from src.data import load_processed_graph
 from src.data.loader import sha256_file
+from experiments.reporting import project_document, write_project_report
 from src.data.specs import PROJECT_ROOT
 from src.evaluation import evaluate_cic
 from src.experiments.calibration import observation_summary
@@ -335,7 +336,7 @@ def export_protocol(plan: dict, destination: Path) -> None:
                 "previous_five_run_protocol_preserved": True, "preflight": {k: v for k, v in plan["preflight"].items() if k != "rows"}})
     tables = "\n".join(f"| {r['dataset']} | {r['rumor_seeds']} | {r['optimization_evaluator_calls_upper']+r['final_evaluator_calls']} | {r['optimization_CIC_upper']+r['final_CIC']} | {r['planning_ceiling_seconds_with_safety_excluding_shared_overhead']:.2f} |" for r in grouped_preflight(plan, "scenario_id"))
     p = plan["preflight"]
-    (PROJECT_ROOT/"MAIN_EXPERIMENTS_PROTOCOL_V2.md").write_text(f"""# Main Experiments Protocol V2 — Four Independent Runs
+    write_project_report(project_document("MAIN_EXPERIMENTS_PROTOCOL_V2.md"), f"""# Main Experiments Protocol V2 — Four Independent Runs
 
 User xác nhận ngày12/11/2026: giảm repetitions5→4/scenario để giữ cap10.800s.
 Đây là revision trước bất kỳ main observation nào, không phải adaptive stopping.

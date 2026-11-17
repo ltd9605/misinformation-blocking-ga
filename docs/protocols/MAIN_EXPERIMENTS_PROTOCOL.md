@@ -271,12 +271,12 @@ Semantics IC/CIC/MC/GA/Greedy/baseline, raw/processed và các experiments cũ
 giữ nguyên. Root .DS_Store/zip và các thay đổi đã có trong workspace được giữ.
 Mọi cost là upper counts hoặc proxy có provenance, không có fake main results.
 
-Artifacts ở [docs/main_experiments_protocol](docs/main_experiments_protocol):
+Artifacts ở [docs/main_experiments_protocol](../main_experiments_protocol):
 matrix.csv/json, scenarios.csv/json, preflight.json, preflight_by_scenario/
 dataset/method_scenario, runtime_rate_provenance.csv/json, source hashes,
 repeat_alternatives_not_selected, memory_plan, analysis_policy và
 unconfirmed_conditions.csv/json. Request:
-[main_experiments_protocol.json](experiments/configs/main_experiments_protocol.json).
+[main_experiments_protocol.json](../../experiments/configs/main_experiments_protocol.json).
 
 ```sh
 .venv/bin/python -B -m experiments.design_main_experiments --output-dir docs/main_design_repeat

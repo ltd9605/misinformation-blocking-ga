@@ -24,7 +24,7 @@ Audit 60 planned pairs: không pair nào đổi dataset, R hoặc biến cố đ
 chỉ đối chiếu reference với đúng một thay đổi. Bốn panel có thể phân tích
 two-level contrasts **trong từng scenario nếu đã chạy**; vì 0 completed runs
 nên chưa có phân tích thực nghiệm nào từ matrix cũ. Không ghép kết quả khác
-dataset để suy ra ảnh hưởng riêng của tham số. File: [audit_previous.json](docs/milestone_7_reduced_screen_v2/audit_previous.json).
+dataset để suy ra ảnh hưởng riêng của tham số. File: [audit_previous.json](../milestone_7_reduced_screen_v2/audit_previous.json).
 
 ## 2. Ma trận V2 đã cố định trước khi chạy
 
@@ -47,8 +47,8 @@ Các tham số không khảo sát giữ nguyên reference Protocol v1.
 Điều kiện chung: email-Eu-core, R=[926], k=5, p=0.03,
 tie=protector-priority, tournament=3, elitism=1, cache=True; S_opt=100;
 S_eval=6.000/batch và B=2, tức 12.000 final CIC simulations cho mỗi P.
-[Matrix 45 dòng đầy đủ seed labels](docs/milestone_7_reduced_screen_v2/matrix.csv),
-[request JSON](experiments/configs/milestone_7_reduced_screen_v2.json).
+[Matrix 45 dòng đầy đủ seed labels](../milestone_7_reduced_screen_v2/matrix.csv),
+[request JSON](../../experiments/configs/milestone_7_reduced_screen_v2.json).
 Không sửa reference hoặc factor levels trong Protocol v1.
 Authorization flag lịch sử trong v1 không được sửa; quyền chạy V2 có điều kiện
 đến từ yêu cầu mới của người dùng, và preflight đã đạt trước run đầu.
@@ -163,9 +163,9 @@ một scenario development, chưa phải hiệu ứng tổng quát trên các da
 
 Final means N10/N20/N40 lần lượt 6.383/5.132/3.833. N40 cần khoảng 8.71 lần selection runtime của reference; N20 khoảng 2.69 lần. Đây là trade-off mô tả để xác nhận tiếp, chưa phải kết luận vượt trội.
 
-![Population size](docs/milestone_7_reduced_screen_v2/figures/population_size.png)
+![Population size](../milestone_7_reduced_screen_v2/figures/population_size.png)
 
-[Training convergence theo panel](docs/milestone_7_reduced_screen_v2/figures/population_size_convergence.png).
+[Training convergence theo panel](../milestone_7_reduced_screen_v2/figures/population_size_convergence.png).
 ### Generations
 
 Mỗi hàng so với reference, cùng R/k/p/tie/S và quy trình final evaluation.
@@ -179,9 +179,9 @@ một scenario development, chưa phải hiệu ứng tổng quát trên các da
 
 Final means G10/G20/G40 lần lượt 6.383/7.831/7.634; SD giữa runs 2.068/4.786/3.870. Cache khiến actual fitness calls chỉ 31.4/47.4/54.4 mỗi run, thấp hơn nhiều uncached bounds. Không suy ra tăng G chắc chắn cải thiện hoặc làm xấu chất lượng từ các mean này.
 
-![Generations](docs/milestone_7_reduced_screen_v2/figures/max_generations.png)
+![Generations](../milestone_7_reduced_screen_v2/figures/max_generations.png)
 
-[Training convergence theo panel](docs/milestone_7_reduced_screen_v2/figures/max_generations_convergence.png).
+[Training convergence theo panel](../milestone_7_reduced_screen_v2/figures/max_generations_convergence.png).
 ### Crossover rate
 
 Mỗi hàng so với reference, cùng R/k/p/tie/S và quy trình final evaluation.
@@ -195,9 +195,9 @@ một scenario development, chưa phải hiệu ứng tổng quát trên các da
 
 Final means crossover0.6/0.8/1.0 lần lượt 6.930/6.383/7.804. Không dùng training means hoặc vị trí thấp nhất của đường mean để chốt crossover tối ưu.
 
-![Crossover rate](docs/milestone_7_reduced_screen_v2/figures/crossover_rate.png)
+![Crossover rate](../milestone_7_reduced_screen_v2/figures/crossover_rate.png)
 
-[Training convergence theo panel](docs/milestone_7_reduced_screen_v2/figures/crossover_rate_convergence.png).
+[Training convergence theo panel](../milestone_7_reduced_screen_v2/figures/crossover_rate_convergence.png).
 ### Mutation rate
 
 Mỗi hàng so với reference, cùng R/k/p/tie/S và quy trình final evaluation.
@@ -211,15 +211,15 @@ một scenario development, chưa phải hiệu ứng tổng quát trên các da
 
 Final means mutation0.05/0.1/0.2 lần lượt 5.277/6.383/5.138; selection runtime 3.51/3.79/5.18 s/run. Khác biệt mô tả không chứng minh winner hoặc equivalence.
 
-![Mutation rate](docs/milestone_7_reduced_screen_v2/figures/mutation_rate.png)
+![Mutation rate](../milestone_7_reduced_screen_v2/figures/mutation_rate.png)
 
-[Training convergence theo panel](docs/milestone_7_reduced_screen_v2/figures/mutation_rate_convergence.png).
+[Training convergence theo panel](../milestone_7_reduced_screen_v2/figures/mutation_rate_convergence.png).
 
 ## 5. Hội tụ, fitness noise và giới hạn diễn giải
 
-![Reference convergence](docs/milestone_7_reduced_screen_v2/figures/reference_convergence.png)
+![Reference convergence](../milestone_7_reduced_screen_v2/figures/reference_convergence.png)
 
-![Quality and cost](docs/milestone_7_reduced_screen_v2/figures/quality_vs_cost.png)
+![Quality and cost](../milestone_7_reduced_screen_v2/figures/quality_vs_cost.png)
 
 Convergence.csv/json có generation0 đến đúng G, best/mean fitness, selected P,
 cache counters và thời gian. Training fitness dùng fixed schedule nhỏ, đã được
@@ -270,13 +270,13 @@ trong V2. Các low/legacy scenarios còn trong manifest để phân tích bổ s
 IC/CIC/Monte Carlo/Greedy/GA và Protocol-v1 JSON không đổi. Không chạy main
 experiments, Full Design, Facebook/Wiki parameter sweep hoặc tự tăng budget.
 
-Đầu ra chính: [summary.json](docs/milestone_7_reduced_screen_v2/summary.json),
-[run_results.csv](docs/milestone_7_reduced_screen_v2/run_results.csv),
-[summary_by_configuration.csv](docs/milestone_7_reduced_screen_v2/summary_by_configuration.csv),
-[contrasts.csv](docs/milestone_7_reduced_screen_v2/contrasts.csv),
-[convergence.csv](docs/milestone_7_reduced_screen_v2/convergence.csv),
-[final_batches.csv](docs/milestone_7_reduced_screen_v2/final_batches.csv),
-[runtime.json](docs/milestone_7_reduced_screen_v2/runtime.json).
+Đầu ra chính: [summary.json](../milestone_7_reduced_screen_v2/summary.json),
+[run_results.csv](../milestone_7_reduced_screen_v2/run_results.csv),
+[summary_by_configuration.csv](../milestone_7_reduced_screen_v2/summary_by_configuration.csv),
+[contrasts.csv](../milestone_7_reduced_screen_v2/contrasts.csv),
+[convergence.csv](../milestone_7_reduced_screen_v2/convergence.csv),
+[final_batches.csv](../milestone_7_reduced_screen_v2/final_batches.csv),
+[runtime.json](../milestone_7_reduced_screen_v2/runtime.json).
 Mỗi run có JSON riêng trong docs/milestone_7_reduced_screen_v2/runs.
 
 Chạy/tiếp tục cùng matrix:

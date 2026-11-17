@@ -9,8 +9,8 @@ Không thêm experiments ngoài matrix, không retune GA/R/S từ main outcomes.
 
 ## 1. Frozen setup, data and execution
 
-[Protocol V2](MAIN_EXPERIMENTS_PROTOCOL_V2.md) thay repetitions5→4 theo lựa
-chọn người dùng trước main. [Protocol5runs](MAIN_EXPERIMENTS_PROTOCOL.md) và
+[Protocol V2](../protocols/MAIN_EXPERIMENTS_PROTOCOL_V2.md) thay repetitions5→4 theo lựa
+chọn người dùng trước main. [Protocol5runs](../protocols/MAIN_EXPERIMENTS_PROTOCOL.md) và
 artifacts cũ giữ nguyên. Datasets email-Eu-core,ego-Facebook,Wiki-Vote processed;
 R lần lượt485/374,714/2733,1961/1795, giữ đúng topology-only reservations.
 K5,p=.03,protector-priority,S_opt100; GA N10/G10/.8/.1/tournament3/elite1/cache.
@@ -121,13 +121,13 @@ Mỗi dòng chỉ nói về fixed scope đã ghi; không tạo global winner ran
 | 2R average | pagerank | +10.570 | [-15.278, +36.417] | insufficient_evidence_of_difference_not_equivalence |
 | 2R average | candidate_restricted_greedy | +10.223 | [-17.500, +37.946] | insufficient_evidence_of_difference_not_equivalence |
 
-![Rumor means email-Eu-core](docs/main_experiments_results/figures/email-Eu-core_rumor_mean.png)
+![Rumor means email-Eu-core](../main_experiments_results/figures/email-Eu-core_rumor_mean.png)
 
-![Spread reduction email-Eu-core](docs/main_experiments_results/figures/email-Eu-core_spread_reduction.png)
+![Spread reduction email-Eu-core](../main_experiments_results/figures/email-Eu-core_spread_reduction.png)
 
-![Runtime email-Eu-core](docs/main_experiments_results/figures/email-Eu-core_runtime.png)
+![Runtime email-Eu-core](../main_experiments_results/figures/email-Eu-core_runtime.png)
 
-![Registered comparisons email-Eu-core](docs/main_experiments_results/figures/email-Eu-core_method_comparisons.png)
+![Registered comparisons email-Eu-core](../main_experiments_results/figures/email-Eu-core_method_comparisons.png)
 ### ego-Facebook
 
 Mỗi method/R có4 independent run estimates, mỗi P có2 final MC batches.
@@ -186,13 +186,13 @@ Mỗi dòng chỉ nói về fixed scope đã ghi; không tạo global winner ran
 | 2R average | pagerank | +15.421 | [-43.928, +74.771] | insufficient_evidence_of_difference_not_equivalence |
 | 2R average | candidate_restricted_greedy | +14.969 | [-44.080, +74.018] | insufficient_evidence_of_difference_not_equivalence |
 
-![Rumor means ego-Facebook](docs/main_experiments_results/figures/ego-Facebook_rumor_mean.png)
+![Rumor means ego-Facebook](../main_experiments_results/figures/ego-Facebook_rumor_mean.png)
 
-![Spread reduction ego-Facebook](docs/main_experiments_results/figures/ego-Facebook_spread_reduction.png)
+![Spread reduction ego-Facebook](../main_experiments_results/figures/ego-Facebook_spread_reduction.png)
 
-![Runtime ego-Facebook](docs/main_experiments_results/figures/ego-Facebook_runtime.png)
+![Runtime ego-Facebook](../main_experiments_results/figures/ego-Facebook_runtime.png)
 
-![Registered comparisons ego-Facebook](docs/main_experiments_results/figures/ego-Facebook_method_comparisons.png)
+![Registered comparisons ego-Facebook](../main_experiments_results/figures/ego-Facebook_method_comparisons.png)
 ### Wiki-Vote
 
 Mỗi method/R có4 independent run estimates, mỗi P có2 final MC batches.
@@ -251,13 +251,13 @@ Mỗi dòng chỉ nói về fixed scope đã ghi; không tạo global winner ran
 | 2R average | pagerank | -2.205 | [-27.142, +22.731] | insufficient_evidence_of_difference_not_equivalence |
 | 2R average | candidate_restricted_greedy | +28.122 | [+7.058, +49.185] | comparator_lower_rumor_on_this_fixed_scope |
 
-![Rumor means Wiki-Vote](docs/main_experiments_results/figures/Wiki-Vote_rumor_mean.png)
+![Rumor means Wiki-Vote](../main_experiments_results/figures/Wiki-Vote_rumor_mean.png)
 
-![Spread reduction Wiki-Vote](docs/main_experiments_results/figures/Wiki-Vote_spread_reduction.png)
+![Spread reduction Wiki-Vote](../main_experiments_results/figures/Wiki-Vote_spread_reduction.png)
 
-![Runtime Wiki-Vote](docs/main_experiments_results/figures/Wiki-Vote_runtime.png)
+![Runtime Wiki-Vote](../main_experiments_results/figures/Wiki-Vote_runtime.png)
 
-![Registered comparisons Wiki-Vote](docs/main_experiments_results/figures/Wiki-Vote_method_comparisons.png)
+![Registered comparisons Wiki-Vote](../main_experiments_results/figures/Wiki-Vote_method_comparisons.png)
 
 ## 4. Negative reductions, MC uncertainty and algorithm variability
 
@@ -327,11 +327,11 @@ không dùng làm kết quả thực nghiệm cuối. Elites/cache giữ semanti
 Convergence là generation0..10,4GA runs/R, không dùng điểm training thấp nhất
 để đổi cấu hình hoặc chọn lại kết quả main. Dataset plots:
 
-![Email GA convergence](docs/main_experiments_results/figures/email-Eu-core_GA_convergence.png)
+![Email GA convergence](../main_experiments_results/figures/email-Eu-core_GA_convergence.png)
 
-![Facebook GA convergence](docs/main_experiments_results/figures/ego-Facebook_GA_convergence.png)
+![Facebook GA convergence](../main_experiments_results/figures/ego-Facebook_GA_convergence.png)
 
-![Wiki GA convergence](docs/main_experiments_results/figures/Wiki-Vote_GA_convergence.png)
+![Wiki GA convergence](../main_experiments_results/figures/Wiki-Vote_GA_convergence.png)
 
 ## 6. Runtime, CIC cost and checkpoints
 
@@ -379,14 +379,14 @@ S_opt100 noisy fitness, conditional MC accuracy khác nhau giữa P/R, t/Fieller
 approximations với heavy tails. Những effects chưa phân biệt giữ unresolved;
 không tiếp tục tuning GA hoặc bổ sung experiment sau khi thấy main quality.
 
-Outputs: [results.csv](docs/main_experiments_results/results.csv),
-[results.json](docs/main_experiments_results/results.json),
-[summary_by_dataset.csv](docs/main_experiments_results/summary_by_dataset.csv),
-[summary_by_scenario.csv](docs/main_experiments_results/summary_by_scenario.csv),
-[method_comparisons.csv](docs/main_experiments_results/method_comparisons.csv),
-[runtime_summary.csv](docs/main_experiments_results/runtime_summary.csv),
-[GA_convergence.csv](docs/main_experiments_results/GA_convergence.csv),
-[Full_Greedy_skipped.csv](docs/main_experiments_results/Full_Greedy_skipped.csv).
+Outputs: [results.csv](../main_experiments_results/results.csv),
+[results.json](../main_experiments_results/results.json),
+[summary_by_dataset.csv](../main_experiments_results/summary_by_dataset.csv),
+[summary_by_scenario.csv](../main_experiments_results/summary_by_scenario.csv),
+[method_comparisons.csv](../main_experiments_results/method_comparisons.csv),
+[runtime_summary.csv](../main_experiments_results/runtime_summary.csv),
+[GA_convergence.csv](../main_experiments_results/GA_convergence.csv),
+[Full_Greedy_skipped.csv](../main_experiments_results/Full_Greedy_skipped.csv).
 Compact per-run JSON/figures/config/metadata/audits ở docs/main_experiments_results;
 complete raw arrays/details/worker jobs/checkpoints ở results/main_experiments_v2
 (gitignored), có inventory SHA256. results.csv có144 primary rows, Full skips24

@@ -4,8 +4,8 @@
 Mục tiêu là độ tin cậy của protocol, không tìm điều kiện để GA thắng. Không
 sửa dataset, runner, IC/CIC/MC, GA, Greedy hoặc các baseline đã kiểm chứng.
 
-Config thực thi: [pilot_2_calibration.json](experiments/configs/pilot_2_calibration.json).
-CSV/JSON/figures compact: [docs/pilot_2_calibration](docs/pilot_2_calibration).
+Config thực thi: [pilot_2_calibration.json](../../experiments/configs/pilot_2_calibration.json).
+CSV/JSON/figures compact: [docs/pilot_2_calibration](../pilot_2_calibration).
 Raw observations, per-case configs/metadata/selection traces và logs nằm trong
 `results/pilot_2_calibration/` (gitignored). Mọi kết quả bên dưới là **đã đo**
 trừ các mục ghi rõ ngoại suy/đề xuất.
@@ -29,7 +29,7 @@ tính trong `reachable_nodes.csv`, `reachable_histogram.csv`,
 `reachable_summary.json`. Thuật toán được kiểm tra với BFS/descendants trên
 192 nguồn thực tế và unit-test oracles, gồm cycles/branches/isolates/sparse IDs.
 
-![Reachability distribution](docs/pilot_2_calibration/reachable_distribution.png)
+![Reachability distribution](../pilot_2_calibration/reachable_distribution.png)
 
 **Không tồn tại ba mức reachable tách biệt thật sự trên mọi dataset.** Quy tắc
 strata được chốt trước mô phỏng: low ≤ max/3, medium ≤ 2max/3, high phần còn
@@ -228,7 +228,7 @@ không dùng SE/n làm tiêu chí duy nhất. Xem đồng thời relative/absolu
 no-spread probability, biến thiên giữa batches, solution overlap, ranking
 flips, paired differences và fitness-validation gap.
 
-![Independent batches and MC uncertainty](docs/pilot_2_calibration/mc_accuracy.png)
+![Independent batches and MC uncertainty](../pilot_2_calibration/mc_accuracy.png)
 
 Tại S=2.500, No Intervention means của hai batches: email 29,3128/30,7480;
 Facebook 746,2200/752,6156; Wiki 245,5232/237,0808. Các batch CIs overlap trong

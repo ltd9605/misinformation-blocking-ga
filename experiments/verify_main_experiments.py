@@ -8,6 +8,7 @@ import re
 
 from experiments.analyze_main_experiments import export_numeric
 from experiments.reduced_screen_v2 import atomic_json
+from experiments.reporting import project_document
 from src.data import load_processed_graph
 from src.data.loader import sha256_file
 from src.data.specs import PROJECT_ROOT
@@ -16,7 +17,7 @@ from src.data.specs import PROJECT_ROOT
 def verify_preservation(before_path: Path) -> dict:
     """Compare task-start files and historical artifact manifests with disk."""
     before = json.loads(before_path.read_text())
-    after = {name: sha256_file(PROJECT_ROOT/name) for name in before}
+    after = {name: sha256_file(project_document(name)) for name in before}
     changed = [name for name in before if before[name] != after[name]]
     expected_data = {name for name in before if name.startswith("data/")}
     actual_data = {p.relative_to(PROJECT_ROOT).as_posix() for folder in ("raw", "processed")
@@ -32,10 +33,10 @@ def verify_preservation(before_path: Path) -> dict:
         mismatches = [name for name, digest in manifest["files"].items()
                       if not (directory/name).is_file() or sha256_file(directory/name) != digest]
         report = manifest.get("report")
-        if report and sha256_file(PROJECT_ROOT/report["path"]) != report["sha256"]:
+        if report and sha256_file(project_document(report["path"])) != report["sha256"]:
             mismatches.append(report["path"])
         if campaign in prior_reports and manifest.get("report_sha256"):
-            if sha256_file(PROJECT_ROOT/prior_reports[campaign]) != manifest["report_sha256"]:
+            if sha256_file(project_document(prior_reports[campaign])) != manifest["report_sha256"]:
                 mismatches.append(prior_reports[campaign])
         prior.append({"campaign": campaign, "manifest_files_checked": len(manifest["files"]),
                       "mismatches": mismatches, "unchanged": not mismatches})

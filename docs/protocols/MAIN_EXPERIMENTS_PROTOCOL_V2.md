@@ -59,8 +59,8 @@ scenario heterogeneity; deterministic NI/Degree/PageRank không tạo thêm
 selection randomness. n4 có uncertainty/power yếu hơn n5; không đổi repeats
 hoặc lọc low/no-spread R sau outcomes. Training fitness chỉ diagnostic.
 
-Các file: [configV2](experiments/configs/main_experiments_protocol_v2.json),
-[matrixCSV](docs/main_experiments_protocol_v2/matrix.csv),
-[preflightJSON](docs/main_experiments_protocol_v2/preflight.json),
-[seed audit](docs/main_experiments_protocol_v2/seed_separation_audit.json).
+Các file: [configV2](../../experiments/configs/main_experiments_protocol_v2.json),
+[matrixCSV](../main_experiments_protocol_v2/matrix.csv),
+[preflightJSON](../main_experiments_protocol_v2/preflight.json),
+[seed audit](../main_experiments_protocol_v2/seed_separation_audit.json).
 Main results xuất riêng MAIN_EXPERIMENTS_RESULTS.md và docs/main_experiments_results.

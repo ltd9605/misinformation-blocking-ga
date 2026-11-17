@@ -11,7 +11,7 @@ No Intervention, Random, Degree, PageRank, Candidate-Restricted Greedy và GA.
 Full Greedy không nằm trong `algorithms`, Full limits=0. Cả 6 phương pháp đã
 chọn đều gọi final evaluator một lần nên có 6 final evaluations. k=2 trong
 smoke đó; đây không phải trường hợp k=0 dùng chung control. Evidence/checksums
-nằm trong [legacy_smoke_audit.json](docs/pilot_protocol_validation/legacy_smoke_audit.json).
+nằm trong [legacy_smoke_audit.json](../pilot_protocol_validation/legacy_smoke_audit.json).
 
 Runner hiện xuất `method_status.csv` và `method_statuses` trong JSON, luôn có
 đủ 7 phương pháp. `skipped_algorithms` cho phép cấu hình ghi lý do rõ ràng;
@@ -35,7 +35,7 @@ Không sửa semantics của IC/CIC/Monte Carlo hoặc bất kỳ thuật toán 
 
 ## 2. Cấu hình và R cố định
 
-Nguồn: [pilot_protocol_validation.json](experiments/configs/pilot_protocol_validation.json).
+Nguồn: [pilot_protocol_validation.json](../../experiments/configs/pilot_protocol_validation.json).
 
 | Tham số pilot | Giá trị |
 |---|---|
@@ -52,7 +52,7 @@ Nguồn: [pilot_protocol_validation.json](experiments/configs/pilot_protocol_val
 R được lấy mẫu đều không hoàn lại từ `sorted(graph.nodes)`, không sinh ID bằng
 range(n), không lấy mẫu lại sau khi xem spread/fitness/thuật toán. RNG seed là
 8 bytes đầu SHA-256 của `pilot-protocol-rumor-v1:2026:{dataset}`. Manifest
-[rumor_scenarios.json](docs/pilot_protocol_validation/rumor_scenarios.json) được
+[rumor_scenarios.json](../pilot_protocol_validation/rumor_scenarios.json) được
 lưu **trước bất kỳ mô phỏng nào**. Cùng R xuyên suốt methods, p và 3 repeats.
 
 | Dataset | R | Sampling RNG seed | Out-degree/degree của R | Số node reachable từ R |
@@ -103,8 +103,8 @@ việc, **không phải runtime đo được**.
 | Wiki-Vote | 7.114 | 35.560 | 711.200 | skipped: vượt limits |
 
 Có **18 Full Greedy pilot slots skipped**, cộng 3 smoke slots skipped; mọi
-slot có reason/cost trong [preflight.csv](docs/pilot_protocol_validation/preflight.csv)
-và [method_status.csv](docs/pilot_protocol_validation/method_status.csv).
+slot có reason/cost trong [preflight.csv](../pilot_protocol_validation/preflight.csv)
+và [method_status.csv](../pilot_protocol_validation/method_status.csv).
 Không có comparison nào bị bỏ qua, lỗi hoặc timeout. Full Greedy không được
 gán kết quả của Restricted và không có runtime thực đo trong đợt này.
 
@@ -274,7 +274,7 @@ tính vào 18 pilots. Primary+replay tổng **50.364 CIC simulations**; test-sui
 simulations không được gộp vào pilot counters.
 
 Artifacts compact để review/commit nằm trong
-[docs/pilot_protocol_validation](docs/pilot_protocol_validation): results CSV/JSON,
+[docs/pilot_protocol_validation](../pilot_protocol_validation): results CSV/JSON,
 preflight, execution/status, rumor scenarios, convergence, precision, gaps,
 summary, metadata/environment và integrity/validation/replay evidence. Raw MC,
 config/metadata đầy đủ của mỗi comparison, selection traces và logs nằm trong

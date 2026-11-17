@@ -5,8 +5,8 @@
 sweep. Chỉ pilot nhỏ được phép thực thi trong giai đoạn này. Mỗi giá trị có
 evidence scope; lựa chọn nghiên cứu chưa đủ xác nhận vẫn được liệt kê riêng.
 
-Specification JSON: [experiment_protocol_v1.json](experiments/configs/experiment_protocol_v1.json).
-Bảng/ma trận/preflight: [docs/experiment_protocol_v1](docs/experiment_protocol_v1).
+Specification JSON: [experiment_protocol_v1.json](../../experiments/configs/experiment_protocol_v1.json).
+Bảng/ma trận/preflight: [docs/experiment_protocol_v1](../experiment_protocol_v1).
 JSON này là protocol specification cho design/pilot wrapper, không phải schema
 một-batch của `load_experiment_config()`. Các API GA/evaluator cũ không đổi.
 
@@ -293,7 +293,7 @@ observations, counters và CI tính lại từ raw. Toàn bộ **42 existing cod
 files và 14 data files** không đổi checksum; 55 Pilot-2 evidence files giữ
 nguyên. Không sửa dependencies hoặc semantics IC/CIC/MC/GA/Greedy/runner.
 
-Artifacts pilot compact: [docs/experiment_protocol_v1/pilot](docs/experiment_protocol_v1/pilot).
+Artifacts pilot compact: [docs/experiment_protocol_v1/pilot](../experiment_protocol_v1/pilot).
 Raw và complete per-run selection payloads:
 `results/milestone_7_pilot_v1/`. Tái chạy dùng output root mới:
 

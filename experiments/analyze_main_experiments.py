@@ -16,6 +16,7 @@ from experiments.main_statistics import average_reduction_sets, fieller_reductio
 from experiments.pilot_protocol_validation import write_csv
 from experiments.reduced_screen_v2 import atomic_json
 from src.data.loader import sha256_file
+from experiments.reporting import project_document, write_project_report
 from src.data.specs import PROJECT_ROOT
 from src.experiments.calibration import jaccard, observation_summary
 
@@ -536,7 +537,7 @@ Mỗi dòng chỉ nói về fixed scope đã ghi; không tạo global winner ran
     negative_summary = "\n".join(f"| {r['dataset']} | {r['rumor_seeds']} | {r['algorithm']} | {r['repetition_index']} | {r['spread_reduction_percent']:.3f}% |" for r in negative)
     if not negative_summary:
         negative_summary = "| — | — | Không có negative reduction trong các completed rows | — | — |"
-    (PROJECT_ROOT/"MAIN_EXPERIMENTS_RESULTS.md").write_text(f"""# Main Experiments Results — Frozen Protocol V2
+    write_project_report(project_document("MAIN_EXPERIMENTS_RESULTS.md"), f"""# Main Experiments Results — Frozen Protocol V2
 
 **{summary['status']}**: {summary['completed']}/144 primary result rows completed,
 {summary['failed']} failed,{summary['skipped_primary']} primary skipped; thêm

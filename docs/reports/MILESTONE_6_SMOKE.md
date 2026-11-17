@@ -57,7 +57,7 @@ simulations riêng, không có fallback ngầm sang Candidate-Restricted.
 
 ## Pilot email-Eu-core
 
-Cấu hình: [runner_smoke_email.json](../experiments/configs/runner_smoke_email.json).
+Cấu hình: [runner_smoke_email.json](../../experiments/configs/runner_smoke_email.json).
 
 - Graph processed: 1.005 nodes, 24.929 directed edges, 19 isolated nodes.
 - R=[0], k=2, p=0.05, protector-priority, S_opt=3, S_eval=20.
